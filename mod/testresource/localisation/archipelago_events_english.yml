@@ -1,0 +1,3 @@
+l_english:
+ archipelago.0001.name = "Archipelago Startup Sequence"
+ archipelago.0001.desc = "Hello §S[This.GetOwnerName]§!! How are you doing?\nHere's how to properly connect your game to your §BArchipelago§! client.\n	§BStep 1:§! Haven't figured it out yet.\nAnd now you are connected to the client!"

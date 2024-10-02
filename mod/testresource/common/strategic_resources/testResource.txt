@@ -1,0 +1,18 @@
+urp_000 = {
+	tradable = no
+	category = other
+	max = 99999999
+	visibility_prerequisite = { always = yes }
+}
+
+referenceResource1 = {
+	tradable = no
+	category = other
+	max = 99999999
+}
+
+referenceResource2 = {
+	tradable = no
+	category = other
+	max = 99999999
+}
