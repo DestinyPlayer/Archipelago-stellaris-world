@@ -1,4 +1,5 @@
 eventStart = 'namespace = archipelago_dynamic\n'
+
 eventTemplate = '''
 country_event = {{
 	id = archipelago_dynamic.{evnum}
@@ -16,4 +17,5 @@ country_event = {{
 			{resource} = -99999999
 		}}
 	}}
-}}'''
+}}
+'''

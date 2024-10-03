@@ -1,6 +1,4 @@
-from pymem import Pymem
-from pymem import pattern
-from pymem import process
+from pymem import Pymem, pattern, process
 import time
 import EventData
 

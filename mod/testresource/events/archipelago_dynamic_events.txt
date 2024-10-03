@@ -17,6 +17,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1002
 	title = "archipelago_dynamic.1002.name"
@@ -34,6 +35,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1003
 	title = "archipelago_dynamic.1003.name"
@@ -51,6 +53,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1004
 	title = "archipelago_dynamic.1004.name"
@@ -68,6 +71,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1005
 	title = "archipelago_dynamic.1005.name"
@@ -85,6 +89,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1006
 	title = "archipelago_dynamic.1006.name"
@@ -102,6 +107,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1007
 	title = "archipelago_dynamic.1007.name"
@@ -119,6 +125,7 @@ country_event = {
 		}
 	}
 }
+
 country_event = {
 	id = archipelago_dynamic.1008
 	title = "archipelago_dynamic.1008.name"
