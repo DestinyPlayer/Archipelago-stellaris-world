@@ -1,0 +1,138 @@
+namespace = archipelago_dynamic
+
+country_event = {
+	id = archipelago_dynamic.1001
+	title = "archipelago_dynamic.1001.name"
+	desc = "archipelago_dynamic.1001.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 10414
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1002
+	title = "archipelago_dynamic.1002.name"
+	desc = "archipelago_dynamic.1002.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 10746
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1003
+	title = "archipelago_dynamic.1003.name"
+	desc = "archipelago_dynamic.1003.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 20171
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1004
+	title = "archipelago_dynamic.1004.name"
+	desc = "archipelago_dynamic.1004.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 30745
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1005
+	title = "archipelago_dynamic.1005.name"
+	desc = "archipelago_dynamic.1005.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 10354
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1006
+	title = "archipelago_dynamic.1006.name"
+	desc = "archipelago_dynamic.1006.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 20747
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1007
+	title = "archipelago_dynamic.1007.name"
+	desc = "archipelago_dynamic.1007.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 10124
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}
+country_event = {
+	id = archipelago_dynamic.1008
+	title = "archipelago_dynamic.1008.name"
+	desc = "archipelago_dynamic.1008.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 20176
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+	}
+}

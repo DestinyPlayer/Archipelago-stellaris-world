@@ -4,6 +4,12 @@ urp_000 = {
 	max = 99999999
 	visibility_prerequisite = { always = yes }
 }
+urp_001 = {
+	tradable = no
+	category = other
+	max = 99999999
+	visibility_prerequisite = { always = yes }
+}
 
 referenceResource1 = {
 	tradable = no
