@@ -8,7 +8,7 @@ languages = [
 
 def writeToFile(path,text,encoding=None):
     path = "mod/testresource/"+path
-    if encoding != None:
+    if encoding is not None:
         f = open(path, "w", encoding=encoding)
     else:
         f = open(path, "w")
