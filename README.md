@@ -1,4 +1,4 @@
-# Stellaris - a Communications System& Possible Archipelago World
+# Communications System & Possible Archipelago World for Stellaris
 
 ## Description
 This is my attempt at establishing an in/out system of communication between Stellaris and a Python program *(mostly successful)* and writing an [Archipelago.gg](https://archipelago.gg/) world for it *(currently in progress)*.
