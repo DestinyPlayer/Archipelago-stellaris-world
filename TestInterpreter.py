@@ -1,6 +1,6 @@
 from pymem import Pymem, pattern, process
 import time
-import EventData
+import DataEvent
 
 pm = Pymem("stellaris.exe")
 stellarisModule = process.base_module(pm.process_handle)
@@ -44,8 +44,8 @@ commResIn = [baseRes-0x10,0] #Items going into Stellaris
 commResOut = [baseRes-0x8,0] #Items going out of Stellaris
 
 print("Testing item sending process")
-receiveWaiter = len(EventData.items)
+receiveWaiter = len(DataEvent.items)
 while receiveWaiter != 0:
     commResIn[1]  = pm.read_longlong(commResIn[0])/resConst
     commResOut[1] = pm.read_longlong(commResOut[0])/resConst
-    receiveWaiter = sendItem(EventData.items[len(EventData.items)-receiveWaiter]*resConst,commResIn,receiveWaiter)
+    receiveWaiter = sendItem(DataEvent.items[len(DataEvent.items)-receiveWaiter]*resConst,commResIn,receiveWaiter)

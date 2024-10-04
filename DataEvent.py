@@ -4,6 +4,8 @@ players = [
     "George"
 ]
 
+name = "dynamic_events"
+
 items = [
     10414,
     10746,
@@ -14,6 +16,7 @@ items = [
     10124,
     20176
 ]
+
 itemsDesc = [
     "§B1 §!Progressive repeatable technology.",
     "§B2 §!Progressive laser technology.",
