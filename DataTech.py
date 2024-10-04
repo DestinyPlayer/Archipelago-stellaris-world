@@ -1,13 +1,10 @@
 techs = [
-    ["reactor",5,"physics","particles"],
-    ["hyperdrive",4,"physics","particles"],
-    ["thruster",4,"engineering","rocketry"],
-    ["ship",5,"engineering","voidcraft"],
-    ["starbase",3,"engineering","voidcraft"]
+    {"name":"reactor", "tiers":5, "area":"physics","category":"particles", "cost":0},
+    {"name":"hyperdrive", "tiers":4,"area":"physics","category":"particles", "cost":100},
+    {"name":"thruster", "tiers":4,"area":"engineering","category":"rocketry", "cost":0},
+    {"name":"ship", "tiers":5,"area":"engineering","category":"voidcraft", "cost":100},
+    {"name":"starbase", "tiers":3,"area":"engineering","category":"voidcraft", "cost":0}
 ]
-
-#Format:
-#   [tech_name,number_of_steps,area,category]
 
 #Areas:
 #   physics, society, engineering
@@ -19,3 +16,6 @@ techs = [
 #       psionics, new_worlds, statecraft, biology, military_theory
 #   Engineering:
 #       materials, rocketry, voidcraft, industry
+
+#Cost:
+#If set to 0 it is set to unavailable

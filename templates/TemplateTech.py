@@ -1,8 +1,10 @@
 techStart = '@progressive_cost = 9999999\n'
 
+techProgCost = "@progressive_cost"
+
 techTemplate = '''
 tech_progressive_{type}_{num} = {{
-    cost = @progressive_cost
+    cost = {cost}
     area = {area}
     is_rare = yes
     tier = 5

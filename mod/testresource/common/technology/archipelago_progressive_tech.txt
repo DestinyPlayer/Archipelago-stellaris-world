@@ -61,7 +61,7 @@ tech_progressive_reactor_5 = {
 }
 
 tech_progressive_hyperdrive_1 = {
-    cost = @progressive_cost
+    cost = 100
     area = physics
     is_rare = yes
     tier = 5
@@ -73,7 +73,7 @@ tech_progressive_hyperdrive_1 = {
 }
 
 tech_progressive_hyperdrive_2 = {
-    cost = @progressive_cost
+    cost = 100
     area = physics
     is_rare = yes
     tier = 5
@@ -85,7 +85,7 @@ tech_progressive_hyperdrive_2 = {
 }
 
 tech_progressive_hyperdrive_3 = {
-    cost = @progressive_cost
+    cost = 100
     area = physics
     is_rare = yes
     tier = 5
@@ -97,7 +97,7 @@ tech_progressive_hyperdrive_3 = {
 }
 
 tech_progressive_hyperdrive_4 = {
-    cost = @progressive_cost
+    cost = 100
     area = physics
     is_rare = yes
     tier = 5
@@ -157,7 +157,7 @@ tech_progressive_thruster_4 = {
 }
 
 tech_progressive_ship_1 = {
-    cost = @progressive_cost
+    cost = 100
     area = engineering
     is_rare = yes
     tier = 5
@@ -169,7 +169,7 @@ tech_progressive_ship_1 = {
 }
 
 tech_progressive_ship_2 = {
-    cost = @progressive_cost
+    cost = 100
     area = engineering
     is_rare = yes
     tier = 5
@@ -181,7 +181,7 @@ tech_progressive_ship_2 = {
 }
 
 tech_progressive_ship_3 = {
-    cost = @progressive_cost
+    cost = 100
     area = engineering
     is_rare = yes
     tier = 5
@@ -193,7 +193,7 @@ tech_progressive_ship_3 = {
 }
 
 tech_progressive_ship_4 = {
-    cost = @progressive_cost
+    cost = 100
     area = engineering
     is_rare = yes
     tier = 5
@@ -205,7 +205,7 @@ tech_progressive_ship_4 = {
 }
 
 tech_progressive_ship_5 = {
-    cost = @progressive_cost
+    cost = 100
     area = engineering
     is_rare = yes
     tier = 5

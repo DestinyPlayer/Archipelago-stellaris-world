@@ -6,13 +6,13 @@ from Utility import writeToFile, languages
 
 def findTech(search):
     for tech in DataTech.techs:
-        if tech[0] == search:
+        if tech["name"] == search:
             return tech
 
-def constructTechAction(item,key,tech):
+def constructTechAction(tech):
     action = ""
-    for i in range(tech[1]):
-        name = "tech_progressive_" + tech[0] + "_"
+    for i in range(tech["tiers"]):
+        name = "tech_progressive_" + tech["name"] + "_"
         conditions = ""
         elseif = "if"
         if i != 0:
@@ -25,10 +25,10 @@ def constructTechAction(item,key,tech):
 def createEvents():
     eventText = eventStart
     for key,item in enumerate(DataEvent.items):
-        value = item[0]
-        if item[1] == "tech":
-            tech = findTech(item[2])
-            action = constructTechAction(item,key,tech)
+        value = item["item_code"]
+        if item["type"] == "tech":
+            tech = findTech(item["name"])
+            action = constructTechAction(tech)
         else:
             action = ""
         eventText = eventText+eventTemplate.format(num=1000*(key+1),value=value,resource="urp_000",action = action)
@@ -38,7 +38,7 @@ def createEventLocalisations():
     for lang in languages:
         localisationText = localisationStart.format(lang=lang)
         for key,item in enumerate(DataEvent.items):
-            value = item[0]
-            desc = item[3]
+            value = item["item_code"]
+            desc = item["description"]
             localisationText = localisationText + localisationEventTemplate.format(num=1000*(key+1), value=value, desc=desc)
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml", localisationText, "utf-8-sig")
