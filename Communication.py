@@ -4,14 +4,6 @@ import sys
 
 import DataTest
 
-try:
-    pm = Pymem("stellaris.exe")
-except:
-    sys.exit("ERROR: stellaris.exe not found. Aborting.\nDid you forget to launch the game?")
-else:
-    print("Game found.")
-stellarisModule = process.base_module(pm.process_handle)
-
 resConst = 100000
 
 patternSearch1 = b"\xE0\xAE\x58\x2D\x53\x01"
@@ -54,6 +46,14 @@ def receiveItem(itemNum,res,waitNum):
         print("Waiting for event to fire off...")
     print("Items left to accept: ",waitNum)
     return waitNum
+
+try:
+    pm = Pymem("stellaris.exe")
+    stellarisModule = process.base_module(pm.process_handle)
+except:
+    sys.exit("ERROR: stellaris.exe not found. Aborting.\nDid you forget to launch the game?")
+else:
+    print("Stellaris found.")
 
 print("Connecting to Stellaris")
 baseRes = findBaseRes(patternSearch1)

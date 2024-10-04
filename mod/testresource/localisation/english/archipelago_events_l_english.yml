@@ -1,4 +1,4 @@
 ﻿l_english:
 
 archipelago.0001.name: "Archipelago Startup Sequence"
-archipelago.0001.desc: "Hello there §H[Root.Leader.GetName]§! of the §H[Root.Owner.GetName]§!! How are you doing?\n\nHere's how to properly connect your game to your §lArchipelago§! client.\n\n            §T§HStep 1:§! Haven't figured it out yet.\n            §HStep 2:§! Profit!\n\nAnd now you are connected to the client!"
+archipelago.0001.desc: "Hello there §H[Root.Leader.GetName]§! of the §H[Root.Owner.GetName]§!! How are you doing?\n\nHere's how to properly connect your game to your §lArchipelago§! client.\n\n            §HStep 1:§! Haven't figured it out yet.\n            §HStep 2:§! Profit!\n\nAnd now you are connected to the client!"

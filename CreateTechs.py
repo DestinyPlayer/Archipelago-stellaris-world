@@ -38,8 +38,3 @@ def createTechIcons():
         for i in range(tech[1]):
             iconFinal = iconFinName.format(type = type,num = i+1)+format
             shutil.copyfile(path+iconTempName+format,path+iconFinal)
-
-
-createTech()
-createTechLocalisations()
-createTechIcons()

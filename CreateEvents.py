@@ -42,6 +42,3 @@ def createEventLocalisations():
             desc = item[3]
             localisationText = localisationText + localisationEventTemplate.format(num=1000*(key+1), value=value, desc=desc)
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml", localisationText, "utf-8-sig")
-
-createEvents()
-createEventLocalisations()

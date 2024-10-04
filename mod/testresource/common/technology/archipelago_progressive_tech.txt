@@ -155,3 +155,99 @@ tech_progressive_thruster_4 = {
 		factor = 0
 	}
 }
+
+tech_progressive_ship_1 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_ship_2 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_ship_3 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_ship_4 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_ship_5 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_starbase_1 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_starbase_2 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_starbase_3 = {
+    cost = @progressive_cost
+    area = engineering
+    is_rare = yes
+    tier = 5
+    category = { voidcraft }
+    weight = 0
+    weight_modifier = {
+		factor = 0
+	}
+}
