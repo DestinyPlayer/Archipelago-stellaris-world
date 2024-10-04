@@ -1,4 +1,4 @@
-itemsToReceive = [
+testItems = [
     "AP-5-415",
     "AP-3-167",
     "AP-8-431",
