@@ -7,3 +7,5 @@ items = [
 
 #Format:
 #   [person0item_code,type,name,description]
+#Types:
+#   tech, testing
