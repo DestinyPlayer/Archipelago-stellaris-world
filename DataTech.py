@@ -5,7 +5,7 @@ techs = [
 ]
 
 #Format:
-#   [tech_name,number_of_steps,area,category
+#   [tech_name,number_of_steps,area,category]
 
 #Areas:
 #   physics, society, engineering

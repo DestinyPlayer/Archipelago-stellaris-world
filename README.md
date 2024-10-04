@@ -10,4 +10,4 @@ This is my attempt at establishing an in/out system of communication between Ste
 4. Activate the mod in your Playset
 5. Launch Stellaris and get into a game
 6. You should see an Event pop up telling you some things. Click OK.
-7. Run **TestInterpreter.py** and watch the magic.
+7. Run **Communication.py** and watch the magic.
