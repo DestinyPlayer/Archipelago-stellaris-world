@@ -3,7 +3,7 @@ languages = [
 ]
 
 def writeToFile(path,text,encoding=None):
-    path = "mod/testresource/"+path
+    path = "mod/archipelago-stellaris-mod/"+path
     if encoding is not None:
         f = open(path, "w", encoding=encoding)
     else:
