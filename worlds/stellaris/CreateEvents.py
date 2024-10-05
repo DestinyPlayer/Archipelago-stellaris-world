@@ -40,15 +40,15 @@ def createEvents():
             action = constructTechAction(tech)
         else: #Shouldn't come up except for testing purposes
             action = ""
-        eventText = eventText+eventTemplate.format(num=1000*(key+1),value=value,resource="urp_000",action = action)
+        eventText = eventText+eventTemplate.format(num = 1000*(key+1),value = value,resource = "urp_000",action = action)
     writeToFile("events/archipelago_dynamic_events.txt",eventText)
 
 #This function assembles the Event Localizations (names and descriptions)
 def createEventLocalisations():
     for lang in languages:
-        localisationText = localisationStart.format(lang=lang)
+        localisationText = localisationStart.format(lang = lang)
         for key,item in enumerate(DataEvent.items):
             value = item["item_code"]
             desc = item["description"]
-            localisationText = localisationText + localisationEventTemplate.format(num=1000*(key+1), value=value, desc=desc)
+            localisationText = localisationText + localisationEventTemplate.format(num = 1000*(key+1), value = value, desc = desc)
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml", localisationText, "utf-8-sig")
