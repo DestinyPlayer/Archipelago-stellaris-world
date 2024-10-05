@@ -11,3 +11,6 @@ archipelago_dynamic.3000.desc: "§MProgressive reactor technology§! was receive
 
 archipelago_dynamic.4000.name: "Item received!"
 archipelago_dynamic.4000.desc: "§MThis is a test§! was received from the Archipelago Server."
+
+archipelago_dynamic.5000.name: "Item received!"
+archipelago_dynamic.5000.desc: "§MProgressive wormhole/gateway technology§! was received from the Archipelago Server."

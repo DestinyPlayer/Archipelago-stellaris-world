@@ -1,8 +1,9 @@
 import shutil
 import DataTech
-from templates.TemplateTech import techStart, techTemplate, techProgCost
+from templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
 from templates.TemplateLocalisation import localisationStart, localisationTechTemplate
 from Utility import writeToFile, languages
+
 
 #This function assembles the Technologies
 def createTech():
@@ -10,12 +11,19 @@ def createTech():
     for tech in DataTech.techs:
         type = tech["name"]
         area = tech["area"]
-        cost = tech["cost"]
-        if cost == 0:
-            cost = techProgCost
+        tier = tech["tier"]
         category = tech["category"]
-        for i in range(tech["tiers"]):
-            techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost)
+        for i in range(tech["levels"]):
+            if str(i+1) in tech["non_research"]:
+                cost = techProgCost
+                weight = 0
+                weight_null = weightNull
+            else:
+                cost = tech["cost"]
+                weight = tech["weight"]
+                weight_null = ""
+            techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost,
+                                                      weight = weight, tier = tier+i, weight_null = weight_null)
     writeToFile("common/technology/archipelago_progressive_tech.txt",techText)
 
 #This function assembles the Technology Localisations (names and descriptions)
@@ -25,8 +33,8 @@ def createTechLocalisations():
         for tech in DataTech.techs:
             type = tech["name"]
             name = type[0].upper() + type[1:]
-            for i in range(tech["tiers"]):
-                if i+1 == tech["tiers"]:
+            for i in range(tech["levels"]):
+                if i+1 == tech["levels"]:
                     final = "final"
                 else:
                     final = "next"
@@ -41,6 +49,6 @@ def createTechIcons():
     format = ".dds"
     for tech in DataTech.techs:
         type = tech["name"]
-        for i in range(tech["tiers"]):
+        for i in range(tech["levels"]):
             iconFinal = iconFinName.format(type = type,num = i+1)+format
             shutil.copyfile(path+iconTempName+format,path+iconFinal)

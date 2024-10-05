@@ -1,6 +1,7 @@
 import DataEvent
 import DataTech
-from templates.TemplateEvent import eventStart, eventTemplate, eventAddTech, eventIfTech, eventNotIfTech
+import DataTechVanilla
+from templates.TemplateEvent import eventStart, eventTemplate, eventAddTech, eventIfTech, eventNotIfTech, eventGiveTech
 from templates.TemplateLocalisation import localisationStart, localisationEventTemplate
 from Utility import writeToFile, languages
 
@@ -13,15 +14,20 @@ def findTech(search):
 #This function assembles the Event logic for when to not trigger
 def constructTechAction(tech):
     action = ""
-    for i in range(tech["tiers"]):
+    for i in range(tech["levels"]):
         name = "tech_progressive_" + tech["name"] + "_"
         conditions = ""
-        elseif = "if"
+        give_tech = eventGiveTech.format(name = name + str(i+1))
         if i != 0:
             elseif = "else_if"
             conditions = conditions + eventIfTech.format(has =  name + str(i))
+        else:
+            elseif = "if"
+        vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
+        for split in vanilla[i].split(" "):
+            give_tech = give_tech + eventGiveTech.format(name = split)
         conditions = conditions + eventNotIfTech.format(hasnot = name + str(i+1))
-        action = action + eventAddTech.format(elseif = elseif, conditions = conditions, name = name + str(i + 1))
+        action = action + eventAddTech.format(elseif = elseif, conditions = conditions, give_tech = give_tech)
     return action
 
 #This function assembles the Events

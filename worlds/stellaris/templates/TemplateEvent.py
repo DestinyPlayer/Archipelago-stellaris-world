@@ -23,8 +23,8 @@ country_event = {{
 eventAddTech = '''
         {elseif} = {{
             limit = {{                {conditions} 
-            }}
-            give_technology = {{ tech = "{name}" }}
+            }}{give_tech}
         }}'''
 eventIfTech = '''\n		        has_technology = "{has}"'''
 eventNotIfTech = '''\n		        NOT = {{ has_technology = "{hasnot}" }}'''
+eventGiveTech = '''\n		    give_technology = {{ tech = "{name}" }}'''

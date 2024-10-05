@@ -52,40 +52,36 @@ def receiveItem(itemNum,res,waitNum):
     return waitNum
 
 #[CONNECTION TO THE GAME]################################################################
-def connectToGame():
-    try:
-        pm = Pymem("stellaris.exe")
-        stellarisModule = process.base_module(pm.process_handle)
-    except:
-        sys.exit("ERROR: stellaris.exe not found. Aborting.\nDid you forget to launch the game?")
-    else:
-        print("Stellaris found.")
+try:
+    pm = Pymem("stellaris.exe")
+    stellarisModule = process.base_module(pm.process_handle)
+except:
+    sys.exit("ERROR: stellaris.exe not found. Aborting.\nDid you forget to launch the game?")
+else:
+    print("Stellaris found.")
 
-#####[FINDING REFERENCE RESOURCES]#######################################################
-    print("Connecting to Stellaris")
-    baseRes = findBaseRes(patternSearch1)
-    checkBaseRes(baseRes)
-    emerRes = findBaseRes(patternSearch2)
-    checkBaseRes(emerRes)
+#[FINDING REFERENCE RESOURCES]###########################################################
+print("Connecting to Stellaris")
+baseRes = findBaseRes(patternSearch1)
+checkBaseRes(baseRes)
+emerRes = findBaseRes(patternSearch2)
+checkBaseRes(emerRes)
 
-    if pm.read_longlong(baseRes+0x8) != referenceNumber2 or pm.read_longlong(emerRes-0x8) != referenceNumber1:
-        sys.exit("ERROR: Wrong reference addresses found. Aborting.")
+if pm.read_longlong(baseRes+0x8) != referenceNumber2 or pm.read_longlong(emerRes-0x8) != referenceNumber1:
+    sys.exit("ERROR: Wrong reference addresses found. Aborting.")
 
-#####[GRABBING COMMUNICATION RESOURCES]##################################################
-    print("Grabbing communication resources")
-    commResIn = [baseRes-0x10,0] #Items going into Stellaris
-    commResOut = [baseRes-0x8,0] #Items going out of Stellaris
+#[GRABBING COMMUNICATION RESOURCES]######################################################
+print("Grabbing communication resources")
+commResIn = [baseRes-0x10,0] #Items going into Stellaris
+commResOut = [baseRes-0x8,0] #Items going out of Stellaris
 
-#####[ESTABLISHING COMMUNICATION LOOP]###################################################
-    print("Testing item sending process")
-    while True:
-        receiveWait = len(itemsToReceive)
-        if receiveWait != 0:
-            cur = decodeItemCode(itemsToReceive[receiveWait-1])
-            commResIn[1]  = pm.read_longlong(commResIn[0])/resConst
-            commResOut[1] = pm.read_longlong(commResOut[0])/resConst
-            receiveWait = receiveItem(cur*resConst,commResIn,receiveWait)
-        time.sleep(1)
-
-
-connectToGame()
+#[ESTABLISHING COMMUNICATION LOOP]#######################################################
+print("Testing item sending process")
+while True:
+    receiveWait = len(itemsToReceive)
+    if receiveWait != 0:
+        cur = decodeItemCode(itemsToReceive[receiveWait-1])
+        commResIn[1]  = pm.read_longlong(commResIn[0])/resConst
+        commResOut[1] = pm.read_longlong(commResOut[0])/resConst
+        receiveWait = receiveItem(cur*resConst,commResIn,receiveWait)
+    time.sleep(1)

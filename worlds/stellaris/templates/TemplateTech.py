@@ -7,11 +7,12 @@ tech_progressive_{type}_{num} = {{
     cost = {cost}
     area = {area}
     is_rare = yes
-    tier = 5
+    tier = {tier}
     category = {{ {category} }}
-    weight = 0
-    weight_modifier = {{
-		factor = 0
-	}}
+    weight = {weight}{weight_null}
 }}
 '''
+weightNull = '''
+    weight_modifier = {
+		factor = 0
+	}'''
