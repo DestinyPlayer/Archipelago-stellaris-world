@@ -20,7 +20,7 @@ def constructTechAction(tech):
         give_tech = eventGiveTech.format(name = name + str(i+1))
         if i != 0:
             elseif = "else_if"
-            conditions = conditions + eventIfTech.format(has =  name + str(i))
+            conditions = conditions + eventIfTech.format(has = name + str(i))
         else:
             elseif = "if"
         vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
