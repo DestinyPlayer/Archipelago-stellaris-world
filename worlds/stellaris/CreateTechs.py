@@ -4,7 +4,7 @@ from templates.TemplateLocalisation import localisationStart, localisationTechTe
 from templates.TemplateTech import techStart, techTemplate, techProgCost
 from Utility import writeToFile, languages
 
-def createTech():
+def createTech(): #This function
     techText = techStart
     for tech in DataTech.techs:
         type = tech["name"]
