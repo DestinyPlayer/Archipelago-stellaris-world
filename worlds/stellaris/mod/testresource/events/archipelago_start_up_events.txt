@@ -1,0 +1,26 @@
+namespace = archipelago_startup
+
+event = {
+	id = archipelago_startup.1
+	title = "archipelago.0001.name"
+	desc = "archipelago.0001.desc"
+	picture = GFX_evt_archipelago_start
+	is_triggered_only = yes
+	trigger = {
+		is_regular_empire = yes
+	}
+	immediate = {
+		add_resource = {
+			referenceResource1 = 14567540
+		}
+		add_resource = {
+			referenceResource1 = 7
+		}
+		add_resource = {
+			referenceResource2 = 24325110
+		}
+		add_resource = {
+			referenceResource2 = 8
+		}
+	}
+}
