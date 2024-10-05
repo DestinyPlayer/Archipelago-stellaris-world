@@ -12,9 +12,3 @@ cython>=3.0.11
 cymem>=2.0.8
 orjson>=3.10.7
 typing_extensions>=4.12.2
-
-requests~=2.32.3
-Pymem~=1.13.1
-pip~=23.2.1
-MarkupSafe~=2.1.5
-docutils~=0.21.2
