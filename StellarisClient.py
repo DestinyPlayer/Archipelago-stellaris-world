@@ -1,1 +1,0 @@
-from worlds.stellaris import ConnectToGame
