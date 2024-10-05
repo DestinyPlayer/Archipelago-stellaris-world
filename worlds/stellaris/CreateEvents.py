@@ -4,12 +4,14 @@ from templates.TemplateEvent import eventStart, eventTemplate, eventAddTech, eve
 from templates.TemplateLocalisation import localisationStart, localisationEventTemplate
 from Utility import writeToFile, languages
 
-def findTech(search): #This function looks through the tech dictionary for technology with the specified name
+#This function looks through the tech dictionary for technology with the specified name
+def findTech(search):
     for tech in DataTech.techs:
         if tech["name"] == search:
             return tech
 
-def constructTechAction(tech): #This function assembles the Event logic for when to not trigger
+#This function assembles the Event logic for when to not trigger
+def constructTechAction(tech):
     action = ""
     for i in range(tech["tiers"]):
         name = "tech_progressive_" + tech["name"] + "_"
@@ -22,7 +24,8 @@ def constructTechAction(tech): #This function assembles the Event logic for when
         action = action + eventAddTech.format(elseif = elseif, conditions = conditions, name = name + str(i + 1))
     return action
 
-def createEvents(): #This function assembles the Events
+#This function assembles the Events
+def createEvents():
     eventText = eventStart
     for key,item in enumerate(DataEvent.items):
         value = item["item_code"]
@@ -34,7 +37,8 @@ def createEvents(): #This function assembles the Events
         eventText = eventText+eventTemplate.format(num=1000*(key+1),value=value,resource="urp_000",action = action)
     writeToFile("events/archipelago_dynamic_events.txt",eventText)
 
-def createEventLocalisations(): #This function assembles the Event Localizations
+#This function assembles the Event Localizations (names and descriptions)
+def createEventLocalisations():
     for lang in languages:
         localisationText = localisationStart.format(lang=lang)
         for key,item in enumerate(DataEvent.items):

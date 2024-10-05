@@ -15,7 +15,8 @@ referenceNumber2 = 2432511800000
 itemsToReceive = DataTest.testItems
 
 #[FUNCTIONS]#############################################################################
-def findBaseRes(patternMatch): #This function finds an address in Process memory based on the provided pattern
+#This function finds an address in Process memory based on the provided pattern
+def findBaseRes(patternMatch):
     print("Searching for Reference Resource ",patternMatch,"...")
     referenceResourceAddress = pattern.pattern_scan_all(pm.process_handle, patternMatch, return_multiple=False)
     try:
@@ -24,19 +25,22 @@ def findBaseRes(patternMatch): #This function finds an address in Process memory
         sys.exit("ERROR: Reference Resource could not be found. Aborting.")
     return referenceResourceAddress
 
-def checkBaseRes(res): #This function checks whether the discovered address has an int in it
+#This function checks whether the discovered address has an int in it
+def checkBaseRes(res):
     try:
         print("Reference resource value is: ",pm.read_longlong(res))
     except:
         sys.exit("ERROR: Reference Resource cannot be read. Aborting.")
 
-def decodeItemCode(item): #This function takes item code in form AP-Y-XXX and converts it into the YXXX form readable by the game
+#This function takes item code in form AP-Y-XXX and converts it into the YXXX form readable by the game
+def decodeItemCode(item):
     splitItem = item.split("-")
     code = splitItem[1]+splitItem[2]
     print("Received item ",item,", converted to internal code ",code)
     return int(code)
 
-def receiveItem(itemNum,res,waitNum): #This function sends the decoded item value to the game and waits until it's been read
+#This function sends the decoded item value to the game and waits until it's been read
+def receiveItem(itemNum,res,waitNum):
     if res[1] == 0:
         waitNum = waitNum - 1
         pm.write_longlong(res[0], itemNum)
@@ -57,7 +61,7 @@ def connectToGame():
     else:
         print("Stellaris found.")
 
-    #[FINDING REFERENCE RESOURCES]###########################################################
+#####[FINDING REFERENCE RESOURCES]#######################################################
     print("Connecting to Stellaris")
     baseRes = findBaseRes(patternSearch1)
     checkBaseRes(baseRes)
@@ -67,12 +71,12 @@ def connectToGame():
     if pm.read_longlong(baseRes+0x8) != referenceNumber2 or pm.read_longlong(emerRes-0x8) != referenceNumber1:
         sys.exit("ERROR: Wrong reference addresses found. Aborting.")
 
-    #[GRABBING COMMUNICATION RESOURCES]######################################################
+#####[GRABBING COMMUNICATION RESOURCES]##################################################
     print("Grabbing communication resources")
     commResIn = [baseRes-0x10,0] #Items going into Stellaris
     commResOut = [baseRes-0x8,0] #Items going out of Stellaris
 
-    #[ESTABLISHING COMMUNICATION LOOP]#######################################################
+#####[ESTABLISHING COMMUNICATION LOOP]###################################################
     print("Testing item sending process")
     while True:
         receiveWait = len(itemsToReceive)

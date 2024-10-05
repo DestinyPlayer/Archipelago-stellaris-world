@@ -4,7 +4,8 @@ from templates.TemplateLocalisation import localisationStart, localisationTechTe
 from templates.TemplateTech import techStart, techTemplate, techProgCost
 from Utility import writeToFile, languages
 
-def createTech(): #This function
+#This function assembles the Technologies
+def createTech():
     techText = techStart
     for tech in DataTech.techs:
         type = tech["name"]
@@ -17,6 +18,7 @@ def createTech(): #This function
             techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost)
     writeToFile("common/technology/archipelago_progressive_tech.txt",techText)
 
+#This function assembles the Technology Localisations (names and descriptions)
 def createTechLocalisations():
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
@@ -31,6 +33,7 @@ def createTechLocalisations():
                 localisationText = localisationText + localisationTechTemplate.format(type = type, num = i+1, name = name, final = final)
         writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,"utf-8-sig")
 
+#This function assigns the default icon to every added Technology
 def createTechIcons():
     path = "mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
     iconTempName = "tech_progressive"
