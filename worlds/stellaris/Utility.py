@@ -1,3 +1,5 @@
+import shutil
+
 languages = [
     "braz_por","english","french","german","japanese","korean","polish","russian","simp_chinese","spanish"
 ]
@@ -11,3 +13,11 @@ def writeToFile(path,text,encoding=None):
         f = open(path, "w")
     f.write(text)
     f.close()
+
+#This function copies over non-procedurally generated localisation files between languages
+def copyOtherLocalisationFiles(file):
+    for lang in languages:
+        if lang == "english":
+            continue
+        path = "mod/archipelago-stellaris-mod/localisation/"
+        shutil.copyfile(path + "english/"+file, path + lang + "/" + file)

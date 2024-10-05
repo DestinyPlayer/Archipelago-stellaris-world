@@ -1,7 +1,7 @@
-import DataTech
 import shutil
-from templates.TemplateLocalisation import localisationStart, localisationTechTemplate
+import DataTech
 from templates.TemplateTech import techStart, techTemplate, techProgCost
+from templates.TemplateLocalisation import localisationStart, localisationTechTemplate
 from Utility import writeToFile, languages
 
 #This function assembles the Technologies
