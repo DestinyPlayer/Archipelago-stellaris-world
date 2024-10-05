@@ -2,7 +2,7 @@ from pymem import Pymem, pattern, process
 import time
 import sys
 
-import DataTest
+from worlds.stellaris import DataTest
 
 resConst = 100000
 

@@ -2,5 +2,5 @@ version="0"
 tags={
 	"Utilities"
 }
-name="TestResource"
+name="Archipelago Stellaris Mod"
 supported_version="v3.13"

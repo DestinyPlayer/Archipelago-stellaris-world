@@ -32,7 +32,7 @@ def createTechLocalisations():
         writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,"utf-8-sig")
 
 def createTechIcons():
-    path = "mod/testresource/gfx/interface/icons/technologies/"
+    path = "mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
     iconTempName = "tech_progressive"
     iconFinName = iconTempName+"_{type}_{num}"
     format = ".dds"
