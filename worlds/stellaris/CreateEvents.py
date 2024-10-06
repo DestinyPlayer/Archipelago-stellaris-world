@@ -1,7 +1,7 @@
 import DataEvent
 import DataTech
 import DataTechVanilla
-from templates.TemplateEvent import eventStart, eventTemplate, eventAddTech, eventIfTech, eventNotIfTech, eventGiveTech
+from templates.TemplateEvent import eventStart, eventTemplate, eventAction, eventIfTech, eventNotIfTech, eventGiveTech
 from templates.TemplateLocalisation import localisationStart, localisationEventTemplate
 from Utility import writeToFile, languages
 
@@ -17,7 +17,7 @@ def constructTechAction(tech):
     for i in range(tech["levels"]):
         name = "tech_progressive_" + tech["name"] + "_"
         conditions = ""
-        give_tech = eventGiveTech.format(name = name + str(i+1))
+        result = eventGiveTech.format(name = name + str(i+1))
         if i != 0:
             elseif = "else_if"
             conditions = conditions + eventIfTech.format(has = name + str(i))
@@ -25,9 +25,9 @@ def constructTechAction(tech):
             elseif = "if"
         vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
         for split in vanilla[i].split(" "):
-            give_tech = give_tech + eventGiveTech.format(name = split)
+            result = result + eventGiveTech.format(name = split)
         conditions = conditions + eventNotIfTech.format(hasnot = name + str(i+1))
-        action = action + eventAddTech.format(elseif = elseif, conditions = conditions, give_tech = give_tech)
+        action = action + eventAction.format(elseif = elseif, conditions = conditions, result = result)
     return action
 
 #This function assembles the Events

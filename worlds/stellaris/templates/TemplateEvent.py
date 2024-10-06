@@ -20,10 +20,10 @@ country_event = {{
 }}
 '''
 
-eventAddTech = '''
+eventAction = '''
         {elseif} = {{
             limit = {{                {conditions} 
-            }}{give_tech}
+            }}{result}
         }}'''
 eventIfTech = '''\n		        has_technology = "{has}"'''
 eventNotIfTech = '''\n		        NOT = {{ has_technology = "{hasnot}" }}'''
