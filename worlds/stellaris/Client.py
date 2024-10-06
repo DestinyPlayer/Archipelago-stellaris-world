@@ -3,13 +3,12 @@ import time
 import sys
 import DataTest
 
-'''
 ########################################################################################
 #          _______ _______ _______               _______  ______ _____ _______         #
 #          |______    |    |______ |      |      |_____| |_____/   |   |______         #
 #          ______|    |    |______ |_____ |_____ |     | |    \_ __|__ ______|         #
 ########################################################################################
-'''
+
 
 #[VARIABLES]############################################################################
 resConst = 100000
@@ -22,7 +21,12 @@ referenceNumber2 = 2432511800000
 
 itemsToReceive = DataTest.testItems
 
-#[FUNCTIONS]#############################################################################
+connectionAddress = "localhost"
+connectionPort = "38281"
+
+connectionFullAddress = "ws://"+connectionAddress+":"+connectionPort
+
+#[GAME FUNCTIONS]########################################################################
 #This function finds an address in Process memory based on the provided pattern
 def findBaseRes(patternMatch):
     print("Searching for Reference Resource ",patternMatch,"...")
