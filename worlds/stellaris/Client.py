@@ -109,8 +109,7 @@ async def loopTransmit(getItems):
         grabResources()
         length = len(getItems)
         if length != 0:
-            for item in getItems:
-                receiveItem(item, length)
+            receiveItem(getItems[length-1], length)
         await asyncio.sleep(1)
 
 def runStellarisClient(*args):
