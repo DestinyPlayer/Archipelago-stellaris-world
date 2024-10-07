@@ -1,12 +1,19 @@
 from BaseClasses import Tutorial, Item, ItemClassification
+from Utils import local_path
 from worlds.AutoWorld import WebWorld, World
-from worlds.LauncherComponents import Component, components, Type, launch_subprocess
+from worlds.LauncherComponents import Component, components, Type, launch_subprocess, icon_paths
+
 
 def launch_client():
     from worlds.stellaris.Client import runStellarisClient
     launch_subprocess(runStellarisClient, name="StellarisClient")
 
-components.append(Component("Stellaris Client", "StellarisClient", func=launch_client, component_type=Type.CLIENT))
+components.append(Component("Stellaris Client",
+                            "StellarisClient",
+                            func=launch_client,
+                            component_type=Type.CLIENT, icon='sticon'))
+
+icon_paths['sticon'] = local_path('data', 'sticon.png')
 
 class StellarisWeb(WebWorld):
     tutorials = [Tutorial(
