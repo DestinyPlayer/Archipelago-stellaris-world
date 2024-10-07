@@ -1,8 +1,8 @@
 import shutil
-import DataTech
-from templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
-from templates.TemplateLocalisation import localisationStart, localisationTechTemplate
-from Utility import writeToFile, languages
+from . import DataTech
+from .templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
+from .templates.TemplateLocalisation import localisationStart, localisationTechTemplate
+from .Utility import writeToFile, languages
 
 
 #This function assembles the Technologies

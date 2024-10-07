@@ -1,6 +1,12 @@
 from BaseClasses import Tutorial, Item, ItemClassification
 from worlds.AutoWorld import WebWorld, World
+from worlds.LauncherComponents import Component, components, Type, launch_subprocess
 
+def launch_client():
+    from worlds.stellaris.Client import runStellarisClient
+    launch_subprocess(runStellarisClient, name="StellarisClient")
+
+components.append(Component("Stellaris Client", "StellarisClient", func=launch_client, component_type=Type.CLIENT))
 
 class StellarisWeb(WebWorld):
     tutorials = [Tutorial(

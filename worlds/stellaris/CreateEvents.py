@@ -1,9 +1,7 @@
-import DataEvent
-import DataTech
-import DataTechVanilla
-from templates.TemplateEvent import eventStart, eventTemplate, eventAction, eventIfTech, eventNotIfTech, eventGiveTech
-from templates.TemplateLocalisation import localisationStart, localisationEventTemplate
-from Utility import writeToFile, languages
+from . import DataTechVanilla, DataTech, DataEvent
+from .templates.TemplateEvent import eventStart, eventTemplate, eventAction, eventIfTech, eventNotIfTech, eventGiveTech
+from .templates.TemplateLocalisation import localisationStart, localisationEventTemplate
+from .Utility import writeToFile, languages
 
 #This function looks through the tech dictionary for technology with the specified name
 def findTech(search):

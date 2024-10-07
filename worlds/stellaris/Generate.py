@@ -1,6 +1,4 @@
-import CreateEvents
-import CreateTechs
-import Utility
+from . import CreateEvents, CreateTechs, Utility
 
 CreateTechs.createTech()
 CreateTechs.createTechLocalisations()
