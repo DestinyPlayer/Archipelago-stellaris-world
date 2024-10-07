@@ -14,12 +14,13 @@ def createTech():
         tier = tech["tier"]
         category = tech["category"]
         for i in range(tech["levels"]):
+            cost = techProgCost
             if str(i+1) in tech["non_research"]:
-                cost = techProgCost
+                cost = cost + "0"
                 weight = 0
                 weight_null = weightNull
             else:
-                cost = tech["cost"]
+                cost = cost + str(tech["tier"]+i)
                 weight = tech["weight"]
                 weight_null = ""
             techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost,
