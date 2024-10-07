@@ -3,6 +3,8 @@ from .templates.TemplateEvent import eventStart, eventTemplate, eventAction, eve
 from .templates.TemplateLocalisation import localisationStart, localisationEventTemplate
 from .Utility import writeToFile, languages
 
+test = True
+
 #This function looks through the tech dictionary for technology with the specified name
 def findTech(search):
     for tech in DataTech.techs:
@@ -21,9 +23,10 @@ def constructTechAction(tech):
             conditions = conditions + eventIfTech.format(has = name + str(i))
         else:
             elseif = "if"
-        vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
-        for split in vanilla[i].split(" "):
-            result = result + eventGiveTech.format(name = split)
+        if test is True:
+            vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
+            for split in vanilla[i].split(" "):
+                result = result + eventGiveTech.format(name = split)
         conditions = conditions + eventNotIfTech.format(hasnot = name + str(i+1))
         action = action + eventAction.format(elseif = elseif, conditions = conditions, result = result)
     return action

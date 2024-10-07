@@ -6,7 +6,7 @@ languages = [
 
 #This function writes files to the mod folder
 def writeToFile(path,text,encoding=None):
-    path = "mod/archipelago-stellaris-mod/"+path
+    path = "worlds/stellaris/mod/archipelago-stellaris-mod/"+path
     if encoding is not None:
         f = open(path, "w", encoding=encoding)
     else:
@@ -19,5 +19,5 @@ def copyOtherLocalisationFiles(file):
     for lang in languages:
         if lang == "english":
             continue
-        path = "mod/archipelago-stellaris-mod/localisation/"
+        path = "worlds/stellaris/mod/archipelago-stellaris-mod/localisation/"
         shutil.copyfile(path + "english/"+file, path + lang + "/" + file)

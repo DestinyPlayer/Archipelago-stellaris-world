@@ -5,7 +5,8 @@ import asyncio
 from pymem import Pymem, pattern, process
 import sys
 
-from worlds.dlcquest.test.TestItemShuffle import items
+from NetUtils import add_json_item, add_json_text, add_json_location, JSONTypes
+from .Generate import generateMod
 from . import DataTest
 
 logger = logging.getLogger("Client")
@@ -54,14 +55,14 @@ def findBaseRes(patternMatch):
     try:
         logger.info("Reference resource "+str(patternMatch)+" found at address "+str(hex(referenceResourceAddress)))
     except:
-        logger.error("ERROR: Reference Resource could not be found. Aborting.")
+        logger.error("ERROR: Reference Resource could not be found.")
     return referenceResourceAddress
 
 def checkBaseRes(res):
     try:
         logger.info("Reference resource value is: "+str(pm.read_longlong(res)))
     except:
-        logger.error("ERROR: Reference Resource cannot be read. Aborting.")
+        logger.error("ERROR: Reference Resource cannot be read.")
 
 async def connectToStellaris():
     logger.info("Trying to connect to Stellaris")
@@ -88,7 +89,7 @@ async def connectToStellaris():
         checkBaseRes(emerRes)
         if pm.read_longlong(baseRes + 0x8) != referenceNumber2 or pm.read_longlong(
                 emerRes - 0x8) != referenceNumber1:
-            logger.error("ERROR: Wrong reference addresses found. Aborting.")
+            logger.error("ERROR: Wrong reference addresses found.")
         commResIn = [baseRes - 0x10, 0]  # Items going into Stellaris
         commResOut = [baseRes - 0x8, 0]  # Items going out of Stellaris
         grabResources()
@@ -118,13 +119,24 @@ def runStellarisClient(*args):
             """Try to reconnect to Stellaris if the connection failed"""
             stellaris_game_task = asyncio.create_task(connectToStellaris(), name="StellarisConnection")
 
+        def _cmd_generate_test_mod(self):
+            """Generates a test mod in the world's folder"""
+            logger.info("Generating a test mod")
+            generateMod()
+
     class StellarisContext(CommonContext):
         command_processor = StellarisCommandProcessor
         # Text Mode to use !hint and such with games that have no text entry
-        tags = CommonContext.tags | {"TextOnly"}
-        game = "Stellaris"  # empty matches any game since 0.3.2
+        game = "Risk of Rain 2"  # empty matches any game since 0.3.2
         items_handling = 0b111  # receive all items for /received
         want_slot_data = False  # Can't use game specific slot_data
+
+        async def get_username(self):
+            if not self.auth:
+                self.auth = self.username
+                if not self.auth:
+                    logger.info('Picked default player name - DestinyPlayer_1')
+                    self.auth = "DestinyPlayer_1"
 
         async def server_auth(self, password_requested: bool = False):
             if password_requested and not self.password:
@@ -135,10 +147,21 @@ def runStellarisClient(*args):
         def on_package(self, cmd: str, args: dict):
             if cmd == "Connected":
                 self.game = self.slot_info[self.slot].game
+            elif cmd == 'ReceivedItems':
+                start_index = args["index"]
+                logger.info("Listing previously received items:")
+                for index, item in enumerate(self.items_received, 1):
+                    parts = []
+                    add_json_text(parts, "   ")
+                    add_json_item(parts, item.item, self.slot, item.flags)
+                    add_json_text(parts, " from ")
+                    add_json_location(parts, item.location, item.player)
+                    add_json_text(parts, " by ")
+                    add_json_text(parts, item.player, type=JSONTypes.player_id)
+                    self.on_print_json({"data": parts, "cmd": "PrintJSON"})
 
 
         async def disconnect(self, allow_autoreconnect: bool = False):
-            self.game = ""
             await super().disconnect(allow_autoreconnect)
 
     async def main(args):
@@ -187,17 +210,10 @@ def runStellarisClient(*args):
 
     colorama.deinit()
 
-#INTERRUPT FOR TESTING
 if __name__ == '__main__':
     logging.getLogger().setLevel(logging.INFO)  # force log-level to work around log level resetting to WARNING
     runStellarisClient(*sys.argv[1:])  # default value for parse_args
 
-#[VARIABLES]############################################################################
-
-connectionAddress = "localhost"
-connectionPort = "38281"
-
-connectionFullAddress = "ws://"+connectionAddress+":"+connectionPort
 '''
 #[GAME FUNCTIONS]########################################################################
 #This function finds an address in Process memory based on the provided pattern

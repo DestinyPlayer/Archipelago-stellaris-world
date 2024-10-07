@@ -40,7 +40,7 @@ class StellarisWorld(World):
         "Nowhere": 76000
     }
 
-    def create_item(self, name: str) -> Item:
-        if name == "Test":
-            return Item(name, ItemClassification.filler, -1, self.player)
-        raise KeyError(name)
+    def create_items(self) -> None:
+        # shortcut for starting_inventory... The start_with_revive option lets you start with a Dio's Best Friend
+        if self.options.testing:
+            self.multiworld.push_precollected(self.multiworld.create_item("Dio's Best Friend", self.player))

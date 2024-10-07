@@ -43,7 +43,7 @@ def createTechLocalisations():
 
 #This function assigns the default icon to every added Technology
 def createTechIcons():
-    path = "mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
+    path = "worlds/stellaris/mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
     iconTempName = "tech_progressive"
     iconFinName = iconTempName+"_{type}_{num}"
     format = ".dds"
