@@ -21,7 +21,7 @@ def createTech():
                 weight_null = weightNull
             else:
                 cost = cost + str(tech["tier"]+i)
-                weight = tech["weight"]
+                weight = tech["tier"]+i
                 weight_null = ""
             techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost,
                                                       weight = weight, tier = tier+i, weight_null = weight_null)

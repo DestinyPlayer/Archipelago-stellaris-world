@@ -4,6 +4,8 @@ techStart = '''@progressive_cost_0 = 9999999
 @progressive_cost_3 = 10000
 @progressive_cost_4 = 24000
 @progressive_cost_5 = 40000
+
+@tier0weight1 = 0
 '''
 
 techProgCost = "@progressive_cost_"
@@ -18,7 +20,7 @@ tech_progressive_{type}_{num} = {{
     }}
     tier = {tier}
     category = {{ {category} }}
-    weight = {weight}{weight_null}
+    weight = @tier{weight}weight1{weight_null}
 }}
 '''
 weightNull = '''

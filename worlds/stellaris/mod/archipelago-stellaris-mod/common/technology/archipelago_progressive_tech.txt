@@ -5,6 +5,8 @@
 @progressive_cost_4 = 24000
 @progressive_cost_5 = 40000
 
+@tier0weight1 = 0
+
 tech_progressive_reactor_1 = {
     cost = @progressive_cost_0
     area = physics
@@ -14,7 +16,7 @@ tech_progressive_reactor_1 = {
     }
     tier = 1
     category = { particles }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -29,7 +31,7 @@ tech_progressive_reactor_2 = {
     }
     tier = 2
     category = { particles }
-    weight = 100
+    weight = @tier2weight1
 }
 
 tech_progressive_reactor_3 = {
@@ -41,7 +43,7 @@ tech_progressive_reactor_3 = {
     }
     tier = 3
     category = { particles }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -56,7 +58,7 @@ tech_progressive_reactor_4 = {
     }
     tier = 4
     category = { particles }
-    weight = 100
+    weight = @tier4weight1
 }
 
 tech_progressive_reactor_5 = {
@@ -68,7 +70,7 @@ tech_progressive_reactor_5 = {
     }
     tier = 5
     category = { particles }
-    weight = 100
+    weight = @tier5weight1
 }
 
 tech_progressive_hyperdrive_1 = {
@@ -80,7 +82,7 @@ tech_progressive_hyperdrive_1 = {
     }
     tier = 1
     category = { particles }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -95,7 +97,7 @@ tech_progressive_hyperdrive_2 = {
     }
     tier = 2
     category = { particles }
-    weight = 100
+    weight = @tier2weight1
 }
 
 tech_progressive_hyperdrive_3 = {
@@ -107,7 +109,7 @@ tech_progressive_hyperdrive_3 = {
     }
     tier = 3
     category = { particles }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -122,7 +124,7 @@ tech_progressive_hyperdrive_4 = {
     }
     tier = 4
     category = { particles }
-    weight = 100
+    weight = @tier4weight1
 }
 
 tech_progressive_thruster_1 = {
@@ -134,7 +136,7 @@ tech_progressive_thruster_1 = {
     }
     tier = 1
     category = { rocketry }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -149,7 +151,7 @@ tech_progressive_thruster_2 = {
     }
     tier = 2
     category = { rocketry }
-    weight = 100
+    weight = @tier2weight1
 }
 
 tech_progressive_thruster_3 = {
@@ -161,7 +163,7 @@ tech_progressive_thruster_3 = {
     }
     tier = 3
     category = { rocketry }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -176,7 +178,7 @@ tech_progressive_thruster_4 = {
     }
     tier = 4
     category = { rocketry }
-    weight = 100
+    weight = @tier4weight1
 }
 
 tech_progressive_ship_1 = {
@@ -188,7 +190,7 @@ tech_progressive_ship_1 = {
     }
     tier = 1
     category = { voidcraft }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -203,7 +205,7 @@ tech_progressive_ship_2 = {
     }
     tier = 2
     category = { voidcraft }
-    weight = 100
+    weight = @tier2weight1
 }
 
 tech_progressive_ship_3 = {
@@ -215,7 +217,7 @@ tech_progressive_ship_3 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -230,7 +232,7 @@ tech_progressive_ship_4 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = 100
+    weight = @tier4weight1
 }
 
 tech_progressive_ship_5 = {
@@ -242,7 +244,7 @@ tech_progressive_ship_5 = {
     }
     tier = 5
     category = { voidcraft }
-    weight = 100
+    weight = @tier5weight1
 }
 
 tech_progressive_starbase_1 = {
@@ -254,7 +256,7 @@ tech_progressive_starbase_1 = {
     }
     tier = 1
     category = { voidcraft }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -269,7 +271,7 @@ tech_progressive_starbase_2 = {
     }
     tier = 2
     category = { voidcraft }
-    weight = 100
+    weight = @tier2weight1
 }
 
 tech_progressive_starbase_3 = {
@@ -281,7 +283,7 @@ tech_progressive_starbase_3 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
@@ -296,7 +298,7 @@ tech_progressive_wormhole_1 = {
     }
     tier = 2
     category = { particles }
-    weight = 200
+    weight = @tier2weight1
 }
 
 tech_progressive_wormhole_2 = {
@@ -308,7 +310,7 @@ tech_progressive_wormhole_2 = {
     }
     tier = 3
     category = { particles }
-    weight = 0
+    weight = @tier0weight1
     weight_modifier = {
 		factor = 0
 	}
