@@ -35,7 +35,7 @@ def QuickGenerateTechs():
     techsOut = "techs = ["
     techBase = '{{"name":"{name}", "levels":{levels}, "area":None, "category":None, "tier":{tier}, "non_research": None,\n     "progType": None}}'
     eventsOut = "items = ["
-    eventsBase = '{{"type":"tech", "name":"{name}", "description":"Progressive {name} technology"}}'
+    eventsBase = '{{"type":"tech", "name":"{name}", "description":"Progressive {name2} technology"}}'
     for tech in DataTechVanilla.vanillaTechs:
         try:
             tech.split()[1]
@@ -54,7 +54,7 @@ def QuickGenerateTechs():
         techsOut = techsOut + techBase.format(name = tech, levels = levels, tier = tier)
         techsOut = techsOut + ","
         eventsOut = eventsOut + "\n    "
-        eventsOut = eventsOut + eventsBase.format(name=tech.replace("_"," "))
+        eventsOut = eventsOut + eventsBase.format(name=tech, name2=tech.replace("_"," "))
         eventsOut = eventsOut + ","
     techsOut = techsOut + "\n]"
     eventsOut = eventsOut + "\n]"

@@ -129,7 +129,7 @@ vanillaTechs = {
     "housing": [
         "tech_housing_1",
         "tech_housing_2",
-        "tech_leviathan_techgenesis"
+        "tech_leviathan_techgenesis" #requires dlc
     ],
     "strategic_resource type": [ # non-progressive
         "tech_mine_volatile_motes tech_volatile_motes",
@@ -347,7 +347,7 @@ vanillaTechs = {
         "tech_morphogenetic_field_mastery",
         "tech_gene_seed_purification"
     ],
-    "transgenesis": [ #non-progressive
+    "transgenesis": [ #non-progressive requires dlc
         "tech_lithoid_transgenesis",
         "tech_plantoid_transgenesis",
         "tech_leviathan_transgenesis"
