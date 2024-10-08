@@ -1,7 +1,14 @@
-from BaseClasses import Tutorial, Item, ItemClassification
+import time
+from typing import List, Dict
+
+from BaseClasses import Tutorial, Item, ItemClassification, Region
 from Utils import local_path
 from worlds.AutoWorld import WebWorld, World
 from worlds.LauncherComponents import Component, components, Type, launch_subprocess, icon_paths
+from . import Regions, DataTech, Generate
+from .Items import StellarisItemData
+from .Locations import StellarisLocationData
+from .Options import StellarisOptions
 
 
 def launch_client():
@@ -33,14 +40,43 @@ class StellarisWorld(World):
     """
     game = "Stellaris"
     web = StellarisWeb()
-    item_name_to_id = {
-        "Test": 75000
-    }
-    location_name_to_id = {
-        "Nowhere": 76000
-    }
+    options = StellarisOptions
+    options_dataclass = StellarisOptions
+    item_name_to_id = Items.itemTable
+    location_name_to_id = Locations.locationTable
+
+    def create_regions(self) -> None:
+        # Create regions.
+        for region_name in Regions.region_data_table.keys():
+            region = Region(region_name, self.player, self.multiworld)
+            self.multiworld.regions.append(region)
+
+        # Create locations.
+        locationDataTable: Dict[str, StellarisLocationData] = Locations.getLocationDataTable(Locations.researchCount, self)
+        for region_name, region_data in Regions.region_data_table.items():
+            region = self.get_region(region_name)
+            region.add_locations({
+                location_name: location_data.address for location_name, location_data in locationDataTable.items()
+                if location_data.region == region_name and location_data.can_create(self)
+            }, Locations.StellarisLocation)
+            region.add_exits(Regions.region_data_table[region_name].connecting_regions)
+
+    def create_item(self, name: str) -> Items.StellarisItem:
+
+        return Items.StellarisItem(name, Items.itemDataTable[name].type, Items.itemDataTable[name].code, self.player)
 
     def create_items(self) -> None:
-        # shortcut for starting_inventory... The start_with_revive option lets you start with a Dio's Best Friend
-        if self.options.testing:
-            self.multiworld.push_precollected(self.multiworld.create_item("Dio's Best Friend", self.player))
+        item_pool: List[Items.StellarisItem] = []
+        for name, item in Items.itemDataTable.items():
+            if item.code and item.can_create(self):
+                item_pool.append(self.create_item(name))
+
+        self.multiworld.itempool += item_pool
+
+        # Set priority location for the Big Red Button!
+        self.options.priority_locations.value.add("Research")
+        self.create_mod()
+
+    def create_mod(self) -> None:
+        print("Generating Mod")
+        Generate.generateMod(self)

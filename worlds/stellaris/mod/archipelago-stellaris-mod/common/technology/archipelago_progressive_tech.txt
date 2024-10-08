@@ -315,3 +315,78 @@ tech_progressive_wormhole_2 = {
 		factor = 0
 	}
 }
+
+tech_progressive_repeatable_engineering_1 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_progressive_repeatable_engineering_2 = {
+    cost = @progressive_cost_0
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
+}
+
+tech_progressive_repeatable_engineering_3 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_progressive_repeatable_engineering_4 = {
+    cost = @progressive_cost_5
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { particles }
+    weight = @tier5weight1
+}
+
+tech_progressive_repeatable_engineering_5 = {
+    cost = @progressive_cost_5
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { particles }
+    weight = @tier5weight1
+}
+
+tech_progressive_repeatable_engineering_6 = {
+    cost = @progressive_cost_5
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { particles }
+    weight = @tier5weight1
+}

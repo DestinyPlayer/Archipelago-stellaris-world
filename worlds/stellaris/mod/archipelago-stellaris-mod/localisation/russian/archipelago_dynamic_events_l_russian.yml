@@ -1,16 +1,22 @@
 ﻿l_russian:
 
-archipelago_dynamic.1000.name: "Item received!"
-archipelago_dynamic.1000.desc: "§MProgressive thruster technology§! was received from the Archipelago Server."
+archipelago_dynamic.1011.name: "Item received!"
+archipelago_dynamic.1011.desc: "§MProgressive reactor technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.2000.name: "Item received!"
-archipelago_dynamic.2000.desc: "§MProgressive hyperdrive technology§! was received from the Archipelago Server."
+archipelago_dynamic.1021.name: "Item received!"
+archipelago_dynamic.1021.desc: "§MProgressive hyperdrive technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.3000.name: "Item received!"
-archipelago_dynamic.3000.desc: "§MProgressive reactor technology§! was received from the Archipelago Server."
+archipelago_dynamic.1031.name: "Item received!"
+archipelago_dynamic.1031.desc: "§MProgressive thruster technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.4000.name: "Item received!"
-archipelago_dynamic.4000.desc: "§MThis is a test§! was received from the Archipelago Server."
+archipelago_dynamic.1041.name: "Item received!"
+archipelago_dynamic.1041.desc: "§MProgressive ship technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.5000.name: "Item received!"
-archipelago_dynamic.5000.desc: "§MProgressive wormhole/gateway technology§! was received from the Archipelago Server."
+archipelago_dynamic.1051.name: "Item received!"
+archipelago_dynamic.1051.desc: "§MProgressive starbase technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.1061.name: "Item received!"
+archipelago_dynamic.1061.desc: "§MProgressive wormhole/gateway technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.1071.name: "Item received!"
+archipelago_dynamic.1071.desc: "§MProgressive repeatable technology§! was received from the Archipelago Server."

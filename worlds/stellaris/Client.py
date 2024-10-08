@@ -35,12 +35,11 @@ commResIn = [0, 0]
 commResOut = [0, 0]
 
 pm = Pymem()
-itemsToReceive = DataTest.testItems
+itemsToReceive = []
 
 # This function takes item code in form AP-Y-XXX and converts it into the YXXX form readable by the game
 def decodeItemCode(item):
-    splitItem = item.split("-")
-    code = splitItem[1] + splitItem[2]
+    code = item - 7500000000
     logger.info("Received item "+str(item)+", converted to internal code "+str(code))
     return int(code)
 
@@ -127,7 +126,7 @@ def runStellarisClient(*args):
     class StellarisContext(CommonContext):
         command_processor = StellarisCommandProcessor
         # Text Mode to use !hint and such with games that have no text entry
-        game = "Risk of Rain 2"  # empty matches any game since 0.3.2
+        game = "Stellaris"  # empty matches any game since 0.3.2
         items_handling = 0b111  # receive all items for /received
         want_slot_data = False  # Can't use game specific slot_data
 
@@ -136,7 +135,7 @@ def runStellarisClient(*args):
                 self.auth = self.username
                 if not self.auth:
                     logger.info('Picked default player name - DestinyPlayer_1')
-                    self.auth = "DestinyPlayer_1"
+                    self.auth = "Testing_Player1"
 
         async def server_auth(self, password_requested: bool = False):
             if password_requested and not self.password:
@@ -147,18 +146,11 @@ def runStellarisClient(*args):
         def on_package(self, cmd: str, args: dict):
             if cmd == "Connected":
                 self.game = self.slot_info[self.slot].game
+
             elif cmd == 'ReceivedItems':
-                start_index = args["index"]
-                logger.info("Listing previously received items:")
+                global itemsToReceive
                 for index, item in enumerate(self.items_received, 1):
-                    parts = []
-                    add_json_text(parts, "   ")
-                    add_json_item(parts, item.item, self.slot, item.flags)
-                    add_json_text(parts, " from ")
-                    add_json_location(parts, item.location, item.player)
-                    add_json_text(parts, " by ")
-                    add_json_text(parts, item.player, type=JSONTypes.player_id)
-                    self.on_print_json({"data": parts, "cmd": "PrintJSON"})
+                    itemsToReceive.append(item.item)
 
 
         async def disconnect(self, allow_autoreconnect: bool = False):

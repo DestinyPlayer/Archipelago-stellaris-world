@@ -41,7 +41,6 @@ vanillaTechs = {
         "tech_repeatable_weapon_type_explosive_damage tech_repeatable_weapon_type_explosive_fire_rate",
         "tech_repeatable_weapon_type_kinetic_damage tech_repeatable_weapon_type_kinetic_fire_rate",
         "tech_repeatable_reduced_building_time"
-        "
     ],
     "corvette_upgrades": [
         "tech_corvette_build_speed",
@@ -222,7 +221,7 @@ vanillaTechs = {
         "tech_combat_computers_3"
     ],
     "ship_combat_ai gestaltt3": [ #replaces combat computer 3
-        "tech_combat_computers_autonomous""
+        "tech_combat_computers_autonomous"
     ],
     "encryption": [
         "tech_encryption_1",
@@ -292,7 +291,6 @@ vanillaTechs = {
         "tech_pd_tracking_2",
         "tech_pd_tracking_3"
     ],
-    "
 # society tech starts here
     "trade": [
         "tech_space_trading",

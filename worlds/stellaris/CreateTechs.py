@@ -14,17 +14,20 @@ def createTech():
         tier = tech["tier"]
         category = tech["category"]
         for i in range(tech["levels"]):
+            tierAdd = i+tier
+            if tierAdd > 5:
+                tierAdd = 5
             cost = techProgCost
             if str(i+1) in tech["non_research"]:
                 cost = cost + "0"
                 weight = 0
                 weight_null = weightNull
             else:
-                cost = cost + str(tech["tier"]+i)
-                weight = tech["tier"]+i
+                cost = cost + str(tierAdd)
+                weight = tierAdd
                 weight_null = ""
             techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost,
-                                                      weight = weight, tier = tier+i, weight_null = weight_null)
+                                                      weight = weight, tier = tierAdd, weight_null = weight_null)
     writeToFile("common/technology/archipelago_progressive_tech.txt",techText)
 
 #This function assembles the Technology Localisations (names and descriptions)

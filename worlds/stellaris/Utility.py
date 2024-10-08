@@ -1,4 +1,5 @@
 import shutil
+from . import DataTech
 
 languages = [
     "braz_por","english","french","german","japanese","korean","polish","russian","simp_chinese","spanish"
@@ -13,6 +14,13 @@ def writeToFile(path,text,encoding=None):
         f = open(path, "w")
     f.write(text)
     f.close()
+
+def getTotalResearchCount():
+    count = 0
+    for tech in DataTech.techs:
+        for i in range(tech["levels"]):
+            count += 1
+    return count
 
 #This function copies over non-procedurally generated localisation files between languages
 def copyOtherLocalisationFiles(file):

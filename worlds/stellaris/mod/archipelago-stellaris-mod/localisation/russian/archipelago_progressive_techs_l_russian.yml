@@ -68,3 +68,21 @@ tech_progressive_wormhole_1_desc: "This technology unlocks the next tier of worm
 
 tech_progressive_wormhole_2: "Progressive Wormhole Tech 2"
 tech_progressive_wormhole_2_desc: "This technology unlocks the final tier of wormhole technology."
+
+tech_progressive_repeatable_engineering_1: "Progressive Repeatable_engineering Tech 1"
+tech_progressive_repeatable_engineering_1_desc: "This technology unlocks the next tier of repeatable_engineering technology."
+
+tech_progressive_repeatable_engineering_2: "Progressive Repeatable_engineering Tech 2"
+tech_progressive_repeatable_engineering_2_desc: "This technology unlocks the next tier of repeatable_engineering technology."
+
+tech_progressive_repeatable_engineering_3: "Progressive Repeatable_engineering Tech 3"
+tech_progressive_repeatable_engineering_3_desc: "This technology unlocks the next tier of repeatable_engineering technology."
+
+tech_progressive_repeatable_engineering_4: "Progressive Repeatable_engineering Tech 4"
+tech_progressive_repeatable_engineering_4_desc: "This technology unlocks the next tier of repeatable_engineering technology."
+
+tech_progressive_repeatable_engineering_5: "Progressive Repeatable_engineering Tech 5"
+tech_progressive_repeatable_engineering_5_desc: "This technology unlocks the next tier of repeatable_engineering technology."
+
+tech_progressive_repeatable_engineering_6: "Progressive Repeatable_engineering Tech 6"
+tech_progressive_repeatable_engineering_6_desc: "This technology unlocks the final tier of repeatable_engineering technology."

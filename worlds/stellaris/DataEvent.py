@@ -1,9 +1,11 @@
 items = [
-    {"item_code":5415, "type":"tech", "name":"thruster", "description":"Progressive thruster technology"},
-    {"item_code":3167, "type":"tech", "name":"hyperdrive", "description":"Progressive hyperdrive technology"},
-    {"item_code":8431, "type":"tech", "name":"reactor", "description":"Progressive reactor technology"},
-    {"item_code":2526, "type":"test", "name":"testing", "description":"This is a test"},
-    {"item_code":8415, "type":"tech", "name":"wormhole", "description":"Progressive wormhole/gateway technology"}
+    {"type": "tech", "name": "reactor", "description": "Progressive reactor technology"},
+    {"type": "tech", "name": "hyperdrive", "description": "Progressive hyperdrive technology"},
+    {"type":"tech", "name":"thruster", "description":"Progressive thruster technology"},
+    {"type":"tech", "name":"ship", "description":"Progressive ship technology"},
+    {"type":"tech", "name":"starbase", "description":"Progressive starbase technology"},
+    {"type":"tech", "name":"wormhole", "description":"Progressive wormhole/gateway technology"},
+    {"type":"tech", "name":"repeatable_engineering", "description":"Progressive repeatable technology"}
 ]
 
 #Types:

@@ -1,112 +1,14 @@
 namespace = archipelago_dynamic
 
 country_event = {
-	id = archipelago_dynamic.1000
-	title = "archipelago_dynamic.1000.name"
-	desc = "archipelago_dynamic.1000.desc"
+	id = archipelago_dynamic.1010
+	title = "archipelago_dynamic.1010.name"
+	desc = "archipelago_dynamic.1010.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_000
-			value = 5415
-		}
-	}
-	immediate = {
-		add_resource = {
-			urp_000 = -99999999
-		}
-        if = {
-            limit = {                
-		        NOT = { has_technology = "tech_progressive_thruster_1" } 
-            }
-		    give_technology = { tech = "tech_progressive_thruster_1" }
-		    give_technology = { tech = "tech_thrusters_2" }
-        }
-        else_if = {
-            limit = {                
-		        has_technology = "tech_progressive_thruster_1"
-		        NOT = { has_technology = "tech_progressive_thruster_2" } 
-            }
-		    give_technology = { tech = "tech_progressive_thruster_2" }
-		    give_technology = { tech = "tech_thrusters_3" }
-        }
-        else_if = {
-            limit = {                
-		        has_technology = "tech_progressive_thruster_2"
-		        NOT = { has_technology = "tech_progressive_thruster_3" } 
-            }
-		    give_technology = { tech = "tech_progressive_thruster_3" }
-		    give_technology = { tech = "tech_thrusters_4" }
-        }
-        else_if = {
-            limit = {                
-		        has_technology = "tech_progressive_thruster_3"
-		        NOT = { has_technology = "tech_progressive_thruster_4" } 
-            }
-		    give_technology = { tech = "tech_progressive_thruster_4" }
-		    give_technology = { tech = "tech_dark_matter_propulsion" }
-        }
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.2000
-	title = "archipelago_dynamic.2000.name"
-	desc = "archipelago_dynamic.2000.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_000
-			value = 3167
-		}
-	}
-	immediate = {
-		add_resource = {
-			urp_000 = -99999999
-		}
-        if = {
-            limit = {                
-		        NOT = { has_technology = "tech_progressive_hyperdrive_1" } 
-            }
-		    give_technology = { tech = "tech_progressive_hyperdrive_1" }
-		    give_technology = { tech = "tech_hyper_drive_2" }
-        }
-        else_if = {
-            limit = {                
-		        has_technology = "tech_progressive_hyperdrive_1"
-		        NOT = { has_technology = "tech_progressive_hyperdrive_2" } 
-            }
-		    give_technology = { tech = "tech_progressive_hyperdrive_2" }
-		    give_technology = { tech = "tech_hyper_drive_3" }
-        }
-        else_if = {
-            limit = {                
-		        has_technology = "tech_progressive_hyperdrive_2"
-		        NOT = { has_technology = "tech_progressive_hyperdrive_3" } 
-            }
-		    give_technology = { tech = "tech_progressive_hyperdrive_3" }
-		    give_technology = { tech = "tech_jump_drive_1" }
-        }
-        else_if = {
-            limit = {                
-		        has_technology = "tech_progressive_hyperdrive_3"
-		        NOT = { has_technology = "tech_progressive_hyperdrive_4" } 
-            }
-		    give_technology = { tech = "tech_progressive_hyperdrive_4" }
-		    give_technology = { tech = "tech_psi_jump_drive_1" }
-        }
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.3000
-	title = "archipelago_dynamic.3000.name"
-	desc = "archipelago_dynamic.3000.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_000
-			value = 8431
+			value = 1
 		}
 	}
 	immediate = {
@@ -156,32 +58,210 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.4000
-	title = "archipelago_dynamic.4000.name"
-	desc = "archipelago_dynamic.4000.desc"
+	id = archipelago_dynamic.1020
+	title = "archipelago_dynamic.1020.name"
+	desc = "archipelago_dynamic.1020.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_000
-			value = 2526
+			value = 2
 		}
 	}
 	immediate = {
 		add_resource = {
 			urp_000 = -99999999
 		}
+        if = {
+            limit = {                
+		        NOT = { has_technology = "tech_progressive_hyperdrive_1" } 
+            }
+		    give_technology = { tech = "tech_progressive_hyperdrive_1" }
+		    give_technology = { tech = "tech_hyper_drive_2" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_hyperdrive_1"
+		        NOT = { has_technology = "tech_progressive_hyperdrive_2" } 
+            }
+		    give_technology = { tech = "tech_progressive_hyperdrive_2" }
+		    give_technology = { tech = "tech_hyper_drive_3" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_hyperdrive_2"
+		        NOT = { has_technology = "tech_progressive_hyperdrive_3" } 
+            }
+		    give_technology = { tech = "tech_progressive_hyperdrive_3" }
+		    give_technology = { tech = "tech_jump_drive_1" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_hyperdrive_3"
+		        NOT = { has_technology = "tech_progressive_hyperdrive_4" } 
+            }
+		    give_technology = { tech = "tech_progressive_hyperdrive_4" }
+		    give_technology = { tech = "tech_psi_jump_drive_1" }
+        }
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.5000
-	title = "archipelago_dynamic.5000.name"
-	desc = "archipelago_dynamic.5000.desc"
+	id = archipelago_dynamic.1030
+	title = "archipelago_dynamic.1030.name"
+	desc = "archipelago_dynamic.1030.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_000
-			value = 8415
+			value = 3
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+        if = {
+            limit = {                
+		        NOT = { has_technology = "tech_progressive_thruster_1" } 
+            }
+		    give_technology = { tech = "tech_progressive_thruster_1" }
+		    give_technology = { tech = "tech_thrusters_2" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_thruster_1"
+		        NOT = { has_technology = "tech_progressive_thruster_2" } 
+            }
+		    give_technology = { tech = "tech_progressive_thruster_2" }
+		    give_technology = { tech = "tech_thrusters_3" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_thruster_2"
+		        NOT = { has_technology = "tech_progressive_thruster_3" } 
+            }
+		    give_technology = { tech = "tech_progressive_thruster_3" }
+		    give_technology = { tech = "tech_thrusters_4" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_thruster_3"
+		        NOT = { has_technology = "tech_progressive_thruster_4" } 
+            }
+		    give_technology = { tech = "tech_progressive_thruster_4" }
+		    give_technology = { tech = "tech_dark_matter_propulsion" }
+        }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.1040
+	title = "archipelago_dynamic.1040.name"
+	desc = "archipelago_dynamic.1040.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 4
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+        if = {
+            limit = {                
+		        NOT = { has_technology = "tech_progressive_ship_1" } 
+            }
+		    give_technology = { tech = "tech_progressive_ship_1" }
+		    give_technology = { tech = "tech_destroyers" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_ship_1"
+		        NOT = { has_technology = "tech_progressive_ship_2" } 
+            }
+		    give_technology = { tech = "tech_progressive_ship_2" }
+		    give_technology = { tech = "tech_cruisers" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_ship_2"
+		        NOT = { has_technology = "tech_progressive_ship_3" } 
+            }
+		    give_technology = { tech = "tech_progressive_ship_3" }
+		    give_technology = { tech = "tech_battleships" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_ship_3"
+		        NOT = { has_technology = "tech_progressive_ship_4" } 
+            }
+		    give_technology = { tech = "tech_progressive_ship_4" }
+		    give_technology = { tech = "tech_titans" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_ship_4"
+		        NOT = { has_technology = "tech_progressive_ship_5" } 
+            }
+		    give_technology = { tech = "tech_progressive_ship_5" }
+		    give_technology = { tech = "tech_juggernaut" }
+        }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.1050
+	title = "archipelago_dynamic.1050.name"
+	desc = "archipelago_dynamic.1050.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 5
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+        if = {
+            limit = {                
+		        NOT = { has_technology = "tech_progressive_starbase_1" } 
+            }
+		    give_technology = { tech = "tech_progressive_starbase_1" }
+		    give_technology = { tech = "tech_starbase_3" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_starbase_1"
+		        NOT = { has_technology = "tech_progressive_starbase_2" } 
+            }
+		    give_technology = { tech = "tech_progressive_starbase_2" }
+		    give_technology = { tech = "tech_starbase_4" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_starbase_2"
+		        NOT = { has_technology = "tech_progressive_starbase_3" } 
+            }
+		    give_technology = { tech = "tech_progressive_starbase_3" }
+		    give_technology = { tech = "tech_starbase_5" }
+        }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.1060
+	title = "archipelago_dynamic.1060.name"
+	desc = "archipelago_dynamic.1060.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 6
 		}
 	}
 	immediate = {
@@ -203,6 +283,74 @@ country_event = {
 		    give_technology = { tech = "tech_progressive_wormhole_2" }
 		    give_technology = { tech = "tech_gateway_activation" }
 		    give_technology = { tech = "tech_gateway_construction" }
+        }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.1070
+	title = "archipelago_dynamic.1070.name"
+	desc = "archipelago_dynamic.1070.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_000
+			value = 7
+		}
+	}
+	immediate = {
+		add_resource = {
+			urp_000 = -99999999
+		}
+        if = {
+            limit = {                
+		        NOT = { has_technology = "tech_progressive_repeatable_engineering_1" } 
+            }
+		    give_technology = { tech = "tech_progressive_repeatable_engineering_1" }
+		    give_technology = { tech = "tech_repeatable_improved_tile_mineral_output" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_repeatable_engineering_1"
+		        NOT = { has_technology = "tech_progressive_repeatable_engineering_2" } 
+            }
+		    give_technology = { tech = "tech_progressive_repeatable_engineering_2" }
+		    give_technology = { tech = "tech_repeatable_improved_military_station_damage" }
+		    give_technology = { tech = "tech_repeatable_improved_military_station_health" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_repeatable_engineering_2"
+		        NOT = { has_technology = "tech_progressive_repeatable_engineering_3" } 
+            }
+		    give_technology = { tech = "tech_progressive_repeatable_engineering_3" }
+		    give_technology = { tech = "tech_repeatable_improved_armor_output" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_repeatable_engineering_3"
+		        NOT = { has_technology = "tech_progressive_repeatable_engineering_4" } 
+            }
+		    give_technology = { tech = "tech_progressive_repeatable_engineering_4" }
+		    give_technology = { tech = "tech_repeatable_weapon_type_explosive_damage" }
+		    give_technology = { tech = "tech_repeatable_weapon_type_explosive_fire_rate" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_repeatable_engineering_4"
+		        NOT = { has_technology = "tech_progressive_repeatable_engineering_5" } 
+            }
+		    give_technology = { tech = "tech_progressive_repeatable_engineering_5" }
+		    give_technology = { tech = "tech_repeatable_weapon_type_kinetic_damage" }
+		    give_technology = { tech = "tech_repeatable_weapon_type_kinetic_fire_rate" }
+        }
+        else_if = {
+            limit = {                
+		        has_technology = "tech_progressive_repeatable_engineering_5"
+		        NOT = { has_technology = "tech_progressive_repeatable_engineering_6" } 
+            }
+		    give_technology = { tech = "tech_progressive_repeatable_engineering_6" }
+		    give_technology = { tech = "tech_repeatable_reduced_building_time" }
         }
 	}
 }
