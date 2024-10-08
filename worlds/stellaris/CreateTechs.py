@@ -5,8 +5,8 @@ from .templates.TemplateLocalisation import localisationStart, localisationTechT
 from .Utility import writeToFile, languages
 
 
-#This function assembles the Technologies
 def createTech():
+    """This function assembles the technology definition files in the mod"""
     techText = techStart
     for tech in DataTech.techs:
         type = tech["name"]
@@ -29,9 +29,10 @@ def createTech():
             techText = techText + techTemplate.format(type = type, num = i+1, area = area, category = category, cost = cost,
                                                       weight = weight, tier = tierAdd, weight_null = weight_null)
     writeToFile("common/technology/archipelago_progressive_tech.txt",techText)
+    print("    Finished generation of technology definition files")
 
-#This function assembles the Technology Localisations (names and descriptions)
 def createTechLocalisations():
+    """This function assembles the technology localisation files in the mod (names and descriptions)"""
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
         for tech in DataTech.techs:
@@ -44,9 +45,10 @@ def createTechLocalisations():
                     final = "next"
                 localisationText = localisationText + localisationTechTemplate.format(type = type, num = i+1, name = name, final = final)
         writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,"utf-8-sig")
+    print("    Finished generation of technology localisation files")
 
-#This function assigns the default icon to every added Technology
 def createTechIcons():
+    """This function assigns icons to technologies"""
     path = "worlds/stellaris/mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
     iconTempName = "tech_progressive"
     iconFinName = iconTempName+"_{type}_{num}"
@@ -56,3 +58,4 @@ def createTechIcons():
         for i in range(tech["levels"]):
             iconFinal = iconFinName.format(type = type,num = i+1)+format
             shutil.copyfile(path+iconTempName+format,path+iconFinal)
+    print("    Finished generation of technology icon files")

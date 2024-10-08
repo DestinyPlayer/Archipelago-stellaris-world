@@ -15,6 +15,63 @@ techs = [
      "progType": "filler"}
 ]
 
+leviathansTechs = [
+
+]
+
+utopiaTechs = [
+
+]
+
+megacorpTechs = [
+
+]
+
+apocalypseTechs = [
+
+]
+
+federationsTechs = [
+
+]
+
+nemesisTechs = [
+
+]
+
+overlordTechs = [
+
+]
+
+galacticParagonsTechs = [
+
+]
+
+astralPlanesTechs = [
+
+]
+
+cosmicStormsTechs = [
+
+]
+
+syntheticDawnTechs = [
+
+]
+
+distantStarsTechs = [
+
+]
+
+ancientRelicsTechs = [
+
+]
+
+firstContactTechs = [
+
+]
+
+
 #Areas:
 #   physics, society, engineering
 
@@ -29,7 +86,7 @@ techs = [
 #Cost:
 #If set to 0 it is set to unavailable
 
-import DataTechVanilla
+'''import DataTechVanilla
 
 def QuickGenerateTechs():
     techsOut = "techs = ["
@@ -64,4 +121,4 @@ def QuickGenerateTechs():
     f.write(eventsOut)
     f.close()
 
-QuickGenerateTechs()
+QuickGenerateTechs()'''

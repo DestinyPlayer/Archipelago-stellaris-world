@@ -37,19 +37,21 @@ commResOut = [0, 0]
 pm = Pymem()
 itemsToReceive = []
 
-# This function takes item code in form AP-Y-XXX and converts it into the YXXX form readable by the game
 def decodeItemCode(item):
+    """This function takes the Item Codes provided by the server and converts them into a form readable by the game"""
     code = item - 7500000000
     logger.info("Received item "+str(item)+", converted to internal code "+str(code))
     return int(code)
 
 def grabResources():
+    """This function reads the Communication Resource Values"""
     global commResIn
     global commResOut
     commResIn[1] = pm.read_longlong(commResIn[0]) / resConst
     commResOut[1] = pm.read_longlong(commResOut[0]) / resConst
 
 def findBaseRes(patternMatch):
+    """This function searches the game's process memory for a value with binary pattern *patternMatch*"""
     referenceResourceAddress = pattern.pattern_scan_all(pm.process_handle, patternMatch, return_multiple=False)
     try:
         logger.info("Reference resource "+str(patternMatch)+" found at address "+str(hex(referenceResourceAddress)))
@@ -58,12 +60,14 @@ def findBaseRes(patternMatch):
     return referenceResourceAddress
 
 def checkBaseRes(res):
+    """This function checks if the provided address can be read"""
     try:
         logger.info("Reference resource value is: "+str(pm.read_longlong(res)))
     except:
         logger.error("ERROR: Reference Resource cannot be read.")
 
 async def connectToStellaris():
+    """This function connects to Stellaris, finds and checks the reference resources, and finds the communication resources"""
     logger.info("Trying to connect to Stellaris")
     global pm
     global baseRes
@@ -96,6 +100,8 @@ async def connectToStellaris():
 
 
 def receiveItem(item, listLen):
+    """This function takes the item's code and sets the Receive Communication Resource to it.
+    Waits until the resource is 0 before doing anything."""
     if commResIn[1] == 0:
         curItem = decodeItemCode(item)
         logger.info("   Sending item "+str(item)+" to Stellaris")
@@ -105,6 +111,7 @@ def receiveItem(item, listLen):
 
 
 async def loopTransmit(getItems):
+    """This is the primary communication loop for transmitting information between the game and the client"""
     while True:
         grabResources()
         length = len(getItems)

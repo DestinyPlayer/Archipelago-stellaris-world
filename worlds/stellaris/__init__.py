@@ -1,5 +1,5 @@
 import time
-from typing import List, Dict
+from typing import List, Dict, Mapping, Any
 
 from BaseClasses import Tutorial, Item, ItemClassification, Region
 from Utils import local_path
@@ -8,7 +8,7 @@ from worlds.LauncherComponents import Component, components, Type, launch_subpro
 from . import Regions, DataTech, Generate
 from .Items import StellarisItemData
 from .Locations import StellarisLocationData
-from .Options import StellarisOptions
+from .Options import StellarisOptions, stellarisOptionGroups
 
 
 def launch_client():
@@ -31,6 +31,7 @@ class StellarisWeb(WebWorld):
         "setup/en",
         ["DestinyPlayer"]
     )]
+    option_groups = stellarisOptionGroups
 
 class StellarisWorld(World):
     """
@@ -62,7 +63,6 @@ class StellarisWorld(World):
             region.add_exits(Regions.region_data_table[region_name].connecting_regions)
 
     def create_item(self, name: str) -> Items.StellarisItem:
-
         return Items.StellarisItem(name, Items.itemDataTable[name].type, Items.itemDataTable[name].code, self.player)
 
     def create_items(self) -> None:
@@ -75,8 +75,23 @@ class StellarisWorld(World):
 
         # Set priority location for the Big Red Button!
         self.options.priority_locations.value.add("Research")
-        self.create_mod()
 
-    def create_mod(self) -> None:
-        print("Generating Mod")
-        Generate.generateMod(self)
+    def generate_output(self, output_directory: str) -> None:
+        finalLocations = self.multiworld.get_filled_locations(self.player)
+        finalItems = []
+        for location in finalLocations:
+            if "Research" in str(location):
+                if self.checkTechPresence(str(location.item)):
+                    finalItems.append(location.item)
+        self.create_mod(output_directory)
+
+    def checkTechPresence(self,item: str):
+        """This function checks for if the item in a location slot is a Stellaris item"""
+        for tech in DataTech.techs:
+            if tech["name"] in item:
+                print("Item ",item," is this mod's item!")
+                return True
+
+    def create_mod(self, outputDirectory) -> None:
+        """This function generates the Stellaris mod"""
+        Generate.generateMod(self,outputDirectory)
