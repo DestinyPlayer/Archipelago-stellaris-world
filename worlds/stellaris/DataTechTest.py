@@ -151,6 +151,10 @@ techs = [
      "progType": None},
     {"name":"bioreactor", "levels":2, "area":None, "category":None, "tier":3, "non_research": None,
      "progType": None},
+    {"name":"hull_regen", "levels":1, "area":None, "category":None, "tier":4, "non_research": None,
+     "progType": None},
+    {"name":"megastructures", "levels":2, "area":None, "category":None, "tier":3, "non_research": None,
+     "progType": None},
 ]
 items = [
     {"type":"tech", "name":"reactor", "description":"Progressive reactor technology"},
@@ -229,4 +233,6 @@ items = [
     {"type":"tech", "name":"capital_production", "description":"Progressive capital production technology"},
     {"type":"tech", "name":"psionic_covenants", "description":"Progressive psionic covenants technology"},
     {"type":"tech", "name":"bioreactor", "description":"Progressive bioreactor technology"},
+    {"type":"tech", "name":"hull_regen", "description":"Progressive hull regen technology"},
+    {"type":"tech", "name":"megastructures", "description":"Progressive megastructures technology"},
 ]

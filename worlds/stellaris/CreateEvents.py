@@ -61,6 +61,6 @@ def createEventLocalisations():
             else: #Shouldn't come up except for testing purposes
                 value = ""
             desc = item["description"]
-            localisationText = localisationText + localisationEventTemplate.format(num = 1000+(key+1), value = value+1, desc = desc)
+            localisationText = localisationText + localisationEventTemplate.format(num = 1000+(key*10+10), value = value+1, desc = desc)
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml", localisationText, "utf-8-sig")
     print("    Finished generation of event localisation files")

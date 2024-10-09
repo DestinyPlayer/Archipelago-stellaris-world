@@ -659,7 +659,7 @@ firstContactTech = {
     ]
 }
 
-horisigTech = {
+horizonSignalTech = {
     "horizon": [
         "tech_akx_worm_1",
         "tech_akx_worm_2",
@@ -766,8 +766,8 @@ machineAgeTech = {
         "tech_lathe_resonator",
         "tech_lathe_overclocker",
         "tech_lathe_preserver",
-        "tech_lathe_life_support',
-        "tech_lathe_cogitator',
+        "tech_lathe_life_support",
+        "tech_lathe_cogitator",
         "tech_lathe_validator"
     ],
     "megastructures": [ # non-progressive

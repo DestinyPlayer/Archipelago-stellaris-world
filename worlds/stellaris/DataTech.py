@@ -19,6 +19,10 @@ leviathansTechs = [
 
 ]
 
+horizonSignalTech = [
+
+]
+
 utopiaTechs = [
 
 ]
