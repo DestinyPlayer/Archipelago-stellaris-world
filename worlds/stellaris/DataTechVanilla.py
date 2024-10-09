@@ -87,7 +87,7 @@ vanillaTechs = {
         "tech_ship_armor_4",
         "tech_ship_armor_5"
     ],
-    "armor_hardener": [
+    "armor_hardeners": [
         "tech_armor_hardeners_1",
         "tech_armor_hardeners_2"
     ],

@@ -1283,6 +1283,13 @@ tech_modular_engineering = {
 		starbase_modules_cost_mult = -0.25
 	}
 
+	potential = {
+		OR = {
+			has_technology = tech_progressive_starbase_upgrades_1
+			is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		factor = 0.5
 		modifier = {
@@ -1312,6 +1319,13 @@ tech_space_defense_station_improvement = {
 	prerequisites = { "tech_starbase_4" "tech_modular_engineering" }
 	is_rare = yes
 	weight = @tier3weight3
+
+	potential = {
+		OR = {
+			has_technology = tech_progressive_starbase_upgrades_2
+			is_ai = yes
+		}
+	}
 
 	modifier = {
 		starbase_upgrade_cost_mult = -0.15
@@ -1362,6 +1376,13 @@ tech_strike_craft_1 = {
 	prerequisites = { "tech_starbase_2" }
 	weight = @tier1weight3
 
+	potential = {
+		OR = {
+			has_technology = tech_progressive_strike_craft_1
+			is_ai = yes
+		}
+	}
+
 	## unlock strike craft 1
 
 	weight_modifier = {
@@ -1389,6 +1410,13 @@ tech_strike_craft_2 = {
 	prerequisites = { "tech_strike_craft_1" }
 	weight = @tier2weight3
 
+	potential = {
+		OR = {
+			has_technology = tech_progressive_strike_craft_2
+			is_ai = yes
+		}
+	}
+
 	## unlock strike craft 2
 
 	weight_modifier = {
@@ -1415,6 +1443,13 @@ tech_strike_craft_3 = {
 	category = { voidcraft }
 	prerequisites = { "tech_strike_craft_2" }
 	weight = @tier3weight3
+
+	potential = {
+		OR = {
+			has_technology = tech_progressive_strike_craft_3
+			is_ai = yes
+		}
+	}
 
 	## unlock strike craft 3
 
@@ -1447,6 +1482,10 @@ tech_strike_craft_skrand = {
 	## unlock unique strike craft component from Skrand storyline
 	potential = {
 		has_paragon_dlc = yes
+		OR = {
+			has_technology = tech_progressive_strike_craft_4
+			is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -1494,6 +1533,13 @@ tech_ship_armor_2 = {
 	prerequisites = { "tech_ship_armor_1" }
 	weight = @tier1weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_ship_armor_1
+    		is_ai = yes
+		}
+	}
+
 	gateway = infrastructure
 
 	weight_modifier = {
@@ -1519,6 +1565,13 @@ tech_ship_armor_3 = {
 	ai_update_type = all
 	prerequisites = { "tech_ship_armor_2" }
 	weight = @tier2weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_ship_armor_2
+    		is_ai = yes
+		}
+	}
 
 	gateway = infrastructure
 
@@ -1546,6 +1599,13 @@ tech_ship_armor_4 = {
 	prerequisites = { "tech_ship_armor_3" }
 	weight = @tier3weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_ship_armor_3
+    		is_ai = yes
+		}
+	}
+
 	gateway = infrastructure
 
 	weight_modifier = {
@@ -1571,6 +1631,13 @@ tech_ship_armor_5 = {
 	ai_update_type = all
 	prerequisites = { "tech_ship_armor_4" }
 	weight = @tier4weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_ship_armor_4
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		factor = 1.25
@@ -1634,6 +1701,13 @@ tech_armor_hardeners_1 = {
 	prerequisites = { "tech_advanced_metallurgy_1" "tech_rare_crystals" }
 	weight = @tier2weight3
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_armor_hardeners_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 
 	}
@@ -1651,6 +1725,13 @@ tech_armor_hardeners_2 = {
 	ai_update_type = all
 	prerequisites = { "tech_armor_hardeners_1" "tech_mine_living_metal" }
 	weight = @tier5weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_armor_hardeners_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 
@@ -1693,6 +1774,13 @@ tech_thrusters_2 = {
 	prerequisites = { "tech_thrusters_1" }
 	weight = @tier2weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_thruster_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		factor = 1.25
 
@@ -1725,6 +1813,13 @@ tech_thrusters_3 = {
 	prerequisites = { "tech_thrusters_2" }
 	weight = @tier3weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_thruster_2
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		factor = 1.25
 
@@ -1756,6 +1851,13 @@ tech_thrusters_4 = {
 	ai_update_type = all
 	prerequisites = { "tech_thrusters_3" }
 	weight = @tier4weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_thruster_3
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		factor = 1.25
@@ -1854,6 +1956,14 @@ tech_powered_exoskeletons = {
 	prerequisites = { "tech_basic_industry" }
 	weight = @tier1weight1
 
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_robotics_1
+    		is_ai = yes
+		}
+	}
+
 	gateway = robotics
 
 	modifier = {
@@ -1884,6 +1994,13 @@ tech_space_mining_1 = {
 	prerequisites = { "tech_space_construction" }
 	weight = @tier1weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_space_mining_1
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		station_gatherers_produces_mult = 0.10
 	}
@@ -1904,6 +2021,13 @@ tech_space_mining_2 = {
 	category = { industry }
 	prerequisites = { "tech_space_mining_1" }
 	weight = @tier1weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_space_mining_2
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		station_gatherers_produces_mult = 0.10
@@ -1926,6 +2050,13 @@ tech_space_mining_3 = {
 	prerequisites = { "tech_space_mining_2" }
 	weight = @tier2weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_space_mining_3
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		station_gatherers_produces_mult = 0.10
 	}
@@ -1946,6 +2077,13 @@ tech_space_mining_4 = {
 	category = { industry }
 	prerequisites = { "tech_space_mining_3" }
 	weight = @tier2weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_space_mining_4
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		station_gatherers_produces_mult = 0.10
@@ -1968,6 +2106,13 @@ tech_space_mining_5 = {
 	prerequisites = { "tech_space_mining_4" }
 	weight = @tier3weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_space_mining_5
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		station_gatherers_produces_mult = 0.10
 	}
@@ -1989,6 +2134,13 @@ tech_mining_1 = {
 	category = { industry }
 	prerequisites = { "tech_basic_industry" }
 	weight = @tier1weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_mining_1
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_miners_minerals_produces_mult = 0.20
@@ -2014,6 +2166,13 @@ tech_mining_2 = {
 	prerequisites = { "tech_mining_1" }
 	weight = @tier2weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_mining_2
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		planet_miners_minerals_produces_mult = 0.20
 		starbase_constructions_minerals_produces_mult = 0.10
@@ -2037,6 +2196,13 @@ tech_mining_3 = {
 	category = { industry }
 	prerequisites = { "tech_mining_2" }
 	weight = @tier3weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_mining_3
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_miners_minerals_produces_mult = 0.20
@@ -2079,6 +2245,13 @@ tech_mineral_purification_1 = {
 	prerequisites = { "tech_mining_1" }
 	weight = @tier1weight3
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_mining_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 
 		modifier = {
@@ -2102,6 +2275,13 @@ tech_mineral_purification_2 = {
 	category = { industry }
 	prerequisites = { "tech_mineral_purification_1" "tech_colonial_centralization" }
 	weight = @tier2weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_mining_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		factor = 2
@@ -2134,6 +2314,13 @@ tech_alloys_1 = {
 	category = { materials }
 	prerequisites = { "tech_basic_industry" }
 	weight = @tier1weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_alloy_production_1
+    		is_ai = yes
+		}
+	}
 
 	# Unlock better alloy buildings
 
@@ -2168,6 +2355,13 @@ tech_alloys_2 = {
 	prerequisites = { "tech_alloys_1" "tech_colonial_centralization" }
 	weight = @tier3weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_alloy_production_2
+    		is_ai = yes
+		}
+	}
+
 	# Unlock better alloy buildings
 
 	weight_modifier = {
@@ -2193,6 +2387,13 @@ tech_advanced_metallurgy_1 = {
 	prerequisites = { "tech_alloys_1" "tech_ship_armor_2" }
 	weight = @tier2weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_alloy_production_1
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		planet_metallurgists_produces_mult = 0.10
 	}
@@ -2214,6 +2415,13 @@ tech_advanced_metallurgy_2 = {
 	category = { materials }
 	prerequisites = { "tech_advanced_metallurgy_1" "tech_alloys_2" "tech_ship_armor_4" }
 	weight = @tier4weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_alloy_production_2
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_metallurgists_produces_mult = 0.10
@@ -2242,6 +2450,10 @@ tech_luxuries_1 = {
 
 	potential = {
 		country_uses_consumer_goods = yes
+		OR = {
+    		has_technology = tech_progressive_consumer_goods_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -2279,6 +2491,10 @@ tech_luxuries_2 = {
 
 	potential = {
 		country_uses_consumer_goods = yes
+		OR = {
+    		has_technology = tech_progressive_consumer_goods_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -2497,6 +2713,10 @@ tech_robotic_workers = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robotics_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -2566,6 +2786,10 @@ tech_droid_workers = {
 		NOR = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robotics_3
+    		is_ai = yes
 		}
 	}
 
@@ -2644,6 +2868,10 @@ tech_synthetic_workers = {
 		NOR = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robotics_4
+    		is_ai = yes
 		}
 	}
 
@@ -2734,6 +2962,10 @@ tech_synthetic_leaders = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robotics_5
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -2779,6 +3011,10 @@ tech_robot_assembly_complex = {
 
 	potential = {
 		NOT = { has_ethic = "ethic_gestalt_consciousness" }
+		OR = {
+    		has_technology = tech_progressive_robotics_5
+    		is_ai = yes
+		}
 	}
 
 
@@ -2894,6 +3130,13 @@ tech_afterburners_1 = {
 	prerequisites = { "tech_thrusters_1" }
 	weight = @tier1weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_afterburners_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		factor = 1.25
 
@@ -2929,6 +3172,13 @@ tech_afterburners_2 = {
 	prerequisites = { "tech_afterburners_1" "tech_thrusters_3" }
 	weight = @tier3weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_afterburners_2
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		factor = 1.25
 
@@ -2956,6 +3206,13 @@ tech_assembly_pattern = {
 	tier = 1
 	category = { industry }
 	weight = @tier1weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_build_speed_1
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_building_build_speed_mult = 0.25
@@ -2985,6 +3242,13 @@ tech_construction_templates = {
 	category = { industry }
 	prerequisites = { "tech_assembly_pattern" }
 	weight = @tier3weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_planetary_build_speed_2
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_building_build_speed_mult = 0.50
@@ -3031,6 +3295,13 @@ tech_housing_1 = {
 	category = { industry }
 	weight = @tier2weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_housing_1
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		description = district_housing_tech_effect
 	}
@@ -3056,6 +3327,13 @@ tech_housing_2 = {
 	category = { industry }
 	prerequisites = { "tech_housing_1" }
 	weight = @tier3weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_housing_2
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		description = district_housing_tech_effect
@@ -3089,6 +3367,10 @@ tech_leviathan_techgenesis = {
 
 	potential = {
 		has_machine_age_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_housing_3
+    		is_ai = yes
+		}
 	}
 
 	prereqfor_desc = {
