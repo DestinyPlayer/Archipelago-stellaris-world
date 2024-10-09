@@ -347,7 +347,7 @@ vanillaTechs = {
         "tech_morphogenetic_field_mastery",
         "tech_gene_seed_purification"
     ],
-    "transgenesis": [ #non-progressive requires correct dlc
+    "transgenesis": [ # non-progressive requires correct dlc
         "tech_lithoid_transgenesis",
         "tech_plantoid_transgenesis",
         "tech_leviathan_transgenesis"

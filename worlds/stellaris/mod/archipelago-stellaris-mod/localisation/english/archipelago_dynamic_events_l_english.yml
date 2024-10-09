@@ -1,22 +1,226 @@
 ﻿l_english:
 
-archipelago_dynamic.1010.name: "Item received!"
-archipelago_dynamic.1010.desc: "§MProgressive reactor technology§! was received from the Archipelago Server."
+archipelago_dynamic.10010.name: "Item received!"
+archipelago_dynamic.10010.desc: "§MProgressive reactor technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.1020.name: "Item received!"
-archipelago_dynamic.1020.desc: "§MProgressive hyperdrive technology§! was received from the Archipelago Server."
+archipelago_dynamic.10020.name: "Item received!"
+archipelago_dynamic.10020.desc: "§MProgressive hyperdrive technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.1030.name: "Item received!"
-archipelago_dynamic.1030.desc: "§MProgressive thruster technology§! was received from the Archipelago Server."
+archipelago_dynamic.10030.name: "Item received!"
+archipelago_dynamic.10030.desc: "§MProgressive thruster technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.1040.name: "Item received!"
-archipelago_dynamic.1040.desc: "§MProgressive ship technology§! was received from the Archipelago Server."
+archipelago_dynamic.10040.name: "Item received!"
+archipelago_dynamic.10040.desc: "§MProgressive ship technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.1050.name: "Item received!"
-archipelago_dynamic.1050.desc: "§MProgressive starbase technology§! was received from the Archipelago Server."
+archipelago_dynamic.10050.name: "Item received!"
+archipelago_dynamic.10050.desc: "§MProgressive starbase technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.1060.name: "Item received!"
-archipelago_dynamic.1060.desc: "§MProgressive wormhole/gateway technology§! was received from the Archipelago Server."
+archipelago_dynamic.10060.name: "Item received!"
+archipelago_dynamic.10060.desc: "§MProgressive wormhole technology§! was received from the Archipelago Server."
 
-archipelago_dynamic.1070.name: "Item received!"
-archipelago_dynamic.1070.desc: "§MProgressive repeatable technology§! was received from the Archipelago Server."
+archipelago_dynamic.10070.name: "Item received!"
+archipelago_dynamic.10070.desc: "§MProgressive corvette upgrades technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10080.name: "Item received!"
+archipelago_dynamic.10080.desc: "§MProgressive destroyer upgrades technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10090.name: "Item received!"
+archipelago_dynamic.10090.desc: "§MProgressive cruiser upgrades technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10100.name: "Item received!"
+archipelago_dynamic.10100.desc: "§MProgressive battleship upgrades technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10110.name: "Item received!"
+archipelago_dynamic.10110.desc: "§MProgressive titan upgrades technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10120.name: "Item received!"
+archipelago_dynamic.10120.desc: "§MProgressive starbase upgrades technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10130.name: "Item received!"
+archipelago_dynamic.10130.desc: "§MProgressive strike craft technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10140.name: "Item received!"
+archipelago_dynamic.10140.desc: "§MProgressive orbital habitats technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10150.name: "Item received!"
+archipelago_dynamic.10150.desc: "§MProgressive ship armor technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10160.name: "Item received!"
+archipelago_dynamic.10160.desc: "§MProgressive armor hardeners technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10170.name: "Item received!"
+archipelago_dynamic.10170.desc: "§MProgressive robotics technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10180.name: "Item received!"
+archipelago_dynamic.10180.desc: "§MProgressive space mining technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10190.name: "Item received!"
+archipelago_dynamic.10190.desc: "§MProgressive planetary mining technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10200.name: "Item received!"
+archipelago_dynamic.10200.desc: "§MProgressive alloy production technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10210.name: "Item received!"
+archipelago_dynamic.10210.desc: "§MProgressive consumer goods technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10220.name: "Item received!"
+archipelago_dynamic.10220.desc: "§MProgressive afterburners technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10230.name: "Item received!"
+archipelago_dynamic.10230.desc: "§MProgressive planetary build speed technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10240.name: "Item received!"
+archipelago_dynamic.10240.desc: "§MProgressive housing technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10250.name: "Item received!"
+archipelago_dynamic.10250.desc: "§MProgressive mass drivers technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10260.name: "Item received!"
+archipelago_dynamic.10260.desc: "§MProgressive kinetic artillery technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10270.name: "Item received!"
+archipelago_dynamic.10270.desc: "§MProgressive mass accelerators technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10280.name: "Item received!"
+archipelago_dynamic.10280.desc: "§MProgressive autocannon technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10290.name: "Item received!"
+archipelago_dynamic.10290.desc: "§MProgressive flak battery technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10300.name: "Item received!"
+archipelago_dynamic.10300.desc: "§MProgressive missiles technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10310.name: "Item received!"
+archipelago_dynamic.10310.desc: "§MProgressive swarm missiles technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10320.name: "Item received!"
+archipelago_dynamic.10320.desc: "§MProgressive torpedoes technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10330.name: "Item received!"
+archipelago_dynamic.10330.desc: "§MProgressive shields technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10340.name: "Item received!"
+archipelago_dynamic.10340.desc: "§MProgressive science lab technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10350.name: "Item received!"
+archipelago_dynamic.10350.desc: "§MProgressive station science technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10360.name: "Item received!"
+archipelago_dynamic.10360.desc: "§MProgressive colony ship technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10370.name: "Item received!"
+archipelago_dynamic.10370.desc: "§MProgressive research ai technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10380.name: "Item received!"
+archipelago_dynamic.10380.desc: "§MProgressive encryption technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10390.name: "Item received!"
+archipelago_dynamic.10390.desc: "§MProgressive decryption technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10400.name: "Item received!"
+archipelago_dynamic.10400.desc: "§MProgressive reactor booster technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10410.name: "Item received!"
+archipelago_dynamic.10410.desc: "§MProgressive shield hardener technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10420.name: "Item received!"
+archipelago_dynamic.10420.desc: "§MProgressive sensors technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10430.name: "Item received!"
+archipelago_dynamic.10430.desc: "§MProgressive power plants technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10440.name: "Item received!"
+archipelago_dynamic.10440.desc: "§MProgressive lasers technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10450.name: "Item received!"
+archipelago_dynamic.10450.desc: "§MProgressive lances technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10460.name: "Item received!"
+archipelago_dynamic.10460.desc: "§MProgressive plasma technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10470.name: "Item received!"
+archipelago_dynamic.10470.desc: "§MProgressive arc emitter technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10480.name: "Item received!"
+archipelago_dynamic.10480.desc: "§MProgressive disruptors technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10490.name: "Item received!"
+archipelago_dynamic.10490.desc: "§MProgressive energy torpedoes technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10500.name: "Item received!"
+archipelago_dynamic.10500.desc: "§MProgressive point defense technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10510.name: "Item received!"
+archipelago_dynamic.10510.desc: "§MProgressive trade technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10520.name: "Item received!"
+archipelago_dynamic.10520.desc: "§MProgressive farming technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10530.name: "Item received!"
+archipelago_dynamic.10530.desc: "§MProgressive habitability technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10540.name: "Item received!"
+archipelago_dynamic.10540.desc: "§MProgressive hospital technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10550.name: "Item received!"
+archipelago_dynamic.10550.desc: "§MProgressive terraforming technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10560.name: "Item received!"
+archipelago_dynamic.10560.desc: "§MProgressive leader genetics technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10570.name: "Item received!"
+archipelago_dynamic.10570.desc: "§MProgressive gene tailoring technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10580.name: "Item received!"
+archipelago_dynamic.10580.desc: "§MProgressive army genetics technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10590.name: "Item received!"
+archipelago_dynamic.10590.desc: "§MProgressive fleet size technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10600.name: "Item received!"
+archipelago_dynamic.10600.desc: "§MProgressive naval capacity technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10610.name: "Item received!"
+archipelago_dynamic.10610.desc: "§MProgressive army defense technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10620.name: "Item received!"
+archipelago_dynamic.10620.desc: "§MProgressive army offense technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10630.name: "Item received!"
+archipelago_dynamic.10630.desc: "§MProgressive psionics technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10640.name: "Item received!"
+archipelago_dynamic.10640.desc: "§MProgressive starbase capacity technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10650.name: "Item received!"
+archipelago_dynamic.10650.desc: "§MProgressive campaigns technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10660.name: "Item received!"
+archipelago_dynamic.10660.desc: "§MProgressive planet government technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10670.name: "Item received!"
+archipelago_dynamic.10670.desc: "§MProgressive planet infrastructure technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10680.name: "Item received!"
+archipelago_dynamic.10680.desc: "§MProgressive bureaucracy technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10690.name: "Item received!"
+archipelago_dynamic.10690.desc: "§MProgressive thralls technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10700.name: "Item received!"
+archipelago_dynamic.10700.desc: "§MProgressive psionic shield technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10710.name: "Item received!"
+archipelago_dynamic.10710.desc: "§MProgressive embassy technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10720.name: "Item received!"
+archipelago_dynamic.10720.desc: "§MProgressive capital production technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10730.name: "Item received!"
+archipelago_dynamic.10730.desc: "§MProgressive bioreactor technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10740.name: "Item received!"
+archipelago_dynamic.10740.desc: "§MProgressive hull regen technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.10750.name: "Item received!"
+archipelago_dynamic.10750.desc: "§MProgressive megastructures technology§! was received from the Archipelago Server."

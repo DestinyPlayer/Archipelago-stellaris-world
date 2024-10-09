@@ -47,7 +47,7 @@ def createEvents(world: "StellarisWorld"):
         else: #Shouldn't come up except for testing purposes
             action = ""
             value = ""
-        eventText = eventText+eventTemplate.format(num = 1000+(key*10+10),value = value+1,resource = "urp_000",action = action)
+        eventText = eventText+eventTemplate.format(num = 10000+(key*10+10),value = value+1,resource = "urp_000",action = action)
     writeToFile("events/archipelago_dynamic_events.txt",eventText)
     print("    Finished generation of event definition files")
 
@@ -61,6 +61,6 @@ def createEventLocalisations():
             else: #Shouldn't come up except for testing purposes
                 value = ""
             desc = item["description"]
-            localisationText = localisationText + localisationEventTemplate.format(num = 1000+(key*10+10), value = value+1, desc = desc)
+            localisationText = localisationText + localisationEventTemplate.format(num = 10000+(key*10+10), value = value+1, desc = desc)
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml", localisationText, "utf-8-sig")
     print("    Finished generation of event localisation files")

@@ -137,12 +137,16 @@ def runStellarisClient(*args):
         items_handling = 0b111  # receive all items for /received
         want_slot_data = False  # Can't use game specific slot_data
 
+        def __init__(self, server_address, password):
+            super(StellarisContext, self).__init__(server_address, password)
+            self.username = "Testing_Player_2"
+
         async def get_username(self):
             if not self.auth:
                 self.auth = self.username
                 if not self.auth:
-                    logger.info('Picked default player name - DestinyPlayer_1')
-                    self.auth = "Testing_Player1"
+                    logger.info('Enter slot name:')
+                    self.auth = await self.console_input()
 
         async def server_auth(self, password_requested: bool = False):
             if password_requested and not self.password:
