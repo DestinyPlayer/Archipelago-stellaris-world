@@ -464,6 +464,10 @@ vanillaTechs = {
     "hull_regen": [
         "tech_regenerative_hull_tissue", #progressive hull regen 1 if DLC included
     ],
+    "megastructures": [
+        "tech_mega_engineering",
+        "tech_mega_shipyard" # requires federations dlc
+    ],
     "miscellaneous any": [  # non-progressive
         "tech_integrated_cybernetics",
         "tech_mine_betharian",
@@ -479,7 +483,6 @@ vanillaTechs = {
         "tech_shield_rechargers_1",
         "tech_planetary_shield_generator",
         "tech_ftl_inhibitor",
-        "tech_mega_engineering",
         "tech_alien_life_studies",
         "tech_tomb_world_adaption",
         "tech_interstellar_fleet_traditions",
@@ -498,7 +501,6 @@ vanillaTechs = {
         "tech_penal_colonies",
         "tech_resort_colonies",
         "tech_housing_agrarian_idyll",
-        "tech_mega_shipyard", # requires federations dlc
         "tech_xeno_linguistics" # requires galactic paragons dlc
     ],
     "miscellaneous gestalt": [
