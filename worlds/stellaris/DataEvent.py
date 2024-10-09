@@ -14,7 +14,7 @@ events = [
     {"type": "tech", "name": "strike_craft", "description": "Progressive strike craft technology"},
     {"type": "tech", "name": "orbital_habitats", "description": "Progressive orbital habitats technology"},
     {"type": "tech", "name": "ship_armor", "description": "Progressive ship armor technology"},
-    {"type": "tech", "name": "armor_hardeners", "description": "Progressive armor hardeners technology"},
+    {"type": "tech", "name": "armor_hardener", "description": "Progressive armor hardeners technology"},
     {"type": "tech", "name": "robotics", "description": "Progressive robotics technology"},
     {"type": "tech", "name": "space_mining", "description": "Progressive space mining technology"},
     {"type": "tech", "name": "planetary_mining", "description": "Progressive planetary mining technology"},

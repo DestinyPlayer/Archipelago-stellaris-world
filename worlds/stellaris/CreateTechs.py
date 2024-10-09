@@ -37,14 +37,16 @@ def createTechLocalisations():
         localisationText = localisationStart.format(lang = lang)
         for tech in DataTech.techs:
             type = tech["name"]
-            name = type[0].upper() + type[1:]
+            name = (type[0].upper() + type[1:]).replace("_"," ")
             for i in range(tech["levels"]):
                 if i+1 == tech["levels"]:
                     final = "final"
                 else:
                     final = "next"
-                localisationText = localisationText + localisationTechTemplate.format(type = type, num = i+1, name = name, final = final)
-        writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,"utf-8-sig")
+                localisationText = localisationText + localisationTechTemplate.format(type = type, num = i+1,
+                                                                                      name = name, final = final)
+        writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,
+                    "utf-8-sig")
     print("    Finished generation of technology localisation files")
 
 def createTechIcons():

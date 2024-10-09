@@ -3,4 +3,4 @@ tags={
 	"Utilities"
 }
 name="Archipelago Stellaris Mod"
-supported_version="v3.13"
+supported_version="v3.13.2"
