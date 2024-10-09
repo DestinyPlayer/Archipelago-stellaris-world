@@ -22,8 +22,8 @@ vanillaTechs = {
         "tech_destroyers",
         "tech_cruisers",
         "tech_battleships",
-        "tech_titans",
-        "tech_juggernaut"
+        "tech_titans", # requires apocalypse dlc
+        "tech_juggernaut" # requires federations dlc
     ],
     "starbase": [
         "tech_starbase_3",
@@ -74,7 +74,7 @@ vanillaTechs = {
         "tech_strike_craft_1",
         "tech_strike_craft_2",
         "tech_strike_craft_3",
-        "tech_strike_craft_skrand"
+        "tech_strike_craft_skrand" # requires galactic paragons dlc
     ],
     "orbital_habitats": [
         "tech_habitat_1",
@@ -94,9 +94,9 @@ vanillaTechs = {
     "robotics": [
         "tech_powered_exoskeletons",
         "tech_robotic_workers tech_robomodding",
-        "tech_droid_workers",
-        "tech_synthetic_workers tech_robot_assembly_complex",
-        "tech_synthetic_leaders"
+        "tech_droid_workers tech_robomodding_points_1",
+        "tech_synthetic_workers tech_robomodding_points_2",
+        "tech_synthetic_leaders tech_robot_assembly_complex"
     ],
     "space_mining": [
         "tech_space_mining_1",
@@ -160,12 +160,12 @@ vanillaTechs = {
         "tech_autocannons_1",
         "tech_autocannons_2",
         "tech_autocannons_3",
-        "tech_nanite_autocannon" #requires dlc
+        "tech_nanite_autocannon" #requires distant stars dlc
     ],
     "flak_battery": [
         "tech_flak_batteries_2",
         "tech_flak_batteries_3",
-        "tech_nanite_flak_batteries" #requires DLC
+        "tech_nanite_flak_batteries" #requires distant stars dlc
     ],
     "missiles": [
         "tech_missiles_2",
@@ -347,7 +347,7 @@ vanillaTechs = {
         "tech_morphogenetic_field_mastery",
         "tech_gene_seed_purification"
     ],
-    "transgenesis": [ #non-progressive requires dlc
+    "transgenesis": [ #non-progressive requires correct dlc
         "tech_lithoid_transgenesis",
         "tech_plantoid_transgenesis",
         "tech_leviathan_transgenesis"
@@ -461,6 +461,13 @@ vanillaTechs = {
         "tech_repeatable_improved_starbase_capacity",
         "tech_repeatable_weapon_type_strike_craft_fire_damage tech_repeatable_weapon_type_strike_craft_fire_rate"
     ],
+    "hull_regen": [
+        "tech_regenerative_hull_tissue", #progressive hull regen 1 if DLC included
+    ],
+    "megastructures": [
+        "tech_mega_engineering",
+        "tech_mega_shipyard" # requires federations dlc
+    ],
     "miscellaneous any": [  # non-progressive
         "tech_integrated_cybernetics",
         "tech_mine_betharian",
@@ -476,10 +483,8 @@ vanillaTechs = {
         "tech_shield_rechargers_1",
         "tech_planetary_shield_generator",
         "tech_ftl_inhibitor",
-        "tech_mega_engineering",
         "tech_alien_life_studies",
         "tech_tomb_world_adaption",
-        "tech_regenerative_hull_tissue", #progressive hull regen 1 if DLC included
         "tech_interstellar_fleet_traditions",
         "tech_refit_standards",
         "tech_command_matrix",
@@ -496,24 +501,24 @@ vanillaTechs = {
         "tech_penal_colonies",
         "tech_resort_colonies",
         "tech_housing_agrarian_idyll",
-        "tech_xeno_linguistics" # requires Galactic Paragons
+        "tech_xeno_linguistics" # requires galactic paragons dlc
     ],
     "miscellaneous gestalt": [
-        "tech_autonomous_agents",
-        "tech_embodied_dynamism",
-        "tech_unity_of_purpose",
+        "tech_autonomous_agents", # replaces living state
+        "tech_embodied_dynamism", # replaces collective self
+        "tech_unity_of_purpose", # replaces artificial moral codes
     ],
     "miscellaneous hive": [
-        "tech_collective_production_methods"
+        "tech_collective_production_methods" # replaces synthetic thought patterns
     ],
     "miscellaneous machine-intelligence": [
-        "tech_resource_processing_algorithms"
+        "tech_resource_processing_algorithms" # replaces synthetic thought patterns
     ],
     "event": [ # non-progressive
         "tech_crystal_armor_1",
         "tech_crystal_armor_2",
-        "tech_curator_lab",
-        "tech_archeology_lab",
+        "tech_curator_lab", # requires leviathans or distant stars
+        "tech_archeology_lab", # requires leviathans or distant stars
         "tech_prescient_data_modeling", 
         "tech_extradimensional_weapon_1", # crisis faction event weapon
         "tech_mining_drone_weapon_1",
@@ -526,4 +531,305 @@ vanillaTechs = {
     ]
         
 
+}
+
+distantStarsTech = {
+    "miscellaneous": [
+        "tech_experimental_subspace_navigation", # may be available even without dlc, unsure
+        "tech_gargantuan_evolution",
+        "tech_repeatable_lcluster_clue" # unsure how to handle, putting it here nor now. this is the L gate insight repeatable
+    ],
+    "hull_regen": [
+        "tech_nanite_repair_system" # progressive hull regen 2 when installed
+    ],
+    "leader_genetics": [
+        "tech_neuroregeneration" # progressive leader genetics 4 when installed
+    ],
+    "wormhole": [
+        "tech_lgate_activation" # progressive wormhole 3 when installed
+    ]
+}
+ancientRelicsTech = {
+    "archaeostudies": [
+        "tech_arcane_deciphering",
+        "tech_archaeostudies"
+    ],
+    "precursors": [ # non-progressive 
+        "tech_secrets_cybrex",
+        "tech_secrets_league",
+        "tech_secrets_irassian",
+        "tech_secrets_vultaum",
+        "tech_secrets_yuht",
+        "tech_secrets_baol",
+        "tech_secrets_zroni"
+    ],
+    "archaeotech": [ # non-progressive
+        "tech_archeology_lab_ancrel", # replaces distant stars or leviathans archaeology lab
+        "tech_archaeoshield",
+        "tech_archaeoarmor",
+        "tech_archaeo_detection_scrambler",
+        "tech_archaeo_titan_beam",
+        "tech_archaeo_pk_devolving_beam",
+        "tech_archaeo_mass_drivers",
+        "tech_archaeo_lasers",
+        "tech_archaeo_point_defence",
+        "tech_archaeo_missiles",
+        "tech_archaeo_mass_accelerator",
+        "tech_archaeo_strike_crafts",
+        "tech_archaeo_rampart",
+        "tech_archaeo_overcharger",
+        "tech_archaeo_refinery"
+    ]
+}
+
+apocalypseTech = {
+    "ship": [
+        "tech_colossus" # progressive ship 6
+    ],
+    "colossus_weapon any": [ # non-progressive
+        "tech_pk_cracker",
+        "tech_pk_shielder",
+        "tech_pk_neutron",
+        "tech_pk_godray"
+    ],
+    "colossus_weapon assimilator": [
+        "tech_pk_nanobots"
+    ],
+    "star_cracker": [ # requires nemesis dlc, is granted by galactic nemesis 5
+        "tech_btc_1"
+    ]
+}
+
+astralPlanesTech = {
+    "miscellaneous": [
+        "tech_rift_sphere",
+        "tech_astral_harvesting"
+    ]
+}
+
+cosmicStormTech = {
+    "storm_manipulation": [
+        "tech_storm_manipulation",
+        "tech_advanced_storm_manipulation"
+    ],
+    "storm_protection": [
+        "tech_industrial_storm_protection",
+        "tech_advanced_industrial_storm_protection"
+    ],
+# unable to locate these techs on the wiki, do not know actual names
+    "storm_prediction": [
+        "tech_storm_prediction_1",
+        "tech_storm_prediction_2"
+    ],
+    "ship_storm_protection": [
+        "tech_ship_hull_storm_breaker_1",
+        "tech_ship_hull_storm_breaker_2"
+    ],
+    "storm_weapon": [
+        "tech_ship_storm_weapons_1",
+        "tech_ship_storm_weapons_2"
+    ]
+}
+
+firstContactTech = {
+    "cloaking": [
+        "tech_cloaking_1",
+        "tech_cloaking_2",
+        "tech_cloaking_3",
+        "tech_cloaking_dark_matter",
+        "tech_cloaking_psi"
+    ],
+    "cloak_detection": [
+        "tech_detection_array",
+        "tech_dark_matter_detection tech_assisted_detection"
+    ],
+    "insights": [ # non-progressive
+        "tech_unusual_senses",
+        "tech_new_numbers",
+        "tech_trinary_computing",
+        "tech_predatory_tactics",
+        "tech_satisfying_insults",
+        "tech_compact_living",
+        "tech_alien_topography",
+        "tech_xeno_aesthetics",
+        "tech_lost_building_methods",
+        "tech_supreme_alloy",
+        "tech_ordered_retreat",
+        "tech_temple_of_transportation"
+    ]
+}
+
+horisigTech = {
+    "horizon": [
+        "tech_akx_worm_1",
+        "tech_akx_worm_2",
+        "tech_akx_worm_3"
+    ]
+}
+
+leviathansTech = {
+    "ship_armor": [
+        "tech_dragon_armor" # progressive ship armor 6 when installed
+    ],
+    "miscellaneous": [
+        "tech_enigmatic_encoder tech_enigmatic_decoder"
+    ]
+}
+
+machineAgeTech = {
+    "robot_identity": [
+        "tech_identity_copy",
+        "tech_identity_fusion",
+        "tech_identity_initialization"
+    ],
+    "research_ai": [
+        "tech_synth_queen_knowledge" # progressive research ai 4 when installed, i would like 5 but do not see good intermediary
+    ],
+    "cosmogenesis": [ 
+        "tech_cosmogenesis_crisis_1",
+        "tech_cosmogenesis_crisis_2",
+        "tech_cosmogenesis_crisis_3",
+        "tech_cosmogenesis_crisis_4",
+        "tech_cosmogenesis_crisis_5"
+    ],
+    "cosmogenesis_ship": [
+        "tech_cosmogenesis_escort",
+        "tech_cosmogenesis_battlecruiser",
+        "tech_cosmogenesis_FE_titan"
+    ],
+    "fallen_empire_affluence": [
+        "tech_fe_affluence_1",
+        "tech_fe_affluence_2"
+    ],
+    "fallen_empire_nourishment": [
+        "tech_fe_nourishment_1",
+        "tech_fe_nourishment_2"
+    ],
+    "fallen_empire_fabricator": [ 
+        "tech_fe_fabricator_1",
+        "tech_fe_fabricator_2"
+    ],
+    "fallen_empire_singularity": [
+        "tech_fe_singularity_1",
+        "tech_fe_singularity_2"
+    ],
+    "fallen_empire_forge": [
+        "tech_fe_forge_1",
+        "tech_fe_forge_2"
+    ],
+    "fallen_empire_dome": [
+        "tech_fe_dome_1",
+        "tech_fe_dome_2"
+    ],
+    "fallen_empire_fortress": [
+        "tech_fe_fortress_1",
+        "tech_fe_fortress_2"
+    ],
+    "fallen_empire_administration": [
+        "tech_fe_administration_1",
+        "tech_fe_administration_2"
+    ],
+    "fallen_empire_assembly": [
+        "tech_fe_assembly_1",
+        "tech_fe_assembly_2"
+    ],
+    "fallen_empire_clinic": [
+        "tech_fe_clinic_1",
+        "tech_fe_clinic_2"
+    ],
+    "fallen_empire_security": [
+        "tech_fe_security_1",
+        "tech_fe_security_2"
+    ],
+    "fallen_empire_market": [
+        "tech_fe_market_1",
+        "tech_fe_market_2"
+    ],
+    "fallen_empire_silo": [
+        "tech_fe_silo_1",
+        "tech_fe_silo_2"
+    ],
+    "fallen_empire_entertainment": [
+        "tech_fe_entertainment_1",
+        "tech_fe_entertainment_2"
+    ],
+    "fallen_empire_lab": [
+        "tech_fe_lab_1",
+        "tech_fe_lab_2"
+    ],
+    "fallen_empire_mine": [
+        "tech_fe_mine_1",
+        "tech_fe_mine_2"
+    ],
+    "synaptic_lathe": [ # non-progressive
+        "tech_cosmogenesis_world", # this is the lathe itself, the other techs do nothing without it
+        "tech_lathe_resonator",
+        "tech_lathe_overclocker",
+        "tech_lathe_preserver",
+        "tech_lathe_life_support',
+        "tech_lathe_cogitator',
+        "tech_lathe_validator"
+    ],
+    "megastructures": [ # non-progressive
+        "tech_orbital_arc_furnace",
+        "tech_dyson_swarm"
+    ],
+    "hull_regen": [
+        "tech_nanite_repair_system_synth_queen" # progressive hull regen 3 when dlc installed
+    ],
+    "cosmo_repeatable": [
+        "tech_cosmogenesis_thesis" # this just triggers an event that ties in with cosmogenesis. Could be used as a kind of trap due to potential bad outcomes
+    ]
+}
+
+megacorpTech = {
+    "miscellaneous": [
+        "tech_orbital_trash_dispersal" # granted by RIE caravaneer normally
+    ],
+    "corporate_holdings": [ # non-progressive
+        "tech_xeno_tourism_agency",
+        "tech_executive_retreat"
+    ],
+    "megastructures": [ # non-progressive
+        "tech_strategic_coordination",
+        "tech_interstellar_assembly",
+        "tech_mega_art",
+        "tech_matter_decompressor"
+    ]
+}
+
+overlordsTech = {
+    "megastructures": [
+        "tech_quantum_catapult"
+    ],
+    "miscellaneous": [ 
+        "tech_orbital_ring_tier_1", # might be good placed with progressive starbase 2
+        "tech_hyper_relays" # might be good placed with progressive hyperdrive 2 or 3
+    ]
+}
+
+syntheticDawnTech = {
+    "robotics machine": [
+        "tech_robomodding_m", # replaces normal robomodding, i think
+        "tech_binary_motivators", # replaces tech_robomodding_points_1
+        "tech_nanite_assemblers", # replaces tech_robomodding_points_2
+        "tech_mega_assembly" # replaces tech_robot_assembly_complex
+    ],
+    "robot_army": [ # machine intelligence only
+        "tech_adaptive_combat_algorithms",
+        "tech_biomechanics"
+    ],
+    "robot_assembly_speed": [
+        "tech_micro_replicators",
+        "tech_self_assembling_components"
+    ]
+}
+
+utopiaTech = {
+    "megastructures": [ # non-progressive
+        "tech_science_nexus",
+        "tech_sentry_array",
+        "tech_dyson_sphere",
+        "tech_ring_world"
+    ]
 }
