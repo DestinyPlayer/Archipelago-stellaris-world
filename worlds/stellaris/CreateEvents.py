@@ -40,14 +40,23 @@ def createEvents(world: "StellarisWorld"):
     """This function assembles the Events"""
     eventText = eventStart
     for key,item in enumerate(DataEvent.events):
-        if item["type"] == "tech": #Events that give you technology
+        if item["type"] == "techReceive": #Events that give you technology
             tech = findTech(item["name"])
-            value = key
+            value = key+1
+            postValue = -99999999
             action = constructTechAction(tech, world)
-        else: #Shouldn't come up except for testing purposes
+            num = 10000+(key*10+10)
+            resource = "urp_000"
+        elif item["type"] == "techSend":
+            value = 0
+            postValue = key+1
             action = ""
-            value = ""
-        eventText = eventText+eventTemplate.format(num = 10000+(key*10+10),value = value+1,resource = "urp_000",action = action)
+            num = 20000+(key*10+10)
+            resource = "urp_001"
+        else: #Shouldn't come up except for testing purposes
+            continue
+        eventText = eventText+eventTemplate.format(num = num,value = value,postValue = postValue,
+                                                   resource = resource,action = action)
     writeToFile("events/archipelago_dynamic_events.txt",eventText)
     print("    Finished generation of event definition files")
 
@@ -56,11 +65,21 @@ def createEventLocalisations():
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
         for key,item in enumerate(DataEvent.events):
-            if item["type"] == "tech":
+            if item["type"] == "techReceive":
                 value = key
+                num = 10000+(key*10+10)
+                receiveSend = "received from"
+                receivedSent = "received"
+            elif item["type"] == "techSend":
+                value = key
+                num = 20000+(key*10+10)
+                receiveSend = "sent to"
+                receivedSent = "sent"
             else: #Shouldn't come up except for testing purposes
-                value = ""
+                continue
             desc = item["description"]
-            localisationText = localisationText + localisationEventTemplate.format(num = 10000+(key*10+10), value = value+1, desc = desc)
+            localisationText = localisationText + localisationEventTemplate.format(num = num, value = value+1, desc = desc,
+                                                                                   receiveSend = receiveSend,
+                                                                                   receivedSent = receivedSent)
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml", localisationText, "utf-8-sig")
     print("    Finished generation of event localisation files")

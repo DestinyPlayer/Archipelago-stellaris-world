@@ -43,6 +43,12 @@ def decodeItemCode(item):
     logger.info("Received item "+str(item)+", converted to internal code "+str(code))
     return int(code)
 
+def encodeItemCode(item):
+    """This function takes the Item Codes provided by the game and converts them into a form readable by the server"""
+    code = item + 7500000000
+    logger.info("Received item "+str(item)+", converted to external code"+str(code))
+    return int(code)
+
 def grabResources():
     """This function reads the Communication Resource Values"""
     global commResIn
@@ -104,10 +110,16 @@ def receiveItem(item, listLen):
     Waits until the resource is 0 before doing anything."""
     if commResIn[1] == 0:
         curItem = decodeItemCode(item)
-        logger.info("   Sending item "+str(item)+" to Stellaris")
+        logger.info("   Sending item "+str(curItem)+" to Stellaris")
         pm.write_longlong(commResIn[0], curItem * resConst)
-        logger.info("   "+str(item)+" was sent to Stellaris")
+        logger.info("   "+str(curItem)+" was sent to Stellaris")
         itemsToReceive.pop(listLen - 1)
+    if commResOut[1] != 0:
+        curItem = encodeItemCode(item)
+        logger.info("   Receiving item "+str(curItem)+" from Stellaris")
+        pm.write_longlong(commResIn[0], 0)
+        logger.info("   "+str(curItem)+" was sent to the server")
+        logger.info("PUT SENDING CODE HERE")
 
 
 async def loopTransmit(getItems):
@@ -124,11 +136,6 @@ def runStellarisClient(*args):
         def _cmd_reconnect_stellaris(self):
             """Try to reconnect to Stellaris if the connection failed"""
             stellaris_game_task = asyncio.create_task(connectToStellaris(), name="StellarisConnection")
-
-        def _cmd_generate_test_mod(self):
-            """Generates a test mod in the world's folder"""
-            logger.info("Generating a test mod")
-            generateMod()
 
     class StellarisContext(CommonContext):
         command_processor = StellarisCommandProcessor

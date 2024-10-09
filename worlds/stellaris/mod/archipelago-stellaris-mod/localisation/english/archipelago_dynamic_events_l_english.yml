@@ -46,7 +46,7 @@ archipelago_dynamic.10150.name: "Item received!"
 archipelago_dynamic.10150.desc: "§MProgressive ship armor technology§! was received from the Archipelago Server."
 
 archipelago_dynamic.10160.name: "Item received!"
-archipelago_dynamic.10160.desc: "§MProgressive armor hardeners technology§! was received from the Archipelago Server."
+archipelago_dynamic.10160.desc: "§MProgressive armor hardener technology§! was received from the Archipelago Server."
 
 archipelago_dynamic.10170.name: "Item received!"
 archipelago_dynamic.10170.desc: "§MProgressive robotics technology§! was received from the Archipelago Server."
@@ -224,3 +224,684 @@ archipelago_dynamic.10740.desc: "§MProgressive hull regen technology§! was rec
 
 archipelago_dynamic.10750.name: "Item received!"
 archipelago_dynamic.10750.desc: "§MProgressive megastructures technology§! was received from the Archipelago Server."
+
+archipelago_dynamic.20760.name: "Item sent!"
+archipelago_dynamic.20760.desc: "§MProgressive naval capacity technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20770.name: "Item sent!"
+archipelago_dynamic.20770.desc: "§MProgressive planetary build speed technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20780.name: "Item sent!"
+archipelago_dynamic.20780.desc: "§MProgressive plasma technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20790.name: "Item sent!"
+archipelago_dynamic.20790.desc: "§MProgressive battleship upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20800.name: "Item sent!"
+archipelago_dynamic.20800.desc: "§MProgressive reactor technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20810.name: "Item sent!"
+archipelago_dynamic.20810.desc: "§MProgressive ship armor technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20820.name: "Item sent!"
+archipelago_dynamic.20820.desc: "§MProgressive alloy production technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20830.name: "Item sent!"
+archipelago_dynamic.20830.desc: "§MProgressive autocannon technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20840.name: "Item sent!"
+archipelago_dynamic.20840.desc: "§MProgressive cruiser upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20850.name: "Item sent!"
+archipelago_dynamic.20850.desc: "§MProgressive army genetics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20860.name: "Item sent!"
+archipelago_dynamic.20860.desc: "§MProgressive trade technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20870.name: "Item sent!"
+archipelago_dynamic.20870.desc: "§MProgressive strike craft technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20880.name: "Item sent!"
+archipelago_dynamic.20880.desc: "§MProgressive station science technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20890.name: "Item sent!"
+archipelago_dynamic.20890.desc: "§MProgressive psionic shield technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20900.name: "Item sent!"
+archipelago_dynamic.20900.desc: "§MProgressive ship armor technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20910.name: "Item sent!"
+archipelago_dynamic.20910.desc: "§MProgressive housing technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20920.name: "Item sent!"
+archipelago_dynamic.20920.desc: "§MProgressive planetary mining technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20930.name: "Item sent!"
+archipelago_dynamic.20930.desc: "§MProgressive swarm missiles technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20940.name: "Item sent!"
+archipelago_dynamic.20940.desc: "§MProgressive army defense technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20950.name: "Item sent!"
+archipelago_dynamic.20950.desc: "§MProgressive sensors technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20960.name: "Item sent!"
+archipelago_dynamic.20960.desc: "§MProgressive research ai technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20970.name: "Item sent!"
+archipelago_dynamic.20970.desc: "§MProgressive orbital habitats technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20980.name: "Item sent!"
+archipelago_dynamic.20980.desc: "§MProgressive titan upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.20990.name: "Item sent!"
+archipelago_dynamic.20990.desc: "§MProgressive thruster technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21000.name: "Item sent!"
+archipelago_dynamic.21000.desc: "§MProgressive farming technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21010.name: "Item sent!"
+archipelago_dynamic.21010.desc: "§MProgressive cruiser upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21020.name: "Item sent!"
+archipelago_dynamic.21020.desc: "§MProgressive trade technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21030.name: "Item sent!"
+archipelago_dynamic.21030.desc: "§MProgressive space mining technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21040.name: "Item sent!"
+archipelago_dynamic.21040.desc: "§MProgressive ship technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21050.name: "Item sent!"
+archipelago_dynamic.21050.desc: "§MProgressive planet infrastructure technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21060.name: "Item sent!"
+archipelago_dynamic.21060.desc: "§MProgressive leader genetics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21070.name: "Item sent!"
+archipelago_dynamic.21070.desc: "§MProgressive arc emitter technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21080.name: "Item sent!"
+archipelago_dynamic.21080.desc: "§MProgressive torpedoes technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21090.name: "Item sent!"
+archipelago_dynamic.21090.desc: "§MProgressive naval capacity technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21100.name: "Item sent!"
+archipelago_dynamic.21100.desc: "§MProgressive alloy production technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21110.name: "Item sent!"
+archipelago_dynamic.21110.desc: "§MProgressive terraforming technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21120.name: "Item sent!"
+archipelago_dynamic.21120.desc: "§MProgressive planet government technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21130.name: "Item sent!"
+archipelago_dynamic.21130.desc: "§MProgressive science lab technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21140.name: "Item sent!"
+archipelago_dynamic.21140.desc: "§MProgressive armor hardener technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21150.name: "Item sent!"
+archipelago_dynamic.21150.desc: "§MProgressive campaigns technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21160.name: "Item sent!"
+archipelago_dynamic.21160.desc: "§MProgressive afterburners technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21170.name: "Item sent!"
+archipelago_dynamic.21170.desc: "§MProgressive gene tailoring technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21180.name: "Item sent!"
+archipelago_dynamic.21180.desc: "§MProgressive habitability technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21190.name: "Item sent!"
+archipelago_dynamic.21190.desc: "§MProgressive robotics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21200.name: "Item sent!"
+archipelago_dynamic.21200.desc: "§MProgressive thralls technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21210.name: "Item sent!"
+archipelago_dynamic.21210.desc: "§MProgressive lasers technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21220.name: "Item sent!"
+archipelago_dynamic.21220.desc: "§MProgressive destroyer upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21230.name: "Item sent!"
+archipelago_dynamic.21230.desc: "§MProgressive lasers technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21240.name: "Item sent!"
+archipelago_dynamic.21240.desc: "§MProgressive army genetics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21250.name: "Item sent!"
+archipelago_dynamic.21250.desc: "§MProgressive thruster technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21260.name: "Item sent!"
+archipelago_dynamic.21260.desc: "§MProgressive shields technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21270.name: "Item sent!"
+archipelago_dynamic.21270.desc: "§MProgressive space mining technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21280.name: "Item sent!"
+archipelago_dynamic.21280.desc: "§MProgressive strike craft technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21290.name: "Item sent!"
+archipelago_dynamic.21290.desc: "§MProgressive hyperdrive technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21300.name: "Item sent!"
+archipelago_dynamic.21300.desc: "§MProgressive farming technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21310.name: "Item sent!"
+archipelago_dynamic.21310.desc: "§MProgressive army genetics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21320.name: "Item sent!"
+archipelago_dynamic.21320.desc: "§MProgressive fleet size technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21330.name: "Item sent!"
+archipelago_dynamic.21330.desc: "§MProgressive shields technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21340.name: "Item sent!"
+archipelago_dynamic.21340.desc: "§MProgressive hyperdrive technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21350.name: "Item sent!"
+archipelago_dynamic.21350.desc: "§MProgressive flak battery technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21360.name: "Item sent!"
+archipelago_dynamic.21360.desc: "§MProgressive fleet size technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21370.name: "Item sent!"
+archipelago_dynamic.21370.desc: "§MProgressive megastructures technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21380.name: "Item sent!"
+archipelago_dynamic.21380.desc: "§MProgressive housing technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21390.name: "Item sent!"
+archipelago_dynamic.21390.desc: "§MProgressive decryption technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21400.name: "Item sent!"
+archipelago_dynamic.21400.desc: "§MProgressive point defense technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21410.name: "Item sent!"
+archipelago_dynamic.21410.desc: "§MProgressive shields technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21420.name: "Item sent!"
+archipelago_dynamic.21420.desc: "§MProgressive afterburners technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21430.name: "Item sent!"
+archipelago_dynamic.21430.desc: "§MProgressive mass drivers technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21440.name: "Item sent!"
+archipelago_dynamic.21440.desc: "§MProgressive research ai technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21450.name: "Item sent!"
+archipelago_dynamic.21450.desc: "§MProgressive gene tailoring technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21460.name: "Item sent!"
+archipelago_dynamic.21460.desc: "§MProgressive reactor booster technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21470.name: "Item sent!"
+archipelago_dynamic.21470.desc: "§MProgressive army defense technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21480.name: "Item sent!"
+archipelago_dynamic.21480.desc: "§MProgressive power plants technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21490.name: "Item sent!"
+archipelago_dynamic.21490.desc: "§MProgressive naval capacity technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21500.name: "Item sent!"
+archipelago_dynamic.21500.desc: "§MProgressive farming technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21510.name: "Item sent!"
+archipelago_dynamic.21510.desc: "§MProgressive hyperdrive technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21520.name: "Item sent!"
+archipelago_dynamic.21520.desc: "§MProgressive trade technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21530.name: "Item sent!"
+archipelago_dynamic.21530.desc: "§MProgressive psionics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21540.name: "Item sent!"
+archipelago_dynamic.21540.desc: "§MProgressive plasma technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21550.name: "Item sent!"
+archipelago_dynamic.21550.desc: "§MProgressive encryption technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21560.name: "Item sent!"
+archipelago_dynamic.21560.desc: "§MProgressive autocannon technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21570.name: "Item sent!"
+archipelago_dynamic.21570.desc: "§MProgressive psionics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21580.name: "Item sent!"
+archipelago_dynamic.21580.desc: "§MProgressive science lab technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21590.name: "Item sent!"
+archipelago_dynamic.21590.desc: "§MProgressive reactor technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21600.name: "Item sent!"
+archipelago_dynamic.21600.desc: "§MProgressive disruptors technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21610.name: "Item sent!"
+archipelago_dynamic.21610.desc: "§MProgressive bureaucracy technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21620.name: "Item sent!"
+archipelago_dynamic.21620.desc: "§MProgressive lasers technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21630.name: "Item sent!"
+archipelago_dynamic.21630.desc: "§MProgressive reactor booster technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21640.name: "Item sent!"
+archipelago_dynamic.21640.desc: "§MProgressive station science technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21650.name: "Item sent!"
+archipelago_dynamic.21650.desc: "§MProgressive destroyer upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21660.name: "Item sent!"
+archipelago_dynamic.21660.desc: "§MProgressive planet government technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21670.name: "Item sent!"
+archipelago_dynamic.21670.desc: "§MProgressive naval capacity technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21680.name: "Item sent!"
+archipelago_dynamic.21680.desc: "§MProgressive swarm missiles technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21690.name: "Item sent!"
+archipelago_dynamic.21690.desc: "§MProgressive starbase capacity technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21700.name: "Item sent!"
+archipelago_dynamic.21700.desc: "§MProgressive missiles technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21710.name: "Item sent!"
+archipelago_dynamic.21710.desc: "§MProgressive starbase upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21720.name: "Item sent!"
+archipelago_dynamic.21720.desc: "§MProgressive robotics technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21730.name: "Item sent!"
+archipelago_dynamic.21730.desc: "§MProgressive starbase technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21740.name: "Item sent!"
+archipelago_dynamic.21740.desc: "§MProgressive corvette upgrades technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21750.name: "Item sent!"
+archipelago_dynamic.21750.desc: "§MProgressive planet government technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21760.name: "Item sent!"
+archipelago_dynamic.21760.desc: "§MProgressive lasers technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21770.name: "Item sent!"
+archipelago_dynamic.21770.desc: "§MProgressive terraforming technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21780.name: "Item sent!"
+archipelago_dynamic.21780.desc: "§MProgressive consumer goods technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21790.name: "Item sent!"
+archipelago_dynamic.21790.desc: "§MProgressive starbase technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21800.name: "Item sent!"
+archipelago_dynamic.21800.desc: "§MProgressive thralls technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21810.name: "Item sent!"
+archipelago_dynamic.21810.desc: "§MProgressive gene tailoring technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21820.name: "Item sent!"
+archipelago_dynamic.21820.desc: "§MProgressive planetary build speed technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21830.name: "Item sent!"
+archipelago_dynamic.21830.desc: "§MProgressive campaigns technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21840.name: "Item sent!"
+archipelago_dynamic.21840.desc: "§MProgressive orbital habitats technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21850.name: "Item sent!"
+archipelago_dynamic.21850.desc: "§MProgressive embassy technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21860.name: "Item sent!"
+archipelago_dynamic.21860.desc: "§MProgressive shields technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21870.name: "Item sent!"
+archipelago_dynamic.21870.desc: "§MProgressive hospital technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21880.name: "Item sent!"
+archipelago_dynamic.21880.desc: "§MProgressive reactor technology§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21890.name: "Item sent!"
+archipelago_dynamic.21890.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21900.name: "Item sent!"
+archipelago_dynamic.21900.desc: "§MHidden Realm: Bulwark's Ambry (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21910.name: "Item sent!"
+archipelago_dynamic.21910.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21920.name: "Item sent!"
+archipelago_dynamic.21920.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21930.name: "Item sent!"
+archipelago_dynamic.21930.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21940.name: "Item sent!"
+archipelago_dynamic.21940.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21950.name: "Item sent!"
+archipelago_dynamic.21950.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21960.name: "Item sent!"
+archipelago_dynamic.21960.desc: "§MSiren's Call (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21970.name: "Item sent!"
+archipelago_dynamic.21970.desc: "§MItem Scrap, Red (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21980.name: "Item sent!"
+archipelago_dynamic.21980.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.21990.name: "Item sent!"
+archipelago_dynamic.21990.desc: "§MAbyssal Depths (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22000.name: "Item sent!"
+archipelago_dynamic.22000.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22010.name: "Item sent!"
+archipelago_dynamic.22010.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22020.name: "Item sent!"
+archipelago_dynamic.22020.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22030.name: "Item sent!"
+archipelago_dynamic.22030.desc: "§MHidden Realm: Gilded Coast (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22040.name: "Item sent!"
+archipelago_dynamic.22040.desc: "§MDio's Best Friend (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22050.name: "Item sent!"
+archipelago_dynamic.22050.desc: "§MProgressive Stage (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22060.name: "Item sent!"
+archipelago_dynamic.22060.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22070.name: "Item sent!"
+archipelago_dynamic.22070.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22080.name: "Item sent!"
+archipelago_dynamic.22080.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22090.name: "Item sent!"
+archipelago_dynamic.22090.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22100.name: "Item sent!"
+archipelago_dynamic.22100.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22110.name: "Item sent!"
+archipelago_dynamic.22110.desc: "§MHidden Realm: Bazaar Between Time (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22120.name: "Item sent!"
+archipelago_dynamic.22120.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22130.name: "Item sent!"
+archipelago_dynamic.22130.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22140.name: "Item sent!"
+archipelago_dynamic.22140.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22150.name: "Item sent!"
+archipelago_dynamic.22150.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22160.name: "Item sent!"
+archipelago_dynamic.22160.desc: "§MHidden Realm: A Moment, Whole (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22170.name: "Item sent!"
+archipelago_dynamic.22170.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22180.name: "Item sent!"
+archipelago_dynamic.22180.desc: "§MLegendary Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22190.name: "Item sent!"
+archipelago_dynamic.22190.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22200.name: "Item sent!"
+archipelago_dynamic.22200.desc: "§MVerdant Falls (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22210.name: "Item sent!"
+archipelago_dynamic.22210.desc: "§MTitanic Plains (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22220.name: "Item sent!"
+archipelago_dynamic.22220.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22230.name: "Item sent!"
+archipelago_dynamic.22230.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22240.name: "Item sent!"
+archipelago_dynamic.22240.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22250.name: "Item sent!"
+archipelago_dynamic.22250.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22260.name: "Item sent!"
+archipelago_dynamic.22260.desc: "§MDio's Best Friend (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22270.name: "Item sent!"
+archipelago_dynamic.22270.desc: "§MProgressive Stage (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22280.name: "Item sent!"
+archipelago_dynamic.22280.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22290.name: "Item sent!"
+archipelago_dynamic.22290.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22300.name: "Item sent!"
+archipelago_dynamic.22300.desc: "§MProgressive Stage (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22310.name: "Item sent!"
+archipelago_dynamic.22310.desc: "§MItem Scrap, Green (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22320.name: "Item sent!"
+archipelago_dynamic.22320.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22330.name: "Item sent!"
+archipelago_dynamic.22330.desc: "§MLunar Coin (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22340.name: "Item sent!"
+archipelago_dynamic.22340.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22350.name: "Item sent!"
+archipelago_dynamic.22350.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22360.name: "Item sent!"
+archipelago_dynamic.22360.desc: "§MBoss Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22370.name: "Item sent!"
+archipelago_dynamic.22370.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22380.name: "Item sent!"
+archipelago_dynamic.22380.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22390.name: "Item sent!"
+archipelago_dynamic.22390.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22400.name: "Item sent!"
+archipelago_dynamic.22400.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22410.name: "Item sent!"
+archipelago_dynamic.22410.desc: "§MProgressive Stage (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22420.name: "Item sent!"
+archipelago_dynamic.22420.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22430.name: "Item sent!"
+archipelago_dynamic.22430.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22440.name: "Item sent!"
+archipelago_dynamic.22440.desc: "§MLunar Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22450.name: "Item sent!"
+archipelago_dynamic.22450.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22460.name: "Item sent!"
+archipelago_dynamic.22460.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22470.name: "Item sent!"
+archipelago_dynamic.22470.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22480.name: "Item sent!"
+archipelago_dynamic.22480.desc: "§MItem Scrap, Green (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22490.name: "Item sent!"
+archipelago_dynamic.22490.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22500.name: "Item sent!"
+archipelago_dynamic.22500.desc: "§MVoid Fields (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22510.name: "Item sent!"
+archipelago_dynamic.22510.desc: "§MDio's Best Friend (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22520.name: "Item sent!"
+archipelago_dynamic.22520.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22530.name: "Item sent!"
+archipelago_dynamic.22530.desc: "§MEquipment (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22540.name: "Item sent!"
+archipelago_dynamic.22540.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22550.name: "Item sent!"
+archipelago_dynamic.22550.desc: "§MCommencement (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22560.name: "Item sent!"
+archipelago_dynamic.22560.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22570.name: "Item sent!"
+archipelago_dynamic.22570.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22580.name: "Item sent!"
+archipelago_dynamic.22580.desc: "§MEquipment (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22590.name: "Item sent!"
+archipelago_dynamic.22590.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22600.name: "Item sent!"
+archipelago_dynamic.22600.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22610.name: "Item sent!"
+archipelago_dynamic.22610.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22620.name: "Item sent!"
+archipelago_dynamic.22620.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22630.name: "Item sent!"
+archipelago_dynamic.22630.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22640.name: "Item sent!"
+archipelago_dynamic.22640.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22650.name: "Item sent!"
+archipelago_dynamic.22650.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22660.name: "Item sent!"
+archipelago_dynamic.22660.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22670.name: "Item sent!"
+archipelago_dynamic.22670.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22680.name: "Item sent!"
+archipelago_dynamic.22680.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22690.name: "Item sent!"
+archipelago_dynamic.22690.desc: "§MDio's Best Friend (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22700.name: "Item sent!"
+archipelago_dynamic.22700.desc: "§MLunar Coin (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22710.name: "Item sent!"
+archipelago_dynamic.22710.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22720.name: "Item sent!"
+archipelago_dynamic.22720.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22730.name: "Item sent!"
+archipelago_dynamic.22730.desc: "§MBoss Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22740.name: "Item sent!"
+archipelago_dynamic.22740.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22750.name: "Item sent!"
+archipelago_dynamic.22750.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22760.name: "Item sent!"
+archipelago_dynamic.22760.desc: "§MSundered Grove (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22770.name: "Item sent!"
+archipelago_dynamic.22770.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22780.name: "Item sent!"
+archipelago_dynamic.22780.desc: "§MLunar Coin (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22790.name: "Item sent!"
+archipelago_dynamic.22790.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22800.name: "Item sent!"
+archipelago_dynamic.22800.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22810.name: "Item sent!"
+archipelago_dynamic.22810.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22820.name: "Item sent!"
+archipelago_dynamic.22820.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22830.name: "Item sent!"
+archipelago_dynamic.22830.desc: "§MItem Scrap, White (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22840.name: "Item sent!"
+archipelago_dynamic.22840.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22850.name: "Item sent!"
+archipelago_dynamic.22850.desc: "§MItem Scrap, Yellow (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22860.name: "Item sent!"
+archipelago_dynamic.22860.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22870.name: "Item sent!"
+archipelago_dynamic.22870.desc: "§MCommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22880.name: "Item sent!"
+archipelago_dynamic.22880.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22890.name: "Item sent!"
+archipelago_dynamic.22890.desc: "§MItem Scrap, Green (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22900.name: "Item sent!"
+archipelago_dynamic.22900.desc: "§MEquipment (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22910.name: "Item sent!"
+archipelago_dynamic.22910.desc: "§MLegendary Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22920.name: "Item sent!"
+archipelago_dynamic.22920.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22930.name: "Item sent!"
+archipelago_dynamic.22930.desc: "§MEquipment (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22940.name: "Item sent!"
+archipelago_dynamic.22940.desc: "§MLegendary Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22950.name: "Item sent!"
+archipelago_dynamic.22950.desc: "§MHidden Realm: A Moment, Fractured (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22960.name: "Item sent!"
+archipelago_dynamic.22960.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22970.name: "Item sent!"
+archipelago_dynamic.22970.desc: "§M1000 Exp (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22980.name: "Item sent!"
+archipelago_dynamic.22980.desc: "§MLunar Coin (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.22990.name: "Item sent!"
+archipelago_dynamic.22990.desc: "§MBoss Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.23000.name: "Item sent!"
+archipelago_dynamic.23000.desc: "§MMoney (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.23010.name: "Item sent!"
+archipelago_dynamic.23010.desc: "§MUncommon Item (Testing_Player_1)§! was sent to the Archipelago Server."
+
+archipelago_dynamic.23020.name: "Item sent!"
+archipelago_dynamic.23020.desc: "§MItem Scrap, Red (Testing_Player_1)§! was sent to the Archipelago Server."

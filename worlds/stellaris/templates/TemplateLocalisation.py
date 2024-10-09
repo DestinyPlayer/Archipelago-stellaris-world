@@ -1,11 +1,16 @@
 localisationStart = 'l_{lang}:\n'
 
 localisationEventTemplate = '''
-archipelago_dynamic.{num}.name: "Item received!"
-archipelago_dynamic.{num}.desc: "§M{desc}§! was received from the Archipelago Server."
+archipelago_dynamic.{num}.name: "Item {receivedSent}!"
+archipelago_dynamic.{num}.desc: "§M{desc}§! was {receiveSend} the Archipelago Server."
 '''
 
 localisationTechTemplate = '''
-tech_progressive_{type}_{num}: "Progressive {name} Tech"
-tech_progressive_{type}_{num}_desc: "This technology unlocks the next tier of {name} technology."
+tech_{type}_{num}: "{name} Tech"
+tech_{type}_{num}_desc: "This technology unlocks the next tier of {name} technology."
+'''
+
+localisationExternalTechTemplate = '''
+tech_{type}_{num}: "{name} Tech"
+tech_{type}_{num}_desc: "This technology sends the {name} item to another player."
 '''

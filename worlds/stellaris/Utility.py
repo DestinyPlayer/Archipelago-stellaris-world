@@ -28,4 +28,12 @@ def copyOtherLocalisationFiles(file):
         if lang == "english":
             continue
         path = "worlds/stellaris/mod/archipelago-stellaris-mod/localisation/"
-        shutil.copyfile(path + "english/"+file, path + lang + "/" + file)
+        finPath = path + lang + "/" + file.replace("english", lang)
+        path += "english/"+file
+        shutil.copyfile(path, finPath)
+        f = open(finPath,"r")
+        fileText = f.read()
+        f.close()
+        f = open(finPath,"w")
+        f.write(fileText.replace("english",lang))
+        f.close()

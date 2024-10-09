@@ -14,7 +14,7 @@ country_event = {{
 	}}
 	immediate = {{
 		add_resource = {{
-			{resource} = -99999999
+			{resource} = {postValue}
 		}}{action}
 	}}
 }}

@@ -1,673 +1,1015 @@
 ﻿l_english:
 
 tech_progressive_reactor_1: "Progressive Reactor Tech"
-tech_progressive_reactor_1_desc: "This technology unlocks the next tier of Reactor technology."
+tech_progressive_reactor_1_desc: "This technology unlocks the next tier of Progressive Reactor technology."
 
 tech_progressive_reactor_2: "Progressive Reactor Tech"
-tech_progressive_reactor_2_desc: "This technology unlocks the next tier of Reactor technology."
+tech_progressive_reactor_2_desc: "This technology unlocks the next tier of Progressive Reactor technology."
 
 tech_progressive_reactor_3: "Progressive Reactor Tech"
-tech_progressive_reactor_3_desc: "This technology unlocks the next tier of Reactor technology."
+tech_progressive_reactor_3_desc: "This technology unlocks the next tier of Progressive Reactor technology."
 
 tech_progressive_reactor_4: "Progressive Reactor Tech"
-tech_progressive_reactor_4_desc: "This technology unlocks the next tier of Reactor technology."
+tech_progressive_reactor_4_desc: "This technology unlocks the next tier of Progressive Reactor technology."
 
 tech_progressive_reactor_5: "Progressive Reactor Tech"
-tech_progressive_reactor_5_desc: "This technology unlocks the next tier of Reactor technology."
+tech_progressive_reactor_5_desc: "This technology unlocks the next tier of Progressive Reactor technology."
 
 tech_progressive_hyperdrive_1: "Progressive Hyperdrive Tech"
-tech_progressive_hyperdrive_1_desc: "This technology unlocks the next tier of Hyperdrive technology."
+tech_progressive_hyperdrive_1_desc: "This technology unlocks the next tier of Progressive Hyperdrive technology."
 
 tech_progressive_hyperdrive_2: "Progressive Hyperdrive Tech"
-tech_progressive_hyperdrive_2_desc: "This technology unlocks the next tier of Hyperdrive technology."
+tech_progressive_hyperdrive_2_desc: "This technology unlocks the next tier of Progressive Hyperdrive technology."
 
 tech_progressive_hyperdrive_3: "Progressive Hyperdrive Tech"
-tech_progressive_hyperdrive_3_desc: "This technology unlocks the next tier of Hyperdrive technology."
+tech_progressive_hyperdrive_3_desc: "This technology unlocks the next tier of Progressive Hyperdrive technology."
 
 tech_progressive_hyperdrive_4: "Progressive Hyperdrive Tech"
-tech_progressive_hyperdrive_4_desc: "This technology unlocks the next tier of Hyperdrive technology."
+tech_progressive_hyperdrive_4_desc: "This technology unlocks the next tier of Progressive Hyperdrive technology."
 
 tech_progressive_thruster_1: "Progressive Thruster Tech"
-tech_progressive_thruster_1_desc: "This technology unlocks the next tier of Thruster technology."
+tech_progressive_thruster_1_desc: "This technology unlocks the next tier of Progressive Thruster technology."
 
 tech_progressive_thruster_2: "Progressive Thruster Tech"
-tech_progressive_thruster_2_desc: "This technology unlocks the next tier of Thruster technology."
+tech_progressive_thruster_2_desc: "This technology unlocks the next tier of Progressive Thruster technology."
 
 tech_progressive_thruster_3: "Progressive Thruster Tech"
-tech_progressive_thruster_3_desc: "This technology unlocks the next tier of Thruster technology."
+tech_progressive_thruster_3_desc: "This technology unlocks the next tier of Progressive Thruster technology."
 
 tech_progressive_thruster_4: "Progressive Thruster Tech"
-tech_progressive_thruster_4_desc: "This technology unlocks the next tier of Thruster technology."
+tech_progressive_thruster_4_desc: "This technology unlocks the next tier of Progressive Thruster technology."
 
 tech_progressive_ship_1: "Progressive Ship Tech"
-tech_progressive_ship_1_desc: "This technology unlocks the next tier of Ship technology."
+tech_progressive_ship_1_desc: "This technology unlocks the next tier of Progressive Ship technology."
 
 tech_progressive_ship_2: "Progressive Ship Tech"
-tech_progressive_ship_2_desc: "This technology unlocks the next tier of Ship technology."
+tech_progressive_ship_2_desc: "This technology unlocks the next tier of Progressive Ship technology."
 
 tech_progressive_ship_3: "Progressive Ship Tech"
-tech_progressive_ship_3_desc: "This technology unlocks the next tier of Ship technology."
+tech_progressive_ship_3_desc: "This technology unlocks the next tier of Progressive Ship technology."
 
 tech_progressive_ship_4: "Progressive Ship Tech"
-tech_progressive_ship_4_desc: "This technology unlocks the next tier of Ship technology."
+tech_progressive_ship_4_desc: "This technology unlocks the next tier of Progressive Ship technology."
 
 tech_progressive_ship_5: "Progressive Ship Tech"
-tech_progressive_ship_5_desc: "This technology unlocks the next tier of Ship technology."
+tech_progressive_ship_5_desc: "This technology unlocks the next tier of Progressive Ship technology."
 
 tech_progressive_starbase_1: "Progressive Starbase Tech"
-tech_progressive_starbase_1_desc: "This technology unlocks the next tier of Starbase technology."
+tech_progressive_starbase_1_desc: "This technology unlocks the next tier of Progressive Starbase technology."
 
 tech_progressive_starbase_2: "Progressive Starbase Tech"
-tech_progressive_starbase_2_desc: "This technology unlocks the next tier of Starbase technology."
+tech_progressive_starbase_2_desc: "This technology unlocks the next tier of Progressive Starbase technology."
 
 tech_progressive_starbase_3: "Progressive Starbase Tech"
-tech_progressive_starbase_3_desc: "This technology unlocks the next tier of Starbase technology."
+tech_progressive_starbase_3_desc: "This technology unlocks the next tier of Progressive Starbase technology."
 
 tech_progressive_wormhole_1: "Progressive Wormhole Tech"
-tech_progressive_wormhole_1_desc: "This technology unlocks the next tier of Wormhole technology."
+tech_progressive_wormhole_1_desc: "This technology unlocks the next tier of Progressive Wormhole technology."
 
 tech_progressive_wormhole_2: "Progressive Wormhole Tech"
-tech_progressive_wormhole_2_desc: "This technology unlocks the next tier of Wormhole technology."
+tech_progressive_wormhole_2_desc: "This technology unlocks the next tier of Progressive Wormhole technology."
 
 tech_progressive_corvette_upgrades_1: "Progressive Corvette upgrades Tech"
-tech_progressive_corvette_upgrades_1_desc: "This technology unlocks the next tier of Corvette upgrades technology."
+tech_progressive_corvette_upgrades_1_desc: "This technology unlocks the next tier of Progressive Corvette upgrades technology."
 
 tech_progressive_corvette_upgrades_2: "Progressive Corvette upgrades Tech"
-tech_progressive_corvette_upgrades_2_desc: "This technology unlocks the next tier of Corvette upgrades technology."
+tech_progressive_corvette_upgrades_2_desc: "This technology unlocks the next tier of Progressive Corvette upgrades technology."
 
 tech_progressive_corvette_upgrades_3: "Progressive Corvette upgrades Tech"
-tech_progressive_corvette_upgrades_3_desc: "This technology unlocks the next tier of Corvette upgrades technology."
+tech_progressive_corvette_upgrades_3_desc: "This technology unlocks the next tier of Progressive Corvette upgrades technology."
 
 tech_progressive_destroyer_upgrades_1: "Progressive Destroyer upgrades Tech"
-tech_progressive_destroyer_upgrades_1_desc: "This technology unlocks the next tier of Destroyer upgrades technology."
+tech_progressive_destroyer_upgrades_1_desc: "This technology unlocks the next tier of Progressive Destroyer upgrades technology."
 
 tech_progressive_destroyer_upgrades_2: "Progressive Destroyer upgrades Tech"
-tech_progressive_destroyer_upgrades_2_desc: "This technology unlocks the next tier of Destroyer upgrades technology."
+tech_progressive_destroyer_upgrades_2_desc: "This technology unlocks the next tier of Progressive Destroyer upgrades technology."
 
 tech_progressive_destroyer_upgrades_3: "Progressive Destroyer upgrades Tech"
-tech_progressive_destroyer_upgrades_3_desc: "This technology unlocks the next tier of Destroyer upgrades technology."
+tech_progressive_destroyer_upgrades_3_desc: "This technology unlocks the next tier of Progressive Destroyer upgrades technology."
 
 tech_progressive_cruiser_upgrades_1: "Progressive Cruiser upgrades Tech"
-tech_progressive_cruiser_upgrades_1_desc: "This technology unlocks the next tier of Cruiser upgrades technology."
+tech_progressive_cruiser_upgrades_1_desc: "This technology unlocks the next tier of Progressive Cruiser upgrades technology."
 
 tech_progressive_cruiser_upgrades_2: "Progressive Cruiser upgrades Tech"
-tech_progressive_cruiser_upgrades_2_desc: "This technology unlocks the next tier of Cruiser upgrades technology."
+tech_progressive_cruiser_upgrades_2_desc: "This technology unlocks the next tier of Progressive Cruiser upgrades technology."
 
 tech_progressive_cruiser_upgrades_3: "Progressive Cruiser upgrades Tech"
-tech_progressive_cruiser_upgrades_3_desc: "This technology unlocks the next tier of Cruiser upgrades technology."
+tech_progressive_cruiser_upgrades_3_desc: "This technology unlocks the next tier of Progressive Cruiser upgrades technology."
 
 tech_progressive_battleship_upgrades_1: "Progressive Battleship upgrades Tech"
-tech_progressive_battleship_upgrades_1_desc: "This technology unlocks the next tier of Battleship upgrades technology."
+tech_progressive_battleship_upgrades_1_desc: "This technology unlocks the next tier of Progressive Battleship upgrades technology."
 
 tech_progressive_battleship_upgrades_2: "Progressive Battleship upgrades Tech"
-tech_progressive_battleship_upgrades_2_desc: "This technology unlocks the next tier of Battleship upgrades technology."
+tech_progressive_battleship_upgrades_2_desc: "This technology unlocks the next tier of Progressive Battleship upgrades technology."
 
 tech_progressive_battleship_upgrades_3: "Progressive Battleship upgrades Tech"
-tech_progressive_battleship_upgrades_3_desc: "This technology unlocks the next tier of Battleship upgrades technology."
+tech_progressive_battleship_upgrades_3_desc: "This technology unlocks the next tier of Progressive Battleship upgrades technology."
 
 tech_progressive_titan_upgrades_1: "Progressive Titan upgrades Tech"
-tech_progressive_titan_upgrades_1_desc: "This technology unlocks the next tier of Titan upgrades technology."
+tech_progressive_titan_upgrades_1_desc: "This technology unlocks the next tier of Progressive Titan upgrades technology."
 
 tech_progressive_titan_upgrades_2: "Progressive Titan upgrades Tech"
-tech_progressive_titan_upgrades_2_desc: "This technology unlocks the next tier of Titan upgrades technology."
+tech_progressive_titan_upgrades_2_desc: "This technology unlocks the next tier of Progressive Titan upgrades technology."
 
 tech_progressive_starbase_upgrades_1: "Progressive Starbase upgrades Tech"
-tech_progressive_starbase_upgrades_1_desc: "This technology unlocks the next tier of Starbase upgrades technology."
+tech_progressive_starbase_upgrades_1_desc: "This technology unlocks the next tier of Progressive Starbase upgrades technology."
 
 tech_progressive_starbase_upgrades_2: "Progressive Starbase upgrades Tech"
-tech_progressive_starbase_upgrades_2_desc: "This technology unlocks the next tier of Starbase upgrades technology."
+tech_progressive_starbase_upgrades_2_desc: "This technology unlocks the next tier of Progressive Starbase upgrades technology."
 
 tech_progressive_strike_craft_1: "Progressive Strike craft Tech"
-tech_progressive_strike_craft_1_desc: "This technology unlocks the next tier of Strike craft technology."
+tech_progressive_strike_craft_1_desc: "This technology unlocks the next tier of Progressive Strike craft technology."
 
 tech_progressive_strike_craft_2: "Progressive Strike craft Tech"
-tech_progressive_strike_craft_2_desc: "This technology unlocks the next tier of Strike craft technology."
+tech_progressive_strike_craft_2_desc: "This technology unlocks the next tier of Progressive Strike craft technology."
 
 tech_progressive_strike_craft_3: "Progressive Strike craft Tech"
-tech_progressive_strike_craft_3_desc: "This technology unlocks the next tier of Strike craft technology."
+tech_progressive_strike_craft_3_desc: "This technology unlocks the next tier of Progressive Strike craft technology."
 
 tech_progressive_strike_craft_4: "Progressive Strike craft Tech"
-tech_progressive_strike_craft_4_desc: "This technology unlocks the next tier of Strike craft technology."
+tech_progressive_strike_craft_4_desc: "This technology unlocks the next tier of Progressive Strike craft technology."
 
 tech_progressive_orbital_habitats_1: "Progressive Orbital habitats Tech"
-tech_progressive_orbital_habitats_1_desc: "This technology unlocks the next tier of Orbital habitats technology."
+tech_progressive_orbital_habitats_1_desc: "This technology unlocks the next tier of Progressive Orbital habitats technology."
 
 tech_progressive_orbital_habitats_2: "Progressive Orbital habitats Tech"
-tech_progressive_orbital_habitats_2_desc: "This technology unlocks the next tier of Orbital habitats technology."
+tech_progressive_orbital_habitats_2_desc: "This technology unlocks the next tier of Progressive Orbital habitats technology."
 
 tech_progressive_orbital_habitats_3: "Progressive Orbital habitats Tech"
-tech_progressive_orbital_habitats_3_desc: "This technology unlocks the next tier of Orbital habitats technology."
+tech_progressive_orbital_habitats_3_desc: "This technology unlocks the next tier of Progressive Orbital habitats technology."
 
 tech_progressive_ship_armor_1: "Progressive Ship armor Tech"
-tech_progressive_ship_armor_1_desc: "This technology unlocks the next tier of Ship armor technology."
+tech_progressive_ship_armor_1_desc: "This technology unlocks the next tier of Progressive Ship armor technology."
 
 tech_progressive_ship_armor_2: "Progressive Ship armor Tech"
-tech_progressive_ship_armor_2_desc: "This technology unlocks the next tier of Ship armor technology."
+tech_progressive_ship_armor_2_desc: "This technology unlocks the next tier of Progressive Ship armor technology."
 
 tech_progressive_ship_armor_3: "Progressive Ship armor Tech"
-tech_progressive_ship_armor_3_desc: "This technology unlocks the next tier of Ship armor technology."
+tech_progressive_ship_armor_3_desc: "This technology unlocks the next tier of Progressive Ship armor technology."
 
 tech_progressive_ship_armor_4: "Progressive Ship armor Tech"
-tech_progressive_ship_armor_4_desc: "This technology unlocks the next tier of Ship armor technology."
+tech_progressive_ship_armor_4_desc: "This technology unlocks the next tier of Progressive Ship armor technology."
 
-tech_progressive_armor_hardeners_1: "Progressive Armor hardeners Tech"
-tech_progressive_armor_hardeners_1_desc: "This technology unlocks the next tier of Armor hardeners technology."
+tech_progressive_armor_hardener_1: "Progressive Armor hardener Tech"
+tech_progressive_armor_hardener_1_desc: "This technology unlocks the next tier of Progressive Armor hardener technology."
 
-tech_progressive_armor_hardeners_2: "Progressive Armor hardeners Tech"
-tech_progressive_armor_hardeners_2_desc: "This technology unlocks the next tier of Armor hardeners technology."
+tech_progressive_armor_hardener_2: "Progressive Armor hardener Tech"
+tech_progressive_armor_hardener_2_desc: "This technology unlocks the next tier of Progressive Armor hardener technology."
 
 tech_progressive_robotics_1: "Progressive Robotics Tech"
-tech_progressive_robotics_1_desc: "This technology unlocks the next tier of Robotics technology."
+tech_progressive_robotics_1_desc: "This technology unlocks the next tier of Progressive Robotics technology."
 
 tech_progressive_robotics_2: "Progressive Robotics Tech"
-tech_progressive_robotics_2_desc: "This technology unlocks the next tier of Robotics technology."
+tech_progressive_robotics_2_desc: "This technology unlocks the next tier of Progressive Robotics technology."
 
 tech_progressive_robotics_3: "Progressive Robotics Tech"
-tech_progressive_robotics_3_desc: "This technology unlocks the next tier of Robotics technology."
+tech_progressive_robotics_3_desc: "This technology unlocks the next tier of Progressive Robotics technology."
 
 tech_progressive_robotics_4: "Progressive Robotics Tech"
-tech_progressive_robotics_4_desc: "This technology unlocks the next tier of Robotics technology."
+tech_progressive_robotics_4_desc: "This technology unlocks the next tier of Progressive Robotics technology."
 
 tech_progressive_robotics_5: "Progressive Robotics Tech"
-tech_progressive_robotics_5_desc: "This technology unlocks the next tier of Robotics technology."
+tech_progressive_robotics_5_desc: "This technology unlocks the next tier of Progressive Robotics technology."
 
 tech_progressive_space_mining_1: "Progressive Space mining Tech"
-tech_progressive_space_mining_1_desc: "This technology unlocks the next tier of Space mining technology."
+tech_progressive_space_mining_1_desc: "This technology unlocks the next tier of Progressive Space mining technology."
 
 tech_progressive_space_mining_2: "Progressive Space mining Tech"
-tech_progressive_space_mining_2_desc: "This technology unlocks the next tier of Space mining technology."
+tech_progressive_space_mining_2_desc: "This technology unlocks the next tier of Progressive Space mining technology."
 
 tech_progressive_space_mining_3: "Progressive Space mining Tech"
-tech_progressive_space_mining_3_desc: "This technology unlocks the next tier of Space mining technology."
+tech_progressive_space_mining_3_desc: "This technology unlocks the next tier of Progressive Space mining technology."
 
 tech_progressive_space_mining_4: "Progressive Space mining Tech"
-tech_progressive_space_mining_4_desc: "This technology unlocks the next tier of Space mining technology."
+tech_progressive_space_mining_4_desc: "This technology unlocks the next tier of Progressive Space mining technology."
 
 tech_progressive_space_mining_5: "Progressive Space mining Tech"
-tech_progressive_space_mining_5_desc: "This technology unlocks the next tier of Space mining technology."
+tech_progressive_space_mining_5_desc: "This technology unlocks the next tier of Progressive Space mining technology."
 
 tech_progressive_planetary_mining_1: "Progressive Planetary mining Tech"
-tech_progressive_planetary_mining_1_desc: "This technology unlocks the next tier of Planetary mining technology."
+tech_progressive_planetary_mining_1_desc: "This technology unlocks the next tier of Progressive Planetary mining technology."
 
 tech_progressive_planetary_mining_2: "Progressive Planetary mining Tech"
-tech_progressive_planetary_mining_2_desc: "This technology unlocks the next tier of Planetary mining technology."
+tech_progressive_planetary_mining_2_desc: "This technology unlocks the next tier of Progressive Planetary mining technology."
 
 tech_progressive_planetary_mining_3: "Progressive Planetary mining Tech"
-tech_progressive_planetary_mining_3_desc: "This technology unlocks the next tier of Planetary mining technology."
+tech_progressive_planetary_mining_3_desc: "This technology unlocks the next tier of Progressive Planetary mining technology."
 
 tech_progressive_alloy_production_1: "Progressive Alloy production Tech"
-tech_progressive_alloy_production_1_desc: "This technology unlocks the next tier of Alloy production technology."
+tech_progressive_alloy_production_1_desc: "This technology unlocks the next tier of Progressive Alloy production technology."
 
 tech_progressive_alloy_production_2: "Progressive Alloy production Tech"
-tech_progressive_alloy_production_2_desc: "This technology unlocks the next tier of Alloy production technology."
+tech_progressive_alloy_production_2_desc: "This technology unlocks the next tier of Progressive Alloy production technology."
 
 tech_progressive_consumer_goods_1: "Progressive Consumer goods Tech"
-tech_progressive_consumer_goods_1_desc: "This technology unlocks the next tier of Consumer goods technology."
+tech_progressive_consumer_goods_1_desc: "This technology unlocks the next tier of Progressive Consumer goods technology."
 
 tech_progressive_consumer_goods_2: "Progressive Consumer goods Tech"
-tech_progressive_consumer_goods_2_desc: "This technology unlocks the next tier of Consumer goods technology."
+tech_progressive_consumer_goods_2_desc: "This technology unlocks the next tier of Progressive Consumer goods technology."
 
 tech_progressive_afterburners_1: "Progressive Afterburners Tech"
-tech_progressive_afterburners_1_desc: "This technology unlocks the next tier of Afterburners technology."
+tech_progressive_afterburners_1_desc: "This technology unlocks the next tier of Progressive Afterburners technology."
 
 tech_progressive_afterburners_2: "Progressive Afterburners Tech"
-tech_progressive_afterburners_2_desc: "This technology unlocks the next tier of Afterburners technology."
+tech_progressive_afterburners_2_desc: "This technology unlocks the next tier of Progressive Afterburners technology."
 
 tech_progressive_planetary_build_speed_1: "Progressive Planetary build speed Tech"
-tech_progressive_planetary_build_speed_1_desc: "This technology unlocks the next tier of Planetary build speed technology."
+tech_progressive_planetary_build_speed_1_desc: "This technology unlocks the next tier of Progressive Planetary build speed technology."
 
 tech_progressive_planetary_build_speed_2: "Progressive Planetary build speed Tech"
-tech_progressive_planetary_build_speed_2_desc: "This technology unlocks the next tier of Planetary build speed technology."
+tech_progressive_planetary_build_speed_2_desc: "This technology unlocks the next tier of Progressive Planetary build speed technology."
 
 tech_progressive_housing_1: "Progressive Housing Tech"
-tech_progressive_housing_1_desc: "This technology unlocks the next tier of Housing technology."
+tech_progressive_housing_1_desc: "This technology unlocks the next tier of Progressive Housing technology."
 
 tech_progressive_housing_2: "Progressive Housing Tech"
-tech_progressive_housing_2_desc: "This technology unlocks the next tier of Housing technology."
+tech_progressive_housing_2_desc: "This technology unlocks the next tier of Progressive Housing technology."
 
 tech_progressive_housing_3: "Progressive Housing Tech"
-tech_progressive_housing_3_desc: "This technology unlocks the next tier of Housing technology."
+tech_progressive_housing_3_desc: "This technology unlocks the next tier of Progressive Housing technology."
 
 tech_progressive_mass_drivers_1: "Progressive Mass drivers Tech"
-tech_progressive_mass_drivers_1_desc: "This technology unlocks the next tier of Mass drivers technology."
+tech_progressive_mass_drivers_1_desc: "This technology unlocks the next tier of Progressive Mass drivers technology."
 
 tech_progressive_mass_drivers_2: "Progressive Mass drivers Tech"
-tech_progressive_mass_drivers_2_desc: "This technology unlocks the next tier of Mass drivers technology."
+tech_progressive_mass_drivers_2_desc: "This technology unlocks the next tier of Progressive Mass drivers technology."
 
 tech_progressive_mass_drivers_3: "Progressive Mass drivers Tech"
-tech_progressive_mass_drivers_3_desc: "This technology unlocks the next tier of Mass drivers technology."
+tech_progressive_mass_drivers_3_desc: "This technology unlocks the next tier of Progressive Mass drivers technology."
 
 tech_progressive_mass_drivers_4: "Progressive Mass drivers Tech"
-tech_progressive_mass_drivers_4_desc: "This technology unlocks the next tier of Mass drivers technology."
+tech_progressive_mass_drivers_4_desc: "This technology unlocks the next tier of Progressive Mass drivers technology."
 
 tech_progressive_kinetic_artillery_1: "Progressive Kinetic artillery Tech"
-tech_progressive_kinetic_artillery_1_desc: "This technology unlocks the next tier of Kinetic artillery technology."
+tech_progressive_kinetic_artillery_1_desc: "This technology unlocks the next tier of Progressive Kinetic artillery technology."
 
 tech_progressive_kinetic_artillery_2: "Progressive Kinetic artillery Tech"
-tech_progressive_kinetic_artillery_2_desc: "This technology unlocks the next tier of Kinetic artillery technology."
+tech_progressive_kinetic_artillery_2_desc: "This technology unlocks the next tier of Progressive Kinetic artillery technology."
 
 tech_progressive_mass_accelerators_1: "Progressive Mass accelerators Tech"
-tech_progressive_mass_accelerators_1_desc: "This technology unlocks the next tier of Mass accelerators technology."
+tech_progressive_mass_accelerators_1_desc: "This technology unlocks the next tier of Progressive Mass accelerators technology."
 
 tech_progressive_mass_accelerators_2: "Progressive Mass accelerators Tech"
-tech_progressive_mass_accelerators_2_desc: "This technology unlocks the next tier of Mass accelerators technology."
+tech_progressive_mass_accelerators_2_desc: "This technology unlocks the next tier of Progressive Mass accelerators technology."
 
 tech_progressive_autocannon_1: "Progressive Autocannon Tech"
-tech_progressive_autocannon_1_desc: "This technology unlocks the next tier of Autocannon technology."
+tech_progressive_autocannon_1_desc: "This technology unlocks the next tier of Progressive Autocannon technology."
 
 tech_progressive_autocannon_2: "Progressive Autocannon Tech"
-tech_progressive_autocannon_2_desc: "This technology unlocks the next tier of Autocannon technology."
+tech_progressive_autocannon_2_desc: "This technology unlocks the next tier of Progressive Autocannon technology."
 
 tech_progressive_autocannon_3: "Progressive Autocannon Tech"
-tech_progressive_autocannon_3_desc: "This technology unlocks the next tier of Autocannon technology."
+tech_progressive_autocannon_3_desc: "This technology unlocks the next tier of Progressive Autocannon technology."
 
 tech_progressive_autocannon_4: "Progressive Autocannon Tech"
-tech_progressive_autocannon_4_desc: "This technology unlocks the next tier of Autocannon technology."
+tech_progressive_autocannon_4_desc: "This technology unlocks the next tier of Progressive Autocannon technology."
 
 tech_progressive_flak_battery_1: "Progressive Flak battery Tech"
-tech_progressive_flak_battery_1_desc: "This technology unlocks the next tier of Flak battery technology."
+tech_progressive_flak_battery_1_desc: "This technology unlocks the next tier of Progressive Flak battery technology."
 
 tech_progressive_flak_battery_2: "Progressive Flak battery Tech"
-tech_progressive_flak_battery_2_desc: "This technology unlocks the next tier of Flak battery technology."
+tech_progressive_flak_battery_2_desc: "This technology unlocks the next tier of Progressive Flak battery technology."
 
 tech_progressive_flak_battery_3: "Progressive Flak battery Tech"
-tech_progressive_flak_battery_3_desc: "This technology unlocks the next tier of Flak battery technology."
+tech_progressive_flak_battery_3_desc: "This technology unlocks the next tier of Progressive Flak battery technology."
 
 tech_progressive_missiles_1: "Progressive Missiles Tech"
-tech_progressive_missiles_1_desc: "This technology unlocks the next tier of Missiles technology."
+tech_progressive_missiles_1_desc: "This technology unlocks the next tier of Progressive Missiles technology."
 
 tech_progressive_missiles_2: "Progressive Missiles Tech"
-tech_progressive_missiles_2_desc: "This technology unlocks the next tier of Missiles technology."
+tech_progressive_missiles_2_desc: "This technology unlocks the next tier of Progressive Missiles technology."
 
 tech_progressive_missiles_3: "Progressive Missiles Tech"
-tech_progressive_missiles_3_desc: "This technology unlocks the next tier of Missiles technology."
+tech_progressive_missiles_3_desc: "This technology unlocks the next tier of Progressive Missiles technology."
 
 tech_progressive_missiles_4: "Progressive Missiles Tech"
-tech_progressive_missiles_4_desc: "This technology unlocks the next tier of Missiles technology."
+tech_progressive_missiles_4_desc: "This technology unlocks the next tier of Progressive Missiles technology."
 
 tech_progressive_swarm_missiles_1: "Progressive Swarm missiles Tech"
-tech_progressive_swarm_missiles_1_desc: "This technology unlocks the next tier of Swarm missiles technology."
+tech_progressive_swarm_missiles_1_desc: "This technology unlocks the next tier of Progressive Swarm missiles technology."
 
 tech_progressive_swarm_missiles_2: "Progressive Swarm missiles Tech"
-tech_progressive_swarm_missiles_2_desc: "This technology unlocks the next tier of Swarm missiles technology."
+tech_progressive_swarm_missiles_2_desc: "This technology unlocks the next tier of Progressive Swarm missiles technology."
 
 tech_progressive_torpedoes_1: "Progressive Torpedoes Tech"
-tech_progressive_torpedoes_1_desc: "This technology unlocks the next tier of Torpedoes technology."
+tech_progressive_torpedoes_1_desc: "This technology unlocks the next tier of Progressive Torpedoes technology."
 
 tech_progressive_torpedoes_2: "Progressive Torpedoes Tech"
-tech_progressive_torpedoes_2_desc: "This technology unlocks the next tier of Torpedoes technology."
+tech_progressive_torpedoes_2_desc: "This technology unlocks the next tier of Progressive Torpedoes technology."
 
 tech_progressive_torpedoes_3: "Progressive Torpedoes Tech"
-tech_progressive_torpedoes_3_desc: "This technology unlocks the next tier of Torpedoes technology."
+tech_progressive_torpedoes_3_desc: "This technology unlocks the next tier of Progressive Torpedoes technology."
 
 tech_progressive_shields_1: "Progressive Shields Tech"
-tech_progressive_shields_1_desc: "This technology unlocks the next tier of Shields technology."
+tech_progressive_shields_1_desc: "This technology unlocks the next tier of Progressive Shields technology."
 
 tech_progressive_shields_2: "Progressive Shields Tech"
-tech_progressive_shields_2_desc: "This technology unlocks the next tier of Shields technology."
+tech_progressive_shields_2_desc: "This technology unlocks the next tier of Progressive Shields technology."
 
 tech_progressive_shields_3: "Progressive Shields Tech"
-tech_progressive_shields_3_desc: "This technology unlocks the next tier of Shields technology."
+tech_progressive_shields_3_desc: "This technology unlocks the next tier of Progressive Shields technology."
 
 tech_progressive_shields_4: "Progressive Shields Tech"
-tech_progressive_shields_4_desc: "This technology unlocks the next tier of Shields technology."
+tech_progressive_shields_4_desc: "This technology unlocks the next tier of Progressive Shields technology."
 
 tech_progressive_shields_5: "Progressive Shields Tech"
-tech_progressive_shields_5_desc: "This technology unlocks the next tier of Shields technology."
+tech_progressive_shields_5_desc: "This technology unlocks the next tier of Progressive Shields technology."
 
 tech_progressive_science_lab_1: "Progressive Science lab Tech"
-tech_progressive_science_lab_1_desc: "This technology unlocks the next tier of Science lab technology."
+tech_progressive_science_lab_1_desc: "This technology unlocks the next tier of Progressive Science lab technology."
 
 tech_progressive_science_lab_2: "Progressive Science lab Tech"
-tech_progressive_science_lab_2_desc: "This technology unlocks the next tier of Science lab technology."
+tech_progressive_science_lab_2_desc: "This technology unlocks the next tier of Progressive Science lab technology."
 
 tech_progressive_science_lab_3: "Progressive Science lab Tech"
-tech_progressive_science_lab_3_desc: "This technology unlocks the next tier of Science lab technology."
+tech_progressive_science_lab_3_desc: "This technology unlocks the next tier of Progressive Science lab technology."
 
 tech_progressive_station_science_1: "Progressive Station science Tech"
-tech_progressive_station_science_1_desc: "This technology unlocks the next tier of Station science technology."
+tech_progressive_station_science_1_desc: "This technology unlocks the next tier of Progressive Station science technology."
 
 tech_progressive_station_science_2: "Progressive Station science Tech"
-tech_progressive_station_science_2_desc: "This technology unlocks the next tier of Station science technology."
+tech_progressive_station_science_2_desc: "This technology unlocks the next tier of Progressive Station science technology."
 
 tech_progressive_station_science_3: "Progressive Station science Tech"
-tech_progressive_station_science_3_desc: "This technology unlocks the next tier of Station science technology."
+tech_progressive_station_science_3_desc: "This technology unlocks the next tier of Progressive Station science technology."
 
 tech_progressive_station_science_4: "Progressive Station science Tech"
-tech_progressive_station_science_4_desc: "This technology unlocks the next tier of Station science technology."
+tech_progressive_station_science_4_desc: "This technology unlocks the next tier of Progressive Station science technology."
 
 tech_progressive_station_science_5: "Progressive Station science Tech"
-tech_progressive_station_science_5_desc: "This technology unlocks the next tier of Station science technology."
+tech_progressive_station_science_5_desc: "This technology unlocks the next tier of Progressive Station science technology."
 
 tech_progressive_colony_ship_1: "Progressive Colony ship Tech"
-tech_progressive_colony_ship_1_desc: "This technology unlocks the next tier of Colony ship technology."
+tech_progressive_colony_ship_1_desc: "This technology unlocks the next tier of Progressive Colony ship technology."
 
 tech_progressive_colony_ship_2: "Progressive Colony ship Tech"
-tech_progressive_colony_ship_2_desc: "This technology unlocks the next tier of Colony ship technology."
+tech_progressive_colony_ship_2_desc: "This technology unlocks the next tier of Progressive Colony ship technology."
 
 tech_progressive_research_ai_1: "Progressive Research ai Tech"
-tech_progressive_research_ai_1_desc: "This technology unlocks the next tier of Research ai technology."
+tech_progressive_research_ai_1_desc: "This technology unlocks the next tier of Progressive Research ai technology."
 
 tech_progressive_research_ai_2: "Progressive Research ai Tech"
-tech_progressive_research_ai_2_desc: "This technology unlocks the next tier of Research ai technology."
+tech_progressive_research_ai_2_desc: "This technology unlocks the next tier of Progressive Research ai technology."
 
 tech_progressive_research_ai_3: "Progressive Research ai Tech"
-tech_progressive_research_ai_3_desc: "This technology unlocks the next tier of Research ai technology."
+tech_progressive_research_ai_3_desc: "This technology unlocks the next tier of Progressive Research ai technology."
 
 tech_progressive_encryption_1: "Progressive Encryption Tech"
-tech_progressive_encryption_1_desc: "This technology unlocks the next tier of Encryption technology."
+tech_progressive_encryption_1_desc: "This technology unlocks the next tier of Progressive Encryption technology."
 
 tech_progressive_encryption_2: "Progressive Encryption Tech"
-tech_progressive_encryption_2_desc: "This technology unlocks the next tier of Encryption technology."
+tech_progressive_encryption_2_desc: "This technology unlocks the next tier of Progressive Encryption technology."
 
 tech_progressive_encryption_3: "Progressive Encryption Tech"
-tech_progressive_encryption_3_desc: "This technology unlocks the next tier of Encryption technology."
+tech_progressive_encryption_3_desc: "This technology unlocks the next tier of Progressive Encryption technology."
 
 tech_progressive_decryption_1: "Progressive Decryption Tech"
-tech_progressive_decryption_1_desc: "This technology unlocks the next tier of Decryption technology."
+tech_progressive_decryption_1_desc: "This technology unlocks the next tier of Progressive Decryption technology."
 
 tech_progressive_decryption_2: "Progressive Decryption Tech"
-tech_progressive_decryption_2_desc: "This technology unlocks the next tier of Decryption technology."
+tech_progressive_decryption_2_desc: "This technology unlocks the next tier of Progressive Decryption technology."
 
 tech_progressive_decryption_3: "Progressive Decryption Tech"
-tech_progressive_decryption_3_desc: "This technology unlocks the next tier of Decryption technology."
+tech_progressive_decryption_3_desc: "This technology unlocks the next tier of Progressive Decryption technology."
 
 tech_progressive_reactor_booster_1: "Progressive Reactor booster Tech"
-tech_progressive_reactor_booster_1_desc: "This technology unlocks the next tier of Reactor booster technology."
+tech_progressive_reactor_booster_1_desc: "This technology unlocks the next tier of Progressive Reactor booster technology."
 
 tech_progressive_reactor_booster_2: "Progressive Reactor booster Tech"
-tech_progressive_reactor_booster_2_desc: "This technology unlocks the next tier of Reactor booster technology."
+tech_progressive_reactor_booster_2_desc: "This technology unlocks the next tier of Progressive Reactor booster technology."
 
 tech_progressive_reactor_booster_3: "Progressive Reactor booster Tech"
-tech_progressive_reactor_booster_3_desc: "This technology unlocks the next tier of Reactor booster technology."
+tech_progressive_reactor_booster_3_desc: "This technology unlocks the next tier of Progressive Reactor booster technology."
 
 tech_progressive_shield_hardener_1: "Progressive Shield hardener Tech"
-tech_progressive_shield_hardener_1_desc: "This technology unlocks the next tier of Shield hardener technology."
+tech_progressive_shield_hardener_1_desc: "This technology unlocks the next tier of Progressive Shield hardener technology."
 
 tech_progressive_shield_hardener_2: "Progressive Shield hardener Tech"
-tech_progressive_shield_hardener_2_desc: "This technology unlocks the next tier of Shield hardener technology."
+tech_progressive_shield_hardener_2_desc: "This technology unlocks the next tier of Progressive Shield hardener technology."
 
 tech_progressive_sensors_1: "Progressive Sensors Tech"
-tech_progressive_sensors_1_desc: "This technology unlocks the next tier of Sensors technology."
+tech_progressive_sensors_1_desc: "This technology unlocks the next tier of Progressive Sensors technology."
 
 tech_progressive_sensors_2: "Progressive Sensors Tech"
-tech_progressive_sensors_2_desc: "This technology unlocks the next tier of Sensors technology."
+tech_progressive_sensors_2_desc: "This technology unlocks the next tier of Progressive Sensors technology."
 
 tech_progressive_sensors_3: "Progressive Sensors Tech"
-tech_progressive_sensors_3_desc: "This technology unlocks the next tier of Sensors technology."
+tech_progressive_sensors_3_desc: "This technology unlocks the next tier of Progressive Sensors technology."
 
 tech_progressive_power_plants_1: "Progressive Power plants Tech"
-tech_progressive_power_plants_1_desc: "This technology unlocks the next tier of Power plants technology."
+tech_progressive_power_plants_1_desc: "This technology unlocks the next tier of Progressive Power plants technology."
 
 tech_progressive_power_plants_2: "Progressive Power plants Tech"
-tech_progressive_power_plants_2_desc: "This technology unlocks the next tier of Power plants technology."
+tech_progressive_power_plants_2_desc: "This technology unlocks the next tier of Progressive Power plants technology."
 
 tech_progressive_power_plants_3: "Progressive Power plants Tech"
-tech_progressive_power_plants_3_desc: "This technology unlocks the next tier of Power plants technology."
+tech_progressive_power_plants_3_desc: "This technology unlocks the next tier of Progressive Power plants technology."
 
 tech_progressive_lasers_1: "Progressive Lasers Tech"
-tech_progressive_lasers_1_desc: "This technology unlocks the next tier of Lasers technology."
+tech_progressive_lasers_1_desc: "This technology unlocks the next tier of Progressive Lasers technology."
 
 tech_progressive_lasers_2: "Progressive Lasers Tech"
-tech_progressive_lasers_2_desc: "This technology unlocks the next tier of Lasers technology."
+tech_progressive_lasers_2_desc: "This technology unlocks the next tier of Progressive Lasers technology."
 
 tech_progressive_lasers_3: "Progressive Lasers Tech"
-tech_progressive_lasers_3_desc: "This technology unlocks the next tier of Lasers technology."
+tech_progressive_lasers_3_desc: "This technology unlocks the next tier of Progressive Lasers technology."
 
 tech_progressive_lasers_4: "Progressive Lasers Tech"
-tech_progressive_lasers_4_desc: "This technology unlocks the next tier of Lasers technology."
+tech_progressive_lasers_4_desc: "This technology unlocks the next tier of Progressive Lasers technology."
 
 tech_progressive_lances_1: "Progressive Lances Tech"
-tech_progressive_lances_1_desc: "This technology unlocks the next tier of Lances technology."
+tech_progressive_lances_1_desc: "This technology unlocks the next tier of Progressive Lances technology."
 
 tech_progressive_lances_2: "Progressive Lances Tech"
-tech_progressive_lances_2_desc: "This technology unlocks the next tier of Lances technology."
+tech_progressive_lances_2_desc: "This technology unlocks the next tier of Progressive Lances technology."
 
 tech_progressive_plasma_1: "Progressive Plasma Tech"
-tech_progressive_plasma_1_desc: "This technology unlocks the next tier of Plasma technology."
+tech_progressive_plasma_1_desc: "This technology unlocks the next tier of Progressive Plasma technology."
 
 tech_progressive_plasma_2: "Progressive Plasma Tech"
-tech_progressive_plasma_2_desc: "This technology unlocks the next tier of Plasma technology."
+tech_progressive_plasma_2_desc: "This technology unlocks the next tier of Progressive Plasma technology."
 
 tech_progressive_plasma_3: "Progressive Plasma Tech"
-tech_progressive_plasma_3_desc: "This technology unlocks the next tier of Plasma technology."
+tech_progressive_plasma_3_desc: "This technology unlocks the next tier of Progressive Plasma technology."
 
 tech_progressive_arc_emitter_1: "Progressive Arc emitter Tech"
-tech_progressive_arc_emitter_1_desc: "This technology unlocks the next tier of Arc emitter technology."
+tech_progressive_arc_emitter_1_desc: "This technology unlocks the next tier of Progressive Arc emitter technology."
 
 tech_progressive_arc_emitter_2: "Progressive Arc emitter Tech"
-tech_progressive_arc_emitter_2_desc: "This technology unlocks the next tier of Arc emitter technology."
+tech_progressive_arc_emitter_2_desc: "This technology unlocks the next tier of Progressive Arc emitter technology."
 
 tech_progressive_disruptors_1: "Progressive Disruptors Tech"
-tech_progressive_disruptors_1_desc: "This technology unlocks the next tier of Disruptors technology."
+tech_progressive_disruptors_1_desc: "This technology unlocks the next tier of Progressive Disruptors technology."
 
 tech_progressive_disruptors_2: "Progressive Disruptors Tech"
-tech_progressive_disruptors_2_desc: "This technology unlocks the next tier of Disruptors technology."
+tech_progressive_disruptors_2_desc: "This technology unlocks the next tier of Progressive Disruptors technology."
 
 tech_progressive_disruptors_3: "Progressive Disruptors Tech"
-tech_progressive_disruptors_3_desc: "This technology unlocks the next tier of Disruptors technology."
+tech_progressive_disruptors_3_desc: "This technology unlocks the next tier of Progressive Disruptors technology."
 
 tech_progressive_energy_torpedoes_1: "Progressive Energy torpedoes Tech"
-tech_progressive_energy_torpedoes_1_desc: "This technology unlocks the next tier of Energy torpedoes technology."
+tech_progressive_energy_torpedoes_1_desc: "This technology unlocks the next tier of Progressive Energy torpedoes technology."
 
 tech_progressive_energy_torpedoes_2: "Progressive Energy torpedoes Tech"
-tech_progressive_energy_torpedoes_2_desc: "This technology unlocks the next tier of Energy torpedoes technology."
+tech_progressive_energy_torpedoes_2_desc: "This technology unlocks the next tier of Progressive Energy torpedoes technology."
 
 tech_progressive_point_defense_1: "Progressive Point defense Tech"
-tech_progressive_point_defense_1_desc: "This technology unlocks the next tier of Point defense technology."
+tech_progressive_point_defense_1_desc: "This technology unlocks the next tier of Progressive Point defense technology."
 
 tech_progressive_point_defense_2: "Progressive Point defense Tech"
-tech_progressive_point_defense_2_desc: "This technology unlocks the next tier of Point defense technology."
+tech_progressive_point_defense_2_desc: "This technology unlocks the next tier of Progressive Point defense technology."
 
 tech_progressive_trade_1: "Progressive Trade Tech"
-tech_progressive_trade_1_desc: "This technology unlocks the next tier of Trade technology."
+tech_progressive_trade_1_desc: "This technology unlocks the next tier of Progressive Trade technology."
 
 tech_progressive_trade_2: "Progressive Trade Tech"
-tech_progressive_trade_2_desc: "This technology unlocks the next tier of Trade technology."
+tech_progressive_trade_2_desc: "This technology unlocks the next tier of Progressive Trade technology."
 
 tech_progressive_trade_3: "Progressive Trade Tech"
-tech_progressive_trade_3_desc: "This technology unlocks the next tier of Trade technology."
+tech_progressive_trade_3_desc: "This technology unlocks the next tier of Progressive Trade technology."
 
 tech_progressive_farming_1: "Progressive Farming Tech"
-tech_progressive_farming_1_desc: "This technology unlocks the next tier of Farming technology."
+tech_progressive_farming_1_desc: "This technology unlocks the next tier of Progressive Farming technology."
 
 tech_progressive_farming_2: "Progressive Farming Tech"
-tech_progressive_farming_2_desc: "This technology unlocks the next tier of Farming technology."
+tech_progressive_farming_2_desc: "This technology unlocks the next tier of Progressive Farming technology."
 
 tech_progressive_farming_3: "Progressive Farming Tech"
-tech_progressive_farming_3_desc: "This technology unlocks the next tier of Farming technology."
+tech_progressive_farming_3_desc: "This technology unlocks the next tier of Progressive Farming technology."
 
 tech_progressive_farming_4: "Progressive Farming Tech"
-tech_progressive_farming_4_desc: "This technology unlocks the next tier of Farming technology."
+tech_progressive_farming_4_desc: "This technology unlocks the next tier of Progressive Farming technology."
 
 tech_progressive_habitability_1: "Progressive Habitability Tech"
-tech_progressive_habitability_1_desc: "This technology unlocks the next tier of Habitability technology."
+tech_progressive_habitability_1_desc: "This technology unlocks the next tier of Progressive Habitability technology."
 
 tech_progressive_habitability_2: "Progressive Habitability Tech"
-tech_progressive_habitability_2_desc: "This technology unlocks the next tier of Habitability technology."
+tech_progressive_habitability_2_desc: "This technology unlocks the next tier of Progressive Habitability technology."
 
 tech_progressive_habitability_3: "Progressive Habitability Tech"
-tech_progressive_habitability_3_desc: "This technology unlocks the next tier of Habitability technology."
+tech_progressive_habitability_3_desc: "This technology unlocks the next tier of Progressive Habitability technology."
 
 tech_progressive_habitability_4: "Progressive Habitability Tech"
-tech_progressive_habitability_4_desc: "This technology unlocks the next tier of Habitability technology."
+tech_progressive_habitability_4_desc: "This technology unlocks the next tier of Progressive Habitability technology."
 
 tech_progressive_hospital_1: "Progressive Hospital Tech"
-tech_progressive_hospital_1_desc: "This technology unlocks the next tier of Hospital technology."
+tech_progressive_hospital_1_desc: "This technology unlocks the next tier of Progressive Hospital technology."
 
 tech_progressive_hospital_2: "Progressive Hospital Tech"
-tech_progressive_hospital_2_desc: "This technology unlocks the next tier of Hospital technology."
+tech_progressive_hospital_2_desc: "This technology unlocks the next tier of Progressive Hospital technology."
 
 tech_progressive_terraforming_1: "Progressive Terraforming Tech"
-tech_progressive_terraforming_1_desc: "This technology unlocks the next tier of Terraforming technology."
+tech_progressive_terraforming_1_desc: "This technology unlocks the next tier of Progressive Terraforming technology."
 
 tech_progressive_terraforming_2: "Progressive Terraforming Tech"
-tech_progressive_terraforming_2_desc: "This technology unlocks the next tier of Terraforming technology."
+tech_progressive_terraforming_2_desc: "This technology unlocks the next tier of Progressive Terraforming technology."
 
 tech_progressive_terraforming_3: "Progressive Terraforming Tech"
-tech_progressive_terraforming_3_desc: "This technology unlocks the next tier of Terraforming technology."
+tech_progressive_terraforming_3_desc: "This technology unlocks the next tier of Progressive Terraforming technology."
 
 tech_progressive_leader_genetics_1: "Progressive Leader genetics Tech"
-tech_progressive_leader_genetics_1_desc: "This technology unlocks the next tier of Leader genetics technology."
+tech_progressive_leader_genetics_1_desc: "This technology unlocks the next tier of Progressive Leader genetics technology."
 
 tech_progressive_leader_genetics_2: "Progressive Leader genetics Tech"
-tech_progressive_leader_genetics_2_desc: "This technology unlocks the next tier of Leader genetics technology."
+tech_progressive_leader_genetics_2_desc: "This technology unlocks the next tier of Progressive Leader genetics technology."
 
 tech_progressive_leader_genetics_3: "Progressive Leader genetics Tech"
-tech_progressive_leader_genetics_3_desc: "This technology unlocks the next tier of Leader genetics technology."
+tech_progressive_leader_genetics_3_desc: "This technology unlocks the next tier of Progressive Leader genetics technology."
 
 tech_progressive_gene_tailoring_1: "Progressive Gene tailoring Tech"
-tech_progressive_gene_tailoring_1_desc: "This technology unlocks the next tier of Gene tailoring technology."
+tech_progressive_gene_tailoring_1_desc: "This technology unlocks the next tier of Progressive Gene tailoring technology."
 
 tech_progressive_gene_tailoring_2: "Progressive Gene tailoring Tech"
-tech_progressive_gene_tailoring_2_desc: "This technology unlocks the next tier of Gene tailoring technology."
+tech_progressive_gene_tailoring_2_desc: "This technology unlocks the next tier of Progressive Gene tailoring technology."
 
 tech_progressive_gene_tailoring_3: "Progressive Gene tailoring Tech"
-tech_progressive_gene_tailoring_3_desc: "This technology unlocks the next tier of Gene tailoring technology."
+tech_progressive_gene_tailoring_3_desc: "This technology unlocks the next tier of Progressive Gene tailoring technology."
 
 tech_progressive_gene_tailoring_4: "Progressive Gene tailoring Tech"
-tech_progressive_gene_tailoring_4_desc: "This technology unlocks the next tier of Gene tailoring technology."
+tech_progressive_gene_tailoring_4_desc: "This technology unlocks the next tier of Progressive Gene tailoring technology."
 
 tech_progressive_gene_tailoring_5: "Progressive Gene tailoring Tech"
-tech_progressive_gene_tailoring_5_desc: "This technology unlocks the next tier of Gene tailoring technology."
+tech_progressive_gene_tailoring_5_desc: "This technology unlocks the next tier of Progressive Gene tailoring technology."
 
 tech_progressive_gene_tailoring_6: "Progressive Gene tailoring Tech"
-tech_progressive_gene_tailoring_6_desc: "This technology unlocks the next tier of Gene tailoring technology."
+tech_progressive_gene_tailoring_6_desc: "This technology unlocks the next tier of Progressive Gene tailoring technology."
 
 tech_progressive_army_genetics_1: "Progressive Army genetics Tech"
-tech_progressive_army_genetics_1_desc: "This technology unlocks the next tier of Army genetics technology."
+tech_progressive_army_genetics_1_desc: "This technology unlocks the next tier of Progressive Army genetics technology."
 
 tech_progressive_army_genetics_2: "Progressive Army genetics Tech"
-tech_progressive_army_genetics_2_desc: "This technology unlocks the next tier of Army genetics technology."
+tech_progressive_army_genetics_2_desc: "This technology unlocks the next tier of Progressive Army genetics technology."
 
 tech_progressive_army_genetics_3: "Progressive Army genetics Tech"
-tech_progressive_army_genetics_3_desc: "This technology unlocks the next tier of Army genetics technology."
+tech_progressive_army_genetics_3_desc: "This technology unlocks the next tier of Progressive Army genetics technology."
 
 tech_progressive_fleet_size_1: "Progressive Fleet size Tech"
-tech_progressive_fleet_size_1_desc: "This technology unlocks the next tier of Fleet size technology."
+tech_progressive_fleet_size_1_desc: "This technology unlocks the next tier of Progressive Fleet size technology."
 
 tech_progressive_fleet_size_2: "Progressive Fleet size Tech"
-tech_progressive_fleet_size_2_desc: "This technology unlocks the next tier of Fleet size technology."
+tech_progressive_fleet_size_2_desc: "This technology unlocks the next tier of Progressive Fleet size technology."
 
 tech_progressive_fleet_size_3: "Progressive Fleet size Tech"
-tech_progressive_fleet_size_3_desc: "This technology unlocks the next tier of Fleet size technology."
+tech_progressive_fleet_size_3_desc: "This technology unlocks the next tier of Progressive Fleet size technology."
 
 tech_progressive_fleet_size_4: "Progressive Fleet size Tech"
-tech_progressive_fleet_size_4_desc: "This technology unlocks the next tier of Fleet size technology."
+tech_progressive_fleet_size_4_desc: "This technology unlocks the next tier of Progressive Fleet size technology."
 
 tech_progressive_fleet_size_5: "Progressive Fleet size Tech"
-tech_progressive_fleet_size_5_desc: "This technology unlocks the next tier of Fleet size technology."
+tech_progressive_fleet_size_5_desc: "This technology unlocks the next tier of Progressive Fleet size technology."
 
 tech_progressive_naval_capacity_1: "Progressive Naval capacity Tech"
-tech_progressive_naval_capacity_1_desc: "This technology unlocks the next tier of Naval capacity technology."
+tech_progressive_naval_capacity_1_desc: "This technology unlocks the next tier of Progressive Naval capacity technology."
 
 tech_progressive_naval_capacity_2: "Progressive Naval capacity Tech"
-tech_progressive_naval_capacity_2_desc: "This technology unlocks the next tier of Naval capacity technology."
+tech_progressive_naval_capacity_2_desc: "This technology unlocks the next tier of Progressive Naval capacity technology."
 
 tech_progressive_naval_capacity_3: "Progressive Naval capacity Tech"
-tech_progressive_naval_capacity_3_desc: "This technology unlocks the next tier of Naval capacity technology."
+tech_progressive_naval_capacity_3_desc: "This technology unlocks the next tier of Progressive Naval capacity technology."
 
 tech_progressive_naval_capacity_4: "Progressive Naval capacity Tech"
-tech_progressive_naval_capacity_4_desc: "This technology unlocks the next tier of Naval capacity technology."
+tech_progressive_naval_capacity_4_desc: "This technology unlocks the next tier of Progressive Naval capacity technology."
 
 tech_progressive_army_defense_1: "Progressive Army defense Tech"
-tech_progressive_army_defense_1_desc: "This technology unlocks the next tier of Army defense technology."
+tech_progressive_army_defense_1_desc: "This technology unlocks the next tier of Progressive Army defense technology."
 
 tech_progressive_army_defense_2: "Progressive Army defense Tech"
-tech_progressive_army_defense_2_desc: "This technology unlocks the next tier of Army defense technology."
+tech_progressive_army_defense_2_desc: "This technology unlocks the next tier of Progressive Army defense technology."
 
 tech_progressive_army_offense_1: "Progressive Army offense Tech"
-tech_progressive_army_offense_1_desc: "This technology unlocks the next tier of Army offense technology."
+tech_progressive_army_offense_1_desc: "This technology unlocks the next tier of Progressive Army offense technology."
 
 tech_progressive_army_offense_2: "Progressive Army offense Tech"
-tech_progressive_army_offense_2_desc: "This technology unlocks the next tier of Army offense technology."
+tech_progressive_army_offense_2_desc: "This technology unlocks the next tier of Progressive Army offense technology."
 
 tech_progressive_psionics_1: "Progressive Psionics Tech"
-tech_progressive_psionics_1_desc: "This technology unlocks the next tier of Psionics technology."
+tech_progressive_psionics_1_desc: "This technology unlocks the next tier of Progressive Psionics technology."
 
 tech_progressive_psionics_2: "Progressive Psionics Tech"
-tech_progressive_psionics_2_desc: "This technology unlocks the next tier of Psionics technology."
+tech_progressive_psionics_2_desc: "This technology unlocks the next tier of Progressive Psionics technology."
 
 tech_progressive_psionics_3: "Progressive Psionics Tech"
-tech_progressive_psionics_3_desc: "This technology unlocks the next tier of Psionics technology."
+tech_progressive_psionics_3_desc: "This technology unlocks the next tier of Progressive Psionics technology."
 
 tech_progressive_starbase_capacity_1: "Progressive Starbase capacity Tech"
-tech_progressive_starbase_capacity_1_desc: "This technology unlocks the next tier of Starbase capacity technology."
+tech_progressive_starbase_capacity_1_desc: "This technology unlocks the next tier of Progressive Starbase capacity technology."
 
 tech_progressive_starbase_capacity_2: "Progressive Starbase capacity Tech"
-tech_progressive_starbase_capacity_2_desc: "This technology unlocks the next tier of Starbase capacity technology."
+tech_progressive_starbase_capacity_2_desc: "This technology unlocks the next tier of Progressive Starbase capacity technology."
 
 tech_progressive_campaigns_1: "Progressive Campaigns Tech"
-tech_progressive_campaigns_1_desc: "This technology unlocks the next tier of Campaigns technology."
+tech_progressive_campaigns_1_desc: "This technology unlocks the next tier of Progressive Campaigns technology."
 
 tech_progressive_campaigns_2: "Progressive Campaigns Tech"
-tech_progressive_campaigns_2_desc: "This technology unlocks the next tier of Campaigns technology."
+tech_progressive_campaigns_2_desc: "This technology unlocks the next tier of Progressive Campaigns technology."
 
 tech_progressive_planet_government_1: "Progressive Planet government Tech"
-tech_progressive_planet_government_1_desc: "This technology unlocks the next tier of Planet government technology."
+tech_progressive_planet_government_1_desc: "This technology unlocks the next tier of Progressive Planet government technology."
 
 tech_progressive_planet_government_2: "Progressive Planet government Tech"
-tech_progressive_planet_government_2_desc: "This technology unlocks the next tier of Planet government technology."
+tech_progressive_planet_government_2_desc: "This technology unlocks the next tier of Progressive Planet government technology."
 
 tech_progressive_planet_government_3: "Progressive Planet government Tech"
-tech_progressive_planet_government_3_desc: "This technology unlocks the next tier of Planet government technology."
+tech_progressive_planet_government_3_desc: "This technology unlocks the next tier of Progressive Planet government technology."
 
 tech_progressive_planet_infrastructure_1: "Progressive Planet infrastructure Tech"
-tech_progressive_planet_infrastructure_1_desc: "This technology unlocks the next tier of Planet infrastructure technology."
+tech_progressive_planet_infrastructure_1_desc: "This technology unlocks the next tier of Progressive Planet infrastructure technology."
 
 tech_progressive_planet_infrastructure_2: "Progressive Planet infrastructure Tech"
-tech_progressive_planet_infrastructure_2_desc: "This technology unlocks the next tier of Planet infrastructure technology."
+tech_progressive_planet_infrastructure_2_desc: "This technology unlocks the next tier of Progressive Planet infrastructure technology."
 
 tech_progressive_bureaucracy_1: "Progressive Bureaucracy Tech"
-tech_progressive_bureaucracy_1_desc: "This technology unlocks the next tier of Bureaucracy technology."
+tech_progressive_bureaucracy_1_desc: "This technology unlocks the next tier of Progressive Bureaucracy technology."
 
 tech_progressive_bureaucracy_2: "Progressive Bureaucracy Tech"
-tech_progressive_bureaucracy_2_desc: "This technology unlocks the next tier of Bureaucracy technology."
+tech_progressive_bureaucracy_2_desc: "This technology unlocks the next tier of Progressive Bureaucracy technology."
 
 tech_progressive_bureaucracy_3: "Progressive Bureaucracy Tech"
-tech_progressive_bureaucracy_3_desc: "This technology unlocks the next tier of Bureaucracy technology."
+tech_progressive_bureaucracy_3_desc: "This technology unlocks the next tier of Progressive Bureaucracy technology."
 
 tech_progressive_bureaucracy_4: "Progressive Bureaucracy Tech"
-tech_progressive_bureaucracy_4_desc: "This technology unlocks the next tier of Bureaucracy technology."
+tech_progressive_bureaucracy_4_desc: "This technology unlocks the next tier of Progressive Bureaucracy technology."
 
 tech_progressive_thralls_1: "Progressive Thralls Tech"
-tech_progressive_thralls_1_desc: "This technology unlocks the next tier of Thralls technology."
+tech_progressive_thralls_1_desc: "This technology unlocks the next tier of Progressive Thralls technology."
 
 tech_progressive_thralls_2: "Progressive Thralls Tech"
-tech_progressive_thralls_2_desc: "This technology unlocks the next tier of Thralls technology."
+tech_progressive_thralls_2_desc: "This technology unlocks the next tier of Progressive Thralls technology."
 
 tech_progressive_psionic_shield_1: "Progressive Psionic shield Tech"
-tech_progressive_psionic_shield_1_desc: "This technology unlocks the next tier of Psionic shield technology."
+tech_progressive_psionic_shield_1_desc: "This technology unlocks the next tier of Progressive Psionic shield technology."
 
 tech_progressive_psionic_shield_2: "Progressive Psionic shield Tech"
-tech_progressive_psionic_shield_2_desc: "This technology unlocks the next tier of Psionic shield technology."
+tech_progressive_psionic_shield_2_desc: "This technology unlocks the next tier of Progressive Psionic shield technology."
 
 tech_progressive_embassy_1: "Progressive Embassy Tech"
-tech_progressive_embassy_1_desc: "This technology unlocks the next tier of Embassy technology."
+tech_progressive_embassy_1_desc: "This technology unlocks the next tier of Progressive Embassy technology."
 
 tech_progressive_embassy_2: "Progressive Embassy Tech"
-tech_progressive_embassy_2_desc: "This technology unlocks the next tier of Embassy technology."
+tech_progressive_embassy_2_desc: "This technology unlocks the next tier of Progressive Embassy technology."
 
 tech_progressive_capital_production_1: "Progressive Capital production Tech"
-tech_progressive_capital_production_1_desc: "This technology unlocks the next tier of Capital production technology."
+tech_progressive_capital_production_1_desc: "This technology unlocks the next tier of Progressive Capital production technology."
 
 tech_progressive_capital_production_2: "Progressive Capital production Tech"
-tech_progressive_capital_production_2_desc: "This technology unlocks the next tier of Capital production technology."
+tech_progressive_capital_production_2_desc: "This technology unlocks the next tier of Progressive Capital production technology."
 
 tech_progressive_capital_production_3: "Progressive Capital production Tech"
-tech_progressive_capital_production_3_desc: "This technology unlocks the next tier of Capital production technology."
+tech_progressive_capital_production_3_desc: "This technology unlocks the next tier of Progressive Capital production technology."
 
 tech_progressive_bioreactor_1: "Progressive Bioreactor Tech"
-tech_progressive_bioreactor_1_desc: "This technology unlocks the next tier of Bioreactor technology."
+tech_progressive_bioreactor_1_desc: "This technology unlocks the next tier of Progressive Bioreactor technology."
 
 tech_progressive_bioreactor_2: "Progressive Bioreactor Tech"
-tech_progressive_bioreactor_2_desc: "This technology unlocks the next tier of Bioreactor technology."
+tech_progressive_bioreactor_2_desc: "This technology unlocks the next tier of Progressive Bioreactor technology."
 
 tech_progressive_hull_regen_1: "Progressive Hull regen Tech"
-tech_progressive_hull_regen_1_desc: "This technology unlocks the next tier of Hull regen technology."
+tech_progressive_hull_regen_1_desc: "This technology unlocks the next tier of Progressive Hull regen technology."
 
 tech_progressive_megastructures_1: "Progressive Megastructures Tech"
-tech_progressive_megastructures_1_desc: "This technology unlocks the next tier of Megastructures technology."
+tech_progressive_megastructures_1_desc: "This technology unlocks the next tier of Progressive Megastructures technology."
 
 tech_progressive_megastructures_2: "Progressive Megastructures Tech"
-tech_progressive_megastructures_2_desc: "This technology unlocks the next tier of Megastructures technology."
+tech_progressive_megastructures_2_desc: "This technology unlocks the next tier of Progressive Megastructures technology."
+
+tech_external_uncommon_item_testingplayer1_1: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_1_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_hidden_realm_bulwarks_ambry_testingplayer1_2: "Hidden Realm: Bulwark's Ambry (Testing_Player_1) Tech"
+tech_external_hidden_realm_bulwarks_ambry_testingplayer1_2_desc: "This technology sends the Hidden Realm: Bulwark's Ambry (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_3: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_3_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_4: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_4_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_5: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_5_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_6: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_6_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_7: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_7_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_sirens_call_testingplayer1_8: "Siren's Call (Testing_Player_1) Tech"
+tech_external_sirens_call_testingplayer1_8_desc: "This technology sends the Siren's Call (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_red_testingplayer1_9: "Item Scrap, Red (Testing_Player_1) Tech"
+tech_external_item_scrap_red_testingplayer1_9_desc: "This technology sends the Item Scrap, Red (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_10: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_10_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_abyssal_depths_testingplayer1_11: "Abyssal Depths (Testing_Player_1) Tech"
+tech_external_abyssal_depths_testingplayer1_11_desc: "This technology sends the Abyssal Depths (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_12: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_12_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_13: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_13_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_14: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_14_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_hidden_realm_gilded_coast_testingplayer1_15: "Hidden Realm: Gilded Coast (Testing_Player_1) Tech"
+tech_external_hidden_realm_gilded_coast_testingplayer1_15_desc: "This technology sends the Hidden Realm: Gilded Coast (Testing_Player_1) item to another player."
+
+tech_external_dios_best_friend_testingplayer1_16: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_16_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+
+tech_external_progressive_stage_testingplayer1_17: "Progressive Stage (Testing_Player_1) Tech"
+tech_external_progressive_stage_testingplayer1_17_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_18: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_18_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_19: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_19_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_20: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_20_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_21: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_21_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_22: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_22_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_hidden_realm_bazaar_between_time_testingplayer1_23: "Hidden Realm: Bazaar Between Time (Testing_Player_1) Tech"
+tech_external_hidden_realm_bazaar_between_time_testingplayer1_23_desc: "This technology sends the Hidden Realm: Bazaar Between Time (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_24: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_24_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_25: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_25_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_26: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_26_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_27: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_27_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_hidden_realm_a_moment_whole_testingplayer1_28: "Hidden Realm: A Moment, Whole (Testing_Player_1) Tech"
+tech_external_hidden_realm_a_moment_whole_testingplayer1_28_desc: "This technology sends the Hidden Realm: A Moment, Whole (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_29: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_29_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_legendary_item_testingplayer1_30: "Legendary Item (Testing_Player_1) Tech"
+tech_external_legendary_item_testingplayer1_30_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_31: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_31_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_verdant_falls_testingplayer1_32: "Verdant Falls (Testing_Player_1) Tech"
+tech_external_verdant_falls_testingplayer1_32_desc: "This technology sends the Verdant Falls (Testing_Player_1) item to another player."
+
+tech_external_titanic_plains_testingplayer1_33: "Titanic Plains (Testing_Player_1) Tech"
+tech_external_titanic_plains_testingplayer1_33_desc: "This technology sends the Titanic Plains (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_34: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_34_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_35: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_35_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_36: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_36_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_37: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_37_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_dios_best_friend_testingplayer1_38: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_38_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+
+tech_external_progressive_stage_testingplayer1_39: "Progressive Stage (Testing_Player_1) Tech"
+tech_external_progressive_stage_testingplayer1_39_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_40: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_40_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_41: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_41_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_progressive_stage_testingplayer1_42: "Progressive Stage (Testing_Player_1) Tech"
+tech_external_progressive_stage_testingplayer1_42_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_green_testingplayer1_43: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_43_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_44: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_44_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_lunar_coin_testingplayer1_45: "Lunar Coin (Testing_Player_1) Tech"
+tech_external_lunar_coin_testingplayer1_45_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_46: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_46_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_47: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_47_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_boss_item_testingplayer1_48: "Boss Item (Testing_Player_1) Tech"
+tech_external_boss_item_testingplayer1_48_desc: "This technology sends the Boss Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_49: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_49_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_50: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_50_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_51: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_51_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_52: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_52_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_progressive_stage_testingplayer1_53: "Progressive Stage (Testing_Player_1) Tech"
+tech_external_progressive_stage_testingplayer1_53_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_54: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_54_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_55: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_55_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_lunar_item_testingplayer1_56: "Lunar Item (Testing_Player_1) Tech"
+tech_external_lunar_item_testingplayer1_56_desc: "This technology sends the Lunar Item (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_57: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_57_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_58: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_58_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_59: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_59_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_green_testingplayer1_60: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_60_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_61: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_61_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_void_fields_testingplayer1_62: "Void Fields (Testing_Player_1) Tech"
+tech_external_void_fields_testingplayer1_62_desc: "This technology sends the Void Fields (Testing_Player_1) item to another player."
+
+tech_external_dios_best_friend_testingplayer1_63: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_63_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_64: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_64_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_equipment_testingplayer1_65: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_65_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_66: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_66_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_commencement_testingplayer1_67: "Commencement (Testing_Player_1) Tech"
+tech_external_commencement_testingplayer1_67_desc: "This technology sends the Commencement (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_68: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_68_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_69: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_69_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_equipment_testingplayer1_70: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_70_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_71: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_71_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_72: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_72_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_73: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_73_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_74: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_74_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_75: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_75_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_76: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_76_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_77: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_77_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_78: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_78_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_79: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_79_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_80: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_80_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_dios_best_friend_testingplayer1_81: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_81_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+
+tech_external_lunar_coin_testingplayer1_82: "Lunar Coin (Testing_Player_1) Tech"
+tech_external_lunar_coin_testingplayer1_82_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_83: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_83_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_84: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_84_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_boss_item_testingplayer1_85: "Boss Item (Testing_Player_1) Tech"
+tech_external_boss_item_testingplayer1_85_desc: "This technology sends the Boss Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_86: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_86_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_87: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_87_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_sundered_grove_testingplayer1_88: "Sundered Grove (Testing_Player_1) Tech"
+tech_external_sundered_grove_testingplayer1_88_desc: "This technology sends the Sundered Grove (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_89: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_89_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_lunar_coin_testingplayer1_90: "Lunar Coin (Testing_Player_1) Tech"
+tech_external_lunar_coin_testingplayer1_90_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_91: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_91_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_92: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_92_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_93: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_93_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_94: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_94_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_95: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_95_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_96: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_96_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_yellow_testingplayer1_97: "Item Scrap, Yellow (Testing_Player_1) Tech"
+tech_external_item_scrap_yellow_testingplayer1_97_desc: "This technology sends the Item Scrap, Yellow (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_98: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_98_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_99: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_99_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_100: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_100_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_green_testingplayer1_101: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_101_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+
+tech_external_equipment_testingplayer1_102: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_102_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+
+tech_external_legendary_item_testingplayer1_103: "Legendary Item (Testing_Player_1) Tech"
+tech_external_legendary_item_testingplayer1_103_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_104: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_104_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_equipment_testingplayer1_105: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_105_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+
+tech_external_legendary_item_testingplayer1_106: "Legendary Item (Testing_Player_1) Tech"
+tech_external_legendary_item_testingplayer1_106_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
+
+tech_external_hidden_realm_a_moment_fractured_testingplayer1_107: "Hidden Realm: A Moment, Fractured (Testing_Player_1) Tech"
+tech_external_hidden_realm_a_moment_fractured_testingplayer1_107_desc: "This technology sends the Hidden Realm: A Moment, Fractured (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_108: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_108_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_1000_exp_testingplayer1_109: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_109_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+
+tech_external_lunar_coin_testingplayer1_110: "Lunar Coin (Testing_Player_1) Tech"
+tech_external_lunar_coin_testingplayer1_110_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+
+tech_external_boss_item_testingplayer1_111: "Boss Item (Testing_Player_1) Tech"
+tech_external_boss_item_testingplayer1_111_desc: "This technology sends the Boss Item (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_112: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_112_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_uncommon_item_testingplayer1_113: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_113_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_red_testingplayer1_114: "Item Scrap, Red (Testing_Player_1) Tech"
+tech_external_item_scrap_red_testingplayer1_114_desc: "This technology sends the Item Scrap, Red (Testing_Player_1) item to another player."

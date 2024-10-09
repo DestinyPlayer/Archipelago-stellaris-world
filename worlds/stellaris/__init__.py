@@ -5,7 +5,7 @@ from BaseClasses import Tutorial, Item, ItemClassification, Region
 from Utils import local_path
 from worlds.AutoWorld import WebWorld, World
 from worlds.LauncherComponents import Component, components, Type, launch_subprocess, icon_paths
-from . import Regions, DataTech, Generate
+from . import Regions, DataTech, Generate, Rules, DataEvent
 from .Items import StellarisItemData
 from .Locations import StellarisLocationData
 from .Options import StellarisOptions, stellarisOptionGroups
@@ -46,6 +46,9 @@ class StellarisWorld(World):
     item_name_to_id = Items.itemTable
     location_name_to_id = Locations.locationTable
 
+    '''def set_rules(self) -> None:
+        Rules.set_rules(self)'''
+
     def create_regions(self) -> None:
         # Create regions.
         for region_name in Regions.region_data_table.keys():
@@ -78,19 +81,28 @@ class StellarisWorld(World):
 
     def generate_output(self, output_directory: str) -> None:
         finalLocations = self.multiworld.get_filled_locations(self.player)
-        finalItems = []
         for location in finalLocations:
             if "Research" in str(location):
-                if self.checkTechPresence(str(location.item)):
-                    finalItems.append(location.item)
+                if self.player_name in str(location.item):
+                    DataEvent.finalTechItemsInternal.append(location.item)
+                else:
+                    DataEvent.finalTechItemsExternal.append(location.item)
         self.create_mod(output_directory)
+        self.cleanUpGeneration()
+        #input("Press any key to finalize")
 
-    def checkTechPresence(self,item: str):
+    def cleanUpGeneration(self):
+        DataEvent.finalTechItemsExternal.clear()
+        DataEvent.finalTechItemsInternal.clear()
+        print("Cleaned up Multiworld object allocations")
+
+    '''def checkTechPresence(self,item: str):
         """This function checks for if the item in a location slot is a Stellaris item"""
         for tech in DataTech.techs:
-            if tech["name"] in item:
+            techFull = "tech_progressive_"+tech["name"]
+            if techFull in item:
                 print("Item ",item," is this mod's item!")
-                return True
+                return True'''
 
     def create_mod(self, outputDirectory) -> None:
         """This function generates the Stellaris mod"""
