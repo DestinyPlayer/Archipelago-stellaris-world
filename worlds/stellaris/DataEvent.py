@@ -4,9 +4,8 @@ from . import DataTech
 
 finalTechItemsInternal = []
 finalTechItemsExternal = []
-finalLocations = []
-
-events = []
+finalLocations         = []
+events                 = []
 
 def unScrewTechData(tech):
     tech = str(tech)
@@ -55,3 +54,4 @@ def fillInTechData():
             "description": str(finalTech[0]),
             "location":    finalTech[1],
         })
+    print("|Stellaris:     Finished generation of Event Data")

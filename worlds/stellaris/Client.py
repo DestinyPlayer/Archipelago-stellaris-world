@@ -19,7 +19,7 @@ logger = logging.getLogger("Client")
 #          ______|    |    |______ |_____ |_____ |     | |    \_ __|__ ______|          #
 #########################################################################################
 
-#[VARIABLES]#############################################################################
+#[VARIABLES]############################################################################################################
 resConst          = 100000
 patternSearch1    = b"\xE0\xAE\x58\x2D\x53\x01"
 patternSearch2    = b"\xC0\x72\x00\x5D\x36\x02"
@@ -35,7 +35,7 @@ locationChecks    = []
 locationChecksNum = 0
 
 
-#[METHODS]###############################################################################
+#[METHODS]##############################################################################################################
 def decodeItemCode(item):
     """This method takes the Item Codes provided by the server and converts them into a form readable by the game
 
@@ -81,7 +81,7 @@ def checkBaseRes(res):
         logger.error("ERROR: Reference Resource cannot be read.")
 
 
-#[CLIENT]################################################################################
+#[CLIENT]###############################################################################################################
 async def connectToStellaris():
     """This method connects to Stellaris;
     Finds and checks the reference resources;
@@ -108,8 +108,7 @@ async def connectToStellaris():
         await asyncio.sleep(0.1)
         emerRes = findBaseRes(patternSearch2)
         checkBaseRes(emerRes)
-        if (pm.read_longlong(baseRes + 0x8) != referenceNumber2
-                or pm.read_longlong(emerRes - 0x8) != referenceNumber1):
+        if (pm.read_longlong(baseRes + 0x8) != referenceNumber2 or pm.read_longlong(emerRes - 0x8) != referenceNumber1):
             logger.error("ERROR: Wrong reference addresses found.")
         commResIn  = [baseRes - 0x10, 0]  # Items going into Stellaris
         commResOut = [baseRes - 0x8,  0]  # Items going out of Stellaris
@@ -153,7 +152,7 @@ def runStellarisClient(*args):
     class StellarisCommandProcessor(ClientCommandProcessor):
         def _cmd_reconnect_stellaris(self):
             """Try to reconnect to Stellaris if the connection failed"""
-            stellaris_game_task = asyncio.create_task(connectToStellaris(), name="StellarisConnection")
+            stellaris_game_task = asyncio.create_task(connectToStellaris(), name = "StellarisConnection")
 
     class StellarisContext(CommonContext):
         command_processor = StellarisCommandProcessor
@@ -203,7 +202,7 @@ def runStellarisClient(*args):
         ctx = StellarisContext(args.connect, args.password)
 
         ctx.auth        = args.name
-        ctx.server_task = asyncio.create_task(server_loop(ctx), name="server loop")
+        ctx.server_task = asyncio.create_task(server_loop(ctx), name = "server loop")
 
         if gui_enabled:
             ctx.run_gui()
@@ -223,9 +222,8 @@ def runStellarisClient(*args):
     import colorama
 
     parser = get_base_parser(description = "Stellaris Archipelago Client.")
-    parser.add_argument(
-        '--name', default = None, help = "Slot Name to connect as.")
-    parser.add_argument("url", nargs = "?", help = "Archipelago connection url")
+    parser.add_argument('--name', default = None, help = "Slot Name to connect as.")
+    parser.add_argument("url", nargs = "?",       help = "Archipelago connection url")
     args = parser.parse_args(args)
 
     # handle if text client is launched using the "archipelago://name:pass@host:port" url from webhost
@@ -234,7 +232,7 @@ def runStellarisClient(*args):
         if url.scheme == "archipelago":
             args.connect = url.netloc
             if url.username:
-                args.name = urllib.parse.unquote(url.username)
+                args.name     = urllib.parse.unquote(url.username)
             if url.password:
                 args.password = urllib.parse.unquote(url.password)
         else:
@@ -251,77 +249,3 @@ def runStellarisClient(*args):
 if __name__ == '__main__':
     logging.getLogger().setLevel(logging.INFO) # force log-level to work around log level resetting to WARNING
     runStellarisClient(*sys.argv[1:]) ########## default value for parse_args
-
-'''
-#[GAME FUNCTIONS]########################################################################
-#This function finds an address in Process memory based on the provided pattern
-def findBaseRes(patternMatch):
-    print("Searching for Reference Resource ",patternMatch,"...")
-    referenceResourceAddress = pattern.pattern_scan_all(pm.process_handle, patternMatch, return_multiple=False)
-    try:
-        print("Reference resource ", patternMatch, " found at address ",hex(referenceResourceAddress))
-    except:
-        logger.info("ERROR: Reference Resource could not be found. Aborting.")
-    return referenceResourceAddress
-
-#This function checks whether the discovered address has an int in it
-def checkBaseRes(res):
-    try:
-        print("Reference resource value is: ",pm.read_longlong(res))
-    except:
-        logger.info("ERROR: Reference Resource cannot be read. Aborting.")
-
-#This function takes item code in form AP-Y-XXX and converts it into the YXXX form readable by the game
-def decodeItemCode(item):
-    splitItem = item.split("-")
-    code = splitItem[1]+splitItem[2]
-    print("Received item ",item,", converted to internal code ",code)
-    return int(code)
-
-#This function sends the decoded item value to the game and waits until it's been read
-def receiveItem(itemNum,res,waitNum):
-    if res[1] == 0:
-        waitNum = waitNum - 1
-        pm.write_longlong(res[0], itemNum)
-        print(pm.read_longlong(res[0]) / resConst)
-        itemsToReceive.pop(waitNum)
-    else:
-        print("Waiting for event to fire off...")
-    print("Items left to accept: ",waitNum)
-    return waitNum
-
-#[CONNECTION TO THE GAME]################################################################
-try:
-    pm = Pymem("stellaris.exe")
-    stellarisModule = process.base_module(pm.process_handle)
-except:
-    logger.info("ERROR: stellaris.exe not found. Aborting.\nDid you forget to launch the game?")
-else:
-    print("Stellaris found.")
-
-#[FINDING REFERENCE RESOURCES]###########################################################
-print("Connecting to Stellaris")
-baseRes = findBaseRes(patternSearch1)
-checkBaseRes(baseRes)
-emerRes = findBaseRes(patternSearch2)
-checkBaseRes(emerRes)
-
-if pm.read_longlong(baseRes+0x8) != referenceNumber2 or pm.read_longlong(emerRes-0x8) != referenceNumber1:
-    logger.info("ERROR: Wrong reference addresses found. Aborting.")
-
-#[GRABBING COMMUNICATION RESOURCES]######################################################
-print("Grabbing communication resources")
-commResIn = [baseRes-0x10,0] #Items going into Stellaris
-commResOut = [baseRes-0x8,0] #Items going out of Stellaris
-
-#[ESTABLISHING COMMUNICATION LOOP]#######################################################
-print("Testing item sending process")
-while True:
-    receiveWait = len(itemsToReceive)
-    if receiveWait != 0:
-        cur = decodeItemCode(itemsToReceive[receiveWait-1])
-        commResIn[1]  = pm.read_longlong(commResIn[0])/resConst
-        commResOut[1] = pm.read_longlong(commResOut[0])/resConst
-        receiveWait = receiveItem(cur*resConst,commResIn,receiveWait)
-    time.sleep(1)
-'''

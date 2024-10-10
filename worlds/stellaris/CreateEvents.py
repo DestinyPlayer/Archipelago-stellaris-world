@@ -28,8 +28,10 @@ def constructTechAction(tech, world: "StellarisWorld"):
         if i != 0:
             elseif     = "else_if"
             conditions = conditions + eventIfTech.format(has = name + str(i))
+
         else:
             elseif = "if"
+
         if world.options.researchHardMode.value == 0:
             vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
             for split in vanilla[i].split(" "):
@@ -55,16 +57,19 @@ def createEvents(world: "StellarisWorld"):
             num         = 10000+(key*10+10)
             resource    = "urp_000"
             outResearch = ""
+
         elif item["type"] == "techSend":
             value       = 0
             postValue   = item["location"]-750000
             action      = ""
             num         = item["location"]
             resource    = "urp_001"
+
             for i in finalTechItemsExternal:
                 if item["name"] == unExternalizeTechData(i[0]):
                     has = "tech_external_"+item["name"]+"_"+str(num)
                     break
+
             for i in finalTechItemsInternal:
                 splitItem = str(i[0]).split(" ")
                 for j in range(5):
@@ -73,8 +78,9 @@ def createEvents(world: "StellarisWorld"):
                         has = str(splitItem[0])
                         break
             outResearch = eventIfOutTech.format(has = has)
+
         else: #Shouldn't come up except for testing purposes
-            print("An event didn't generate right! Please check your stuff")
+            print("|Stellaris: An event didn't generate right! Please check your stuff")
             continue
         eventText = eventText+eventTemplate.format(
             num         = num,
@@ -85,7 +91,7 @@ def createEvents(world: "StellarisWorld"):
             outResearch = outResearch
         )
     writeToFile("events/archipelago_dynamic_events.txt",eventText)
-    print("    Finished generation of event definition files")
+    print("|Stellaris:     Finished generation of event definition files")
 
 def createEventLocalisations():
     """This function assembles the Event Localizations (names and descriptions)"""
@@ -97,13 +103,15 @@ def createEventLocalisations():
                 num          = 10000+(key*10+10)
                 receiveSend  = "received from"
                 receivedSent = "received"
+
             elif item["type"] == "techSend":
                 value        = key
                 num          = item["location"]
                 receiveSend  = "sent to"
                 receivedSent = "sent"
+
             else: #Shouldn't come up except for testing purposes
-                print("An event localisation didn't generate right! Please check your stuff")
+                print("|Stellaris: An event localisation didn't generate right! Please check your stuff")
                 continue
             desc = item["description"]
             localisationText = localisationText + localisationEventTemplate.format(
@@ -115,4 +123,4 @@ def createEventLocalisations():
             )
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml",
                     localisationText,"utf-8-sig")
-    print("    Finished generation of event localisation files")
+    print("|Stellaris:     Finished generation of event localisation files")

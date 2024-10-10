@@ -1,15 +1,20 @@
 import time
 from typing import List, Dict, Mapping, Any
-
 from BaseClasses import Tutorial, Item, ItemClassification, Region
 from Utils import local_path
 from worlds.AutoWorld import WebWorld, World
 from worlds.LauncherComponents import Component, components, Type, launch_subprocess, icon_paths
-from . import Regions, DataTech, Generate, Rules, DataEvent
-from .Items import StellarisItemData
+from . import Regions, DataTech, Generate, Rules
+from .Items import StellarisItemData, itemDataTable, itemTable, StellarisItem
 from .Locations import StellarisLocationData,researchCount, getLocationDataTable, StellarisLocation
 from .Options import StellarisOptions, stellarisOptionGroups
+from .DataEvent import finalLocations, finalTechItemsInternal, finalTechItemsExternal
 
+#########################################################################################
+#          _______ _______ _______               _______  ______ _____ _______          #
+#          |______    |    |______ |      |      |_____| |_____/   |   |______          #
+#          ______|    |    |______ |_____ |_____ |     | |    \_ __|__ ______|          #
+#########################################################################################
 
 def launch_client():
     from worlds.stellaris.Client import runStellarisClient
@@ -70,12 +75,12 @@ class StellarisWorld(World):
             }, StellarisLocation)
             region.add_exits(Regions.region_data_table[region_name].connecting_regions)
 
-    def create_item(self, name: str) -> Items.StellarisItem:
-        return Items.StellarisItem(name, Items.itemDataTable[name].type, Items.itemDataTable[name].code, self.player)
+    def create_item(self, name: str) -> StellarisItem:
+        return StellarisItem(name, itemDataTable[name].type, itemDataTable[name].code, self.player)
 
     def create_items(self) -> None:
-        item_pool: List[Items.StellarisItem] = []
-        for name, item in Items.itemDataTable.items():
+        item_pool: List[StellarisItem] = []
+        for name, item in itemDataTable.items():
             if item.code and item.can_create(self):
                 item_pool.append(self.create_item(name))
 
@@ -85,6 +90,7 @@ class StellarisWorld(World):
         self.options.priority_locations.value.add("Research")
 
     def generate_output(self, output_directory: str) -> None:
+        print("o[Stellaris]------------------------------------------------------------------------------------------o")
         DataEvent.finalLocations = self.multiworld.get_filled_locations(self.player)
         for location in DataEvent.finalLocations:
             if "Research" in str(location):
@@ -94,6 +100,7 @@ class StellarisWorld(World):
                     DataEvent.finalTechItemsExternal.append([location.item,location.address])
         self.create_mod(output_directory)
         self.cleanUpGeneration()
+        print("o[Stellaris]------------------------------------------------------------------------------------------o")
         input("Press any key to finalize") #This is for debug, remove later
 
     def cleanUpGeneration(self):
@@ -101,7 +108,7 @@ class StellarisWorld(World):
         DataEvent.finalTechItemsExternal.clear()
         DataEvent.finalTechItemsInternal.clear()
         DataEvent.finalLocations.clear()
-        print("Cleaned up Multiworld object allocations")
+        print("|Stellaris: Cleaned up Multiworld object allocations")
 
     '''def checkTechPresence(self,item: str):
         """This function checks for if the item in a location slot is a Stellaris item"""

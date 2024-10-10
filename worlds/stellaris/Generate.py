@@ -7,7 +7,7 @@ if TYPE_CHECKING:
     from . import StellarisWorld
 
 def generateMod(world: "StellarisWorld", outputDirectory):
-    print("Generating Stellaris mod")
+    print("|Stellaris: Generating mod")
 
     #DataEvent
     DataEvent.fillInTechData()
@@ -24,4 +24,4 @@ def generateMod(world: "StellarisWorld", outputDirectory):
 
     Utility.copyOtherLocalisationFiles("archipelago_events_l_english.yml")
     #shutil.copytree("worlds/stellaris/mod","output/mod")
-    print("Mod generation complete")
+    print("|Stellaris: Mod generation complete")
