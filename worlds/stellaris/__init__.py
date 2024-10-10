@@ -90,7 +90,7 @@ class StellarisWorld(World):
         self.options.priority_locations.value.add("Research")
 
     def generate_output(self, output_directory: str) -> None:
-        print("o[Stellaris]------------------------------------------------------------------------------------------o")
+        print("o---------------------------------------------[Stellaris]---------------------------------------------o")
         DataEvent.finalLocations = self.multiworld.get_filled_locations(self.player)
         for location in DataEvent.finalLocations:
             if "Research" in str(location):
@@ -100,7 +100,7 @@ class StellarisWorld(World):
                     DataEvent.finalTechItemsExternal.append([location.item,location.address])
         self.create_mod(output_directory)
         self.cleanUpGeneration()
-        print("o[Stellaris]------------------------------------------------------------------------------------------o")
+        print("o---------------------------------------------[Stellaris]---------------------------------------------o")
         input("Press any key to finalize") #This is for debug, remove later
 
     def cleanUpGeneration(self):
@@ -108,7 +108,7 @@ class StellarisWorld(World):
         DataEvent.finalTechItemsExternal.clear()
         DataEvent.finalTechItemsInternal.clear()
         DataEvent.finalLocations.clear()
-        print("|Stellaris: Cleaned up Multiworld object allocations")
+        print("|Stellaris: Cleaned up Multiworld object allocations                                                  |")
 
     '''def checkTechPresence(self,item: str):
         """This function checks for if the item in a location slot is a Stellaris item"""

@@ -54,4 +54,4 @@ def fillInTechData():
             "description": str(finalTech[0]),
             "location":    finalTech[1],
         })
-    print("|Stellaris:     Finished generation of Event Data")
+    print("|Stellaris:     Finished generation of Event Data                                                     |")

@@ -46,7 +46,7 @@ def createOutsideTech():
             weight_null = weight_null
         )
     writeToFile("common/technology/archipelago_external_tech.txt", techText)
-    print("|Stellaris:     Finished generation of external research definition files")
+    print("|Stellaris:     Finished generation of external research definition files                             |")
 
 def createTech():
     """This function assembles the technology definition files in the mod"""
@@ -84,7 +84,7 @@ def createTech():
                 weight_null = weight_null
             )
     writeToFile("common/technology/archipelago_progressive_tech.txt",techText)
-    print("|Stellaris:     Finished generation of technology definition files")
+    print("|Stellaris:     Finished generation of technology definition files                                    |")
 
 def createTechLocalisations():
     """This function assembles the technology localisation files in the mod (names and descriptions)"""
@@ -110,7 +110,7 @@ def createTechLocalisations():
             )
         writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,
                     "utf-8-sig")
-    print("|Stellaris:     Finished generation of technology localisation files")
+    print("|Stellaris:     Finished generation of technology localisation files                                  |")
 
 def createTechIcons():
     """This function assigns icons to technologies"""
@@ -129,4 +129,4 @@ def createTechIcons():
             iconFinal  = path + iconFinal
             pathFinal  = path + iconTempName + format
             shutil.copyfile(pathFinal, iconFinal)
-    print("|Stellaris:     Finished generation of technology icon files")
+    print("|Stellaris:     Finished generation of technology icon files                                          |")

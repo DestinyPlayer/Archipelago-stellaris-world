@@ -80,7 +80,7 @@ def createEvents(world: "StellarisWorld"):
             outResearch = eventIfOutTech.format(has = has)
 
         else: #Shouldn't come up except for testing purposes
-            print("|Stellaris: An event didn't generate right! Please check your stuff")
+            print("|Stellaris: An event didn't generate right! Please check your stuff                               |")
             continue
         eventText = eventText+eventTemplate.format(
             num         = num,
@@ -91,7 +91,7 @@ def createEvents(world: "StellarisWorld"):
             outResearch = outResearch
         )
     writeToFile("events/archipelago_dynamic_events.txt",eventText)
-    print("|Stellaris:     Finished generation of event definition files")
+    print("|Stellaris:     Finished generation of event definition files                                         |")
 
 def createEventLocalisations():
     """This function assembles the Event Localizations (names and descriptions)"""
@@ -111,7 +111,7 @@ def createEventLocalisations():
                 receivedSent = "sent"
 
             else: #Shouldn't come up except for testing purposes
-                print("|Stellaris: An event localisation didn't generate right! Please check your stuff")
+                print("|Stellaris: An event localisation didn't generate right! Please check your stuff              |")
                 continue
             desc = item["description"]
             localisationText = localisationText + localisationEventTemplate.format(
@@ -123,4 +123,4 @@ def createEventLocalisations():
             )
         writeToFile("localisation/"+lang+"/archipelago_dynamic_events_l_"+lang+".yml",
                     localisationText,"utf-8-sig")
-    print("|Stellaris:     Finished generation of event localisation files")
+    print("|Stellaris:     Finished generation of event localisation files                                       |")
