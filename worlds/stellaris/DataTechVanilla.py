@@ -235,8 +235,7 @@ vanillaTechs = {
     ],
     "reactor_booster": [
         "tech_reactor_boosters_1",
-        "tech_reactor_boosters_2",
-        "tech_reactor_boosters_3"
+        "tech_reactor_boosters_2"
     ],
     "shield_hardener": [
         "tech_shield_hardeners_1",

@@ -2,7 +2,16 @@ import shutil
 from . import DataTech
 
 languages = [
-    "braz_por","english","french","german","japanese","korean","polish","russian","simp_chinese","spanish"
+    "braz_por",
+    "english",
+    "french",
+    "german",
+    "japanese",
+    "korean",
+    "polish",
+    "russian",
+    "simp_chinese",
+    "spanish"
 ]
 
 #This function writes files to the mod folder
@@ -27,9 +36,9 @@ def copyOtherLocalisationFiles(file):
     for lang in languages:
         if lang == "english":
             continue
-        path = "worlds/stellaris/mod/archipelago-stellaris-mod/localisation/"
+        path    = "worlds/stellaris/mod/archipelago-stellaris-mod/localisation/"
         finPath = path + lang + "/" + file.replace("english", lang)
-        path += "english/"+file
+        path   += "english/" + file
         shutil.copyfile(path, finPath)
         f = open(finPath,"r")
         fileText = f.read()

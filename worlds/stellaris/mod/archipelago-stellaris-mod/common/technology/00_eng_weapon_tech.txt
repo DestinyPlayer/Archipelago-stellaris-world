@@ -23,6 +23,13 @@ tech_mass_drivers_2 = {
 	prerequisites = { "tech_mass_drivers_1" }
 	weight = @tier1weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_mass_drivers_1
+    		is_ai = yes
+		}
+	}
+
 	gateway = kinetic_weapons
 
 	weight_modifier = {
@@ -67,6 +74,13 @@ tech_mass_drivers_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_mass_drivers_2" }
 	weight = @tier2weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_mass_drivers_2
+    		is_ai = yes
+		}
+	}
 
 	gateway = kinetic_weapons
 
@@ -113,6 +127,13 @@ tech_mass_drivers_4 = {
 	prerequisites = { "tech_mass_drivers_3" }
 	weight = @tier3weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_mass_drivers_3
+    		is_ai = yes
+		}
+	}
+
 	gateway = kinetic_weapons
 
 	weight_modifier = {
@@ -158,6 +179,13 @@ tech_mass_drivers_5 = {
 	prerequisites = { "tech_mass_drivers_4" }
 	weight = @tier4weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_mass_drivers_4
+    		is_ai = yes
+		}
+	}
+
 	gateway = kinetic_weapons
 
 	weight_modifier = {
@@ -202,6 +230,13 @@ tech_kinetic_artillery_1 = {
 	prerequisites = { "tech_mass_drivers_4" }
 	weight = @tier3weight3
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_kinetic_artillery_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -243,6 +278,13 @@ tech_kinetic_artillery_2 = {
 	ai_update_type = military
 	prerequisites = { "tech_mass_drivers_5" "tech_kinetic_artillery_1" }
 	weight = @tier4weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_kinetic_artillery_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -286,6 +328,13 @@ tech_mass_accelerator_1 = {
 	prerequisites = { "tech_mass_drivers_4" "tech_battleships" }
 	weight = @tier4weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_mass_accelerators_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -327,6 +376,13 @@ tech_mass_accelerator_2 = {
 	ai_update_type = military
 	prerequisites = { "tech_mass_drivers_5" "tech_mass_accelerator_1" }
 	weight = @tier4weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_mass_accelerators_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -374,6 +430,13 @@ tech_autocannons_1 = {
 	ai_update_type = military
 	prerequisites = { tech_mass_drivers_2 }
 	weight = @tier2weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_autocannon_1
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -423,6 +486,13 @@ tech_autocannons_2 = {
 	prerequisites = { "tech_autocannons_1" }
 	weight = @tier3weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_autocannon_2
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -456,6 +526,13 @@ tech_autocannons_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_autocannons_2" }
 	weight = @tier4weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_autocannon_3
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -507,6 +584,13 @@ tech_flak_batteries_2 = {
 	prerequisites = { "tech_flak_batteries_1" }
 	weight = @tier2weight3
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_flak_battery_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -548,6 +632,13 @@ tech_flak_batteries_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_flak_batteries_2" }
 	weight = @tier4weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_flak_battery_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -605,6 +696,13 @@ tech_missiles_2 = {
 	prerequisites = { "tech_missiles_1" "tech_fusion_power" }
 	weight = @tier1weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_missiles_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -647,6 +745,13 @@ tech_missiles_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_missiles_2" }
 	weight = @tier2weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_missiles_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -691,6 +796,13 @@ tech_missiles_4 = {
 	prerequisites = { "tech_missiles_3" }
 	weight = @tier3weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_missiles_3
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -733,6 +845,13 @@ tech_missiles_5 = {
 	ai_update_type = military
 	prerequisites = { "tech_missiles_4" }
 	weight = @tier4weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_missiles_4
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -777,6 +896,13 @@ tech_swarmer_missiles_1 = {
 	prerequisites = { "tech_missiles_2" }
 	weight = @tier2weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_swarm_missiles_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -819,6 +945,13 @@ tech_swarmer_missiles_2 = {
 	ai_update_type = military
 	prerequisites = { "tech_swarmer_missiles_1" }
 	weight = @tier4weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_swarm_missiles_2
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -867,6 +1000,13 @@ tech_torpedoes_1 = {
 	prerequisites = { "tech_corvettes" }
 	weight = @tier1weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_torpedoes_1
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -910,6 +1050,13 @@ tech_torpedoes_2 = {
 	prerequisites = { "tech_torpedoes_1" }
 	weight = @tier3weight2
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_torpedoes_2
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -952,6 +1099,13 @@ tech_torpedoes_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_torpedoes_2" }
 	weight = @tier4weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_torpedoes_3
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		modifier = {

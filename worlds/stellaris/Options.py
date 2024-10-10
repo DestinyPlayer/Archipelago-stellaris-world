@@ -10,14 +10,14 @@ class ResearchHardMode(Toggle):
 class ResearchExtraSlots(Range):
     """How many extra research slots should there be?"""
     display_name = "Extra Research Slots"
-    range_start = 0
-    range_end = 1000
-    default = 5
+    range_start  = 0
+    range_end    = 1000
+    default      = 5
 
 class DLCIncluded(OptionSet):
     """What DLC you have/intend to use"""
     display_name = "What DLC you have"
-    valid_keys = {
+    valid_keys   = {
         DlcNames.leviathans,
         DlcNames.utopia,
         DlcNames.megacorp,
@@ -53,6 +53,6 @@ stellarisOptionGroups = [
 
 @dataclass
 class StellarisOptions(PerGameCommonOptions):
-    researchHardMode: ResearchHardMode
+    researchHardMode:   ResearchHardMode
     researchExtraSlots: ResearchExtraSlots
-    dlcIncluded: DLCIncluded
+    dlcIncluded:        DLCIncluded

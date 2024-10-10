@@ -6,6 +6,6 @@ class StellarisRegionData(NamedTuple):
 
 
 region_data_table: Dict[str, StellarisRegionData] = {
-    "Menu": StellarisRegionData(["Research"]),
+    "Menu":     StellarisRegionData(["Research"]),
     "Research": StellarisRegionData(),
 }

@@ -7,7 +7,7 @@ from worlds.AutoWorld import WebWorld, World
 from worlds.LauncherComponents import Component, components, Type, launch_subprocess, icon_paths
 from . import Regions, DataTech, Generate, Rules, DataEvent
 from .Items import StellarisItemData
-from .Locations import StellarisLocationData
+from .Locations import StellarisLocationData,researchCount, getLocationDataTable, StellarisLocation
 from .Options import StellarisOptions, stellarisOptionGroups
 
 
@@ -15,10 +15,15 @@ def launch_client():
     from worlds.stellaris.Client import runStellarisClient
     launch_subprocess(runStellarisClient, name="StellarisClient")
 
-components.append(Component("Stellaris Client",
-                            "StellarisClient",
-                            func=launch_client,
-                            component_type=Type.CLIENT, icon='sticon'))
+
+components.append(Component(
+    "Stellaris Client",
+    "StellarisClient",
+    func           = launch_client,
+    component_type = Type.CLIENT,
+    icon           = 'sticon'
+))
+
 
 icon_paths['sticon'] = local_path('data', 'sticon.png')
 
@@ -39,11 +44,11 @@ class StellarisWorld(World):
     Explore the secrets of the massive, ancient galaxy, Expand your territory, Exploit both resources and your neighbors
     and, if they prove to be too much of an issue, Exterminate them until all that's left is you.
     """
-    game = "Stellaris"
-    web = StellarisWeb()
-    options = StellarisOptions
-    options_dataclass = StellarisOptions
-    item_name_to_id = Items.itemTable
+    game                = "Stellaris"
+    web                 = StellarisWeb()
+    options             = StellarisOptions
+    options_dataclass   = StellarisOptions
+    item_name_to_id     = Items.itemTable
     location_name_to_id = Locations.locationTable
 
     '''def set_rules(self) -> None:
@@ -56,13 +61,13 @@ class StellarisWorld(World):
             self.multiworld.regions.append(region)
 
         # Create locations.
-        locationDataTable: Dict[str, StellarisLocationData] = Locations.getLocationDataTable(Locations.researchCount, self)
+        locationDataTable: Dict[str, StellarisLocationData] = getLocationDataTable(researchCount, self)
         for region_name, region_data in Regions.region_data_table.items():
             region = self.get_region(region_name)
             region.add_locations({
                 location_name: location_data.address for location_name, location_data in locationDataTable.items()
                 if location_data.region == region_name and location_data.can_create(self)
-            }, Locations.StellarisLocation)
+            }, StellarisLocation)
             region.add_exits(Regions.region_data_table[region_name].connecting_regions)
 
     def create_item(self, name: str) -> Items.StellarisItem:
@@ -80,20 +85,22 @@ class StellarisWorld(World):
         self.options.priority_locations.value.add("Research")
 
     def generate_output(self, output_directory: str) -> None:
-        finalLocations = self.multiworld.get_filled_locations(self.player)
-        for location in finalLocations:
+        DataEvent.finalLocations = self.multiworld.get_filled_locations(self.player)
+        for location in DataEvent.finalLocations:
             if "Research" in str(location):
                 if self.player_name in str(location.item):
-                    DataEvent.finalTechItemsInternal.append(location.item)
+                    DataEvent.finalTechItemsInternal.append([location.item,location.address])
                 else:
-                    DataEvent.finalTechItemsExternal.append(location.item)
+                    DataEvent.finalTechItemsExternal.append([location.item,location.address])
         self.create_mod(output_directory)
         self.cleanUpGeneration()
-        #input("Press any key to finalize")
+        input("Press any key to finalize") #This is for debug, remove later
 
     def cleanUpGeneration(self):
+        """This method cleans saved multiworld data to prevent memory leaks"""
         DataEvent.finalTechItemsExternal.clear()
         DataEvent.finalTechItemsInternal.clear()
+        DataEvent.finalLocations.clear()
         print("Cleaned up Multiworld object allocations")
 
     '''def checkTechPresence(self,item: str):
@@ -105,5 +112,5 @@ class StellarisWorld(World):
                 return True'''
 
     def create_mod(self, outputDirectory) -> None:
-        """This function generates the Stellaris mod"""
+        """This method generates the Stellaris mod"""
         Generate.generateMod(self,outputDirectory)

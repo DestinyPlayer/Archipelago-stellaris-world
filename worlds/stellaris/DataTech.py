@@ -77,7 +77,7 @@ techs = [
      "progType": "useful"},
     {"name": "decryption", "levels": 3, "area": "physics", "category": "computing", "tier": 2, "non_research": "",
      "progType": "useful"},
-    {"name": "reactor_booster", "levels": 3, "area": "physics", "category": "particles", "tier": 2, "non_research": "",
+    {"name": "reactor_booster", "levels": 2, "area": "physics", "category": "particles", "tier": 2, "non_research": "",
      "progType": "filler"},
     {"name": "shield_hardener", "levels": 2, "area": "physics", "category": "field_manipulation", "tier": 3, "non_research": "",
      "progType": "filler"},

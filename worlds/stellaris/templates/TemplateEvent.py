@@ -10,7 +10,7 @@ country_event = {{
 		resource_stockpile_compare = {{
 			resource = {resource}
 			value = {value}
-		}}
+		}}{outResearch}
 	}}
 	immediate = {{
 		add_resource = {{
@@ -25,6 +25,7 @@ eventAction = '''
             limit = {{                {conditions} 
             }}{result}
         }}'''
-eventIfTech = '''\n		        has_technology = "{has}"'''
+eventIfTech    = '''\n		        has_technology = "{has}"'''
 eventNotIfTech = '''\n		        NOT = {{ has_technology = "{hasnot}" }}'''
-eventGiveTech = '''\n		    give_technology = {{ tech = "{name}" }}'''
+eventGiveTech  = '''\n		    give_technology = {{ tech = "{name}" }}'''
+eventIfOutTech = '''\n		has_technology = "{has}"'''

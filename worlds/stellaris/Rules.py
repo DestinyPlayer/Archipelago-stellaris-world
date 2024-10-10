@@ -5,8 +5,8 @@ if TYPE_CHECKING:
 
 
 def set_rules(world: "StellarisWorld"):
-    player = world.player
+    player     = world.player
     multiworld = world.multiworld
-    options = world.options
+    options    = world.options
     # Win Condition
     multiworld.completion_condition[player] = lambda state: state.has("Victory", player)

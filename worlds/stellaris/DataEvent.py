@@ -4,11 +4,13 @@ from . import DataTech
 
 finalTechItemsInternal = []
 finalTechItemsExternal = []
+finalLocations = []
 
 events = []
 
 def unScrewTechData(tech):
     tech = str(tech)
+    tech = tech.replace(" ","_")
     tech = tech.split("_")
     tech.remove("tech")
     tech.remove("progressive")
@@ -20,12 +22,11 @@ def unScrewTechData(tech):
     return finalTech
 
 def unExternalizeTechData(tech):
-    tech = str(tech)
-    tech = tech.translate(str.maketrans('','',string.punctuation))
-    tech = tech.replace(" ","_")
-    tech = tech.lower()
+    tech      = str(tech)
+    tech      = tech.translate(str.maketrans('','',string.punctuation))
+    tech      = tech.replace(" ","_")
+    tech      = tech.lower()
     finalTech = tech
-    tech = ""
     return finalTech
 
 def fillInTechData():
@@ -33,20 +34,24 @@ def fillInTechData():
     #Tech Receive
     for tech in DataTech.techs:
         events.append({
-            "type": "techReceive",
-            "name": tech["name"],
+            "type":        "techReceive",
+            "name":        tech["name"],
             "description": "Progressive "+tech["name"].replace("_"," ")+" technology"
         })
     #Tech Send
     for finalTech in finalTechItemsInternal:
-        finalEventTech = unScrewTechData(finalTech)
-        events.append({"type": "techSend",
-                       "name": finalEventTech,
-                       "description": "Progressive "+finalEventTech.replace("_"," ")+" technology"
-                       })
+        finalEventTech = unScrewTechData(finalTech[0])
+        events.append({
+            "type":        "techSend",
+            "name":        finalEventTech,
+            "description": "Progressive "+finalEventTech.replace("_"," ")+" technology",
+            "location":    finalTech[1],
+        })
     for finalTech in finalTechItemsExternal:
-        finalEventTech = unExternalizeTechData(finalTech)
-        events.append({"type": "techSend",
-                       "name": finalEventTech,
-                       "description": str(finalTech)
-                       })
+        finalEventTech = unExternalizeTechData(finalTech[0])
+        events.append({
+            "type":        "techSend",
+            "name":        finalEventTech,
+            "description": str(finalTech[0]),
+            "location":    finalTech[1],
+        })

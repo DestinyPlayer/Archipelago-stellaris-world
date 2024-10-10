@@ -38,7 +38,7 @@ tech_progressive_reactor_2 = {
 }
 
 tech_progressive_reactor_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -46,11 +46,14 @@ tech_progressive_reactor_3 = {
     }
     tier = 3
     category = { particles }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_reactor_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -58,11 +61,14 @@ tech_progressive_reactor_4 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_reactor_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -70,7 +76,10 @@ tech_progressive_reactor_5 = {
     }
     tier = 5
     category = { particles }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_hyperdrive_1 = {
@@ -89,7 +98,7 @@ tech_progressive_hyperdrive_1 = {
 }
 
 tech_progressive_hyperdrive_2 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -97,11 +106,14 @@ tech_progressive_hyperdrive_2 = {
     }
     tier = 2
     category = { particles }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_hyperdrive_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -109,11 +121,14 @@ tech_progressive_hyperdrive_3 = {
     }
     tier = 3
     category = { particles }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_hyperdrive_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -121,7 +136,10 @@ tech_progressive_hyperdrive_4 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_thruster_1 = {
@@ -155,7 +173,7 @@ tech_progressive_thruster_2 = {
 }
 
 tech_progressive_thruster_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -163,11 +181,14 @@ tech_progressive_thruster_3 = {
     }
     tier = 3
     category = { propulsion }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_thruster_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -175,7 +196,10 @@ tech_progressive_thruster_4 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_ship_1 = {
@@ -239,7 +263,7 @@ tech_progressive_ship_4 = {
 }
 
 tech_progressive_ship_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -247,7 +271,10 @@ tech_progressive_ship_5 = {
     }
     tier = 5
     category = { voidcraft }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_starbase_1 = {
@@ -266,7 +293,7 @@ tech_progressive_starbase_1 = {
 }
 
 tech_progressive_starbase_2 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -274,11 +301,14 @@ tech_progressive_starbase_2 = {
     }
     tier = 2
     category = { voidcraft }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_starbase_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -286,7 +316,10 @@ tech_progressive_starbase_3 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_wormhole_1 = {
@@ -350,7 +383,7 @@ tech_progressive_corvette_upgrades_2 = {
 }
 
 tech_progressive_corvette_upgrades_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -358,7 +391,10 @@ tech_progressive_corvette_upgrades_3 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_destroyer_upgrades_1 = {
@@ -377,7 +413,7 @@ tech_progressive_destroyer_upgrades_1 = {
 }
 
 tech_progressive_destroyer_upgrades_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -385,11 +421,14 @@ tech_progressive_destroyer_upgrades_2 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_destroyer_upgrades_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -397,7 +436,10 @@ tech_progressive_destroyer_upgrades_3 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_cruiser_upgrades_1 = {
@@ -416,7 +458,7 @@ tech_progressive_cruiser_upgrades_1 = {
 }
 
 tech_progressive_cruiser_upgrades_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -424,11 +466,14 @@ tech_progressive_cruiser_upgrades_2 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_cruiser_upgrades_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -436,7 +481,10 @@ tech_progressive_cruiser_upgrades_3 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_battleship_upgrades_1 = {
@@ -470,7 +518,7 @@ tech_progressive_battleship_upgrades_2 = {
 }
 
 tech_progressive_battleship_upgrades_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -478,7 +526,10 @@ tech_progressive_battleship_upgrades_3 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_titan_upgrades_1 = {
@@ -497,7 +548,7 @@ tech_progressive_titan_upgrades_1 = {
 }
 
 tech_progressive_titan_upgrades_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -505,7 +556,10 @@ tech_progressive_titan_upgrades_2 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_starbase_upgrades_1 = {
@@ -524,7 +578,7 @@ tech_progressive_starbase_upgrades_1 = {
 }
 
 tech_progressive_starbase_upgrades_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -532,7 +586,10 @@ tech_progressive_starbase_upgrades_2 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_strike_craft_1 = {
@@ -566,7 +623,7 @@ tech_progressive_strike_craft_2 = {
 }
 
 tech_progressive_strike_craft_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -574,11 +631,14 @@ tech_progressive_strike_craft_3 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_strike_craft_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -586,7 +646,10 @@ tech_progressive_strike_craft_4 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_orbital_habitats_1 = {
@@ -605,7 +668,7 @@ tech_progressive_orbital_habitats_1 = {
 }
 
 tech_progressive_orbital_habitats_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -613,11 +676,14 @@ tech_progressive_orbital_habitats_2 = {
     }
     tier = 3
     category = { voidcraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_orbital_habitats_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -625,7 +691,10 @@ tech_progressive_orbital_habitats_3 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_ship_armor_1 = {
@@ -659,7 +728,7 @@ tech_progressive_ship_armor_2 = {
 }
 
 tech_progressive_ship_armor_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -667,11 +736,14 @@ tech_progressive_ship_armor_3 = {
     }
     tier = 3
     category = { materials }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_ship_armor_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -679,7 +751,10 @@ tech_progressive_ship_armor_4 = {
     }
     tier = 4
     category = { materials }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_armor_hardener_1 = {
@@ -698,7 +773,7 @@ tech_progressive_armor_hardener_1 = {
 }
 
 tech_progressive_armor_hardener_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -706,7 +781,10 @@ tech_progressive_armor_hardener_2 = {
     }
     tier = 4
     category = { materials }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_robotics_1 = {
@@ -755,7 +833,7 @@ tech_progressive_robotics_3 = {
 }
 
 tech_progressive_robotics_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -763,11 +841,14 @@ tech_progressive_robotics_4 = {
     }
     tier = 4
     category = { industry }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_robotics_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -775,7 +856,10 @@ tech_progressive_robotics_5 = {
     }
     tier = 5
     category = { industry }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_space_mining_1 = {
@@ -824,7 +908,7 @@ tech_progressive_space_mining_3 = {
 }
 
 tech_progressive_space_mining_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -832,11 +916,14 @@ tech_progressive_space_mining_4 = {
     }
     tier = 4
     category = { industry }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_space_mining_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -844,7 +931,10 @@ tech_progressive_space_mining_5 = {
     }
     tier = 5
     category = { industry }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planetary_mining_1 = {
@@ -878,7 +968,7 @@ tech_progressive_planetary_mining_2 = {
 }
 
 tech_progressive_planetary_mining_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -886,11 +976,14 @@ tech_progressive_planetary_mining_3 = {
     }
     tier = 4
     category = { industry }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_alloy_production_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -898,11 +991,14 @@ tech_progressive_alloy_production_1 = {
     }
     tier = 3
     category = { materials }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_alloy_production_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -910,7 +1006,10 @@ tech_progressive_alloy_production_2 = {
     }
     tier = 4
     category = { materials }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_consumer_goods_1 = {
@@ -929,7 +1028,7 @@ tech_progressive_consumer_goods_1 = {
 }
 
 tech_progressive_consumer_goods_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -937,11 +1036,14 @@ tech_progressive_consumer_goods_2 = {
     }
     tier = 4
     category = { materials }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_afterburners_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -949,11 +1051,14 @@ tech_progressive_afterburners_1 = {
     }
     tier = 3
     category = { propulsion }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_afterburners_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -961,11 +1066,14 @@ tech_progressive_afterburners_2 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planetary_build_speed_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -973,11 +1081,14 @@ tech_progressive_planetary_build_speed_1 = {
     }
     tier = 3
     category = { industry }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planetary_build_speed_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -985,7 +1096,10 @@ tech_progressive_planetary_build_speed_2 = {
     }
     tier = 4
     category = { industry }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_housing_1 = {
@@ -1004,7 +1118,7 @@ tech_progressive_housing_1 = {
 }
 
 tech_progressive_housing_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1012,11 +1126,14 @@ tech_progressive_housing_2 = {
     }
     tier = 3
     category = { industry }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_housing_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1024,7 +1141,10 @@ tech_progressive_housing_3 = {
     }
     tier = 4
     category = { industry }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_mass_drivers_1 = {
@@ -1073,7 +1193,7 @@ tech_progressive_mass_drivers_3 = {
 }
 
 tech_progressive_mass_drivers_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1081,7 +1201,10 @@ tech_progressive_mass_drivers_4 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_kinetic_artillery_1 = {
@@ -1175,7 +1298,7 @@ tech_progressive_autocannon_2 = {
 }
 
 tech_progressive_autocannon_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1183,11 +1306,14 @@ tech_progressive_autocannon_3 = {
     }
     tier = 3
     category = { propulsion }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_autocannon_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1195,7 +1321,10 @@ tech_progressive_autocannon_4 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_flak_battery_1 = {
@@ -1229,7 +1358,7 @@ tech_progressive_flak_battery_2 = {
 }
 
 tech_progressive_flak_battery_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1237,7 +1366,10 @@ tech_progressive_flak_battery_3 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_missiles_1 = {
@@ -1286,7 +1418,7 @@ tech_progressive_missiles_3 = {
 }
 
 tech_progressive_missiles_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1294,11 +1426,14 @@ tech_progressive_missiles_4 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_swarm_missiles_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1306,11 +1441,14 @@ tech_progressive_swarm_missiles_1 = {
     }
     tier = 3
     category = { propulsion }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_swarm_missiles_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1318,7 +1456,10 @@ tech_progressive_swarm_missiles_2 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_torpedoes_1 = {
@@ -1352,7 +1493,7 @@ tech_progressive_torpedoes_2 = {
 }
 
 tech_progressive_torpedoes_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -1360,7 +1501,10 @@ tech_progressive_torpedoes_3 = {
     }
     tier = 4
     category = { propulsion }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_shields_1 = {
@@ -1379,7 +1523,7 @@ tech_progressive_shields_1 = {
 }
 
 tech_progressive_shields_2 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1387,11 +1531,14 @@ tech_progressive_shields_2 = {
     }
     tier = 2
     category = { field_manipulation }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_shields_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1399,11 +1546,14 @@ tech_progressive_shields_3 = {
     }
     tier = 3
     category = { field_manipulation }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_shields_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1411,11 +1561,14 @@ tech_progressive_shields_4 = {
     }
     tier = 4
     category = { field_manipulation }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_shields_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1423,7 +1576,10 @@ tech_progressive_shields_5 = {
     }
     tier = 5
     category = { field_manipulation }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_science_lab_1 = {
@@ -1442,7 +1598,7 @@ tech_progressive_science_lab_1 = {
 }
 
 tech_progressive_science_lab_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1450,11 +1606,14 @@ tech_progressive_science_lab_2 = {
     }
     tier = 3
     category = { computing }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_science_lab_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1462,7 +1621,10 @@ tech_progressive_science_lab_3 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_station_science_1 = {
@@ -1511,7 +1673,7 @@ tech_progressive_station_science_3 = {
 }
 
 tech_progressive_station_science_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1519,11 +1681,14 @@ tech_progressive_station_science_4 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_station_science_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1531,7 +1696,10 @@ tech_progressive_station_science_5 = {
     }
     tier = 5
     category = { computing }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_colony_ship_1 = {
@@ -1580,7 +1748,7 @@ tech_progressive_research_ai_1 = {
 }
 
 tech_progressive_research_ai_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1588,11 +1756,14 @@ tech_progressive_research_ai_2 = {
     }
     tier = 3
     category = { computing }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_research_ai_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1600,7 +1771,10 @@ tech_progressive_research_ai_3 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_encryption_1 = {
@@ -1634,7 +1808,7 @@ tech_progressive_encryption_2 = {
 }
 
 tech_progressive_encryption_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1642,7 +1816,10 @@ tech_progressive_encryption_3 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_decryption_1 = {
@@ -1676,7 +1853,7 @@ tech_progressive_decryption_2 = {
 }
 
 tech_progressive_decryption_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1684,7 +1861,10 @@ tech_progressive_decryption_3 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_reactor_booster_1 = {
@@ -1703,7 +1883,7 @@ tech_progressive_reactor_booster_1 = {
 }
 
 tech_progressive_reactor_booster_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1711,19 +1891,10 @@ tech_progressive_reactor_booster_2 = {
     }
     tier = 3
     category = { particles }
-    weight = @tier3weight1
-}
-
-tech_progressive_reactor_booster_3 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_shield_hardener_1 = {
@@ -1787,7 +1958,7 @@ tech_progressive_sensors_2 = {
 }
 
 tech_progressive_sensors_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1795,7 +1966,10 @@ tech_progressive_sensors_3 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_power_plants_1 = {
@@ -1829,7 +2003,7 @@ tech_progressive_power_plants_2 = {
 }
 
 tech_progressive_power_plants_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1837,11 +2011,14 @@ tech_progressive_power_plants_3 = {
     }
     tier = 4
     category = { field_manipulation }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_lasers_1 = {
-    cost = @progressive_cost_1
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1849,11 +2026,14 @@ tech_progressive_lasers_1 = {
     }
     tier = 1
     category = { particles }
-    weight = @tier1weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_lasers_2 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1861,11 +2041,14 @@ tech_progressive_lasers_2 = {
     }
     tier = 2
     category = { particles }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_lasers_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1873,11 +2056,14 @@ tech_progressive_lasers_3 = {
     }
     tier = 3
     category = { particles }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_lasers_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1885,7 +2071,10 @@ tech_progressive_lasers_4 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_lances_1 = {
@@ -1934,7 +2123,7 @@ tech_progressive_plasma_1 = {
 }
 
 tech_progressive_plasma_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1942,11 +2131,14 @@ tech_progressive_plasma_2 = {
     }
     tier = 3
     category = { particles }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_plasma_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1954,7 +2146,10 @@ tech_progressive_plasma_3 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_arc_emitter_1 = {
@@ -1973,7 +2168,7 @@ tech_progressive_arc_emitter_1 = {
 }
 
 tech_progressive_arc_emitter_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -1981,7 +2176,10 @@ tech_progressive_arc_emitter_2 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_disruptors_1 = {
@@ -2015,7 +2213,7 @@ tech_progressive_disruptors_2 = {
 }
 
 tech_progressive_disruptors_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -2023,7 +2221,10 @@ tech_progressive_disruptors_3 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_energy_torpedoes_1 = {
@@ -2072,7 +2273,7 @@ tech_progressive_point_defense_1 = {
 }
 
 tech_progressive_point_defense_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = physics
     is_rare = yes
     potential = {
@@ -2080,11 +2281,14 @@ tech_progressive_point_defense_2 = {
     }
     tier = 4
     category = { computing }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_trade_1 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2092,11 +2296,14 @@ tech_progressive_trade_1 = {
     }
     tier = 2
     category = { statecraft }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_trade_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2104,11 +2311,14 @@ tech_progressive_trade_2 = {
     }
     tier = 3
     category = { statecraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_trade_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2116,7 +2326,10 @@ tech_progressive_trade_3 = {
     }
     tier = 4
     category = { statecraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_farming_1 = {
@@ -2135,7 +2348,7 @@ tech_progressive_farming_1 = {
 }
 
 tech_progressive_farming_2 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2143,11 +2356,14 @@ tech_progressive_farming_2 = {
     }
     tier = 2
     category = { biology }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_farming_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2155,11 +2371,14 @@ tech_progressive_farming_3 = {
     }
     tier = 3
     category = { biology }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_farming_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2167,7 +2386,10 @@ tech_progressive_farming_4 = {
     }
     tier = 4
     category = { biology }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_habitability_1 = {
@@ -2216,7 +2438,7 @@ tech_progressive_habitability_3 = {
 }
 
 tech_progressive_habitability_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2224,7 +2446,10 @@ tech_progressive_habitability_4 = {
     }
     tier = 4
     category = { new_worlds }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_hospital_1 = {
@@ -2243,7 +2468,7 @@ tech_progressive_hospital_1 = {
 }
 
 tech_progressive_hospital_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2251,7 +2476,10 @@ tech_progressive_hospital_2 = {
     }
     tier = 4
     category = { biology }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_terraforming_1 = {
@@ -2270,7 +2498,7 @@ tech_progressive_terraforming_1 = {
 }
 
 tech_progressive_terraforming_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2278,11 +2506,14 @@ tech_progressive_terraforming_2 = {
     }
     tier = 3
     category = { new_worlds }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_terraforming_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2290,7 +2521,10 @@ tech_progressive_terraforming_3 = {
     }
     tier = 4
     category = { new_worlds }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_leader_genetics_1 = {
@@ -2324,7 +2558,7 @@ tech_progressive_leader_genetics_2 = {
 }
 
 tech_progressive_leader_genetics_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2332,7 +2566,10 @@ tech_progressive_leader_genetics_3 = {
     }
     tier = 4
     category = { biology }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_gene_tailoring_1 = {
@@ -2381,7 +2618,7 @@ tech_progressive_gene_tailoring_3 = {
 }
 
 tech_progressive_gene_tailoring_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2389,11 +2626,14 @@ tech_progressive_gene_tailoring_4 = {
     }
     tier = 4
     category = { biology }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_gene_tailoring_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2401,11 +2641,14 @@ tech_progressive_gene_tailoring_5 = {
     }
     tier = 5
     category = { biology }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_gene_tailoring_6 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2413,11 +2656,14 @@ tech_progressive_gene_tailoring_6 = {
     }
     tier = 5
     category = { biology }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_army_genetics_1 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2425,11 +2671,14 @@ tech_progressive_army_genetics_1 = {
     }
     tier = 2
     category = { biology }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_army_genetics_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2437,11 +2686,14 @@ tech_progressive_army_genetics_2 = {
     }
     tier = 3
     category = { biology }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_army_genetics_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2449,7 +2701,10 @@ tech_progressive_army_genetics_3 = {
     }
     tier = 4
     category = { biology }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_fleet_size_1 = {
@@ -2498,7 +2753,7 @@ tech_progressive_fleet_size_3 = {
 }
 
 tech_progressive_fleet_size_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2506,11 +2761,14 @@ tech_progressive_fleet_size_4 = {
     }
     tier = 4
     category = { military_theory }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_fleet_size_5 = {
-    cost = @progressive_cost_5
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2518,11 +2776,14 @@ tech_progressive_fleet_size_5 = {
     }
     tier = 5
     category = { military_theory }
-    weight = @tier5weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_naval_capacity_1 = {
-    cost = @progressive_cost_1
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2530,11 +2791,14 @@ tech_progressive_naval_capacity_1 = {
     }
     tier = 1
     category = { military_theory }
-    weight = @tier1weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_naval_capacity_2 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2542,11 +2806,14 @@ tech_progressive_naval_capacity_2 = {
     }
     tier = 2
     category = { military_theory }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_naval_capacity_3 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2554,11 +2821,14 @@ tech_progressive_naval_capacity_3 = {
     }
     tier = 3
     category = { military_theory }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_naval_capacity_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2566,11 +2836,14 @@ tech_progressive_naval_capacity_4 = {
     }
     tier = 4
     category = { military_theory }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_army_defense_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2578,11 +2851,14 @@ tech_progressive_army_defense_1 = {
     }
     tier = 3
     category = { military_theory }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_army_defense_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2590,7 +2866,10 @@ tech_progressive_army_defense_2 = {
     }
     tier = 4
     category = { military_theory }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_army_offense_1 = {
@@ -2639,7 +2918,7 @@ tech_progressive_psionics_1 = {
 }
 
 tech_progressive_psionics_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2647,11 +2926,14 @@ tech_progressive_psionics_2 = {
     }
     tier = 3
     category = { psionics }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_psionics_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2659,7 +2941,10 @@ tech_progressive_psionics_3 = {
     }
     tier = 4
     category = { psionics }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_starbase_capacity_1 = {
@@ -2678,7 +2963,7 @@ tech_progressive_starbase_capacity_1 = {
 }
 
 tech_progressive_starbase_capacity_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2686,11 +2971,14 @@ tech_progressive_starbase_capacity_2 = {
     }
     tier = 4
     category = { new_worlds }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_campaigns_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2698,11 +2986,14 @@ tech_progressive_campaigns_1 = {
     }
     tier = 3
     category = { military_theory }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_campaigns_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2710,11 +3001,14 @@ tech_progressive_campaigns_2 = {
     }
     tier = 4
     category = { military_theory }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planet_government_1 = {
-    cost = @progressive_cost_2
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2722,11 +3016,14 @@ tech_progressive_planet_government_1 = {
     }
     tier = 2
     category = { statecraft }
-    weight = @tier2weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planet_government_2 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2734,11 +3031,14 @@ tech_progressive_planet_government_2 = {
     }
     tier = 3
     category = { statecraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planet_government_3 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2746,7 +3046,10 @@ tech_progressive_planet_government_3 = {
     }
     tier = 4
     category = { statecraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_planet_infrastructure_1 = {
@@ -2765,7 +3068,7 @@ tech_progressive_planet_infrastructure_1 = {
 }
 
 tech_progressive_planet_infrastructure_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2773,7 +3076,10 @@ tech_progressive_planet_infrastructure_2 = {
     }
     tier = 4
     category = { new_worlds }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_bureaucracy_1 = {
@@ -2822,7 +3128,7 @@ tech_progressive_bureaucracy_3 = {
 }
 
 tech_progressive_bureaucracy_4 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2830,11 +3136,14 @@ tech_progressive_bureaucracy_4 = {
     }
     tier = 4
     category = { statecraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_thralls_1 = {
-    cost = @progressive_cost_3
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2842,11 +3151,14 @@ tech_progressive_thralls_1 = {
     }
     tier = 3
     category = { statecraft }
-    weight = @tier3weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_thralls_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2854,7 +3166,10 @@ tech_progressive_thralls_2 = {
     }
     tier = 4
     category = { statecraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_psionic_shield_1 = {
@@ -2873,7 +3188,7 @@ tech_progressive_psionic_shield_1 = {
 }
 
 tech_progressive_psionic_shield_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2881,7 +3196,10 @@ tech_progressive_psionic_shield_2 = {
     }
     tier = 4
     category = { psionics }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_embassy_1 = {
@@ -2900,7 +3218,7 @@ tech_progressive_embassy_1 = {
 }
 
 tech_progressive_embassy_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = society
     is_rare = yes
     potential = {
@@ -2908,7 +3226,10 @@ tech_progressive_embassy_2 = {
     }
     tier = 4
     category = { statecraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }
 
 tech_progressive_capital_production_1 = {
@@ -3017,7 +3338,7 @@ tech_progressive_megastructures_1 = {
 }
 
 tech_progressive_megastructures_2 = {
-    cost = @progressive_cost_4
+    cost = @progressive_cost_0
     area = engineering
     is_rare = yes
     potential = {
@@ -3025,5 +3346,8 @@ tech_progressive_megastructures_2 = {
     }
     tier = 4
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
 }

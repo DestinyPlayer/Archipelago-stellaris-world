@@ -39,6 +39,10 @@ tech_space_trading = {
 
 	potential = {
 		is_regular_empire = yes
+		OR = {
+    		has_technology = tech_progressive_trade_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -65,6 +69,10 @@ tech_interstellar_economics = {
 
 	potential = {
 		is_gestalt = no
+		OR = {
+    		has_technology = tech_progressive_trade_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -103,6 +111,10 @@ tech_galactic_markets = {
 
 	potential = {
 		is_gestalt = no
+		OR = {
+    		has_technology = tech_progressive_trade_3
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -174,6 +186,13 @@ tech_eco_simulation = {
 	modifier = {
 		planet_farmers_food_produces_mult = 0.2
 		starbase_constructions_food_produces_mult = 0.10
+	}
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -248,6 +267,13 @@ tech_gene_crops = {
 		starbase_constructions_food_produces_mult = 0.10
 	}
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_2
+    		is_ai = yes
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.01
@@ -315,6 +341,13 @@ tech_nano_vitality_crops = {
 	category = { biology }
 	prerequisites = { "tech_gene_crops" }
 	weight = @tier3weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_3
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_farmers_food_produces_mult = 0.2
@@ -388,6 +421,13 @@ tech_nutrient_replication = {
 	category = { biology }
 	prerequisites = { "tech_nano_vitality_crops" }
 	weight = @tier4weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_4
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		planet_jobs_food_produces_mult = 0.15
@@ -477,6 +517,13 @@ tech_hydroponics = {
 	prerequisites = { "tech_industrial_farming" }
 	weight = @tier1weight1
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_1
+    		is_ai = yes
+		}
+	}
+
 	# unlock hydroponics buildings
 
 	weight_modifier = {
@@ -530,6 +577,13 @@ tech_food_processing_1 = {
 	category = { biology }
 	prerequisites = { "tech_eco_simulation" }
 	weight = @tier1weight2
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_2
+    		is_ai = yes
+		}
+	}
 
 	# unlock food processing facility
 
@@ -611,6 +665,13 @@ tech_food_processing_2 = {
 	category = { biology }
 	prerequisites = { "tech_food_processing_1" }
 	weight = @tier3weight1
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_farming_3
+    		is_ai = yes
+		}
+	}
 
 	weight_modifier = {
 		factor = 2
@@ -992,6 +1053,13 @@ tech_colonization_2 = {
 	prerequisites = { "tech_colonization_1" }
 	weight = @tier1weight3
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_habitability_1
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		pop_environment_tolerance = 0.05
 	}
@@ -1013,6 +1081,13 @@ tech_colonization_3 = {
 	category = { new_worlds }
 	prerequisites = { "tech_colonization_2" }
 	weight = @tier2weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_habitability_2
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		pop_environment_tolerance = 0.05
@@ -1036,6 +1111,13 @@ tech_colonization_4 = {
 	prerequisites = { "tech_colonization_3" }
 	weight = @tier3weight3
 
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_habitability_3
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		pop_environment_tolerance = 0.05
 	}
@@ -1057,6 +1139,13 @@ tech_colonization_5 = {
 	category = { new_worlds }
 	prerequisites = { "tech_colonization_4" }
 	weight = @tier4weight3
+
+	potential = {
+		OR = {
+    		has_technology = tech_progressive_habitability_4
+    		is_ai = yes
+		}
+	}
 
 	modifier = {
 		pop_environment_tolerance = 0.05
@@ -1123,6 +1212,10 @@ tech_frontier_health = {
 	potential = {
 		is_regular_empire = yes
 		is_individual_machine = no
+		OR = {
+    		has_technology = tech_progressive_hospital_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -1154,6 +1247,10 @@ tech_frontier_hospital = {
 	potential = {
 		is_gestalt = no
 		is_individual_machine = no
+		OR = {
+    		has_technology = tech_progressive_hospital_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
