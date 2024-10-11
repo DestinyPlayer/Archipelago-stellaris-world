@@ -100,19 +100,24 @@ async def connectToStellaris():
         logger.error("ERROR: Stellaris couldn't be found. Did you forget to launch the game?")
     else:
         logger.info("Stellaris found: " + str(pm))
+
         logger.info("Searching for Reference Resource " + str(patternSearch1) + "...")
         await asyncio.sleep(0.1)
         baseRes = findBaseRes(patternSearch1)
         checkBaseRes(baseRes)
+
         logger.info("Searching for Reference Resource " + str(patternSearch2) + "...")
         await asyncio.sleep(0.1)
         emerRes = findBaseRes(patternSearch2)
         checkBaseRes(emerRes)
+
         if (pm.read_longlong(baseRes + 0x8) != referenceNumber2 or pm.read_longlong(emerRes - 0x8) != referenceNumber1):
             logger.error("ERROR: Wrong reference addresses found.")
+
         commResIn  = [baseRes - 0x10, 0]  # Items going into Stellaris
         commResOut = [baseRes - 0x8,  0]  # Items going out of Stellaris
         grabResources()
+
         return True
 
 
@@ -142,8 +147,7 @@ async def loopTransmit(getItems):
     while True:
         grabResources()
         length = len(getItems)
-        if length != 0:
-            receiveItem(getItems[length - 1], length)
+        if length != 0: receiveItem(getItems[length - 1], length)
         sendItem()
         await asyncio.sleep(1)
 
@@ -156,14 +160,13 @@ def runStellarisClient(*args):
 
     class StellarisContext(CommonContext):
         command_processor = StellarisCommandProcessor
-        # Text Mode to use !hint and such with games that have no text entry
-        game           = "Stellaris" # Empty matches any game since 0.3.2
-        items_handling = 0b111 ####### Receive all items for /received
-        want_slot_data = False ####### Can't use game specific slot_data
+        game              = "Stellaris" # Empty matches any game since 0.3.2
+        items_handling    = 0b111 ####### Receive all items for /received
+        want_slot_data    = False ####### Can't use game specific slot_data
+        username          = "Testing_Player_2"
 
         def __init__(self, server_address, password):
             super(StellarisContext, self).__init__(server_address, password)
-            self.username = "Testing_Player_2"
 
         async def get_username(self):
             if not self.auth:

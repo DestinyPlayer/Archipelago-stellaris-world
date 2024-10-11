@@ -67,6 +67,7 @@ class StellarisWorld(World):
 
         # Create locations.
         locationDataTable: Dict[str, StellarisLocationData] = getLocationDataTable(researchCount, self)
+
         for region_name, region_data in Regions.region_data_table.items():
             region = self.get_region(region_name)
             region.add_locations({
@@ -80,6 +81,7 @@ class StellarisWorld(World):
 
     def create_items(self) -> None:
         item_pool: List[StellarisItem] = []
+
         for name, item in itemDataTable.items():
             if item.code and item.can_create(self):
                 item_pool.append(self.create_item(name))
@@ -92,12 +94,14 @@ class StellarisWorld(World):
     def generate_output(self, output_directory: str) -> None:
         print("o---------------------------------------------[Stellaris]---------------------------------------------o")
         DataEvent.finalLocations = self.multiworld.get_filled_locations(self.player)
+
         for location in DataEvent.finalLocations:
             if "Research" in str(location):
-                if self.player_name in str(location.item):
-                    DataEvent.finalTechItemsInternal.append([location.item,location.address])
+                if self.player == location.item.player:
+                    DataEvent.finalTechItemsInternal.append([location.item, location.address, location.item.player])
                 else:
-                    DataEvent.finalTechItemsExternal.append([location.item,location.address])
+                    DataEvent.finalTechItemsExternal.append([location.item, location.address, location.item.player])
+
         self.create_mod(output_directory)
         self.cleanUpGeneration()
         print("o---------------------------------------------[Stellaris]---------------------------------------------o")

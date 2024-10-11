@@ -669,317 +669,335 @@ tech_progressive_megastructures_1_desc: "This technology unlocks the next tier o
 tech_progressive_megastructures_2: "Progressive Megastructures Tech"
 tech_progressive_megastructures_2_desc: "This technology unlocks the next tier of Progressive Megastructures technology."
 
-tech_external_lunar_coin_testingplayer1_1: "Lunar Coin (Testing_Player_1) Tech"
-tech_external_lunar_coin_testingplayer1_1_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+tech_external_lunar_item_testingplayer1_1: "Lunar Item (Testing_Player_1) Tech"
+tech_external_lunar_item_testingplayer1_1_desc: "This technology sends the Lunar Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_2: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_2_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_2: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_2_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_3: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_3_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_legendary_item_testingplayer1_3: "Legendary Item (Testing_Player_1) Tech"
+tech_external_legendary_item_testingplayer1_3_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
 
-tech_external_void_fields_testingplayer1_4: "Void Fields (Testing_Player_1) Tech"
-tech_external_void_fields_testingplayer1_4_desc: "This technology sends the Void Fields (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_4: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_4_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_5: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_5_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_5: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_5_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
 tech_external_uncommon_item_testingplayer1_6: "Uncommon Item (Testing_Player_1) Tech"
 tech_external_uncommon_item_testingplayer1_6_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_red_testingplayer1_7: "Item Scrap, Red (Testing_Player_1) Tech"
-tech_external_item_scrap_red_testingplayer1_7_desc: "This technology sends the Item Scrap, Red (Testing_Player_1) item to another player."
+tech_external_equipment_testingplayer1_7: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_7_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_8: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_8_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_dios_best_friend_testingplayer1_8: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_8_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_9: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_9_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_9: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_9_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_progressive_stage_testingplayer1_10: "Progressive Stage (Testing_Player_1) Tech"
-tech_external_progressive_stage_testingplayer1_10_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_10: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_10_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_11: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_11_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_11: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_11_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_legendary_item_testingplayer1_12: "Legendary Item (Testing_Player_1) Tech"
-tech_external_legendary_item_testingplayer1_12_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_12: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_12_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_sirens_call_testingplayer1_13: "Siren's Call (Testing_Player_1) Tech"
-tech_external_sirens_call_testingplayer1_13_desc: "This technology sends the Siren's Call (Testing_Player_1) item to another player."
+tech_external_distant_roost_testingplayer1_13: "Distant Roost (Testing_Player_1) Tech"
+tech_external_distant_roost_testingplayer1_13_desc: "This technology sends the Distant Roost (Testing_Player_1) item to another player."
 
 tech_external_item_scrap_white_testingplayer1_14: "Item Scrap, White (Testing_Player_1) Tech"
 tech_external_item_scrap_white_testingplayer1_14_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_15: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_15_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_15: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_15_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_16: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_16_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_titanic_plains_testingplayer1_16: "Titanic Plains (Testing_Player_1) Tech"
+tech_external_titanic_plains_testingplayer1_16_desc: "This technology sends the Titanic Plains (Testing_Player_1) item to another player."
 
-tech_external_scorched_acres_testingplayer1_17: "Scorched Acres (Testing_Player_1) Tech"
-tech_external_scorched_acres_testingplayer1_17_desc: "This technology sends the Scorched Acres (Testing_Player_1) item to another player."
+tech_external_hidden_realm_gilded_coast_testingplayer1_17: "Hidden Realm: Gilded Coast (Testing_Player_1) Tech"
+tech_external_hidden_realm_gilded_coast_testingplayer1_17_desc: "This technology sends the Hidden Realm: Gilded Coast (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_18: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_18_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_18: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_18_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_19: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_19_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_item_scrap_green_testingplayer1_19: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_19_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_20: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_20_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_20: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_20_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_21: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_21_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_sirens_call_testingplayer1_21: "Siren's Call (Testing_Player_1) Tech"
+tech_external_sirens_call_testingplayer1_21_desc: "This technology sends the Siren's Call (Testing_Player_1) item to another player."
 
-tech_external_lunar_item_testingplayer1_22: "Lunar Item (Testing_Player_1) Tech"
-tech_external_lunar_item_testingplayer1_22_desc: "This technology sends the Lunar Item (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_22: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_22_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_23: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_23_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_23: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_23_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_green_testingplayer1_24: "Item Scrap, Green (Testing_Player_1) Tech"
-tech_external_item_scrap_green_testingplayer1_24_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_24: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_24_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_25: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_25_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_wetland_aspect_testingplayer1_25: "Wetland Aspect (Testing_Player_1) Tech"
+tech_external_wetland_aspect_testingplayer1_25_desc: "This technology sends the Wetland Aspect (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_26: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_26_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_uncommon_item_testingplayer1_26: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_26_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_27: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_27_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_27: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_27_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_28: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_28_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_28: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_28_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_29: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_29_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_lunar_coin_testingplayer1_29: "Lunar Coin (Testing_Player_1) Tech"
+tech_external_lunar_coin_testingplayer1_29_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_30: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_30_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_rallypoint_delta_testingplayer1_30: "Rallypoint Delta (Testing_Player_1) Tech"
+tech_external_rallypoint_delta_testingplayer1_30_desc: "This technology sends the Rallypoint Delta (Testing_Player_1) item to another player."
 
-tech_external_boss_item_testingplayer1_31: "Boss Item (Testing_Player_1) Tech"
-tech_external_boss_item_testingplayer1_31_desc: "This technology sends the Boss Item (Testing_Player_1) item to another player."
+tech_external_abyssal_depths_testingplayer1_31: "Abyssal Depths (Testing_Player_1) Tech"
+tech_external_abyssal_depths_testingplayer1_31_desc: "This technology sends the Abyssal Depths (Testing_Player_1) item to another player."
 
 tech_external_item_scrap_white_testingplayer1_32: "Item Scrap, White (Testing_Player_1) Tech"
 tech_external_item_scrap_white_testingplayer1_32_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_33: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_33_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_dios_best_friend_testingplayer1_33: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_33_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
 
-tech_external_hidden_realm_a_moment_fractured_testingplayer1_34: "Hidden Realm: A Moment, Fractured (Testing_Player_1) Tech"
-tech_external_hidden_realm_a_moment_fractured_testingplayer1_34_desc: "This technology sends the Hidden Realm: A Moment, Fractured (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_34: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_34_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_35: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_35_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_35: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_35_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
 tech_external_common_item_testingplayer1_36: "Common Item (Testing_Player_1) Tech"
 tech_external_common_item_testingplayer1_36_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_37: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_37_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_37: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_37_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_38: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_38_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_38: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_38_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_legendary_item_testingplayer1_39: "Legendary Item (Testing_Player_1) Tech"
-tech_external_legendary_item_testingplayer1_39_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
+tech_external_hidden_realm_a_moment_fractured_testingplayer1_39: "Hidden Realm: A Moment, Fractured (Testing_Player_1) Tech"
+tech_external_hidden_realm_a_moment_fractured_testingplayer1_39_desc: "This technology sends the Hidden Realm: A Moment, Fractured (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_40: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_40_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_green_testingplayer1_40: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_40_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_41: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_41_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_void_fields_testingplayer1_41: "Void Fields (Testing_Player_1) Tech"
+tech_external_void_fields_testingplayer1_41_desc: "This technology sends the Void Fields (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_42: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_42_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_equipment_testingplayer1_42: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_42_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_43: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_43_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_43: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_43_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_44: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_44_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_44: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_44_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_45: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_45_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_lunar_item_testingplayer1_45: "Lunar Item (Testing_Player_1) Tech"
+tech_external_lunar_item_testingplayer1_45_desc: "This technology sends the Lunar Item (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_46: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_46_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_green_testingplayer1_46: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_46_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
 
-tech_external_wetland_aspect_testingplayer1_47: "Wetland Aspect (Testing_Player_1) Tech"
-tech_external_wetland_aspect_testingplayer1_47_desc: "This technology sends the Wetland Aspect (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_47: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_47_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_48: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_48_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_48: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_48_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_dios_best_friend_testingplayer1_49: "Dio's Best Friend (Testing_Player_1) Tech"
-tech_external_dios_best_friend_testingplayer1_49_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+tech_external_legendary_item_testingplayer1_49: "Legendary Item (Testing_Player_1) Tech"
+tech_external_legendary_item_testingplayer1_49_desc: "This technology sends the Legendary Item (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_50: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_50_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_uncommon_item_testingplayer1_50: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_50_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_yellow_testingplayer1_51: "Item Scrap, Yellow (Testing_Player_1) Tech"
-tech_external_item_scrap_yellow_testingplayer1_51_desc: "This technology sends the Item Scrap, Yellow (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_51: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_51_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_52: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_52_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_52: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_52_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_53: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_53_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_verdant_falls_testingplayer1_53: "Verdant Falls (Testing_Player_1) Tech"
+tech_external_verdant_falls_testingplayer1_53_desc: "This technology sends the Verdant Falls (Testing_Player_1) item to another player."
 
 tech_external_money_testingplayer1_54: "Money (Testing_Player_1) Tech"
 tech_external_money_testingplayer1_54_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_lunar_item_testingplayer1_55: "Lunar Item (Testing_Player_1) Tech"
-tech_external_lunar_item_testingplayer1_55_desc: "This technology sends the Lunar Item (Testing_Player_1) item to another player."
+tech_external_equipment_testingplayer1_55: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_55_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_56: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_56_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_56: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_56_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_57: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_57_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_57: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_57_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_58: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_58_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_58: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_58_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_59: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_59_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_sundered_grove_testingplayer1_59: "Sundered Grove (Testing_Player_1) Tech"
+tech_external_sundered_grove_testingplayer1_59_desc: "This technology sends the Sundered Grove (Testing_Player_1) item to another player."
 
-tech_external_progressive_stage_testingplayer1_60: "Progressive Stage (Testing_Player_1) Tech"
-tech_external_progressive_stage_testingplayer1_60_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_60: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_60_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_green_testingplayer1_61: "Item Scrap, Green (Testing_Player_1) Tech"
-tech_external_item_scrap_green_testingplayer1_61_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_61: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_61_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_sundered_grove_testingplayer1_62: "Sundered Grove (Testing_Player_1) Tech"
-tech_external_sundered_grove_testingplayer1_62_desc: "This technology sends the Sundered Grove (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_62: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_62_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_commencement_testingplayer1_63: "Commencement (Testing_Player_1) Tech"
-tech_external_commencement_testingplayer1_63_desc: "This technology sends the Commencement (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_63: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_63_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_64: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_64_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_64: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_64_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_distant_roost_testingplayer1_65: "Distant Roost (Testing_Player_1) Tech"
-tech_external_distant_roost_testingplayer1_65_desc: "This technology sends the Distant Roost (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_65: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_65_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_66: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_66_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_66: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_66_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_67: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_67_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_dios_best_friend_testingplayer1_67: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_67_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_68: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_68_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_uncommon_item_testingplayer1_68: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_68_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_69: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_69_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_69: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_69_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_70: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_70_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_70: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_70_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
 tech_external_money_testingplayer1_71: "Money (Testing_Player_1) Tech"
 tech_external_money_testingplayer1_71_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_72: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_72_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_uncommon_item_testingplayer1_72: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_72_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_73: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_73_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_73: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_73_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_74: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_74_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_lunar_item_testingplayer1_74: "Lunar Item (Testing_Player_1) Tech"
+tech_external_lunar_item_testingplayer1_74_desc: "This technology sends the Lunar Item (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_75: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_75_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_75: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_75_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_lunar_coin_testingplayer1_76: "Lunar Coin (Testing_Player_1) Tech"
-tech_external_lunar_coin_testingplayer1_76_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_76: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_76_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_77: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_77_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_progressive_stage_testingplayer1_77: "Progressive Stage (Testing_Player_1) Tech"
+tech_external_progressive_stage_testingplayer1_77_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_78: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_78_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_equipment_testingplayer1_78: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_78_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
 
 tech_external_item_scrap_white_testingplayer1_79: "Item Scrap, White (Testing_Player_1) Tech"
 tech_external_item_scrap_white_testingplayer1_79_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_abyssal_depths_testingplayer1_80: "Abyssal Depths (Testing_Player_1) Tech"
-tech_external_abyssal_depths_testingplayer1_80_desc: "This technology sends the Abyssal Depths (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_80: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_80_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_81: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_81_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_equipment_testingplayer1_81: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_81_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_82: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_82_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_lunar_coin_testingplayer1_82: "Lunar Coin (Testing_Player_1) Tech"
+tech_external_lunar_coin_testingplayer1_82_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_83: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_83_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_83: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_83_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_lunar_coin_testingplayer1_84: "Lunar Coin (Testing_Player_1) Tech"
-tech_external_lunar_coin_testingplayer1_84_desc: "This technology sends the Lunar Coin (Testing_Player_1) item to another player."
+tech_external_1000_exp_testingplayer1_84: "1000 Exp (Testing_Player_1) Tech"
+tech_external_1000_exp_testingplayer1_84_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_white_testingplayer1_85: "Item Scrap, White (Testing_Player_1) Tech"
-tech_external_item_scrap_white_testingplayer1_85_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+tech_external_equipment_testingplayer1_85: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_85_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
 
-tech_external_abandoned_aqueduct_testingplayer1_86: "Abandoned Aqueduct (Testing_Player_1) Tech"
-tech_external_abandoned_aqueduct_testingplayer1_86_desc: "This technology sends the Abandoned Aqueduct (Testing_Player_1) item to another player."
+tech_external_hidden_realm_a_moment_whole_testingplayer1_86: "Hidden Realm: A Moment, Whole (Testing_Player_1) Tech"
+tech_external_hidden_realm_a_moment_whole_testingplayer1_86_desc: "This technology sends the Hidden Realm: A Moment, Whole (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_87: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_87_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_87: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_87_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_88: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_88_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_88: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_88_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_green_testingplayer1_89: "Item Scrap, Green (Testing_Player_1) Tech"
-tech_external_item_scrap_green_testingplayer1_89_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_89: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_89_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_90: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_90_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_90: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_90_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_item_scrap_green_testingplayer1_91: "Item Scrap, Green (Testing_Player_1) Tech"
-tech_external_item_scrap_green_testingplayer1_91_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_91: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_91_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_92: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_92_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_92: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_92_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_93: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_93_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_uncommon_item_testingplayer1_93: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_93_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_94: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_94_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_progressive_stage_testingplayer1_94: "Progressive Stage (Testing_Player_1) Tech"
+tech_external_progressive_stage_testingplayer1_94_desc: "This technology sends the Progressive Stage (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_95: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_95_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_95: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_95_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_dios_best_friend_testingplayer1_96: "Dio's Best Friend (Testing_Player_1) Tech"
-tech_external_dios_best_friend_testingplayer1_96_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_96: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_96_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_97: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_97_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_97: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_97_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_money_testingplayer1_98: "Money (Testing_Player_1) Tech"
-tech_external_money_testingplayer1_98_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+tech_external_item_scrap_white_testingplayer1_98: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_98_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_99: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_99_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_item_scrap_green_testingplayer1_99: "Item Scrap, Green (Testing_Player_1) Tech"
+tech_external_item_scrap_green_testingplayer1_99_desc: "This technology sends the Item Scrap, Green (Testing_Player_1) item to another player."
 
-tech_external_common_item_testingplayer1_100: "Common Item (Testing_Player_1) Tech"
-tech_external_common_item_testingplayer1_100_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_100: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_100_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_uncommon_item_testingplayer1_101: "Uncommon Item (Testing_Player_1) Tech"
-tech_external_uncommon_item_testingplayer1_101_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_101: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_101_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_102: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_102_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_common_item_testingplayer1_102: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_102_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
 
-tech_external_equipment_testingplayer1_103: "Equipment (Testing_Player_1) Tech"
-tech_external_equipment_testingplayer1_103_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."
+tech_external_uncommon_item_testingplayer1_103: "Uncommon Item (Testing_Player_1) Tech"
+tech_external_uncommon_item_testingplayer1_103_desc: "This technology sends the Uncommon Item (Testing_Player_1) item to another player."
 
-tech_external_verdant_falls_testingplayer1_104: "Verdant Falls (Testing_Player_1) Tech"
-tech_external_verdant_falls_testingplayer1_104_desc: "This technology sends the Verdant Falls (Testing_Player_1) item to another player."
+tech_external_money_testingplayer1_104: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_104_desc: "This technology sends the Money (Testing_Player_1) item to another player."
 
-tech_external_1000_exp_testingplayer1_105: "1000 Exp (Testing_Player_1) Tech"
-tech_external_1000_exp_testingplayer1_105_desc: "This technology sends the 1000 Exp (Testing_Player_1) item to another player."
+tech_external_dios_best_friend_testingplayer1_105: "Dio's Best Friend (Testing_Player_1) Tech"
+tech_external_dios_best_friend_testingplayer1_105_desc: "This technology sends the Dio's Best Friend (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_white_testingplayer1_106: "Item Scrap, White (Testing_Player_1) Tech"
+tech_external_item_scrap_white_testingplayer1_106_desc: "This technology sends the Item Scrap, White (Testing_Player_1) item to another player."
+
+tech_external_money_testingplayer1_107: "Money (Testing_Player_1) Tech"
+tech_external_money_testingplayer1_107_desc: "This technology sends the Money (Testing_Player_1) item to another player."
+
+tech_external_item_scrap_red_testingplayer1_108: "Item Scrap, Red (Testing_Player_1) Tech"
+tech_external_item_scrap_red_testingplayer1_108_desc: "This technology sends the Item Scrap, Red (Testing_Player_1) item to another player."
+
+tech_external_common_item_testingplayer1_109: "Common Item (Testing_Player_1) Tech"
+tech_external_common_item_testingplayer1_109_desc: "This technology sends the Common Item (Testing_Player_1) item to another player."
+
+tech_external_sky_meadow_testingplayer1_110: "Sky Meadow (Testing_Player_1) Tech"
+tech_external_sky_meadow_testingplayer1_110_desc: "This technology sends the Sky Meadow (Testing_Player_1) item to another player."
+
+tech_external_equipment_testingplayer1_111: "Equipment (Testing_Player_1) Tech"
+tech_external_equipment_testingplayer1_111_desc: "This technology sends the Equipment (Testing_Player_1) item to another player."

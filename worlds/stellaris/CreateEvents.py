@@ -25,9 +25,10 @@ def constructTechAction(tech, world: "StellarisWorld"):
         name       = "tech_progressive_" + tech["name"] + "_"
         conditions = ""
         result     = eventGiveTech.format(name = name + str(i+1))
+
         if i != 0:
-            elseif     = "else_if"
-            conditions = conditions + eventIfTech.format(has = name + str(i))
+            elseif      = "else_if"
+            conditions += eventIfTech.format(has = name + str(i))
 
         else:
             elseif = "if"
@@ -37,8 +38,8 @@ def constructTechAction(tech, world: "StellarisWorld"):
             for split in vanilla[i].split(" "):
                 result = result + eventGiveTech.format(name = split)
 
-        conditions = conditions + eventNotIfTech.format(hasnot = name + str(i+1))
-        action     = action     + eventAction.format(
+        conditions += eventNotIfTech.format(hasnot = name + str(i+1))
+        action     += eventAction.format(
             elseif         = elseif,
             conditions     = conditions,
             result         = result
@@ -48,8 +49,9 @@ def constructTechAction(tech, world: "StellarisWorld"):
 def createEvents(world: "StellarisWorld"):
     """This function assembles the Events"""
     eventText = eventStart
+
     for key,item in enumerate(DataEvent.events):
-        if item["type"] == "techReceive": #Events that give you technology
+        if item["type"] == "techReceive": #Events that give you technology from received items
             tech        = findTech(item["name"])
             value       = key+1
             postValue   = -99999999
@@ -58,7 +60,7 @@ def createEvents(world: "StellarisWorld"):
             resource    = "urp_000"
             outResearch = ""
 
-        elif item["type"] == "techSend":
+        elif item["type"] == "techSend": #Events that send technology location checks to the server
             value       = 0
             postValue   = item["location"]-750000
             action      = ""
@@ -72,16 +74,19 @@ def createEvents(world: "StellarisWorld"):
 
             for i in finalTechItemsInternal:
                 splitItem = str(i[0]).split(" ")
+
                 for j in range(5):
                     addItem = "tech_progressive_"+item["name"]
                     if addItem == splitItem[0]:
                         has = str(splitItem[0])
                         break
+
             outResearch = eventIfOutTech.format(has = has)
 
-        else: #Shouldn't come up except for testing purposes
+        else: # Shouldn't come up except for testing purposes
             print("|Stellaris: An event didn't generate right! Please check your stuff                               |")
             continue
+
         eventText = eventText+eventTemplate.format(
             num         = num,
             value       = value,
@@ -97,14 +102,15 @@ def createEventLocalisations():
     """This function assembles the Event Localizations (names and descriptions)"""
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
+
         for key,item in enumerate(DataEvent.events):
-            if item["type"] == "techReceive":
+            if item["type"] == "techReceive": #Events that give you technology from received items
                 value        = key
                 num          = 10000+(key*10+10)
                 receiveSend  = "received from"
                 receivedSent = "received"
 
-            elif item["type"] == "techSend":
+            elif item["type"] == "techSend": #Events that send technology location checks to the server
                 value        = key
                 num          = item["location"]
                 receiveSend  = "sent to"
@@ -113,6 +119,7 @@ def createEventLocalisations():
             else: #Shouldn't come up except for testing purposes
                 print("|Stellaris: An event localisation didn't generate right! Please check your stuff              |")
                 continue
+
             desc = item["description"]
             localisationText = localisationText + localisationEventTemplate.format(
                 num          = num,
