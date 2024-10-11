@@ -1,7 +1,7 @@
 from random import randrange
 import shutil
 from . import DataTech
-from .DataEvent import unScrewTechData, finalTechItemsInternal, finalTechItemsExternal, unExternalizeTechData
+from .DataEvent import unScrewTechData, finalTechItemsInternal, finalTechItemsExternal, smoothTechData
 from .templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
 from .templates.TemplateLocalisation import localisationStart, localisationTechTemplate, localisationExternalTechTemplate
 from .Utility import writeToFile, languages
@@ -29,7 +29,7 @@ def createOutsideTech():
     techText = techStart
 
     for key,tech in enumerate(finalTechItemsExternal):
-        type = "external_" + unExternalizeTechData(tech[0])
+        type = "external_" + smoothTechData(tech[0])
         area = randomTechArea[randrange(0,2)]
 
         if area == "physics":
@@ -120,7 +120,7 @@ def createTechLocalisations():
                 )
 
         for key, tech in enumerate(finalTechItemsExternal):
-            type = "external_"+unExternalizeTechData(tech[0])
+            type = "external_"+smoothTechData(tech[0])
             name = str(tech[0])
             localisationText +=localisationExternalTechTemplate.format(
                 type = type,

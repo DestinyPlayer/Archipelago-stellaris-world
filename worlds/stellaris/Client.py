@@ -20,6 +20,7 @@ logger = logging.getLogger("Client")
 #########################################################################################
 
 #[VARIABLES]############################################################################################################
+codeConst         = 7500000000
 resConst          = 100000
 patternSearch1    = b"\xE0\xAE\x58\x2D\x53\x01"
 patternSearch2    = b"\xC0\x72\x00\x5D\x36\x02"
@@ -27,8 +28,8 @@ referenceNumber1  = 1456754700000
 referenceNumber2  = 2432511800000
 baseRes           = 0
 emerRes           = 0
-commResIn         = [0, 0]
-commResOut        = [0, 0]
+commResIn         = []
+commResOut        = []
 pm                = Pymem()
 itemsToReceive    = []
 locationChecks    = []
@@ -40,7 +41,7 @@ def decodeItemCode(item):
     """This method takes the Item Codes provided by the server and converts them into a form readable by the game
 
     SERVER => GAME"""
-    code = item - 7500000000
+    code = item - codeConst
     logger.info("Received item " + str(item) + ", converted to internal code " + str(code))
     return int(code)
 
@@ -49,7 +50,7 @@ def encodeItemCode(item):
     """This method takes the Item Codes provided by the game and converts them into a form readable by the server
 
     GAME => SERVER"""
-    code = item + 7500000000
+    code = item + codeConst
     logger.info("Received item " + str(item) + ", converted to external code" + str(code))
     return int(code)
 
@@ -111,7 +112,7 @@ async def connectToStellaris():
         emerRes = findBaseRes(patternSearch2)
         checkBaseRes(emerRes)
 
-        if (pm.read_longlong(baseRes + 0x8) != referenceNumber2 or pm.read_longlong(emerRes - 0x8) != referenceNumber1):
+        if pm.read_longlong(baseRes + 0x8) != referenceNumber2 or pm.read_longlong(emerRes - 0x8) != referenceNumber1:
             logger.error("ERROR: Wrong reference addresses found.")
 
         commResIn  = [baseRes - 0x10, 0]  # Items going into Stellaris

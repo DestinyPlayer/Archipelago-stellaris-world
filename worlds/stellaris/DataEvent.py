@@ -20,7 +20,7 @@ def unScrewTechData(tech):
         finalTech += "_" + tech[i + 1]
     return finalTech
 
-def unExternalizeTechData(tech):
+def smoothTechData(tech):
     tech      = str(tech)
     tech      = tech.translate(str.maketrans('','',string.punctuation))
     tech      = tech.replace(" ","_")
@@ -30,6 +30,7 @@ def unExternalizeTechData(tech):
 
 def fillInTechData():
     global events
+
     #Tech Receive
     for tech in DataTech.techs:
         events.append({
@@ -37,6 +38,7 @@ def fillInTechData():
             "name":        tech["name"],
             "description": "Progressive "+tech["name"].replace("_"," ")+" technology"
         })
+
     #Tech Send
     for finalTech in finalTechItemsInternal:
         finalEventTech = unScrewTechData(finalTech[0])
@@ -46,12 +48,14 @@ def fillInTechData():
             "description": "Progressive "+finalEventTech.replace("_"," ")+" technology",
             "location":    finalTech[1],
         })
+
     for finalTech in finalTechItemsExternal:
-        finalEventTech = unExternalizeTechData(finalTech[0])
+        finalEventTech = smoothTechData(finalTech[0])
         events.append({
             "type":        "techSend",
             "name":        finalEventTech,
             "description": str(finalTech[0]),
             "location":    finalTech[1],
         })
+
     print("|Stellaris:     Finished generation of Event Data                                                     |")

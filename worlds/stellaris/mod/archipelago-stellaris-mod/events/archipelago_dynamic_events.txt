@@ -3077,2191 +3077,6 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750002
-	title = "archipelago_dynamic.750002.name"
-	desc = "archipelago_dynamic.750002.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_campaigns_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 2
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750004
-	title = "archipelago_dynamic.750004.name"
-	desc = "archipelago_dynamic.750004.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_hull_regen_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 4
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750006
-	title = "archipelago_dynamic.750006.name"
-	desc = "archipelago_dynamic.750006.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_disruptors_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 6
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750007
-	title = "archipelago_dynamic.750007.name"
-	desc = "archipelago_dynamic.750007.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_habitability_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 7
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750008
-	title = "archipelago_dynamic.750008.name"
-	desc = "archipelago_dynamic.750008.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_planetary_mining_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 8
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750011
-	title = "archipelago_dynamic.750011.name"
-	desc = "archipelago_dynamic.750011.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_farming_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 11
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750015
-	title = "archipelago_dynamic.750015.name"
-	desc = "archipelago_dynamic.750015.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_robotics_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 15
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750018
-	title = "archipelago_dynamic.750018.name"
-	desc = "archipelago_dynamic.750018.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_reactor_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 18
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750019
-	title = "archipelago_dynamic.750019.name"
-	desc = "archipelago_dynamic.750019.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_missiles_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 19
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750020
-	title = "archipelago_dynamic.750020.name"
-	desc = "archipelago_dynamic.750020.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_ship_armor_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 20
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750021
-	title = "archipelago_dynamic.750021.name"
-	desc = "archipelago_dynamic.750021.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_lances_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 21
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750022
-	title = "archipelago_dynamic.750022.name"
-	desc = "archipelago_dynamic.750022.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_gene_tailoring_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 22
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750023
-	title = "archipelago_dynamic.750023.name"
-	desc = "archipelago_dynamic.750023.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_orbital_habitats_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 23
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750026
-	title = "archipelago_dynamic.750026.name"
-	desc = "archipelago_dynamic.750026.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_torpedoes_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 26
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750027
-	title = "archipelago_dynamic.750027.name"
-	desc = "archipelago_dynamic.750027.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_starbase_upgrades_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 27
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750029
-	title = "archipelago_dynamic.750029.name"
-	desc = "archipelago_dynamic.750029.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_titan_upgrades_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 29
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750032
-	title = "archipelago_dynamic.750032.name"
-	desc = "archipelago_dynamic.750032.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_planet_government_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 32
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750035
-	title = "archipelago_dynamic.750035.name"
-	desc = "archipelago_dynamic.750035.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_hyperdrive_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 35
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750036
-	title = "archipelago_dynamic.750036.name"
-	desc = "archipelago_dynamic.750036.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_encryption_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 36
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750037
-	title = "archipelago_dynamic.750037.name"
-	desc = "archipelago_dynamic.750037.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_power_plants_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 37
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750038
-	title = "archipelago_dynamic.750038.name"
-	desc = "archipelago_dynamic.750038.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_planetary_build_speed_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 38
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750039
-	title = "archipelago_dynamic.750039.name"
-	desc = "archipelago_dynamic.750039.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_sensors_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 39
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750040
-	title = "archipelago_dynamic.750040.name"
-	desc = "archipelago_dynamic.750040.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_housing_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 40
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750041
-	title = "archipelago_dynamic.750041.name"
-	desc = "archipelago_dynamic.750041.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_autocannon_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 41
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750042
-	title = "archipelago_dynamic.750042.name"
-	desc = "archipelago_dynamic.750042.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_army_genetics_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 42
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750043
-	title = "archipelago_dynamic.750043.name"
-	desc = "archipelago_dynamic.750043.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_housing_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 43
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750044
-	title = "archipelago_dynamic.750044.name"
-	desc = "archipelago_dynamic.750044.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_science_lab_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 44
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750045
-	title = "archipelago_dynamic.750045.name"
-	desc = "archipelago_dynamic.750045.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_shield_hardener_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 45
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750047
-	title = "archipelago_dynamic.750047.name"
-	desc = "archipelago_dynamic.750047.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_habitability_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 47
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750048
-	title = "archipelago_dynamic.750048.name"
-	desc = "archipelago_dynamic.750048.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_ship_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 48
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750050
-	title = "archipelago_dynamic.750050.name"
-	desc = "archipelago_dynamic.750050.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_bioreactor_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 50
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750053
-	title = "archipelago_dynamic.750053.name"
-	desc = "archipelago_dynamic.750053.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 53
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750054
-	title = "archipelago_dynamic.750054.name"
-	desc = "archipelago_dynamic.750054.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_army_defense_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 54
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750055
-	title = "archipelago_dynamic.750055.name"
-	desc = "archipelago_dynamic.750055.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_shield_hardener_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 55
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750056
-	title = "archipelago_dynamic.750056.name"
-	desc = "archipelago_dynamic.750056.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_capital_production_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 56
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750059
-	title = "archipelago_dynamic.750059.name"
-	desc = "archipelago_dynamic.750059.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_thruster_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 59
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750063
-	title = "archipelago_dynamic.750063.name"
-	desc = "archipelago_dynamic.750063.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_corvette_upgrades_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 63
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750067
-	title = "archipelago_dynamic.750067.name"
-	desc = "archipelago_dynamic.750067.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_kinetic_artillery_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 67
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750069
-	title = "archipelago_dynamic.750069.name"
-	desc = "archipelago_dynamic.750069.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_robotics_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 69
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750073
-	title = "archipelago_dynamic.750073.name"
-	desc = "archipelago_dynamic.750073.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_thruster_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 73
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750077
-	title = "archipelago_dynamic.750077.name"
-	desc = "archipelago_dynamic.750077.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_bioreactor_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 77
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750079
-	title = "archipelago_dynamic.750079.name"
-	desc = "archipelago_dynamic.750079.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_terraforming_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 79
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750083
-	title = "archipelago_dynamic.750083.name"
-	desc = "archipelago_dynamic.750083.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_starbase_capacity_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 83
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750084
-	title = "archipelago_dynamic.750084.name"
-	desc = "archipelago_dynamic.750084.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_lasers_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 84
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750090
-	title = "archipelago_dynamic.750090.name"
-	desc = "archipelago_dynamic.750090.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_fleet_size_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 90
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750093
-	title = "archipelago_dynamic.750093.name"
-	desc = "archipelago_dynamic.750093.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_ship_armor_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 93
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750094
-	title = "archipelago_dynamic.750094.name"
-	desc = "archipelago_dynamic.750094.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_orbital_habitats_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 94
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750095
-	title = "archipelago_dynamic.750095.name"
-	desc = "archipelago_dynamic.750095.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_reactor_5"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 95
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750099
-	title = "archipelago_dynamic.750099.name"
-	desc = "archipelago_dynamic.750099.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_starbase_upgrades_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 99
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750100
-	title = "archipelago_dynamic.750100.name"
-	desc = "archipelago_dynamic.750100.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_gene_tailoring_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 100
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750102
-	title = "archipelago_dynamic.750102.name"
-	desc = "archipelago_dynamic.750102.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_power_plants_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 102
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750103
-	title = "archipelago_dynamic.750103.name"
-	desc = "archipelago_dynamic.750103.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_flak_battery_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 103
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750104
-	title = "archipelago_dynamic.750104.name"
-	desc = "archipelago_dynamic.750104.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_armor_hardener_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 104
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750105
-	title = "archipelago_dynamic.750105.name"
-	desc = "archipelago_dynamic.750105.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_hyperdrive_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 105
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750106
-	title = "archipelago_dynamic.750106.name"
-	desc = "archipelago_dynamic.750106.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_wormhole_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 106
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750107
-	title = "archipelago_dynamic.750107.name"
-	desc = "archipelago_dynamic.750107.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_plasma_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 107
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750108
-	title = "archipelago_dynamic.750108.name"
-	desc = "archipelago_dynamic.750108.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_naval_capacity_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 108
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750109
-	title = "archipelago_dynamic.750109.name"
-	desc = "archipelago_dynamic.750109.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_kinetic_artillery_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 109
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750113
-	title = "archipelago_dynamic.750113.name"
-	desc = "archipelago_dynamic.750113.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_mass_drivers_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 113
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750115
-	title = "archipelago_dynamic.750115.name"
-	desc = "archipelago_dynamic.750115.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_bureaucracy_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 115
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750118
-	title = "archipelago_dynamic.750118.name"
-	desc = "archipelago_dynamic.750118.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_station_science_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 118
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750119
-	title = "archipelago_dynamic.750119.name"
-	desc = "archipelago_dynamic.750119.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_psionics_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 119
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750120
-	title = "archipelago_dynamic.750120.name"
-	desc = "archipelago_dynamic.750120.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_mass_accelerators_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 120
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750121
-	title = "archipelago_dynamic.750121.name"
-	desc = "archipelago_dynamic.750121.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_fleet_size_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 121
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750122
-	title = "archipelago_dynamic.750122.name"
-	desc = "archipelago_dynamic.750122.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_arc_emitter_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 122
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750124
-	title = "archipelago_dynamic.750124.name"
-	desc = "archipelago_dynamic.750124.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_plasma_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 124
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750125
-	title = "archipelago_dynamic.750125.name"
-	desc = "archipelago_dynamic.750125.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_encryption_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 125
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750126
-	title = "archipelago_dynamic.750126.name"
-	desc = "archipelago_dynamic.750126.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_reactor_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 126
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750128
-	title = "archipelago_dynamic.750128.name"
-	desc = "archipelago_dynamic.750128.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_shields_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 128
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750129
-	title = "archipelago_dynamic.750129.name"
-	desc = "archipelago_dynamic.750129.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_embassy_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 129
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750132
-	title = "archipelago_dynamic.750132.name"
-	desc = "archipelago_dynamic.750132.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_lances_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 132
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750133
-	title = "archipelago_dynamic.750133.name"
-	desc = "archipelago_dynamic.750133.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_point_defense_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 133
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750137
-	title = "archipelago_dynamic.750137.name"
-	desc = "archipelago_dynamic.750137.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_research_ai_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 137
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750139
-	title = "archipelago_dynamic.750139.name"
-	desc = "archipelago_dynamic.750139.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_trade_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 139
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750140
-	title = "archipelago_dynamic.750140.name"
-	desc = "archipelago_dynamic.750140.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_army_offense_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 140
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750143
-	title = "archipelago_dynamic.750143.name"
-	desc = "archipelago_dynamic.750143.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_disruptors_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 143
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750144
-	title = "archipelago_dynamic.750144.name"
-	desc = "archipelago_dynamic.750144.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_destroyer_upgrades_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 144
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750145
-	title = "archipelago_dynamic.750145.name"
-	desc = "archipelago_dynamic.750145.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_bureaucracy_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 145
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750147
-	title = "archipelago_dynamic.750147.name"
-	desc = "archipelago_dynamic.750147.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_starbase_capacity_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 147
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750149
-	title = "archipelago_dynamic.750149.name"
-	desc = "archipelago_dynamic.750149.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_science_lab_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 149
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750150
-	title = "archipelago_dynamic.750150.name"
-	desc = "archipelago_dynamic.750150.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_bureaucracy_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 150
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750155
-	title = "archipelago_dynamic.750155.name"
-	desc = "archipelago_dynamic.750155.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_trade_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 155
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750156
-	title = "archipelago_dynamic.750156.name"
-	desc = "archipelago_dynamic.750156.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_afterburners_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 156
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750159
-	title = "archipelago_dynamic.750159.name"
-	desc = "archipelago_dynamic.750159.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_habitability_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 159
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750160
-	title = "archipelago_dynamic.750160.name"
-	desc = "archipelago_dynamic.750160.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_consumer_goods_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 160
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750161
-	title = "archipelago_dynamic.750161.name"
-	desc = "archipelago_dynamic.750161.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_shields_5"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 161
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750167
-	title = "archipelago_dynamic.750167.name"
-	desc = "archipelago_dynamic.750167.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_corvette_upgrades_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 167
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750169
-	title = "archipelago_dynamic.750169.name"
-	desc = "archipelago_dynamic.750169.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_ship_armor_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 169
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750170
-	title = "archipelago_dynamic.750170.name"
-	desc = "archipelago_dynamic.750170.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_energy_torpedoes_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 170
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750171
-	title = "archipelago_dynamic.750171.name"
-	desc = "archipelago_dynamic.750171.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_autocannon_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 171
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750174
-	title = "archipelago_dynamic.750174.name"
-	desc = "archipelago_dynamic.750174.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_wormhole_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 174
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750180
-	title = "archipelago_dynamic.750180.name"
-	desc = "archipelago_dynamic.750180.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_gene_tailoring_5"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 180
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750183
-	title = "archipelago_dynamic.750183.name"
-	desc = "archipelago_dynamic.750183.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_bureaucracy_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 183
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750186
-	title = "archipelago_dynamic.750186.name"
-	desc = "archipelago_dynamic.750186.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_ship_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 186
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750190
-	title = "archipelago_dynamic.750190.name"
-	desc = "archipelago_dynamic.750190.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_swarm_missiles_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 190
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750191
-	title = "archipelago_dynamic.750191.name"
-	desc = "archipelago_dynamic.750191.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_arc_emitter_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 191
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750192
-	title = "archipelago_dynamic.750192.name"
-	desc = "archipelago_dynamic.750192.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_farming_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 192
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750195
-	title = "archipelago_dynamic.750195.name"
-	desc = "archipelago_dynamic.750195.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_autocannon_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 195
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750196
-	title = "archipelago_dynamic.750196.name"
-	desc = "archipelago_dynamic.750196.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_ship_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 196
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750199
-	title = "archipelago_dynamic.750199.name"
-	desc = "archipelago_dynamic.750199.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_army_genetics_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 199
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750200
-	title = "archipelago_dynamic.750200.name"
-	desc = "archipelago_dynamic.750200.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_hospital_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 200
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750201
-	title = "archipelago_dynamic.750201.name"
-	desc = "archipelago_dynamic.750201.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_torpedoes_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 201
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750202
-	title = "archipelago_dynamic.750202.name"
-	desc = "archipelago_dynamic.750202.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_reactor_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 202
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750203
-	title = "archipelago_dynamic.750203.name"
-	desc = "archipelago_dynamic.750203.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_station_science_5"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 203
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750205
-	title = "archipelago_dynamic.750205.name"
-	desc = "archipelago_dynamic.750205.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_planet_infrastructure_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 205
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750208
-	title = "archipelago_dynamic.750208.name"
-	desc = "archipelago_dynamic.750208.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_colony_ship_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 208
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750209
-	title = "archipelago_dynamic.750209.name"
-	desc = "archipelago_dynamic.750209.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_embassy_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 209
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750211
-	title = "archipelago_dynamic.750211.name"
-	desc = "archipelago_dynamic.750211.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_battleship_upgrades_3"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 211
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750212
-	title = "archipelago_dynamic.750212.name"
-	desc = "archipelago_dynamic.750212.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_armor_hardener_2"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 212
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750215
-	title = "archipelago_dynamic.750215.name"
-	desc = "archipelago_dynamic.750215.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_strike_craft_4"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 215
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750216
-	title = "archipelago_dynamic.750216.name"
-	desc = "archipelago_dynamic.750216.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_reactor_booster_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 216
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750219
-	title = "archipelago_dynamic.750219.name"
-	desc = "archipelago_dynamic.750219.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_capital_production_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 219
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750220
-	title = "archipelago_dynamic.750220.name"
-	desc = "archipelago_dynamic.750220.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_alloy_production_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 220
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750223
-	title = "archipelago_dynamic.750223.name"
-	desc = "archipelago_dynamic.750223.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_research_ai_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 223
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750227
-	title = "archipelago_dynamic.750227.name"
-	desc = "archipelago_dynamic.750227.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_terraforming_1"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 227
-		}
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.750000
 	title = "archipelago_dynamic.750000.name"
 	desc = "archipelago_dynamic.750000.desc"
@@ -5271,7 +3086,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_lunar_item_testingplayer1_750000"
+		has_technology = "tech_progressive_strike_craft_1"
 	}
 	immediate = {
 		add_resource = {
@@ -5290,7 +3105,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750001"
+		has_technology = "tech_progressive_strike_craft_2"
 	}
 	immediate = {
 		add_resource = {
@@ -5300,20 +3115,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750003
-	title = "archipelago_dynamic.750003.name"
-	desc = "archipelago_dynamic.750003.desc"
+	id = archipelago_dynamic.750002
+	title = "archipelago_dynamic.750002.name"
+	desc = "archipelago_dynamic.750002.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_legendary_item_testingplayer1_750003"
+		has_technology = "tech_progressive_space_mining_3"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 3
+			urp_001 = 2
 		}
 	}
 }
@@ -5328,11 +3143,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750005"
+		has_technology = "tech_progressive_ship_armor_1"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 5
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750006
+	title = "archipelago_dynamic.750006.name"
+	desc = "archipelago_dynamic.750006.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_hospital_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 6
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750007
+	title = "archipelago_dynamic.750007.name"
+	desc = "archipelago_dynamic.750007.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_disruptors_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 7
 		}
 	}
 }
@@ -5347,11 +3200,2101 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750009"
+		has_technology = "tech_progressive_gene_tailoring_2"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 9
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750011
+	title = "archipelago_dynamic.750011.name"
+	desc = "archipelago_dynamic.750011.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_decryption_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 11
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750013
+	title = "archipelago_dynamic.750013.name"
+	desc = "archipelago_dynamic.750013.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_orbital_habitats_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 13
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750015
+	title = "archipelago_dynamic.750015.name"
+	desc = "archipelago_dynamic.750015.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_trade_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 15
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750017
+	title = "archipelago_dynamic.750017.name"
+	desc = "archipelago_dynamic.750017.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_mass_accelerators_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 17
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750019
+	title = "archipelago_dynamic.750019.name"
+	desc = "archipelago_dynamic.750019.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_robotics_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 19
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750021
+	title = "archipelago_dynamic.750021.name"
+	desc = "archipelago_dynamic.750021.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_sensors_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 21
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750022
+	title = "archipelago_dynamic.750022.name"
+	desc = "archipelago_dynamic.750022.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_torpedoes_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 22
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750023
+	title = "archipelago_dynamic.750023.name"
+	desc = "archipelago_dynamic.750023.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_leader_genetics_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 23
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750025
+	title = "archipelago_dynamic.750025.name"
+	desc = "archipelago_dynamic.750025.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_starbase_capacity_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 25
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750026
+	title = "archipelago_dynamic.750026.name"
+	desc = "archipelago_dynamic.750026.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planet_government_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 26
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750028
+	title = "archipelago_dynamic.750028.name"
+	desc = "archipelago_dynamic.750028.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_trade_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 28
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750031
+	title = "archipelago_dynamic.750031.name"
+	desc = "archipelago_dynamic.750031.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_bureaucracy_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 31
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750034
+	title = "archipelago_dynamic.750034.name"
+	desc = "archipelago_dynamic.750034.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_reactor_5"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 34
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750036
+	title = "archipelago_dynamic.750036.name"
+	desc = "archipelago_dynamic.750036.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_plasma_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 36
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750037
+	title = "archipelago_dynamic.750037.name"
+	desc = "archipelago_dynamic.750037.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_titan_upgrades_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 37
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750038
+	title = "archipelago_dynamic.750038.name"
+	desc = "archipelago_dynamic.750038.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_embassy_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 38
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750040
+	title = "archipelago_dynamic.750040.name"
+	desc = "archipelago_dynamic.750040.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planet_government_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 40
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750041
+	title = "archipelago_dynamic.750041.name"
+	desc = "archipelago_dynamic.750041.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_power_plants_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 41
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750042
+	title = "archipelago_dynamic.750042.name"
+	desc = "archipelago_dynamic.750042.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_shields_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 42
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750047
+	title = "archipelago_dynamic.750047.name"
+	desc = "archipelago_dynamic.750047.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_capital_production_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 47
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750050
+	title = "archipelago_dynamic.750050.name"
+	desc = "archipelago_dynamic.750050.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_shields_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 50
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750055
+	title = "archipelago_dynamic.750055.name"
+	desc = "archipelago_dynamic.750055.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_capital_production_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 55
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750058
+	title = "archipelago_dynamic.750058.name"
+	desc = "archipelago_dynamic.750058.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_corvette_upgrades_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 58
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750059
+	title = "archipelago_dynamic.750059.name"
+	desc = "archipelago_dynamic.750059.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_swarm_missiles_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 59
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750061
+	title = "archipelago_dynamic.750061.name"
+	desc = "archipelago_dynamic.750061.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_habitability_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 61
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750063
+	title = "archipelago_dynamic.750063.name"
+	desc = "archipelago_dynamic.750063.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_ship_armor_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 63
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750066
+	title = "archipelago_dynamic.750066.name"
+	desc = "archipelago_dynamic.750066.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_plasma_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 66
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750067
+	title = "archipelago_dynamic.750067.name"
+	desc = "archipelago_dynamic.750067.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_fleet_size_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 67
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750068
+	title = "archipelago_dynamic.750068.name"
+	desc = "archipelago_dynamic.750068.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planetary_build_speed_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 68
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750070
+	title = "archipelago_dynamic.750070.name"
+	desc = "archipelago_dynamic.750070.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_thralls_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 70
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750071
+	title = "archipelago_dynamic.750071.name"
+	desc = "archipelago_dynamic.750071.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_mass_accelerators_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 71
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750076
+	title = "archipelago_dynamic.750076.name"
+	desc = "archipelago_dynamic.750076.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_wormhole_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 76
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750077
+	title = "archipelago_dynamic.750077.name"
+	desc = "archipelago_dynamic.750077.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_habitability_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 77
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750078
+	title = "archipelago_dynamic.750078.name"
+	desc = "archipelago_dynamic.750078.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_station_science_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 78
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750080
+	title = "archipelago_dynamic.750080.name"
+	desc = "archipelago_dynamic.750080.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_ship_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 80
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750081
+	title = "archipelago_dynamic.750081.name"
+	desc = "archipelago_dynamic.750081.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_ship_5"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 81
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750082
+	title = "archipelago_dynamic.750082.name"
+	desc = "archipelago_dynamic.750082.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_autocannon_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 82
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750086
+	title = "archipelago_dynamic.750086.name"
+	desc = "archipelago_dynamic.750086.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_encryption_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 86
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750087
+	title = "archipelago_dynamic.750087.name"
+	desc = "archipelago_dynamic.750087.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_consumer_goods_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 87
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750090
+	title = "archipelago_dynamic.750090.name"
+	desc = "archipelago_dynamic.750090.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_disruptors_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 90
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750091
+	title = "archipelago_dynamic.750091.name"
+	desc = "archipelago_dynamic.750091.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_housing_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 91
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750095
+	title = "archipelago_dynamic.750095.name"
+	desc = "archipelago_dynamic.750095.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planet_infrastructure_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 95
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750102
+	title = "archipelago_dynamic.750102.name"
+	desc = "archipelago_dynamic.750102.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_gene_tailoring_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 102
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750104
+	title = "archipelago_dynamic.750104.name"
+	desc = "archipelago_dynamic.750104.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_hyperdrive_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 104
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750106
+	title = "archipelago_dynamic.750106.name"
+	desc = "archipelago_dynamic.750106.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_arc_emitter_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 106
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750108
+	title = "archipelago_dynamic.750108.name"
+	desc = "archipelago_dynamic.750108.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_farming_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 108
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750109
+	title = "archipelago_dynamic.750109.name"
+	desc = "archipelago_dynamic.750109.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_embassy_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 109
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750110
+	title = "archipelago_dynamic.750110.name"
+	desc = "archipelago_dynamic.750110.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_gene_tailoring_5"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 110
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750111
+	title = "archipelago_dynamic.750111.name"
+	desc = "archipelago_dynamic.750111.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_psionics_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 111
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750115
+	title = "archipelago_dynamic.750115.name"
+	desc = "archipelago_dynamic.750115.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_orbital_habitats_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 115
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750116
+	title = "archipelago_dynamic.750116.name"
+	desc = "archipelago_dynamic.750116.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_titan_upgrades_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 116
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750117
+	title = "archipelago_dynamic.750117.name"
+	desc = "archipelago_dynamic.750117.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_hyperdrive_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 117
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750118
+	title = "archipelago_dynamic.750118.name"
+	desc = "archipelago_dynamic.750118.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planet_infrastructure_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 118
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750119
+	title = "archipelago_dynamic.750119.name"
+	desc = "archipelago_dynamic.750119.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_shields_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 119
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750124
+	title = "archipelago_dynamic.750124.name"
+	desc = "archipelago_dynamic.750124.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_orbital_habitats_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 124
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750129
+	title = "archipelago_dynamic.750129.name"
+	desc = "archipelago_dynamic.750129.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_hyperdrive_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 129
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750133
+	title = "archipelago_dynamic.750133.name"
+	desc = "archipelago_dynamic.750133.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_farming_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 133
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750135
+	title = "archipelago_dynamic.750135.name"
+	desc = "archipelago_dynamic.750135.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_naval_capacity_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 135
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750142
+	title = "archipelago_dynamic.750142.name"
+	desc = "archipelago_dynamic.750142.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_battleship_upgrades_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 142
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750143
+	title = "archipelago_dynamic.750143.name"
+	desc = "archipelago_dynamic.750143.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_science_lab_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 143
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750144
+	title = "archipelago_dynamic.750144.name"
+	desc = "archipelago_dynamic.750144.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planetary_mining_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 144
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750145
+	title = "archipelago_dynamic.750145.name"
+	desc = "archipelago_dynamic.750145.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_station_science_5"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 145
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750147
+	title = "archipelago_dynamic.750147.name"
+	desc = "archipelago_dynamic.750147.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_psionic_shield_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 147
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750148
+	title = "archipelago_dynamic.750148.name"
+	desc = "archipelago_dynamic.750148.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_starbase_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 148
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750149
+	title = "archipelago_dynamic.750149.name"
+	desc = "archipelago_dynamic.750149.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_campaigns_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 149
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750150
+	title = "archipelago_dynamic.750150.name"
+	desc = "archipelago_dynamic.750150.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_missiles_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 150
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750151
+	title = "archipelago_dynamic.750151.name"
+	desc = "archipelago_dynamic.750151.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_robotics_5"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 151
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750152
+	title = "archipelago_dynamic.750152.name"
+	desc = "archipelago_dynamic.750152.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_thruster_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 152
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750155
+	title = "archipelago_dynamic.750155.name"
+	desc = "archipelago_dynamic.750155.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_station_science_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 155
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750157
+	title = "archipelago_dynamic.750157.name"
+	desc = "archipelago_dynamic.750157.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_battleship_upgrades_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 157
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750158
+	title = "archipelago_dynamic.750158.name"
+	desc = "archipelago_dynamic.750158.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_robotics_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 158
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750160
+	title = "archipelago_dynamic.750160.name"
+	desc = "archipelago_dynamic.750160.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_plasma_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 160
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750161
+	title = "archipelago_dynamic.750161.name"
+	desc = "archipelago_dynamic.750161.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_shield_hardener_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 161
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750162
+	title = "archipelago_dynamic.750162.name"
+	desc = "archipelago_dynamic.750162.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_farming_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 162
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750166
+	title = "archipelago_dynamic.750166.name"
+	desc = "archipelago_dynamic.750166.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_autocannon_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 166
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750167
+	title = "archipelago_dynamic.750167.name"
+	desc = "archipelago_dynamic.750167.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_power_plants_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 167
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750168
+	title = "archipelago_dynamic.750168.name"
+	desc = "archipelago_dynamic.750168.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_habitability_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 168
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750169
+	title = "archipelago_dynamic.750169.name"
+	desc = "archipelago_dynamic.750169.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planet_government_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 169
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750171
+	title = "archipelago_dynamic.750171.name"
+	desc = "archipelago_dynamic.750171.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_alloy_production_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 171
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750173
+	title = "archipelago_dynamic.750173.name"
+	desc = "archipelago_dynamic.750173.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_reactor_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 173
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750174
+	title = "archipelago_dynamic.750174.name"
+	desc = "archipelago_dynamic.750174.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_capital_production_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 174
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750175
+	title = "archipelago_dynamic.750175.name"
+	desc = "archipelago_dynamic.750175.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_lances_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 175
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750176
+	title = "archipelago_dynamic.750176.name"
+	desc = "archipelago_dynamic.750176.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_corvette_upgrades_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 176
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750177
+	title = "archipelago_dynamic.750177.name"
+	desc = "archipelago_dynamic.750177.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_campaigns_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 177
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750178
+	title = "archipelago_dynamic.750178.name"
+	desc = "archipelago_dynamic.750178.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_flak_battery_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 178
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750179
+	title = "archipelago_dynamic.750179.name"
+	desc = "archipelago_dynamic.750179.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_naval_capacity_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 179
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750180
+	title = "archipelago_dynamic.750180.name"
+	desc = "archipelago_dynamic.750180.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_reactor_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 180
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750185
+	title = "archipelago_dynamic.750185.name"
+	desc = "archipelago_dynamic.750185.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_disruptors_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 185
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750186
+	title = "archipelago_dynamic.750186.name"
+	desc = "archipelago_dynamic.750186.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_missiles_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 186
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750187
+	title = "archipelago_dynamic.750187.name"
+	desc = "archipelago_dynamic.750187.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_shields_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 187
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750191
+	title = "archipelago_dynamic.750191.name"
+	desc = "archipelago_dynamic.750191.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_megastructures_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 191
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750192
+	title = "archipelago_dynamic.750192.name"
+	desc = "archipelago_dynamic.750192.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_starbase_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 192
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750193
+	title = "archipelago_dynamic.750193.name"
+	desc = "archipelago_dynamic.750193.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_starbase_upgrades_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 193
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750196
+	title = "archipelago_dynamic.750196.name"
+	desc = "archipelago_dynamic.750196.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_army_genetics_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 196
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750198
+	title = "archipelago_dynamic.750198.name"
+	desc = "archipelago_dynamic.750198.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_robotics_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 198
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750201
+	title = "archipelago_dynamic.750201.name"
+	desc = "archipelago_dynamic.750201.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_housing_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 201
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750205
+	title = "archipelago_dynamic.750205.name"
+	desc = "archipelago_dynamic.750205.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_research_ai_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 205
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750206
+	title = "archipelago_dynamic.750206.name"
+	desc = "archipelago_dynamic.750206.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_corvette_upgrades_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 206
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750211
+	title = "archipelago_dynamic.750211.name"
+	desc = "archipelago_dynamic.750211.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_space_mining_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 211
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750212
+	title = "archipelago_dynamic.750212.name"
+	desc = "archipelago_dynamic.750212.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_flak_battery_2"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 212
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750214
+	title = "archipelago_dynamic.750214.name"
+	desc = "archipelago_dynamic.750214.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_bioreactor_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 214
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750218
+	title = "archipelago_dynamic.750218.name"
+	desc = "archipelago_dynamic.750218.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_destroyer_upgrades_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 218
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750220
+	title = "archipelago_dynamic.750220.name"
+	desc = "archipelago_dynamic.750220.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_decryption_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 220
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750221
+	title = "archipelago_dynamic.750221.name"
+	desc = "archipelago_dynamic.750221.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_power_plants_3"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 221
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750224
+	title = "archipelago_dynamic.750224.name"
+	desc = "archipelago_dynamic.750224.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_trade_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 224
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750225
+	title = "archipelago_dynamic.750225.name"
+	desc = "archipelago_dynamic.750225.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_planetary_mining_1"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 225
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750227
+	title = "archipelago_dynamic.750227.name"
+	desc = "archipelago_dynamic.750227.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_thruster_4"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 227
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750003
+	title = "archipelago_dynamic.750003.name"
+	desc = "archipelago_dynamic.750003.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_1000_exp_testingplayer1_750003"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 3
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750004
+	title = "archipelago_dynamic.750004.name"
+	desc = "archipelago_dynamic.750004.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_money_testingplayer1_750004"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 4
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750008
+	title = "archipelago_dynamic.750008.name"
+	desc = "archipelago_dynamic.750008.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_money_testingplayer1_750008"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 8
 		}
 	}
 }
@@ -5366,7 +5309,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_uncommon_item_testingplayer1_750010"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750010"
 	}
 	immediate = {
 		add_resource = {
@@ -5385,30 +5328,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_equipment_testingplayer1_750012"
+		has_technology = "tech_external_money_testingplayer1_750012"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 12
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750013
-	title = "archipelago_dynamic.750013.name"
-	desc = "archipelago_dynamic.750013.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_dios_best_friend_testingplayer1_750013"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 13
 		}
 	}
 }
@@ -5423,7 +5347,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750014"
+		has_technology = "tech_external_uncommon_item_testingplayer1_750014"
 	}
 	immediate = {
 		add_resource = {
@@ -5442,7 +5366,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750016"
+		has_technology = "tech_external_hidden_realm_a_moment_fractured_testingplayer1_750016"
 	}
 	immediate = {
 		add_resource = {
@@ -5452,20 +5376,39 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750017
-	title = "archipelago_dynamic.750017.name"
-	desc = "archipelago_dynamic.750017.desc"
+	id = archipelago_dynamic.750018
+	title = "archipelago_dynamic.750018.name"
+	desc = "archipelago_dynamic.750018.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750017"
+		has_technology = "tech_external_money_testingplayer1_750018"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 17
+			urp_001 = 18
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750020
+	title = "archipelago_dynamic.750020.name"
+	desc = "archipelago_dynamic.750020.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_legendary_item_testingplayer1_750020"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 20
 		}
 	}
 }
@@ -5480,7 +5423,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750024"
+		has_technology = "tech_external_equipment_testingplayer1_750024"
 	}
 	immediate = {
 		add_resource = {
@@ -5490,39 +5433,39 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750025
-	title = "archipelago_dynamic.750025.name"
-	desc = "archipelago_dynamic.750025.desc"
+	id = archipelago_dynamic.750027
+	title = "archipelago_dynamic.750027.name"
+	desc = "archipelago_dynamic.750027.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_distant_roost_testingplayer1_750025"
+		has_technology = "tech_external_rallypoint_delta_testingplayer1_750027"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 25
+			urp_001 = 27
 		}
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.750028
-	title = "archipelago_dynamic.750028.name"
-	desc = "archipelago_dynamic.750028.desc"
+	id = archipelago_dynamic.750029
+	title = "archipelago_dynamic.750029.name"
+	desc = "archipelago_dynamic.750029.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750028"
+		has_technology = "tech_external_common_item_testingplayer1_750029"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 28
+			urp_001 = 29
 		}
 	}
 }
@@ -5537,7 +5480,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750030"
+		has_technology = "tech_external_progressive_stage_testingplayer1_750030"
 	}
 	immediate = {
 		add_resource = {
@@ -5547,20 +5490,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750031
-	title = "archipelago_dynamic.750031.name"
-	desc = "archipelago_dynamic.750031.desc"
+	id = archipelago_dynamic.750032
+	title = "archipelago_dynamic.750032.name"
+	desc = "archipelago_dynamic.750032.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_titanic_plains_testingplayer1_750031"
+		has_technology = "tech_external_common_item_testingplayer1_750032"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 31
+			urp_001 = 32
 		}
 	}
 }
@@ -5575,7 +5518,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_hidden_realm_gilded_coast_testingplayer1_750033"
+		has_technology = "tech_external_1000_exp_testingplayer1_750033"
 	}
 	immediate = {
 		add_resource = {
@@ -5585,20 +5528,96 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750034
-	title = "archipelago_dynamic.750034.name"
-	desc = "archipelago_dynamic.750034.desc"
+	id = archipelago_dynamic.750035
+	title = "archipelago_dynamic.750035.name"
+	desc = "archipelago_dynamic.750035.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750034"
+		has_technology = "tech_external_lunar_coin_testingplayer1_750035"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 34
+			urp_001 = 35
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750039
+	title = "archipelago_dynamic.750039.name"
+	desc = "archipelago_dynamic.750039.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750039"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 39
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750043
+	title = "archipelago_dynamic.750043.name"
+	desc = "archipelago_dynamic.750043.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_1000_exp_testingplayer1_750043"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 43
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750044
+	title = "archipelago_dynamic.750044.name"
+	desc = "archipelago_dynamic.750044.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_money_testingplayer1_750044"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 44
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750045
+	title = "archipelago_dynamic.750045.name"
+	desc = "archipelago_dynamic.750045.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_money_testingplayer1_750045"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 45
 		}
 	}
 }
@@ -5613,11 +5632,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_green_testingplayer1_750046"
+		has_technology = "tech_external_1000_exp_testingplayer1_750046"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 46
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750048
+	title = "archipelago_dynamic.750048.name"
+	desc = "archipelago_dynamic.750048.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_1000_exp_testingplayer1_750048"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 48
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750049
+	title = "archipelago_dynamic.750049.name"
+	desc = "archipelago_dynamic.750049.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750049"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 49
 		}
 	}
 }
@@ -5651,11 +5708,68 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_sirens_call_testingplayer1_750052"
+		has_technology = "tech_external_sky_meadow_testingplayer1_750052"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 52
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750053
+	title = "archipelago_dynamic.750053.name"
+	desc = "archipelago_dynamic.750053.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750053"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 53
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750054
+	title = "archipelago_dynamic.750054.name"
+	desc = "archipelago_dynamic.750054.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750054"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 54
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750056
+	title = "archipelago_dynamic.750056.name"
+	desc = "archipelago_dynamic.750056.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_progressive_stage_testingplayer1_750056"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 56
 		}
 	}
 }
@@ -5670,30 +5784,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750057"
+		has_technology = "tech_external_1000_exp_testingplayer1_750057"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 57
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750058
-	title = "archipelago_dynamic.750058.name"
-	desc = "archipelago_dynamic.750058.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750058"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 58
 		}
 	}
 }
@@ -5708,30 +5803,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750060"
+		has_technology = "tech_external_common_item_testingplayer1_750060"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 60
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750061
-	title = "archipelago_dynamic.750061.name"
-	desc = "archipelago_dynamic.750061.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_wetland_aspect_testingplayer1_750061"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 61
 		}
 	}
 }
@@ -5746,7 +5822,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_uncommon_item_testingplayer1_750062"
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750062"
 	}
 	immediate = {
 		add_resource = {
@@ -5765,7 +5841,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750064"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750064"
 	}
 	immediate = {
 		add_resource = {
@@ -5784,7 +5860,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750065"
+		has_technology = "tech_external_equipment_testingplayer1_750065"
 	}
 	immediate = {
 		add_resource = {
@@ -5794,77 +5870,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750066
-	title = "archipelago_dynamic.750066.name"
-	desc = "archipelago_dynamic.750066.desc"
+	id = archipelago_dynamic.750069
+	title = "archipelago_dynamic.750069.name"
+	desc = "archipelago_dynamic.750069.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_lunar_coin_testingplayer1_750066"
+		has_technology = "tech_external_money_testingplayer1_750069"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 66
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750068
-	title = "archipelago_dynamic.750068.name"
-	desc = "archipelago_dynamic.750068.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_rallypoint_delta_testingplayer1_750068"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 68
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750070
-	title = "archipelago_dynamic.750070.name"
-	desc = "archipelago_dynamic.750070.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_abyssal_depths_testingplayer1_750070"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 70
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750071
-	title = "archipelago_dynamic.750071.name"
-	desc = "archipelago_dynamic.750071.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750071"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 71
+			urp_001 = 69
 		}
 	}
 }
@@ -5879,11 +5898,30 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_dios_best_friend_testingplayer1_750072"
+		has_technology = "tech_external_sirens_call_testingplayer1_750072"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 72
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750073
+	title = "archipelago_dynamic.750073.name"
+	desc = "archipelago_dynamic.750073.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750073"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 73
 		}
 	}
 }
@@ -5898,7 +5936,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750074"
+		has_technology = "tech_external_1000_exp_testingplayer1_750074"
 	}
 	immediate = {
 		add_resource = {
@@ -5917,7 +5955,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750075"
+		has_technology = "tech_external_boss_item_testingplayer1_750075"
 	}
 	immediate = {
 		add_resource = {
@@ -5927,96 +5965,58 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750076
-	title = "archipelago_dynamic.750076.name"
-	desc = "archipelago_dynamic.750076.desc"
+	id = archipelago_dynamic.750079
+	title = "archipelago_dynamic.750079.name"
+	desc = "archipelago_dynamic.750079.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750076"
+		has_technology = "tech_external_common_item_testingplayer1_750079"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 76
+			urp_001 = 79
 		}
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.750078
-	title = "archipelago_dynamic.750078.name"
-	desc = "archipelago_dynamic.750078.desc"
+	id = archipelago_dynamic.750083
+	title = "archipelago_dynamic.750083.name"
+	desc = "archipelago_dynamic.750083.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750078"
+		has_technology = "tech_external_common_item_testingplayer1_750083"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 78
+			urp_001 = 83
 		}
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.750080
-	title = "archipelago_dynamic.750080.name"
-	desc = "archipelago_dynamic.750080.desc"
+	id = archipelago_dynamic.750084
+	title = "archipelago_dynamic.750084.name"
+	desc = "archipelago_dynamic.750084.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750080"
+		has_technology = "tech_external_legendary_item_testingplayer1_750084"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 80
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750081
-	title = "archipelago_dynamic.750081.name"
-	desc = "archipelago_dynamic.750081.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_hidden_realm_a_moment_fractured_testingplayer1_750081"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 81
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750082
-	title = "archipelago_dynamic.750082.name"
-	desc = "archipelago_dynamic.750082.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_item_scrap_green_testingplayer1_750082"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 82
+			urp_001 = 84
 		}
 	}
 }
@@ -6031,49 +6031,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_void_fields_testingplayer1_750085"
+		has_technology = "tech_external_money_testingplayer1_750085"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 85
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750086
-	title = "archipelago_dynamic.750086.name"
-	desc = "archipelago_dynamic.750086.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_equipment_testingplayer1_750086"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 86
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750087
-	title = "archipelago_dynamic.750087.name"
-	desc = "archipelago_dynamic.750087.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_common_item_testingplayer1_750087"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 87
 		}
 	}
 }
@@ -6088,7 +6050,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750088"
+		has_technology = "tech_external_money_testingplayer1_750088"
 	}
 	immediate = {
 		add_resource = {
@@ -6107,30 +6069,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_lunar_item_testingplayer1_750089"
+		has_technology = "tech_external_radar_scanner_testingplayer1_750089"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 89
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750091
-	title = "archipelago_dynamic.750091.name"
-	desc = "archipelago_dynamic.750091.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_item_scrap_green_testingplayer1_750091"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 91
 		}
 	}
 }
@@ -6145,11 +6088,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750092"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750092"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 92
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750093
+	title = "archipelago_dynamic.750093.name"
+	desc = "archipelago_dynamic.750093.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_uncommon_item_testingplayer1_750093"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 93
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750094
+	title = "archipelago_dynamic.750094.name"
+	desc = "archipelago_dynamic.750094.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_red_testingplayer1_750094"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 94
 		}
 	}
 }
@@ -6164,7 +6145,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750096"
+		has_technology = "tech_external_progressive_stage_testingplayer1_750096"
 	}
 	immediate = {
 		add_resource = {
@@ -6183,7 +6164,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_legendary_item_testingplayer1_750097"
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750097"
 	}
 	immediate = {
 		add_resource = {
@@ -6202,11 +6183,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_uncommon_item_testingplayer1_750098"
+		has_technology = "tech_external_common_item_testingplayer1_750098"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 98
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750099
+	title = "archipelago_dynamic.750099.name"
+	desc = "archipelago_dynamic.750099.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750099"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 99
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750100
+	title = "archipelago_dynamic.750100.name"
+	desc = "archipelago_dynamic.750100.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750100"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 100
 		}
 	}
 }
@@ -6221,7 +6240,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750101"
+		has_technology = "tech_external_titanic_plains_2_testingplayer1_750101"
 	}
 	immediate = {
 		add_resource = {
@@ -6231,39 +6250,58 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750110
-	title = "archipelago_dynamic.750110.name"
-	desc = "archipelago_dynamic.750110.desc"
+	id = archipelago_dynamic.750103
+	title = "archipelago_dynamic.750103.name"
+	desc = "archipelago_dynamic.750103.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750110"
+		has_technology = "tech_external_uncommon_item_testingplayer1_750103"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 110
+			urp_001 = 103
 		}
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.750111
-	title = "archipelago_dynamic.750111.name"
-	desc = "archipelago_dynamic.750111.desc"
+	id = archipelago_dynamic.750105
+	title = "archipelago_dynamic.750105.name"
+	desc = "archipelago_dynamic.750105.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_verdant_falls_testingplayer1_750111"
+		has_technology = "tech_external_equipment_testingplayer1_750105"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 111
+			urp_001 = 105
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750107
+	title = "archipelago_dynamic.750107.name"
+	desc = "archipelago_dynamic.750107.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_legendary_item_testingplayer1_750107"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 107
 		}
 	}
 }
@@ -6278,11 +6316,30 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750112"
+		has_technology = "tech_external_equipment_testingplayer1_750112"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 112
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750113
+	title = "archipelago_dynamic.750113.name"
+	desc = "archipelago_dynamic.750113.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750113"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 113
 		}
 	}
 }
@@ -6297,7 +6354,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_equipment_testingplayer1_750114"
+		has_technology = "tech_external_hidden_realm_bazaar_between_time_testingplayer1_750114"
 	}
 	immediate = {
 		add_resource = {
@@ -6307,39 +6364,58 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750116
-	title = "archipelago_dynamic.750116.name"
-	desc = "archipelago_dynamic.750116.desc"
+	id = archipelago_dynamic.750120
+	title = "archipelago_dynamic.750120.name"
+	desc = "archipelago_dynamic.750120.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750116"
+		has_technology = "tech_external_commencement_testingplayer1_750120"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 116
+			urp_001 = 120
 		}
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.750117
-	title = "archipelago_dynamic.750117.name"
-	desc = "archipelago_dynamic.750117.desc"
+	id = archipelago_dynamic.750121
+	title = "archipelago_dynamic.750121.name"
+	desc = "archipelago_dynamic.750121.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750117"
+		has_technology = "tech_external_lunar_coin_testingplayer1_750121"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 117
+			urp_001 = 121
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750122
+	title = "archipelago_dynamic.750122.name"
+	desc = "archipelago_dynamic.750122.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750122"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 122
 		}
 	}
 }
@@ -6354,11 +6430,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750123"
+		has_technology = "tech_external_common_item_testingplayer1_750123"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 123
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750125
+	title = "archipelago_dynamic.750125.name"
+	desc = "archipelago_dynamic.750125.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750125"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 125
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750126
+	title = "archipelago_dynamic.750126.name"
+	desc = "archipelago_dynamic.750126.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_lunar_item_testingplayer1_750126"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 126
 		}
 	}
 }
@@ -6373,7 +6487,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_sundered_grove_testingplayer1_750127"
+		has_technology = "tech_external_common_item_testingplayer1_750127"
 	}
 	immediate = {
 		add_resource = {
@@ -6392,7 +6506,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750130"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750130"
 	}
 	immediate = {
 		add_resource = {
@@ -6411,11 +6525,30 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750131"
+		has_technology = "tech_external_lunar_coin_testingplayer1_750131"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 131
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750132
+	title = "archipelago_dynamic.750132.name"
+	desc = "archipelago_dynamic.750132.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750132"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 132
 		}
 	}
 }
@@ -6430,30 +6563,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750134"
+		has_technology = "tech_external_boss_item_testingplayer1_750134"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 134
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750135
-	title = "archipelago_dynamic.750135.name"
-	desc = "archipelago_dynamic.750135.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_common_item_testingplayer1_750135"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 135
 		}
 	}
 }
@@ -6468,11 +6582,30 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750136"
+		has_technology = "tech_external_hidden_realm_gilded_coast_testingplayer1_750136"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 136
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750137
+	title = "archipelago_dynamic.750137.name"
+	desc = "archipelago_dynamic.750137.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_dios_best_friend_testingplayer1_750137"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 137
 		}
 	}
 }
@@ -6487,11 +6620,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750138"
+		has_technology = "tech_external_lunar_coin_testingplayer1_750138"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 138
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750139
+	title = "archipelago_dynamic.750139.name"
+	desc = "archipelago_dynamic.750139.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_equipment_testingplayer1_750139"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 139
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750140
+	title = "archipelago_dynamic.750140.name"
+	desc = "archipelago_dynamic.750140.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750140"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 140
 		}
 	}
 }
@@ -6506,30 +6677,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750141"
+		has_technology = "tech_external_lunar_coin_testingplayer1_750141"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 141
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750142
-	title = "archipelago_dynamic.750142.name"
-	desc = "archipelago_dynamic.750142.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_dios_best_friend_testingplayer1_750142"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 142
 		}
 	}
 }
@@ -6544,68 +6696,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_uncommon_item_testingplayer1_750146"
+		has_technology = "tech_external_equipment_testingplayer1_750146"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 146
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750148
-	title = "archipelago_dynamic.750148.name"
-	desc = "archipelago_dynamic.750148.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750148"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 148
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750151
-	title = "archipelago_dynamic.750151.name"
-	desc = "archipelago_dynamic.750151.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750151"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 151
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750152
-	title = "archipelago_dynamic.750152.name"
-	desc = "archipelago_dynamic.750152.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750152"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 152
 		}
 	}
 }
@@ -6620,7 +6715,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_uncommon_item_testingplayer1_750153"
+		has_technology = "tech_external_common_item_testingplayer1_750153"
 	}
 	immediate = {
 		add_resource = {
@@ -6639,7 +6734,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750154"
+		has_technology = "tech_external_uncommon_item_testingplayer1_750154"
 	}
 	immediate = {
 		add_resource = {
@@ -6649,58 +6744,39 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750157
-	title = "archipelago_dynamic.750157.name"
-	desc = "archipelago_dynamic.750157.desc"
+	id = archipelago_dynamic.750156
+	title = "archipelago_dynamic.750156.name"
+	desc = "archipelago_dynamic.750156.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_lunar_item_testingplayer1_750157"
+		has_technology = "tech_external_item_scrap_yellow_testingplayer1_750156"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 157
+			urp_001 = 156
 		}
 	}
 }
 
 country_event = {
-	id = archipelago_dynamic.750158
-	title = "archipelago_dynamic.750158.name"
-	desc = "archipelago_dynamic.750158.desc"
+	id = archipelago_dynamic.750159
+	title = "archipelago_dynamic.750159.name"
+	desc = "archipelago_dynamic.750159.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750158"
+		has_technology = "tech_external_money_testingplayer1_750159"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 158
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750162
-	title = "archipelago_dynamic.750162.name"
-	desc = "archipelago_dynamic.750162.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_common_item_testingplayer1_750162"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 162
+			urp_001 = 159
 		}
 	}
 }
@@ -6715,7 +6791,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_progressive_stage_testingplayer1_750163"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750163"
 	}
 	immediate = {
 		add_resource = {
@@ -6734,7 +6810,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_equipment_testingplayer1_750164"
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750164"
 	}
 	immediate = {
 		add_resource = {
@@ -6753,49 +6829,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750165"
+		has_technology = "tech_external_uncommon_item_testingplayer1_750165"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 165
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750166
-	title = "archipelago_dynamic.750166.name"
-	desc = "archipelago_dynamic.750166.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750166"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 166
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750168
-	title = "archipelago_dynamic.750168.name"
-	desc = "archipelago_dynamic.750168.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_equipment_testingplayer1_750168"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 168
 		}
 	}
 }
@@ -6810,7 +6848,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_lunar_coin_testingplayer1_750172"
+		has_technology = "tech_external_common_item_testingplayer1_750172"
 	}
 	immediate = {
 		add_resource = {
@@ -6820,134 +6858,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750173
-	title = "archipelago_dynamic.750173.name"
-	desc = "archipelago_dynamic.750173.desc"
+	id = archipelago_dynamic.750183
+	title = "archipelago_dynamic.750183.name"
+	desc = "archipelago_dynamic.750183.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750173"
+		has_technology = "tech_external_legendary_item_testingplayer1_750183"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 173
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750175
-	title = "archipelago_dynamic.750175.name"
-	desc = "archipelago_dynamic.750175.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_1000_exp_testingplayer1_750175"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 175
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750176
-	title = "archipelago_dynamic.750176.name"
-	desc = "archipelago_dynamic.750176.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_equipment_testingplayer1_750176"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 176
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750177
-	title = "archipelago_dynamic.750177.name"
-	desc = "archipelago_dynamic.750177.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_hidden_realm_a_moment_whole_testingplayer1_750177"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 177
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750179
-	title = "archipelago_dynamic.750179.name"
-	desc = "archipelago_dynamic.750179.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750179"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 179
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750181
-	title = "archipelago_dynamic.750181.name"
-	desc = "archipelago_dynamic.750181.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750181"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 181
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750182
-	title = "archipelago_dynamic.750182.name"
-	desc = "archipelago_dynamic.750182.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750182"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 182
+			urp_001 = 183
 		}
 	}
 }
@@ -6962,49 +6886,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750184"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750184"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 184
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750185
-	title = "archipelago_dynamic.750185.name"
-	desc = "archipelago_dynamic.750185.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_common_item_testingplayer1_750185"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 185
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750187
-	title = "archipelago_dynamic.750187.name"
-	desc = "archipelago_dynamic.750187.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750187"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 187
 		}
 	}
 }
@@ -7019,7 +6905,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_uncommon_item_testingplayer1_750188"
+		has_technology = "tech_external_equipment_testingplayer1_750188"
 	}
 	immediate = {
 		add_resource = {
@@ -7038,7 +6924,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_progressive_stage_testingplayer1_750189"
+		has_technology = "tech_external_abandoned_aqueduct_testingplayer1_750189"
 	}
 	immediate = {
 		add_resource = {
@@ -7048,20 +6934,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750193
-	title = "archipelago_dynamic.750193.name"
-	desc = "archipelago_dynamic.750193.desc"
+	id = archipelago_dynamic.750190
+	title = "archipelago_dynamic.750190.name"
+	desc = "archipelago_dynamic.750190.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750193"
+		has_technology = "tech_external_money_testingplayer1_750190"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 193
+			urp_001 = 190
 		}
 	}
 }
@@ -7076,11 +6962,30 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750194"
+		has_technology = "tech_external_common_item_testingplayer1_750194"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 194
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750195
+	title = "archipelago_dynamic.750195.name"
+	desc = "archipelago_dynamic.750195.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750195"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 195
 		}
 	}
 }
@@ -7095,7 +7000,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750197"
+		has_technology = "tech_external_item_scrap_green_testingplayer1_750197"
 	}
 	immediate = {
 		add_resource = {
@@ -7105,20 +7010,77 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750198
-	title = "archipelago_dynamic.750198.name"
-	desc = "archipelago_dynamic.750198.desc"
+	id = archipelago_dynamic.750199
+	title = "archipelago_dynamic.750199.name"
+	desc = "archipelago_dynamic.750199.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750198"
+		has_technology = "tech_external_lunar_item_testingplayer1_750199"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 198
+			urp_001 = 199
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750200
+	title = "archipelago_dynamic.750200.name"
+	desc = "archipelago_dynamic.750200.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750200"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 200
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750202
+	title = "archipelago_dynamic.750202.name"
+	desc = "archipelago_dynamic.750202.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750202"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 202
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750203
+	title = "archipelago_dynamic.750203.name"
+	desc = "archipelago_dynamic.750203.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_common_item_testingplayer1_750203"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 203
 		}
 	}
 }
@@ -7133,30 +7095,11 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_green_testingplayer1_750204"
+		has_technology = "tech_external_common_item_testingplayer1_750204"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 204
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750206
-	title = "archipelago_dynamic.750206.name"
-	desc = "archipelago_dynamic.750206.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750206"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 206
 		}
 	}
 }
@@ -7171,11 +7114,49 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750207"
+		has_technology = "tech_external_legendary_item_testingplayer1_750207"
 	}
 	immediate = {
 		add_resource = {
 			urp_001 = 207
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750208
+	title = "archipelago_dynamic.750208.name"
+	desc = "archipelago_dynamic.750208.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_uncommon_item_testingplayer1_750208"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 208
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750209
+	title = "archipelago_dynamic.750209.name"
+	desc = "archipelago_dynamic.750209.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_lunar_coin_testingplayer1_750209"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 209
 		}
 	}
 }
@@ -7190,7 +7171,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750210"
+		has_technology = "tech_external_uncommon_item_testingplayer1_750210"
 	}
 	immediate = {
 		add_resource = {
@@ -7219,20 +7200,39 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750214
-	title = "archipelago_dynamic.750214.name"
-	desc = "archipelago_dynamic.750214.desc"
+	id = archipelago_dynamic.750215
+	title = "archipelago_dynamic.750215.name"
+	desc = "archipelago_dynamic.750215.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_money_testingplayer1_750214"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750215"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 214
+			urp_001 = 215
+		}
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.750216
+	title = "archipelago_dynamic.750216.name"
+	desc = "archipelago_dynamic.750216.desc"
+	picture = GFX_evt_archipelago_start
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_external_uncommon_item_testingplayer1_750216"
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 216
 		}
 	}
 }
@@ -7247,7 +7247,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_dios_best_friend_testingplayer1_750217"
+		has_technology = "tech_external_common_item_testingplayer1_750217"
 	}
 	immediate = {
 		add_resource = {
@@ -7257,39 +7257,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750218
-	title = "archipelago_dynamic.750218.name"
-	desc = "archipelago_dynamic.750218.desc"
+	id = archipelago_dynamic.750219
+	title = "archipelago_dynamic.750219.name"
+	desc = "archipelago_dynamic.750219.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_white_testingplayer1_750218"
+		has_technology = "tech_external_lunar_coin_testingplayer1_750219"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 218
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750221
-	title = "archipelago_dynamic.750221.name"
-	desc = "archipelago_dynamic.750221.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_money_testingplayer1_750221"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 221
+			urp_001 = 219
 		}
 	}
 }
@@ -7304,7 +7285,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_item_scrap_red_testingplayer1_750222"
+		has_technology = "tech_external_money_testingplayer1_750222"
 	}
 	immediate = {
 		add_resource = {
@@ -7314,39 +7295,20 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.750224
-	title = "archipelago_dynamic.750224.name"
-	desc = "archipelago_dynamic.750224.desc"
+	id = archipelago_dynamic.750223
+	title = "archipelago_dynamic.750223.name"
+	desc = "archipelago_dynamic.750223.desc"
 	picture = GFX_evt_archipelago_start
 	trigger = {
 		resource_stockpile_compare = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_common_item_testingplayer1_750224"
+		has_technology = "tech_external_item_scrap_white_testingplayer1_750223"
 	}
 	immediate = {
 		add_resource = {
-			urp_001 = 224
-		}
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.750225
-	title = "archipelago_dynamic.750225.name"
-	desc = "archipelago_dynamic.750225.desc"
-	picture = GFX_evt_archipelago_start
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_external_sky_meadow_testingplayer1_750225"
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 225
+			urp_001 = 223
 		}
 	}
 }
@@ -7361,7 +7323,7 @@ country_event = {
 			resource = urp_001
 			value = 0
 		}
-		has_technology = "tech_external_equipment_testingplayer1_750226"
+		has_technology = "tech_external_1000_exp_testingplayer1_750226"
 	}
 	immediate = {
 		add_resource = {

@@ -2,7 +2,7 @@ import time
 
 from BaseClasses import CollectionState
 from . import DataTechVanilla, DataTech, DataEvent, Options
-from .DataEvent import finalTechItemsExternal, finalTechItemsInternal, unExternalizeTechData, unScrewTechData
+from .DataEvent import finalTechItemsExternal, finalTechItemsInternal, smoothTechData, unScrewTechData
 from .templates.TemplateEvent import (eventStart, eventTemplate, eventAction, eventIfTech,
                                       eventNotIfTech, eventGiveTech, eventIfOutTech)
 from .templates.TemplateLocalisation import localisationStart, localisationEventTemplate
@@ -68,7 +68,7 @@ def createEvents(world: "StellarisWorld"):
             resource    = "urp_001"
 
             for i in finalTechItemsExternal:
-                if item["name"] == unExternalizeTechData(i[0]):
+                if item["name"] == smoothTechData(i[0]):
                     has = "tech_external_"+item["name"]+"_"+str(num)
                     break
 
