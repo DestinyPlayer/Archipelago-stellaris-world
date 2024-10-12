@@ -163,13 +163,13 @@ def createTechIcons():
     """This function assigns icons to technologies"""
     path         = "worlds/stellaris/mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
     iconTempName = "tech_progressive"
-    iconFinName  = iconTempName + "_{type}_{num}"
+    iconFinName  = "{type}_{num}"
     format       = ".dds"
 
     for tech in DataTech.techs:
         type = tech["name"]
         for i in range(tech["levels"]):
-            iconFinal = iconFinName.format(
+            iconFinal = iconTempName + "_" + iconFinName.format(
                 type = type,
                 num  = i + 1
             )
@@ -177,5 +177,16 @@ def createTechIcons():
             iconFinal  = path + iconFinal
             pathFinal  = path + iconTempName + format
             shutil.copyfile(pathFinal, iconFinal)
+
+    for tech in finalTechItemsExternal:
+        type = "tech_external_"+smoothTechData(tech[0])
+        iconFinal = iconFinName.format(
+            type = type,
+            num  = tech[1] - 750000 + 20000
+        )
+        iconFinal += format
+        iconFinal = path + iconFinal
+        pathFinal = path + iconTempName + format
+        shutil.copyfile(pathFinal, iconFinal)
 
     print("|Stellaris:     Finished generation of technology icon files                                          |")

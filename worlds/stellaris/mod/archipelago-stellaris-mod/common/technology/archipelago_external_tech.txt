@@ -7,15 +7,27 @@
 
 @tier0weight1 = 0
 
-tech_external_uncommon_item_testingplayer1_20000 = {
-    cost = @progressive_cost_2
+tech_external_money_testingplayer1_20000 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 1
-    category = { statecraft }
+    tier = 2
+    category = { new_worlds }
+    weight = @tier1weight1
+}
+
+tech_external_money_testingplayer1_20001 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
     weight = @tier1weight1
 }
 
@@ -26,157 +38,25 @@ tech_external_uncommon_item_testingplayer1_20002 = {
     potential = {
         is_ai = no
     }
-    tier = 2
+    tier = 4
     category = { new_worlds }
-    weight = @tier4weight1
-}
-
-tech_external_equipment_testingplayer1_20004 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { statecraft }
-    weight = @tier4weight1
-}
-
-tech_external_1000_exp_testingplayer1_20005 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
     weight = @tier3weight1
 }
 
-tech_external_verdant_falls_testingplayer1_20007 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { psionics }
-    weight = @tier2weight1
-}
-
-tech_external_money_testingplayer1_20008 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { new_worlds }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_coin_testingplayer1_20011 = {
-    cost = @progressive_cost_1
+tech_external_hidden_realm_gilded_coast_testingplayer1_20005 = {
+    cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 3
+    tier = 2
     category = { particles }
     weight = @tier4weight1
 }
 
-tech_external_lunar_coin_testingplayer1_20015 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { psionics }
-    weight = @tier2weight1
-}
-
-tech_external_equipment_testingplayer1_20016 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_item_testingplayer1_20017 = {
+tech_external_money_testingplayer1_20011 = {
     cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
-    weight = @tier3weight1
-}
-
-tech_external_equipment_testingplayer1_20018 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_money_testingplayer1_20020 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { statecraft }
-    weight = @tier1weight1
-}
-
-tech_external_item_scrap_red_testingplayer1_20023 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20024 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier1weight1
-}
-
-tech_external_item_scrap_white_testingplayer1_20028 = {
-    cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
@@ -184,83 +64,23 @@ tech_external_item_scrap_white_testingplayer1_20028 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier4weight1
+    weight = @tier1weight1
 }
 
-tech_external_1000_exp_testingplayer1_20033 = {
-    cost = @progressive_cost_1
+tech_external_rallypoint_delta_testingplayer1_20013 = {
+    cost = @progressive_cost_2
     area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_external_1000_exp_testingplayer1_20034 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_equipment_testingplayer1_20037 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_item_testingplayer1_20039 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_external_money_testingplayer1_20041 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { new_worlds }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20042 = {
-    cost = @progressive_cost_3
-    area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 4
-    category = { field_manipulation }
+    category = { new_worlds }
     weight = @tier1weight1
 }
 
-tech_external_1000_exp_testingplayer1_20043 = {
-    cost = @progressive_cost_1
+tech_external_equipment_testingplayer1_20015 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
@@ -268,118 +88,178 @@ tech_external_1000_exp_testingplayer1_20043 = {
     }
     tier = 4
     category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_money_testingplayer1_20017 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier1weight1
+}
+
+tech_external_progressive_stage_testingplayer1_20018 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_hidden_realm_a_moment_whole_testingplayer1_20020 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_item_scrap_green_testingplayer1_20023 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier4weight1
+}
+
+tech_external_item_scrap_green_testingplayer1_20026 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_1000_exp_testingplayer1_20029 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_legendary_item_testingplayer1_20033 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier2weight1
+}
+
+tech_external_1000_exp_testingplayer1_20035 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_equipment_testingplayer1_20036 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_1000_exp_testingplayer1_20037 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_uncommon_item_testingplayer1_20038 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20039 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_1000_exp_testingplayer1_20040 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier1weight1
+}
+
+tech_external_item_scrap_white_testingplayer1_20041 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
     weight = @tier1weight1
 }
 
 tech_external_common_item_testingplayer1_20044 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_item_scrap_white_testingplayer1_20047 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_money_testingplayer1_20048 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_equipment_testingplayer1_20050 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_void_fields_testingplayer1_20051 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { psionics }
-    weight = @tier2weight1
-}
-
-tech_external_money_testingplayer1_20054 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { new_worlds }
-    weight = @tier4weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20055 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_equipment_testingplayer1_20057 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_rallypoint_delta_testingplayer1_20059 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_1000_exp_testingplayer1_20061 = {
     cost = @progressive_cost_4
     area = physics
     is_rare = yes
@@ -391,427 +271,7 @@ tech_external_1000_exp_testingplayer1_20061 = {
     weight = @tier2weight1
 }
 
-tech_external_common_item_testingplayer1_20066 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_item_scrap_white_testingplayer1_20067 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { new_worlds }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20068 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_external_dios_best_friend_testingplayer1_20069 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20071 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_equipment_testingplayer1_20073 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_equipment_testingplayer1_20076 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_money_testingplayer1_20077 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_testingplayer1_20078 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_testingplayer1_20079 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_1000_exp_testingplayer1_20081 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_1000_exp_testingplayer1_20084 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_external_hidden_realm_a_moment_whole_testingplayer1_20086 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20087 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20088 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_abyssal_depths_testingplayer1_20091 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_lunar_coin_testingplayer1_20093 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { new_worlds }
-    weight = @tier1weight1
-}
-
-tech_external_item_scrap_white_testingplayer1_20097 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_1000_exp_testingplayer1_20099 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { new_worlds }
-    weight = @tier1weight1
-}
-
-tech_external_lunar_coin_testingplayer1_20100 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_item_scrap_green_testingplayer1_20102 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_1000_exp_testingplayer1_20103 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { psionics }
-    weight = @tier3weight1
-}
-
-tech_external_equipment_testingplayer1_20106 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
-    weight = @tier4weight1
-}
-
-tech_external_item_scrap_red_testingplayer1_20107 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20108 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20111 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_money_testingplayer1_20113 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_item_scrap_green_testingplayer1_20115 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_money_testingplayer1_20120 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20125 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { statecraft }
-    weight = @tier4weight1
-}
-
-tech_external_money_testingplayer1_20126 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { new_worlds }
-    weight = @tier4weight1
-}
-
-tech_external_equipment_testingplayer1_20127 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20128 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier1weight1
-}
-
-tech_external_common_item_testingplayer1_20129 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier1weight1
-}
-
-tech_external_equipment_testingplayer1_20130 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
-    weight = @tier2weight1
-}
-
-tech_external_lunar_item_testingplayer1_20132 = {
+tech_external_item_scrap_white_testingplayer1_20045 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
@@ -820,143 +280,23 @@ tech_external_lunar_item_testingplayer1_20132 = {
     }
     tier = 4
     category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_testingplayer1_20133 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { statecraft }
-    weight = @tier4weight1
-}
-
-tech_external_common_item_testingplayer1_20141 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_item_testingplayer1_20143 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { new_worlds }
     weight = @tier2weight1
 }
 
-tech_external_money_testingplayer1_20145 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_money_testingplayer1_20146 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_external_1000_exp_testingplayer1_20148 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_1000_exp_testingplayer1_20149 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_money_testingplayer1_20150 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20151 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_testingplayer1_20153 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_item_scrap_green_testingplayer1_20154 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_commencement_testingplayer1_20158 = {
+tech_external_abandoned_aqueduct_testingplayer1_20048 = {
     cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { new_worlds }
+    weight = @tier3weight1
+}
+
+tech_external_hidden_realm_bulwarks_ambry_testingplayer1_20050 = {
+    cost = @progressive_cost_1
     area = society
     is_rare = yes
     potential = {
@@ -967,8 +307,32 @@ tech_external_commencement_testingplayer1_20158 = {
     weight = @tier2weight1
 }
 
-tech_external_money_testingplayer1_20159 = {
-    cost = @progressive_cost_3
+tech_external_titanic_plains_testingplayer1_20053 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_money_testingplayer1_20056 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_boss_item_testingplayer1_20061 = {
+    cost = @progressive_cost_2
     area = society
     is_rare = yes
     potential = {
@@ -976,10 +340,34 @@ tech_external_money_testingplayer1_20159 = {
     }
     tier = 3
     category = { new_worlds }
-    weight = @tier1weight1
+    weight = @tier2weight1
 }
 
-tech_external_item_scrap_white_testingplayer1_20160 = {
+tech_external_money_testingplayer1_20062 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_equipment_testingplayer1_20063 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { new_worlds }
+    weight = @tier2weight1
+}
+
+tech_external_lunar_item_testingplayer1_20068 = {
     cost = @progressive_cost_3
     area = physics
     is_rare = yes
@@ -987,23 +375,119 @@ tech_external_item_scrap_white_testingplayer1_20160 = {
         is_ai = no
     }
     tier = 2
-    category = { field_manipulation }
-    weight = @tier4weight1
+    category = { particles }
+    weight = @tier1weight1
 }
 
-tech_external_common_item_testingplayer1_20161 = {
+tech_external_common_item_testingplayer1_20070 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_external_legendary_item_testingplayer1_20074 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20075 = {
     cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
+    tier = 2
+    category = { new_worlds }
+    weight = @tier2weight1
+}
+
+tech_external_uncommon_item_testingplayer1_20077 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20078 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
     tier = 3
-    category = { psionics }
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_item_scrap_yellow_testingplayer1_20079 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { biology }
+    weight = @tier2weight1
+}
+
+tech_external_hidden_realm_bazaar_between_time_testingplayer1_20080 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20081 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
     weight = @tier1weight1
 }
 
-tech_external_money_testingplayer1_20163 = {
+tech_external_common_item_testingplayer1_20082 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20083 = {
     cost = @progressive_cost_4
     area = physics
     is_rare = yes
@@ -1015,19 +499,7 @@ tech_external_money_testingplayer1_20163 = {
     weight = @tier2weight1
 }
 
-tech_external_lunar_item_testingplayer1_20165 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { statecraft }
-    weight = @tier2weight1
-}
-
-tech_external_dios_best_friend_testingplayer1_20168 = {
+tech_external_item_scrap_green_testingplayer1_20084 = {
     cost = @progressive_cost_4
     area = physics
     is_rare = yes
@@ -1036,11 +508,131 @@ tech_external_dios_best_friend_testingplayer1_20168 = {
     }
     tier = 1
     category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_progressive_stage_testingplayer1_20089 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { biology }
+    weight = @tier2weight1
+}
+
+tech_external_money_testingplayer1_20092 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { new_worlds }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_white_testingplayer1_20093 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_equipment_testingplayer1_20094 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20096 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { new_worlds }
+    weight = @tier4weight1
+}
+
+tech_external_item_scrap_green_testingplayer1_20097 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier2weight1
+}
+
+tech_external_progressive_stage_testingplayer1_20098 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
     weight = @tier1weight1
 }
 
-tech_external_money_testingplayer1_20170 = {
-    cost = @progressive_cost_2
+tech_external_money_testingplayer1_20101 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20106 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_money_testingplayer1_20107 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_common_item_testingplayer1_20108 = {
+    cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
@@ -1048,11 +640,491 @@ tech_external_money_testingplayer1_20170 = {
     }
     tier = 1
     category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_equipment_testingplayer1_20109 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { new_worlds }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_white_testingplayer1_20110 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { new_worlds }
+    weight = @tier1weight1
+}
+
+tech_external_equipment_testingplayer1_20119 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_dios_best_friend_testingplayer1_20120 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_external_equipment_testingplayer1_20122 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_uncommon_item_testingplayer1_20126 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_external_1000_exp_testingplayer1_20131 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_legendary_item_testingplayer1_20132 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { biology }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20135 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20136 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_money_testingplayer1_20139 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { new_worlds }
     weight = @tier2weight1
+}
+
+tech_external_money_testingplayer1_20140 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20142 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_external_money_testingplayer1_20143 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_red_testingplayer1_20144 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_common_item_testingplayer1_20146 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_scorched_acres_testingplayer1_20148 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_sky_meadow_testingplayer1_20149 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_sundered_grove_testingplayer1_20150 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { psionics }
+    weight = @tier2weight1
+}
+
+tech_external_item_scrap_green_testingplayer1_20151 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20152 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_1000_exp_testingplayer1_20157 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_titanic_plains_2_testingplayer1_20159 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20160 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_green_testingplayer1_20161 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_1000_exp_testingplayer1_20162 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_money_testingplayer1_20164 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_common_item_testingplayer1_20165 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_testingplayer1_20166 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_legendary_item_testingplayer1_20167 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_item_scrap_red_testingplayer1_20168 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_boss_item_testingplayer1_20170 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_uncommon_item_testingplayer1_20172 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { new_worlds }
+    weight = @tier3weight1
 }
 
 tech_external_money_testingplayer1_20175 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_equipment_testingplayer1_20176 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_external_common_item_testingplayer1_20178 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_lunar_coin_testingplayer1_20180 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier2weight1
+}
+
+tech_external_common_item_testingplayer1_20185 = {
     cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_common_item_testingplayer1_20190 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier1weight1
+}
+
+tech_external_void_fields_testingplayer1_20194 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_external_equipment_testingplayer1_20195 = {
+    cost = @progressive_cost_2
     area = society
     is_rare = yes
     potential = {
@@ -1060,35 +1132,11 @@ tech_external_money_testingplayer1_20175 = {
     }
     tier = 2
     category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_item_scrap_green_testingplayer1_20177 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_1000_exp_testingplayer1_20179 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
     weight = @tier1weight1
 }
 
-tech_external_item_scrap_green_testingplayer1_20180 = {
-    cost = @progressive_cost_2
+tech_external_item_scrap_green_testingplayer1_20196 = {
+    cost = @progressive_cost_1
     area = physics
     is_rare = yes
     potential = {
@@ -1096,71 +1144,11 @@ tech_external_item_scrap_green_testingplayer1_20180 = {
     }
     tier = 3
     category = { field_manipulation }
-    weight = @tier4weight1
+    weight = @tier3weight1
 }
 
-tech_external_progressive_stage_testingplayer1_20182 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { statecraft }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_testingplayer1_20183 = {
+tech_external_common_item_testingplayer1_20200 = {
     cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20184 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_money_testingplayer1_20185 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_testingplayer1_20190 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { statecraft }
-    weight = @tier1weight1
-}
-
-tech_external_common_item_testingplayer1_20196 = {
-    cost = @progressive_cost_2
     area = society
     is_rare = yes
     potential = {
@@ -1168,10 +1156,10 @@ tech_external_common_item_testingplayer1_20196 = {
     }
     tier = 4
     category = { new_worlds }
-    weight = @tier4weight1
+    weight = @tier3weight1
 }
 
-tech_external_money_testingplayer1_20197 = {
+tech_external_uncommon_item_testingplayer1_20202 = {
     cost = @progressive_cost_4
     area = physics
     is_rare = yes
@@ -1183,44 +1171,56 @@ tech_external_money_testingplayer1_20197 = {
     weight = @tier3weight1
 }
 
-tech_external_hidden_realm_bazaar_between_time_testingplayer1_20205 = {
-    cost = @progressive_cost_4
+tech_external_equipment_testingplayer1_20203 = {
+    cost = @progressive_cost_1
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 2
+    tier = 1
     category = { new_worlds }
-    weight = @tier2weight1
+    weight = @tier1weight1
 }
 
-tech_external_money_testingplayer1_20207 = {
+tech_external_uncommon_item_testingplayer1_20204 = {
     cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
-    category = { statecraft }
+    tier = 1
+    category = { new_worlds }
     weight = @tier4weight1
 }
 
-tech_external_1000_exp_testingplayer1_20208 = {
-    cost = @progressive_cost_2
-    area = society
+tech_external_common_item_testingplayer1_20208 = {
+    cost = @progressive_cost_1
+    area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 4
-    category = { biology }
+    category = { particles }
     weight = @tier2weight1
 }
 
-tech_external_money_testingplayer1_20210 = {
-    cost = @progressive_cost_3
+tech_external_equipment_testingplayer1_20210 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_uncommon_item_testingplayer1_20212 = {
+    cost = @progressive_cost_2
     area = physics
     is_rare = yes
     potential = {
@@ -1231,140 +1231,44 @@ tech_external_money_testingplayer1_20210 = {
     weight = @tier2weight1
 }
 
-tech_external_1000_exp_testingplayer1_20211 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { statecraft }
-    weight = @tier4weight1
-}
-
-tech_external_hidden_realm_a_moment_fractured_testingplayer1_20212 = {
+tech_external_uncommon_item_testingplayer1_20213 = {
     cost = @progressive_cost_4
-    area = society
+    area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 3
-    category = { statecraft }
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_1000_exp_testingplayer1_20215 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { new_worlds }
     weight = @tier4weight1
 }
 
-tech_external_common_item_testingplayer1_20213 = {
+tech_external_item_scrap_white_testingplayer1_20216 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 2
-    category = { biology }
+    tier = 1
+    category = { new_worlds }
     weight = @tier2weight1
 }
 
-tech_external_progressive_stage_testingplayer1_20214 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_common_item_testingplayer1_20215 = {
+tech_external_money_testingplayer1_20217 = {
     cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_external_beads_of_fealty_testingplayer1_20216 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_dios_best_friend_testingplayer1_20217 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_external_equipment_testingplayer1_20219 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_external_radar_scanner_testingplayer1_20221 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { statecraft }
-    weight = @tier1weight1
-}
-
-tech_external_item_scrap_red_testingplayer1_20223 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_scorched_acres_testingplayer1_20225 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_lunar_coin_testingplayer1_20227 = {
-    cost = @progressive_cost_2
     area = physics
     is_rare = yes
     potential = {
@@ -1372,5 +1276,17 @@ tech_external_lunar_coin_testingplayer1_20227 = {
     }
     tier = 4
     category = { field_manipulation }
-    weight = @tier4weight1
+    weight = @tier2weight1
+}
+
+tech_external_lunar_item_testingplayer1_20223 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier1weight1
 }
