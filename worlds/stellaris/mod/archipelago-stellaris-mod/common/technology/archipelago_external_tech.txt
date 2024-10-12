@@ -6,3 +6,18 @@
 @progressive_cost_5 = 40000
 
 @tier0weight1 = 0
+
+tech_fillTech_14151 = {
+    cost = 10
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier0weight1
+    weight_modifier = {
+		factor = 0
+	}
+}

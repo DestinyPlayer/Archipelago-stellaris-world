@@ -1,3 +1,8 @@
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from . import StellarisWorld
+
 techs = [
     {"name":"reactor", "levels":5, "area":"physics","category":"particles", "tier":1, "non_research": "",
      "progType": "progression"},
@@ -211,6 +216,9 @@ firstContactTechs = [
 
 ]
 
+def addDlcTechs(world: "StellarisWorld"):
+    for dlc in world.options.dlcIncluded.value:
+        print(dlc)
 
 #Areas:
 #   physics, society, engineering

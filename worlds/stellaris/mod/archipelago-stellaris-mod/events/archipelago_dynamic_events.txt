@@ -6803,25 +6803,6 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20005
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20005 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 5
-		}
-        set_variable = { which = send_20005 value = 1 }
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.20006
 	hide_window = yes
 	trigger = {
@@ -6932,25 +6913,6 @@ country_event = {
 			urp_001 = 11
 		}
         set_variable = { which = send_20011 value = 1 }
-	}
-}
-
-country_event = {
-	id = archipelago_dynamic.20012
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20012 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 12
-		}
-        set_variable = { which = send_20012 value = 1 }
 	}
 }
 
@@ -7540,6 +7502,25 @@ country_event = {
 			urp_001 = 43
 		}
         set_variable = { which = send_20043 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20044
+	hide_window = yes
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_megastructures_2"
+		NOT = { is_variable_set = send_20044 }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 44
+		}
+        set_variable = { which = send_20044 value = 1 }
 	}
 }
 
@@ -8205,6 +8186,25 @@ country_event = {
 			urp_001 = 79
 		}
         set_variable = { which = send_20079 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20080
+	hide_window = yes
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_megastructures_2"
+		NOT = { is_variable_set = send_20080 }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 80
+		}
+        set_variable = { which = send_20080 value = 1 }
 	}
 }
 
@@ -9558,25 +9558,6 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20152
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20152 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 152
-		}
-        set_variable = { which = send_20152 value = 1 }
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.20153
 	hide_window = yes
 	trigger = {
@@ -9919,6 +9900,25 @@ country_event = {
 }
 
 country_event = {
+	id = archipelago_dynamic.20171
+	hide_window = yes
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_megastructures_2"
+		NOT = { is_variable_set = send_20171 }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 171
+		}
+        set_variable = { which = send_20171 value = 1 }
+	}
+}
+
+country_event = {
 	id = archipelago_dynamic.20172
 	hide_window = yes
 	trigger = {
@@ -10185,25 +10185,6 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20186
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20186 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 186
-		}
-        set_variable = { which = send_20186 value = 1 }
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.20187
 	hide_window = yes
 	trigger = {
@@ -10276,6 +10257,25 @@ country_event = {
 			urp_001 = 190
 		}
         set_variable = { which = send_20190 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20191
+	hide_window = yes
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_megastructures_2"
+		NOT = { is_variable_set = send_20191 }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 191
+		}
+        set_variable = { which = send_20191 value = 1 }
 	}
 }
 
@@ -10527,25 +10527,6 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20205
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20205 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 205
-		}
-        set_variable = { which = send_20205 value = 1 }
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.20206
 	hide_window = yes
 	trigger = {
@@ -10713,6 +10694,25 @@ country_event = {
 			urp_001 = 214
 		}
         set_variable = { which = send_20214 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20215
+	hide_window = yes
+	trigger = {
+		resource_stockpile_compare = {
+			resource = urp_001
+			value = 0
+		}
+		has_technology = "tech_progressive_megastructures_2"
+		NOT = { is_variable_set = send_20215 }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 215
+		}
+        set_variable = { which = send_20215 value = 1 }
 	}
 }
 

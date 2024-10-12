@@ -1,7 +1,7 @@
 import shutil
 from typing import TYPE_CHECKING
 
-from . import CreateEvents, CreateTechs, Utility, DataEvent
+from . import CreateEvents, CreateTechs, Utility, DataEvent, DataTech
 
 if TYPE_CHECKING:
     from . import StellarisWorld
@@ -10,6 +10,7 @@ def generateMod(world: "StellarisWorld", outputDirectory):
     print("|Stellaris: Generating mod                                                                            |")
 
     Utility.generateLangFolders()
+    DataTech.addDlcTechs(world)
 
     #DataEvent
     DataEvent.fillInTechData()

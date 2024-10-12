@@ -17,7 +17,7 @@ class ResearchExtraSlots(Range):
 class DLCIncluded(OptionSet):
     """What DLC you have/intend to use"""
     display_name = "What DLC you have"
-    valid_keys   = {
+    valid_keys   = [
         DlcNames.leviathans,
         DlcNames.utopia,
         DlcNames.megacorp,
@@ -39,7 +39,7 @@ class DLCIncluded(OptionSet):
         DlcNames.necroidsSpecies,
         DlcNames.aquaticsSpecies,
         DlcNames.toxoidsSpecies
-                  }
+                  ]
 
 stellarisOptionGroups = [
     OptionGroup("Research Options", [
