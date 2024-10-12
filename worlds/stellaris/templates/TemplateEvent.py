@@ -3,13 +3,11 @@ eventStart = 'namespace = archipelago_dynamic\n'
 eventTemplate = '''
 country_event = {{
 	id = archipelago_dynamic.{num}
-	title = "archipelago_dynamic.{num}.name"
-	desc = "archipelago_dynamic.{num}.desc"
-	picture = GFX_evt_archipelago_start
+	hide_window = yes
 	trigger = {{
 		resource_stockpile_compare = {{
 			resource = {resource}
-			value = {value}
+			value {equalmore} {value}
 		}}{outResearch}
 	}}
 	immediate = {{
@@ -25,7 +23,9 @@ eventAction = '''
             limit = {{                {conditions} 
             }}{result}
         }}'''
-eventIfTech    = '''\n		        has_technology = "{has}"'''
+eventIfTech    = '''\n		        has_technology = {has}'''
 eventNotIfTech = '''\n		        NOT = {{ has_technology = "{hasnot}" }}'''
 eventGiveTech  = '''\n		    give_technology = {{ tech = "{name}" }}'''
-eventIfOutTech = '''\n		has_technology = "{has}"'''
+eventIfOutTech = '''\n		has_technology = {has}'''
+eventUnsetVar  = '''\n		NOT = {{ is_variable_set = {varname} }}'''
+eventSetVar    = '''\n        set_variable = {{ which = {varname} value = 1 }}'''

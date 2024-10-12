@@ -46,7 +46,7 @@ def createOutsideTech():
 
         techText    = techText + techTemplate.format(
             type        = type,
-            num         = tech[1],
+            num         = tech[1] - 750000 + 20000,
             area        = area,
             category    = category,
             cost        = cost,
@@ -58,6 +58,27 @@ def createOutsideTech():
     writeToFile("common/technology/archipelago_external_tech.txt", techText)
     print("|Stellaris:     Finished generation of external research definition files                             |")
 
+def createOutsideTechLocalisations():
+    """This function assembles the technology localisation files in the mod (names and descriptions)"""
+    for lang in languages:
+        localisationText = localisationStart.format(lang=lang)
+
+        for key,tech in enumerate(finalTechItemsExternal):
+            type = smoothTechData(tech[0])
+            name = tech[0]
+            type = "external_" + type
+            code = tech[1] - 750000 + 20000
+
+            localisationText += localisationTechTemplate.format(
+                type=type,
+                num=code,
+                name=name,
+                desc=name
+            )
+
+        writeToFile("localisation/" + lang + "/archipelago_external_techs_l_" + lang + ".yml", localisationText,
+                    "utf-8-sig")
+    print("|Stellaris:     Finished generation of external technology localisation files                         |")
 
 def createTech():
     """This function assembles the technology definition files in the mod"""
@@ -76,17 +97,21 @@ def createTech():
 
         for i in range(tech["levels"]): #Generate
             tierAdd = i + tier
+
             if tierAdd > 5:
                 tierAdd = 5
-            cost = techProgCost
-            if str(i+1) in tech["non_research"]:
-                cost       += "0"
-                weight      = 0
-                weight_null = weightNull
-            else:
-                cost       += str(tierAdd)
-                weight      = tierAdd
-                weight_null = ""
+
+            cost = techProgCost + str(tierAdd)
+            weight = tierAdd
+            weight_null = ""
+
+            for item in finalTechItemsInternal:
+                if type+"_"+str(i) in str(item[0]):
+                    cost        = techProgCost+"0"
+                    weight      = 0
+                    weight_null = weightNull
+                    break
+
             techText += techTemplate.format(
                 type        = type,
                 num         = i+1,
@@ -108,15 +133,17 @@ def createTechLocalisations():
         localisationText = localisationStart.format(lang = lang)
 
         for tech in DataTech.techs:
-            type = tech["name"]
-            name = "Progressive " + (type[0].upper() + type[1:]).replace("_"," ")
-            type = "progressive_" + type
+            type  = tech["name"]
+            desc  = (type[0].upper() + type[1:]).replace("_"," ")
+            name  = "Progressive " + desc
+            type  = "progressive_" + type
 
             for i in range(tech["levels"]):
                 localisationText += localisationTechTemplate.format(
-                    type = type,
-                    num  = i + 1,
-                    name = name
+                    type  = type,
+                    num   = i + 1,
+                    name  = name,
+                    desc  = desc
                 )
 
         for key, tech in enumerate(finalTechItemsExternal):

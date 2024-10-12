@@ -27,7 +27,7 @@ def getItemDataTable():
             else:                                   progType = ItemClassification.filler
 
             name     = "tech_progressive_" + tech["name"] + "_" + str(i + 1)
-            code     = codeConst + (key + 1)
+            code     = codeConst + (key * 10 + 10)
             item_data_table[name] = StellarisItemData(
                 code = code,
                 type = progType
@@ -42,7 +42,7 @@ def getItemTable():
     for key, tech in enumerate(DataTech.techs):
         for i in range(tech["levels"]):
             name             = "tech_progressive_" + tech["name"] + "_" + str(i + 1)
-            code             = codeConst + (key + 1)
+            code             = codeConst + (key * 10 + 10)
             item_table[name] = code
 
     return item_table

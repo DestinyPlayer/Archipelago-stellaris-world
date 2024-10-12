@@ -39,23 +39,28 @@ def fillInTechData():
             "description": "Progressive "+tech["name"].replace("_"," ")+" technology"
         })
 
-    #Tech Send
-    for finalTech in finalTechItemsInternal:
-        finalEventTech = unScrewTechData(finalTech[0])
-        events.append({
-            "type":        "techSend",
-            "name":        finalEventTech,
-            "description": "Progressive "+finalEventTech.replace("_"," ")+" technology",
-            "location":    finalTech[1],
-        })
+    finalTechItemsCombined = finalTechItemsExternal + finalTechItemsInternal
+    finalTechItemsCombined.sort(key=lambda x: x[1])
 
-    for finalTech in finalTechItemsExternal:
-        finalEventTech = smoothTechData(finalTech[0])
-        events.append({
-            "type":        "techSend",
-            "name":        finalEventTech,
-            "description": str(finalTech[0]),
-            "location":    finalTech[1],
-        })
+    #Tech Send
+    for finalTech in finalTechItemsCombined:
+        if finalTech in finalTechItemsInternal:
+            finalEventTech = unScrewTechData(finalTech[0])
+            events.append({
+                "type":        "techSend",
+                "name":        finalEventTech,
+                "description": "Progressive "+finalEventTech.replace("_"," ")+" technology",
+                "location":    finalTech[1],
+                "internal":    True
+            })
+        elif finalTech in finalTechItemsExternal:
+            finalEventTech = smoothTechData(finalTech[0])
+            events.append({
+                "type":        "techSend",
+                "name":        finalEventTech,
+                "description": str(finalTech[0]),
+                "location":    finalTech[1],
+                "internal":    False
+            })
 
     print("|Stellaris:     Finished generation of Event Data                                                     |")

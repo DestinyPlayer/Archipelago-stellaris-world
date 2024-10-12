@@ -1,5 +1,7 @@
 import urllib.parse
 import logging
+import os
+import json
 
 import Utils
 from CommonClient import ClientCommandProcessor, CommonContext, gui_enabled, server_loop, get_base_parser
@@ -20,20 +22,21 @@ logger = logging.getLogger("Client")
 #########################################################################################
 
 #[VARIABLES]############################################################################################################
-codeConst         = 7500000000
-resConst          = 100000
-patternSearch1    = b"\xE0\xAE\x58\x2D\x53\x01"
-patternSearch2    = b"\xC0\x72\x00\x5D\x36\x02"
-referenceNumber1  = 1456754700000
-referenceNumber2  = 2432511800000
-baseRes           = 0
-emerRes           = 0
-commResIn         = []
-commResOut        = []
-pm                = Pymem()
-itemsToReceive    = []
-locationChecks    = []
-locationChecksNum = 0
+codeInConst        = 7500000000
+codeOutConst       = 750000
+resConst           = 100000
+patternSearch1     = b"\xE0\xAE\x58\x2D\x53\x01"
+patternSearch2     = b"\xC0\x72\x00\x5D\x36\x02"
+referenceNumber1   = 1456754700000
+referenceNumber2   = 2432511800000
+baseRes            = 0
+emerRes            = 0
+commResIn          = []
+commResOut         = []
+pm                 = Pymem()
+itemsReceived      = []
+itemsReceivedFinal = []
+locationChecks     = []
 
 
 #[METHODS]##############################################################################################################
@@ -41,7 +44,7 @@ def decodeItemCode(item):
     """This method takes the Item Codes provided by the server and converts them into a form readable by the game
 
     SERVER => GAME"""
-    code = item - codeConst
+    code = item - codeInConst + countReceivedItem(item)
     logger.info("Received item " + str(item) + ", converted to internal code " + str(code))
     return int(code)
 
@@ -50,7 +53,7 @@ def encodeItemCode(item):
     """This method takes the Item Codes provided by the game and converts them into a form readable by the server
 
     GAME => SERVER"""
-    code = item + codeConst
+    code = item + codeOutConst
     logger.info("Received item " + str(item) + ", converted to external code" + str(code))
     return int(code)
 
@@ -121,36 +124,46 @@ async def connectToStellaris():
 
         return True
 
+def countReceivedItem(item):
+    count = 0
+    for i in range(len(itemsReceived)):
+        if itemsReceived[i] == item:
+            count += 1
+    return count
 
-def receiveItem(item, listLen):
+def receiveItem():
     """This method takes the item's code and sets the Receive Communication Resource to it.
     Waits until the resource is 0 before doing anything."""
-    if commResIn[1] == 0:
-        curItem = decodeItemCode(item)
+    global itemsReceivedFinal
+    global itemsReceivedNum
+    if commResIn[1] == 0 and len(itemsReceivedFinal) != 0:
+        curItem = decodeItemCode(itemsReceivedFinal[0])
         logger.info("   Sending item " + str(curItem) + " to Stellaris")
         pm.write_longlong(commResIn[0], curItem * resConst)
         logger.info("   " + str(curItem) + " was sent to Stellaris")
-        itemsToReceive.pop(listLen - 1)
+        itemsReceivedFinal.pop(0)
+        print(itemsReceivedFinal)
+        logger.info("Items left to send: " + str(len(itemsReceivedFinal)))
+
 
 
 def sendItem():
+    global locationChecks
     if commResOut[1] != 0:
-        curItem = encodeItemCode(commResOut[1]) + 750000
-        global locationChecks
+        curItem = encodeItemCode(commResOut[1])
+        pm.write_longlong(commResOut[0], 0)
         locationChecks.append(curItem)
         logger.info("   Receiving item " + str(curItem) + " from Stellaris")
-        pm.write_longlong(commResOut[0], 0)
-        logger.info("   " + str(curItem) + " was sent to the server")
 
 
-async def loopTransmit(getItems):
+async def loopTransmit():
     """This is the primary communication loop for transmitting information between the game and the client"""
     while True:
+        #print(print(len(itemsReceived),"   ",itemsReceivedNum))
         grabResources()
-        length = len(getItems)
-        if length != 0: receiveItem(getItems[length - 1], length)
+        receiveItem()
         sendItem()
-        await asyncio.sleep(1)
+        await asyncio.sleep(0.1)
 
 
 def runStellarisClient(*args):
@@ -164,7 +177,6 @@ def runStellarisClient(*args):
         game              = "Stellaris" # Empty matches any game since 0.3.2
         items_handling    = 0b111 ####### Receive all items for /received
         want_slot_data    = False ####### Can't use game specific slot_data
-        username          = "Testing_Player_2"
 
         def __init__(self, server_address, password):
             super(StellarisContext, self).__init__(server_address, password)
@@ -183,23 +195,39 @@ def runStellarisClient(*args):
             await self.send_connect()
 
         def on_package(self, cmd: str, args: dict):
+            #print(cmd,args)
+            if cmd == "RoomInfo":
+                self.seed_name = args["seed_name"]
+
             if cmd == "Connected":
                 self.game = self.slot_info[self.slot].game
 
             elif cmd == 'ReceivedItems':
-                global itemsToReceive
+                global itemsReceived
+                global itemsReceivedFinal
                 for index, item in enumerate(self.items_received, 1):
-                    itemsToReceive.append(item.item)
+                    itemsReceived.append(item.item)
+                for item in itemsReceived:
+                    num = 0
+                    for allItems in itemsReceived:
+                        if allItems == item:
+                            num += 1
+                            if num <= 9 and not item + num in itemsReceivedFinal: itemsReceivedFinal.append(item + num)
+                        print(item + num)
+                itemsReceived.clear()
+                print(itemsReceivedFinal)
 
         async def disconnect(self, allow_autoreconnect: bool = False):
             await super().disconnect(allow_autoreconnect)
 
     async def finalSendItem(ctx: StellarisContext):
         while True:
-            global locationChecksNum
-            if len(locationChecks) > locationChecksNum:
-                locationChecksNum = len(locationChecks)
-                await ctx.send_msgs([{"cmd": 'LocationChecks', "locations": locationChecks}])
+            global locationChecks
+            if len(locationChecks) != 0:
+                print("Sending data to server")
+                await ctx.send_msgs([{"cmd": 'LocationChecks', "locations": [int(locationChecks[0])]}])
+                locationChecks.pop(0)
+                print(locationChecks)
             await asyncio.sleep(1)
 
     async def main(args):
@@ -217,7 +245,7 @@ def runStellarisClient(*args):
 
         if successful_connection:
             logger.info("Connected to Stellaris successfully\n")
-            stellaris_loop_task = asyncio.create_task(loopTransmit(itemsToReceive), name = "Game loop")
+            stellaris_loop_task = asyncio.create_task(loopTransmit(), name = "Game loop")
             stellaris_send_task = asyncio.create_task(finalSendItem(ctx))
 
         await ctx.exit_event.wait()

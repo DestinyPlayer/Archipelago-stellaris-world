@@ -19,6 +19,7 @@ def generateMod(world: "StellarisWorld", outputDirectory):
     # Technology
     CreateTechs.createTech()
     CreateTechs.createOutsideTech()
+    CreateTechs.createOutsideTechLocalisations()
     CreateTechs.createTechLocalisations()
     CreateTechs.createTechIcons()
 
