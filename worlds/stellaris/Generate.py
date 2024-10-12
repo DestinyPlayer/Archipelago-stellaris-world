@@ -18,8 +18,11 @@ def generateMod(world: "StellarisWorld", outputDirectory):
 
     # Technology
     CreateTechs.createTech()
-    CreateTechs.createOutsideTech()
-    CreateTechs.createOutsideTechLocalisations()
+    try:
+        CreateTechs.createOutsideTech()
+        CreateTechs.createOutsideTechLocalisations()
+    except:
+        print("NO OTHER GAMES IN THE MULTIWORLD")
     CreateTechs.createTechLocalisations()
     CreateTechs.createTechIcons()
 

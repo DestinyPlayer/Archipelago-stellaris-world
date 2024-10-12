@@ -45,7 +45,7 @@ def fillInTechData():
     #Tech Send
     for finalTech in finalTechItemsCombined:
         if finalTech in finalTechItemsInternal:
-            finalEventTech = unScrewTechData(finalTech[0])
+            finalEventTech = smoothTechData(finalTech[0])
             events.append({
                 "type":        "techSend",
                 "name":        finalEventTech,
@@ -53,7 +53,7 @@ def fillInTechData():
                 "location":    finalTech[1],
                 "internal":    True
             })
-        elif finalTech in finalTechItemsExternal:
+        elif finalTech in finalTechItemsExternal and finalTechItemsExternal:
             finalEventTech = smoothTechData(finalTech[0])
             events.append({
                 "type":        "techSend",

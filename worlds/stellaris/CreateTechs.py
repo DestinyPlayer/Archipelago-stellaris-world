@@ -18,7 +18,7 @@ def countFinalTechs(tech):
     count = 0
 
     for item in finalTechItemsInternal:
-        itemLoc = unScrewTechData(item[0])
+        itemLoc = smoothTechData(item[0])
         if tech["name"] == itemLoc:
             count += 1
 
