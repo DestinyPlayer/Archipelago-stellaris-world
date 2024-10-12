@@ -1,3 +1,4 @@
+import os
 import shutil
 from . import DataTech
 
@@ -13,6 +14,12 @@ languages = [
     "simp_chinese",
     "spanish"
 ]
+
+def generateLangFolders():
+    for lang in languages:
+        path = "worlds/stellaris/mod/archipelago-stellaris-mod/"+"localisation/"+lang
+        if not os.path.isdir(path):
+            os.mkdir(path)
 
 #This function writes files to the mod folder
 def writeToFile(path,text,encoding=None):

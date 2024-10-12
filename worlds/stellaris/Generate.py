@@ -9,6 +9,8 @@ if TYPE_CHECKING:
 def generateMod(world: "StellarisWorld", outputDirectory):
     print("|Stellaris: Generating mod                                                                            |")
 
+    Utility.generateLangFolders()
+
     #DataEvent
     DataEvent.fillInTechData()
 
@@ -18,11 +20,8 @@ def generateMod(world: "StellarisWorld", outputDirectory):
 
     # Technology
     CreateTechs.createTech()
-    try:
-        CreateTechs.createOutsideTech()
-        CreateTechs.createOutsideTechLocalisations()
-    except:
-        print("NO OTHER GAMES IN THE MULTIWORLD")
+    CreateTechs.createOutsideTech()
+    CreateTechs.createOutsideTechLocalisations()
     CreateTechs.createTechLocalisations()
     CreateTechs.createTechIcons()
 
