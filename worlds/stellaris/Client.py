@@ -135,8 +135,9 @@ def receiveItem():
     """This method takes the item's code and sets the Receive Communication Resource to it.
     Waits until the resource is 0 before doing anything."""
     global itemsReceivedFinal
-    global itemsReceivedNum
     if commResIn[1] == 0 and len(itemsReceivedFinal) != 0:
+        print("Items Received List ", itemsReceivedFinal)
+        print("CommRes ", commResIn[1])
         curItem = decodeItemCode(itemsReceivedFinal[0])
         logger.info("   Sending item " + str(curItem) + " to Stellaris")
         pm.write_longlong(commResIn[0], curItem * resConst)
@@ -150,6 +151,7 @@ def receiveItem():
 def sendItem():
     global locationChecks
     if commResOut[1] != 0:
+        logger.info("Sending item!")
         curItem = encodeItemCode(commResOut[1])
         pm.write_longlong(commResOut[0], 0)
         locationChecks.append(curItem)
@@ -225,6 +227,7 @@ def runStellarisClient(*args):
             global locationChecks
             if len(locationChecks) != 0:
                 print("Sending data to server")
+                print(locationChecks)
                 await ctx.send_msgs([{"cmd": 'LocationChecks', "locations": [int(locationChecks[0])]}])
                 locationChecks.pop(0)
                 print(locationChecks)

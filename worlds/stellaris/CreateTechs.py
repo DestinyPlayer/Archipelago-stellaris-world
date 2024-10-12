@@ -70,10 +70,10 @@ def createOutsideTechLocalisations():
             code = tech[1] - 750000 + 20000
 
             localisationText += localisationTechTemplate.format(
-                type=type,
-                num=code,
-                name=name,
-                desc=name
+                type = type,
+                num  = code,
+                name = name,
+                desc = name
             )
 
         writeToFile("localisation/" + lang + "/archipelago_external_techs_l_" + lang + ".yml", localisationText,
@@ -114,7 +114,7 @@ def createTech():
 
             techText += techTemplate.format(
                 type        = type,
-                num         = i+1,
+                num         = i + 1,
                 area        = area,
                 category    = category,
                 cost        = cost,

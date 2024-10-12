@@ -8,7 +8,29 @@ country_event = {{
 		resource_stockpile_compare = {{
 			resource = {resource}
 			value {equalmore} {value}
-		}}{outResearch}
+		}}{outResearch}{varCheck}
+	}}
+	immediate = {{
+		add_resource = {{
+			{resource} = {postValue}
+		}}{action}
+	}}
+}}
+'''
+
+eventTemplateReceive = '''
+country_event = {{
+	id = archipelago_dynamic.{num}
+	hide_window = yes
+	trigger = {{
+	    AND = {{
+	        OR = {{
+                resource_stockpile_compare = {{
+                    resource = {resource}
+                    value {equalmore} {value}
+                }}{techcheck}
+            }}{varcheck}
+        }}
 	}}
 	immediate = {{
 		add_resource = {{
@@ -23,9 +45,9 @@ eventAction = '''
             limit = {{                {conditions} 
             }}{result}
         }}'''
-eventIfTech    = '''\n		        has_technology = {has}'''
+eventIfTech    = '''\n		        has_technology = "{has}"'''
 eventNotIfTech = '''\n		        NOT = {{ has_technology = "{hasnot}" }}'''
 eventGiveTech  = '''\n		    give_technology = {{ tech = "{name}" }}'''
-eventIfOutTech = '''\n		has_technology = {has}'''
-eventUnsetVar  = '''\n		NOT = {{ is_variable_set = {varname} }}'''
-eventSetVar    = '''\n        set_variable = {{ which = {varname} value = 1 }}'''
+eventIfOutTech = '''\n		has_technology = "{has}"'''
+eventUnsetVar  = '''\n		{extratab}NOT = {{ is_variable_set = {varname} }}'''
+eventSetVar    = '''\n        {extratab}set_variable = {{ which = {varname} value = 1 }}'''
