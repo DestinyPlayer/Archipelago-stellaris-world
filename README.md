@@ -1,5 +1,19 @@
 # [Archipelago](https://archipelago.gg) ![Discord Shield](https://discordapp.com/api/guilds/731205301247803413/widget.png?style=shield) | [Install](https://github.com/ArchipelagoMW/Archipelago/releases)
 
+### STELLARIS INSTRUCTIONS
+
+1. Generate a Stellaris world.
+2. That will also generate a mod in the world's folder. Grab that and put it in your Stellaris mod folder.
+3. DO NOT activate client before you're in-game.
+4. Start the game with the mod
+5. Start a game with some empire
+6. Click the "Begin" button
+7. Click the "OK" button on the instructions
+8. Start client
+9. Wait for it to connect to Stellaris
+10. Connect to server
+11. Profit
+
 Archipelago provides a generic framework for developing multiworld capability for game randomizers. In all cases,
 presently, Archipelago is also the randomizer itself.
 
