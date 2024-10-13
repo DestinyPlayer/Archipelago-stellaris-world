@@ -1,4 +1,5 @@
 from typing import TYPE_CHECKING
+from .dlc.dlc_data import DlcNames
 
 if TYPE_CHECKING:
     from . import StellarisWorld
@@ -216,10 +217,61 @@ firstContactTechs = [
 
 ]
 
+DlcNames.leviathans,
+DlcNames.utopia,
+DlcNames.megacorp,
+DlcNames.apocalypse,
+DlcNames.federations,
+DlcNames.nemesis,
+DlcNames.overlord,
+DlcNames.galacticParagons,
+DlcNames.astralPlanes,
+DlcNames.cosmicStorms,
+DlcNames.machineAge,
+DlcNames.syntheticDawn,
+DlcNames.distantStars,
+DlcNames.ancientRelics,
+DlcNames.firstContact,
+DlcNames.humanoidsSpecies,
+DlcNames.plantoidsSpecies,
+DlcNames.lithoidsSpecies,
+DlcNames.necroidsSpecies,
+DlcNames.aquaticsSpecies,
+DlcNames.toxoidsSpecies
+
 def addDlcTechs(world: "StellarisWorld"):
     for dlc in world.options.dlcIncluded.value:
         print(dlc)
-
+        if dlc == DlcNames.leviathans:
+            print("Detected ",dlc," DLC")
+        elif dlc == DlcNames.utopia:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.megacorp:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.apocalypse:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.federations:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.nemesis:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.overlord:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.galacticParagons:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.astralPlanes:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.cosmicStorms:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.machineAge:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.syntheticDawn:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.distantStars:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.ancientRelics:
+            print("Detected ", dlc, " DLC")
+        elif dlc == DlcNames.firstContact:
+            print("Detected ", dlc, " DLC")
 #Areas:
 #   physics, society, engineering
 

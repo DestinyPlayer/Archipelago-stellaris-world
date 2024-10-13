@@ -1,6 +1,7 @@
 from random import randrange
 import shutil
 from . import DataTech
+from .CreateEvents import findTech
 from .DataEvent import unScrewTechData, finalTechItemsInternal, finalTechItemsExternal, smoothTechData
 from .templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
 from .templates.TemplateLocalisation import localisationStart, localisationTechTemplate, localisationExternalTechTemplate
@@ -43,6 +44,33 @@ def createOutsideTech():
         cost        = techProgCost + str(randrange(1,5))
         weight_null = ""
         weight      = randrange(1,5)
+
+        techText    = techText + techTemplate.format(
+            type        = type,
+            num         = tech[1] - 750000 + 20000,
+            area        = area,
+            category    = category,
+            cost        = cost,
+            weight      = weight,
+            tier        = tier,
+            weight_null = weight_null
+        )
+
+    for key,tech in enumerate(finalTechItemsInternal):
+        name = str(tech[0]).split(" ")[0]
+        lev = name[-1:]
+        name = name[:-2]
+        name = name.replace("tech_progressive_","")
+        find = findTech(name)
+        type = "internal_" + name + "_" + lev
+        area = find["area"]
+        category = find["category"]
+
+        tier        = find["tier"] + int(lev)-1
+        if tier > 5: tier = 5
+        cost        = techProgCost + str(tier)
+        weight_null = ""
+        weight      = tier
 
         techText    = techText + techTemplate.format(
             type        = type,
@@ -117,7 +145,7 @@ def createTech():
             weight_null = ""
 
             for item in finalTechItemsInternal:
-                if type+"_"+str(i) in str(item[0]):
+                if True:
                     cost        = techProgCost+"0"
                     weight      = 0
                     weight_null = weightNull

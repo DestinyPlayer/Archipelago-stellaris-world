@@ -51,7 +51,8 @@ def fillInTechData():
                 "name":        finalEventTech,
                 "description": "Progressive "+finalEventTech.replace("_"," ")+" technology",
                 "location":    finalTech[1],
-                "internal":    True
+                "internal":    True,
+                "player":      finalTech[3]
             })
         elif finalTech in finalTechItemsExternal and finalTechItemsExternal:
             finalEventTech = smoothTechData(finalTech[0])
@@ -60,7 +61,8 @@ def fillInTechData():
                 "name":        finalEventTech,
                 "description": str(finalTech[0]),
                 "location":    finalTech[1],
-                "internal":    False
+                "internal":    False,
+                "player":      finalTech[3]
             })
 
     print("|Stellaris:     Finished generation of Event Data                                                     |")

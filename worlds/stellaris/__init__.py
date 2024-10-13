@@ -98,9 +98,19 @@ class StellarisWorld(World):
         for location in DataEvent.finalLocations:
             if "Research" in str(location):
                 if self.player == location.item.player:
-                    DataEvent.finalTechItemsInternal.append([location.item, location.address, location.item.player])
+                    DataEvent.finalTechItemsInternal.append([
+                        location.item,
+                        location.address,
+                        location.item.player,
+                        self.player_name
+                    ])
                 else:
-                    DataEvent.finalTechItemsExternal.append([location.item, location.address, location.item.player])
+                    DataEvent.finalTechItemsExternal.append([
+                        location.item,
+                        location.address,
+                        location.item.player,
+                        ""
+                    ])
 
         self.create_mod(output_directory)
         self.cleanUpGeneration()

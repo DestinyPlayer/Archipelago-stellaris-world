@@ -151,7 +151,6 @@ def receiveItem():
 def sendItem():
     global locationChecks
     if commResOut[1] != 0:
-        logger.info("Sending item!")
         curItem = encodeItemCode(commResOut[1])
         pm.write_longlong(commResOut[0], 0)
         locationChecks.append(curItem)
@@ -225,6 +224,7 @@ def runStellarisClient(*args):
     async def finalSendItem(ctx: StellarisContext):
         while True:
             global locationChecks
+            print(locationChecks)
             if len(locationChecks) != 0:
                 print("Sending data to server")
                 print(locationChecks)

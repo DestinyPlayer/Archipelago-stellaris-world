@@ -80,8 +80,7 @@ def createEvents(world: "StellarisWorld"):
                     resource    = resource,
                     varcheck    = varCheck,
                     action      = action,
-                    equalmore   = equalmore,
-                    techcheck   = techCheck
+                    equalmore   = equalmore
                 )
 
         elif item["type"] == "techSend": #Events that send technology location checks to the server
@@ -92,29 +91,29 @@ def createEvents(world: "StellarisWorld"):
             resource    = "urp_001"
             equalmore   = "="
 
+
             for i in finalTechItemsExternal:
                 if item["name"] == smoothTechData(i[0]):
                     has = 'tech_external_' + item["name"] + "_" + str(num)
                     break
 
             for i in finalTechItemsInternal:
-                splitItem = str(i[0]).split(" ")
+                if item["name"] == smoothTechData(i[0]):
+                    compName = str(i[0]).replace("tech_progressive_","")
+                    compName = compName.split(" ")[0]
+                    compName += "_"+str(num)
+                    name = "tech_internal_"+compName
+                    has = name
+                    break
 
-                for j in range(5):
-                    addItem = "tech_progressive_"+item["name"]
-                    if addItem == splitItem[0]:
-                        has = str(splitItem[0])
-                        break
-            varCheck = eventUnsetVar.format(varname = "send_" + str(num),extratab = "")
-            outResearch = eventIfOutTech.format(has = has)
+            varCheck = eventUnsetVar.format(varname = "send_" + str(num),extratab = "    ")
+            outResearch = eventIfOutTech.format(has = has, extratab = "    ")
             eventText += eventTemplate.format(
                 num         = num,
-                value       = value,
                 postValue   = postValue,
                 resource    = resource,
                 action      = action,
                 outResearch = outResearch,
-                equalmore   = equalmore,
                 varCheck    = varCheck
             )
 

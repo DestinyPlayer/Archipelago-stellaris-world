@@ -668,3 +668,351 @@ tech_progressive_megastructures_1_desc: "This technology unlocks the next tier o
 
 tech_progressive_megastructures_2: "Progressive Megastructures"
 tech_progressive_megastructures_2_desc: "This technology unlocks the next tier of Megastructures technology."
+
+tech_external_common_item_player1_1: "Common Item (Player1)"
+tech_external_common_item_player1_1_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_1000_exp_player1_2: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_2_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_money_player1_3: "Money (Player1)"
+tech_external_money_player1_3_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_equipment_player1_4: "Equipment (Player1)"
+tech_external_equipment_player1_4_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_money_player1_5: "Money (Player1)"
+tech_external_money_player1_5_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_money_player1_6: "Money (Player1)"
+tech_external_money_player1_6_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_legendary_item_player1_7: "Legendary Item (Player1)"
+tech_external_legendary_item_player1_7_desc: "This technology sends the Legendary Item (Player1) item to another player."
+
+tech_external_money_player1_8: "Money (Player1)"
+tech_external_money_player1_8_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_verdant_falls_player1_9: "Verdant Falls (Player1)"
+tech_external_verdant_falls_player1_9_desc: "This technology sends the Verdant Falls (Player1) item to another player."
+
+tech_external_rallypoint_delta_player1_10: "Rallypoint Delta (Player1)"
+tech_external_rallypoint_delta_player1_10_desc: "This technology sends the Rallypoint Delta (Player1) item to another player."
+
+tech_external_uncommon_item_player1_11: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_11_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_common_item_player1_12: "Common Item (Player1)"
+tech_external_common_item_player1_12_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_beads_of_fealty_player1_13: "Beads of Fealty (Player1)"
+tech_external_beads_of_fealty_player1_13_desc: "This technology sends the Beads of Fealty (Player1) item to another player."
+
+tech_external_1000_exp_player1_14: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_14_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_15: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_15_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_money_player1_16: "Money (Player1)"
+tech_external_money_player1_16_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_lunar_coin_player1_17: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_17_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_equipment_player1_18: "Equipment (Player1)"
+tech_external_equipment_player1_18_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_uncommon_item_player1_19: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_19_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_lunar_item_player1_20: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_20_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_uncommon_item_player1_21: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_21_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_equipment_player1_22: "Equipment (Player1)"
+tech_external_equipment_player1_22_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_money_player1_23: "Money (Player1)"
+tech_external_money_player1_23_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_uncommon_item_player1_24: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_24_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_wetland_aspect_player1_25: "Wetland Aspect (Player1)"
+tech_external_wetland_aspect_player1_25_desc: "This technology sends the Wetland Aspect (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_26: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_26_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_lunar_coin_player1_27: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_27_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_common_item_player1_28: "Common Item (Player1)"
+tech_external_common_item_player1_28_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_1000_exp_player1_29: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_29_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_money_player1_30: "Money (Player1)"
+tech_external_money_player1_30_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_1000_exp_player1_31: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_31_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_32: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_32_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_hidden_realm_bulwarks_ambry_player1_33: "Hidden Realm: Bulwark's Ambry (Player1)"
+tech_external_hidden_realm_bulwarks_ambry_player1_33_desc: "This technology sends the Hidden Realm: Bulwark's Ambry (Player1) item to another player."
+
+tech_external_item_scrap_green_player1_34: "Item Scrap, Green (Player1)"
+tech_external_item_scrap_green_player1_34_desc: "This technology sends the Item Scrap, Green (Player1) item to another player."
+
+tech_external_equipment_player1_35: "Equipment (Player1)"
+tech_external_equipment_player1_35_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_36: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_36_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_equipment_player1_37: "Equipment (Player1)"
+tech_external_equipment_player1_37_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_item_scrap_red_player1_38: "Item Scrap, Red (Player1)"
+tech_external_item_scrap_red_player1_38_desc: "This technology sends the Item Scrap, Red (Player1) item to another player."
+
+tech_external_uncommon_item_player1_39: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_39_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_money_player1_40: "Money (Player1)"
+tech_external_money_player1_40_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_lunar_coin_player1_41: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_41_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_money_player1_42: "Money (Player1)"
+tech_external_money_player1_42_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_lunar_item_player1_43: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_43_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_void_fields_player1_44: "Void Fields (Player1)"
+tech_external_void_fields_player1_44_desc: "This technology sends the Void Fields (Player1) item to another player."
+
+tech_external_item_scrap_green_player1_45: "Item Scrap, Green (Player1)"
+tech_external_item_scrap_green_player1_45_desc: "This technology sends the Item Scrap, Green (Player1) item to another player."
+
+tech_external_lunar_item_player1_46: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_46_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_equipment_player1_47: "Equipment (Player1)"
+tech_external_equipment_player1_47_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_1000_exp_player1_48: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_48_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_common_item_player1_49: "Common Item (Player1)"
+tech_external_common_item_player1_49_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_sirens_call_player1_50: "Siren's Call (Player1)"
+tech_external_sirens_call_player1_50_desc: "This technology sends the Siren's Call (Player1) item to another player."
+
+tech_external_common_item_player1_51: "Common Item (Player1)"
+tech_external_common_item_player1_51_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_money_player1_52: "Money (Player1)"
+tech_external_money_player1_52_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_53: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_53_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_common_item_player1_54: "Common Item (Player1)"
+tech_external_common_item_player1_54_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_lunar_coin_player1_55: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_55_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_money_player1_56: "Money (Player1)"
+tech_external_money_player1_56_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_common_item_player1_57: "Common Item (Player1)"
+tech_external_common_item_player1_57_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_boss_item_player1_58: "Boss Item (Player1)"
+tech_external_boss_item_player1_58_desc: "This technology sends the Boss Item (Player1) item to another player."
+
+tech_external_item_scrap_green_player1_59: "Item Scrap, Green (Player1)"
+tech_external_item_scrap_green_player1_59_desc: "This technology sends the Item Scrap, Green (Player1) item to another player."
+
+tech_external_money_player1_60: "Money (Player1)"
+tech_external_money_player1_60_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_lunar_item_player1_61: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_61_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_lunar_coin_player1_62: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_62_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_dios_best_friend_player1_63: "Dio's Best Friend (Player1)"
+tech_external_dios_best_friend_player1_63_desc: "This technology sends the Dio's Best Friend (Player1) item to another player."
+
+tech_external_uncommon_item_player1_64: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_64_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_lunar_coin_player1_65: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_65_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_item_scrap_green_player1_66: "Item Scrap, Green (Player1)"
+tech_external_item_scrap_green_player1_66_desc: "This technology sends the Item Scrap, Green (Player1) item to another player."
+
+tech_external_1000_exp_player1_67: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_67_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_money_player1_68: "Money (Player1)"
+tech_external_money_player1_68_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_1000_exp_player1_69: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_69_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_1000_exp_player1_70: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_70_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_item_scrap_green_player1_71: "Item Scrap, Green (Player1)"
+tech_external_item_scrap_green_player1_71_desc: "This technology sends the Item Scrap, Green (Player1) item to another player."
+
+tech_external_money_player1_72: "Money (Player1)"
+tech_external_money_player1_72_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_uncommon_item_player1_73: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_73_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_equipment_player1_74: "Equipment (Player1)"
+tech_external_equipment_player1_74_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_money_player1_75: "Money (Player1)"
+tech_external_money_player1_75_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_common_item_player1_76: "Common Item (Player1)"
+tech_external_common_item_player1_76_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_money_player1_77: "Money (Player1)"
+tech_external_money_player1_77_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_abyssal_depths_player1_78: "Abyssal Depths (Player1)"
+tech_external_abyssal_depths_player1_78_desc: "This technology sends the Abyssal Depths (Player1) item to another player."
+
+tech_external_1000_exp_player1_79: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_79_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_uncommon_item_player1_80: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_80_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_81: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_81_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_common_item_player1_82: "Common Item (Player1)"
+tech_external_common_item_player1_82_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_boss_item_player1_83: "Boss Item (Player1)"
+tech_external_boss_item_player1_83_desc: "This technology sends the Boss Item (Player1) item to another player."
+
+tech_external_lunar_item_player1_84: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_84_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_uncommon_item_player1_85: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_85_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_money_player1_86: "Money (Player1)"
+tech_external_money_player1_86_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_money_player1_87: "Money (Player1)"
+tech_external_money_player1_87_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_item_scrap_white_player1_88: "Item Scrap, White (Player1)"
+tech_external_item_scrap_white_player1_88_desc: "This technology sends the Item Scrap, White (Player1) item to another player."
+
+tech_external_lunar_item_player1_89: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_89_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_uncommon_item_player1_90: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_90_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_equipment_player1_91: "Equipment (Player1)"
+tech_external_equipment_player1_91_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_uncommon_item_player1_92: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_92_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_money_player1_93: "Money (Player1)"
+tech_external_money_player1_93_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_lunar_coin_player1_94: "Lunar Coin (Player1)"
+tech_external_lunar_coin_player1_94_desc: "This technology sends the Lunar Coin (Player1) item to another player."
+
+tech_external_money_player1_95: "Money (Player1)"
+tech_external_money_player1_95_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_common_item_player1_96: "Common Item (Player1)"
+tech_external_common_item_player1_96_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_titanic_plains_player1_97: "Titanic Plains (Player1)"
+tech_external_titanic_plains_player1_97_desc: "This technology sends the Titanic Plains (Player1) item to another player."
+
+tech_external_dios_best_friend_player1_98: "Dio's Best Friend (Player1)"
+tech_external_dios_best_friend_player1_98_desc: "This technology sends the Dio's Best Friend (Player1) item to another player."
+
+tech_external_dios_best_friend_player1_99: "Dio's Best Friend (Player1)"
+tech_external_dios_best_friend_player1_99_desc: "This technology sends the Dio's Best Friend (Player1) item to another player."
+
+tech_external_lunar_item_player1_100: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_100_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_equipment_player1_101: "Equipment (Player1)"
+tech_external_equipment_player1_101_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_lunar_item_player1_102: "Lunar Item (Player1)"
+tech_external_lunar_item_player1_102_desc: "This technology sends the Lunar Item (Player1) item to another player."
+
+tech_external_legendary_item_player1_103: "Legendary Item (Player1)"
+tech_external_legendary_item_player1_103_desc: "This technology sends the Legendary Item (Player1) item to another player."
+
+tech_external_radar_scanner_player1_104: "Radar Scanner (Player1)"
+tech_external_radar_scanner_player1_104_desc: "This technology sends the Radar Scanner (Player1) item to another player."
+
+tech_external_common_item_player1_105: "Common Item (Player1)"
+tech_external_common_item_player1_105_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_common_item_player1_106: "Common Item (Player1)"
+tech_external_common_item_player1_106_desc: "This technology sends the Common Item (Player1) item to another player."
+
+tech_external_money_player1_107: "Money (Player1)"
+tech_external_money_player1_107_desc: "This technology sends the Money (Player1) item to another player."
+
+tech_external_1000_exp_player1_108: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_108_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_1000_exp_player1_109: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_109_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_equipment_player1_110: "Equipment (Player1)"
+tech_external_equipment_player1_110_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_1000_exp_player1_111: "1000 Exp (Player1)"
+tech_external_1000_exp_player1_111_desc: "This technology sends the 1000 Exp (Player1) item to another player."
+
+tech_external_progressive_stage_player1_112: "Progressive Stage (Player1)"
+tech_external_progressive_stage_player1_112_desc: "This technology sends the Progressive Stage (Player1) item to another player."
+
+tech_external_uncommon_item_player1_113: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_113_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_uncommon_item_player1_114: "Uncommon Item (Player1)"
+tech_external_uncommon_item_player1_114_desc: "This technology sends the Uncommon Item (Player1) item to another player."
+
+tech_external_equipment_player1_115: "Equipment (Player1)"
+tech_external_equipment_player1_115_desc: "This technology sends the Equipment (Player1) item to another player."
+
+tech_external_money_player1_116: "Money (Player1)"
+tech_external_money_player1_116_desc: "This technology sends the Money (Player1) item to another player."

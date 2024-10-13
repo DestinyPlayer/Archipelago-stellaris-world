@@ -10,7 +10,6 @@ country_event = {
                     resource = urp_000
                     value = 11
                 }
-		        has_technology = "tech_progressive_reactor_1"
             }
 		    NOT = { is_variable_set = receive_reactor_1 }
         }
@@ -40,7 +39,6 @@ country_event = {
                     resource = urp_000
                     value = 12
                 }
-		        has_technology = "tech_progressive_reactor_2"
             }
 		    NOT = { is_variable_set = receive_reactor_2 }
         }
@@ -70,7 +68,6 @@ country_event = {
                     resource = urp_000
                     value = 13
                 }
-		        has_technology = "tech_progressive_reactor_3"
             }
 		    NOT = { is_variable_set = receive_reactor_3 }
         }
@@ -100,7 +97,6 @@ country_event = {
                     resource = urp_000
                     value = 14
                 }
-		        has_technology = "tech_progressive_reactor_4"
             }
 		    NOT = { is_variable_set = receive_reactor_4 }
         }
@@ -130,7 +126,6 @@ country_event = {
                     resource = urp_000
                     value >= 15
                 }
-		        has_technology = "tech_progressive_reactor_5"
             }
 		    NOT = { is_variable_set = receive_reactor_5 }
         }
@@ -160,7 +155,6 @@ country_event = {
                     resource = urp_000
                     value = 21
                 }
-		        has_technology = "tech_progressive_hyperdrive_1"
             }
 		    NOT = { is_variable_set = receive_hyperdrive_1 }
         }
@@ -190,7 +184,6 @@ country_event = {
                     resource = urp_000
                     value = 22
                 }
-		        has_technology = "tech_progressive_hyperdrive_2"
             }
 		    NOT = { is_variable_set = receive_hyperdrive_2 }
         }
@@ -220,7 +213,6 @@ country_event = {
                     resource = urp_000
                     value = 23
                 }
-		        has_technology = "tech_progressive_hyperdrive_3"
             }
 		    NOT = { is_variable_set = receive_hyperdrive_3 }
         }
@@ -250,7 +242,6 @@ country_event = {
                     resource = urp_000
                     value >= 24
                 }
-		        has_technology = "tech_progressive_hyperdrive_4"
             }
 		    NOT = { is_variable_set = receive_hyperdrive_4 }
         }
@@ -280,7 +271,6 @@ country_event = {
                     resource = urp_000
                     value = 31
                 }
-		        has_technology = "tech_progressive_thruster_1"
             }
 		    NOT = { is_variable_set = receive_thruster_1 }
         }
@@ -310,7 +300,6 @@ country_event = {
                     resource = urp_000
                     value = 32
                 }
-		        has_technology = "tech_progressive_thruster_2"
             }
 		    NOT = { is_variable_set = receive_thruster_2 }
         }
@@ -340,7 +329,6 @@ country_event = {
                     resource = urp_000
                     value = 33
                 }
-		        has_technology = "tech_progressive_thruster_3"
             }
 		    NOT = { is_variable_set = receive_thruster_3 }
         }
@@ -370,7 +358,6 @@ country_event = {
                     resource = urp_000
                     value >= 34
                 }
-		        has_technology = "tech_progressive_thruster_4"
             }
 		    NOT = { is_variable_set = receive_thruster_4 }
         }
@@ -400,7 +387,6 @@ country_event = {
                     resource = urp_000
                     value = 41
                 }
-		        has_technology = "tech_progressive_ship_1"
             }
 		    NOT = { is_variable_set = receive_ship_1 }
         }
@@ -430,7 +416,6 @@ country_event = {
                     resource = urp_000
                     value = 42
                 }
-		        has_technology = "tech_progressive_ship_2"
             }
 		    NOT = { is_variable_set = receive_ship_2 }
         }
@@ -460,7 +445,6 @@ country_event = {
                     resource = urp_000
                     value = 43
                 }
-		        has_technology = "tech_progressive_ship_3"
             }
 		    NOT = { is_variable_set = receive_ship_3 }
         }
@@ -490,7 +474,6 @@ country_event = {
                     resource = urp_000
                     value = 44
                 }
-		        has_technology = "tech_progressive_ship_4"
             }
 		    NOT = { is_variable_set = receive_ship_4 }
         }
@@ -520,7 +503,6 @@ country_event = {
                     resource = urp_000
                     value >= 45
                 }
-		        has_technology = "tech_progressive_ship_5"
             }
 		    NOT = { is_variable_set = receive_ship_5 }
         }
@@ -550,7 +532,6 @@ country_event = {
                     resource = urp_000
                     value = 51
                 }
-		        has_technology = "tech_progressive_starbase_1"
             }
 		    NOT = { is_variable_set = receive_starbase_1 }
         }
@@ -580,7 +561,6 @@ country_event = {
                     resource = urp_000
                     value = 52
                 }
-		        has_technology = "tech_progressive_starbase_2"
             }
 		    NOT = { is_variable_set = receive_starbase_2 }
         }
@@ -610,7 +590,6 @@ country_event = {
                     resource = urp_000
                     value >= 53
                 }
-		        has_technology = "tech_progressive_starbase_3"
             }
 		    NOT = { is_variable_set = receive_starbase_3 }
         }
@@ -640,7 +619,6 @@ country_event = {
                     resource = urp_000
                     value = 61
                 }
-		        has_technology = "tech_progressive_wormhole_1"
             }
 		    NOT = { is_variable_set = receive_wormhole_1 }
         }
@@ -670,7 +648,6 @@ country_event = {
                     resource = urp_000
                     value >= 62
                 }
-		        has_technology = "tech_progressive_wormhole_2"
             }
 		    NOT = { is_variable_set = receive_wormhole_2 }
         }
@@ -701,7 +678,6 @@ country_event = {
                     resource = urp_000
                     value = 71
                 }
-		        has_technology = "tech_progressive_corvette_upgrades_1"
             }
 		    NOT = { is_variable_set = receive_corvette_upgrades_1 }
         }
@@ -731,7 +707,6 @@ country_event = {
                     resource = urp_000
                     value = 72
                 }
-		        has_technology = "tech_progressive_corvette_upgrades_2"
             }
 		    NOT = { is_variable_set = receive_corvette_upgrades_2 }
         }
@@ -761,7 +736,6 @@ country_event = {
                     resource = urp_000
                     value >= 73
                 }
-		        has_technology = "tech_progressive_corvette_upgrades_3"
             }
 		    NOT = { is_variable_set = receive_corvette_upgrades_3 }
         }
@@ -791,7 +765,6 @@ country_event = {
                     resource = urp_000
                     value = 81
                 }
-		        has_technology = "tech_progressive_destroyer_upgrades_1"
             }
 		    NOT = { is_variable_set = receive_destroyer_upgrades_1 }
         }
@@ -821,7 +794,6 @@ country_event = {
                     resource = urp_000
                     value = 82
                 }
-		        has_technology = "tech_progressive_destroyer_upgrades_2"
             }
 		    NOT = { is_variable_set = receive_destroyer_upgrades_2 }
         }
@@ -851,7 +823,6 @@ country_event = {
                     resource = urp_000
                     value >= 83
                 }
-		        has_technology = "tech_progressive_destroyer_upgrades_3"
             }
 		    NOT = { is_variable_set = receive_destroyer_upgrades_3 }
         }
@@ -881,7 +852,6 @@ country_event = {
                     resource = urp_000
                     value = 91
                 }
-		        has_technology = "tech_progressive_cruiser_upgrades_1"
             }
 		    NOT = { is_variable_set = receive_cruiser_upgrades_1 }
         }
@@ -911,7 +881,6 @@ country_event = {
                     resource = urp_000
                     value = 92
                 }
-		        has_technology = "tech_progressive_cruiser_upgrades_2"
             }
 		    NOT = { is_variable_set = receive_cruiser_upgrades_2 }
         }
@@ -941,7 +910,6 @@ country_event = {
                     resource = urp_000
                     value >= 93
                 }
-		        has_technology = "tech_progressive_cruiser_upgrades_3"
             }
 		    NOT = { is_variable_set = receive_cruiser_upgrades_3 }
         }
@@ -971,7 +939,6 @@ country_event = {
                     resource = urp_000
                     value = 101
                 }
-		        has_technology = "tech_progressive_battleship_upgrades_1"
             }
 		    NOT = { is_variable_set = receive_battleship_upgrades_1 }
         }
@@ -1001,7 +968,6 @@ country_event = {
                     resource = urp_000
                     value = 102
                 }
-		        has_technology = "tech_progressive_battleship_upgrades_2"
             }
 		    NOT = { is_variable_set = receive_battleship_upgrades_2 }
         }
@@ -1031,7 +997,6 @@ country_event = {
                     resource = urp_000
                     value >= 103
                 }
-		        has_technology = "tech_progressive_battleship_upgrades_3"
             }
 		    NOT = { is_variable_set = receive_battleship_upgrades_3 }
         }
@@ -1061,7 +1026,6 @@ country_event = {
                     resource = urp_000
                     value = 111
                 }
-		        has_technology = "tech_progressive_titan_upgrades_1"
             }
 		    NOT = { is_variable_set = receive_titan_upgrades_1 }
         }
@@ -1091,7 +1055,6 @@ country_event = {
                     resource = urp_000
                     value >= 112
                 }
-		        has_technology = "tech_progressive_titan_upgrades_2"
             }
 		    NOT = { is_variable_set = receive_titan_upgrades_2 }
         }
@@ -1121,7 +1084,6 @@ country_event = {
                     resource = urp_000
                     value = 121
                 }
-		        has_technology = "tech_progressive_starbase_upgrades_1"
             }
 		    NOT = { is_variable_set = receive_starbase_upgrades_1 }
         }
@@ -1151,7 +1113,6 @@ country_event = {
                     resource = urp_000
                     value >= 122
                 }
-		        has_technology = "tech_progressive_starbase_upgrades_2"
             }
 		    NOT = { is_variable_set = receive_starbase_upgrades_2 }
         }
@@ -1181,7 +1142,6 @@ country_event = {
                     resource = urp_000
                     value = 131
                 }
-		        has_technology = "tech_progressive_strike_craft_1"
             }
 		    NOT = { is_variable_set = receive_strike_craft_1 }
         }
@@ -1211,7 +1171,6 @@ country_event = {
                     resource = urp_000
                     value = 132
                 }
-		        has_technology = "tech_progressive_strike_craft_2"
             }
 		    NOT = { is_variable_set = receive_strike_craft_2 }
         }
@@ -1241,7 +1200,6 @@ country_event = {
                     resource = urp_000
                     value = 133
                 }
-		        has_technology = "tech_progressive_strike_craft_3"
             }
 		    NOT = { is_variable_set = receive_strike_craft_3 }
         }
@@ -1271,7 +1229,6 @@ country_event = {
                     resource = urp_000
                     value >= 134
                 }
-		        has_technology = "tech_progressive_strike_craft_4"
             }
 		    NOT = { is_variable_set = receive_strike_craft_4 }
         }
@@ -1301,7 +1258,6 @@ country_event = {
                     resource = urp_000
                     value = 141
                 }
-		        has_technology = "tech_progressive_orbital_habitats_1"
             }
 		    NOT = { is_variable_set = receive_orbital_habitats_1 }
         }
@@ -1331,7 +1287,6 @@ country_event = {
                     resource = urp_000
                     value = 142
                 }
-		        has_technology = "tech_progressive_orbital_habitats_2"
             }
 		    NOT = { is_variable_set = receive_orbital_habitats_2 }
         }
@@ -1361,7 +1316,6 @@ country_event = {
                     resource = urp_000
                     value >= 143
                 }
-		        has_technology = "tech_progressive_orbital_habitats_3"
             }
 		    NOT = { is_variable_set = receive_orbital_habitats_3 }
         }
@@ -1391,7 +1345,6 @@ country_event = {
                     resource = urp_000
                     value = 151
                 }
-		        has_technology = "tech_progressive_ship_armor_1"
             }
 		    NOT = { is_variable_set = receive_ship_armor_1 }
         }
@@ -1421,7 +1374,6 @@ country_event = {
                     resource = urp_000
                     value = 152
                 }
-		        has_technology = "tech_progressive_ship_armor_2"
             }
 		    NOT = { is_variable_set = receive_ship_armor_2 }
         }
@@ -1451,7 +1403,6 @@ country_event = {
                     resource = urp_000
                     value = 153
                 }
-		        has_technology = "tech_progressive_ship_armor_3"
             }
 		    NOT = { is_variable_set = receive_ship_armor_3 }
         }
@@ -1481,7 +1432,6 @@ country_event = {
                     resource = urp_000
                     value >= 154
                 }
-		        has_technology = "tech_progressive_ship_armor_4"
             }
 		    NOT = { is_variable_set = receive_ship_armor_4 }
         }
@@ -1511,7 +1461,6 @@ country_event = {
                     resource = urp_000
                     value = 161
                 }
-		        has_technology = "tech_progressive_armor_hardener_1"
             }
 		    NOT = { is_variable_set = receive_armor_hardener_1 }
         }
@@ -1541,7 +1490,6 @@ country_event = {
                     resource = urp_000
                     value >= 162
                 }
-		        has_technology = "tech_progressive_armor_hardener_2"
             }
 		    NOT = { is_variable_set = receive_armor_hardener_2 }
         }
@@ -1571,7 +1519,6 @@ country_event = {
                     resource = urp_000
                     value = 171
                 }
-		        has_technology = "tech_progressive_robotics_1"
             }
 		    NOT = { is_variable_set = receive_robotics_1 }
         }
@@ -1601,7 +1548,6 @@ country_event = {
                     resource = urp_000
                     value = 172
                 }
-		        has_technology = "tech_progressive_robotics_2"
             }
 		    NOT = { is_variable_set = receive_robotics_2 }
         }
@@ -1632,7 +1578,6 @@ country_event = {
                     resource = urp_000
                     value = 173
                 }
-		        has_technology = "tech_progressive_robotics_3"
             }
 		    NOT = { is_variable_set = receive_robotics_3 }
         }
@@ -1663,7 +1608,6 @@ country_event = {
                     resource = urp_000
                     value = 174
                 }
-		        has_technology = "tech_progressive_robotics_4"
             }
 		    NOT = { is_variable_set = receive_robotics_4 }
         }
@@ -1694,7 +1638,6 @@ country_event = {
                     resource = urp_000
                     value >= 175
                 }
-		        has_technology = "tech_progressive_robotics_5"
             }
 		    NOT = { is_variable_set = receive_robotics_5 }
         }
@@ -1725,7 +1668,6 @@ country_event = {
                     resource = urp_000
                     value = 181
                 }
-		        has_technology = "tech_progressive_space_mining_1"
             }
 		    NOT = { is_variable_set = receive_space_mining_1 }
         }
@@ -1755,7 +1697,6 @@ country_event = {
                     resource = urp_000
                     value = 182
                 }
-		        has_technology = "tech_progressive_space_mining_2"
             }
 		    NOT = { is_variable_set = receive_space_mining_2 }
         }
@@ -1785,7 +1726,6 @@ country_event = {
                     resource = urp_000
                     value = 183
                 }
-		        has_technology = "tech_progressive_space_mining_3"
             }
 		    NOT = { is_variable_set = receive_space_mining_3 }
         }
@@ -1815,7 +1755,6 @@ country_event = {
                     resource = urp_000
                     value = 184
                 }
-		        has_technology = "tech_progressive_space_mining_4"
             }
 		    NOT = { is_variable_set = receive_space_mining_4 }
         }
@@ -1845,7 +1784,6 @@ country_event = {
                     resource = urp_000
                     value >= 185
                 }
-		        has_technology = "tech_progressive_space_mining_5"
             }
 		    NOT = { is_variable_set = receive_space_mining_5 }
         }
@@ -1875,7 +1813,6 @@ country_event = {
                     resource = urp_000
                     value = 191
                 }
-		        has_technology = "tech_progressive_planetary_mining_1"
             }
 		    NOT = { is_variable_set = receive_planetary_mining_1 }
         }
@@ -1906,7 +1843,6 @@ country_event = {
                     resource = urp_000
                     value = 192
                 }
-		        has_technology = "tech_progressive_planetary_mining_2"
             }
 		    NOT = { is_variable_set = receive_planetary_mining_2 }
         }
@@ -1937,7 +1873,6 @@ country_event = {
                     resource = urp_000
                     value >= 193
                 }
-		        has_technology = "tech_progressive_planetary_mining_3"
             }
 		    NOT = { is_variable_set = receive_planetary_mining_3 }
         }
@@ -1967,7 +1902,6 @@ country_event = {
                     resource = urp_000
                     value = 201
                 }
-		        has_technology = "tech_progressive_alloy_production_1"
             }
 		    NOT = { is_variable_set = receive_alloy_production_1 }
         }
@@ -1998,7 +1932,6 @@ country_event = {
                     resource = urp_000
                     value >= 202
                 }
-		        has_technology = "tech_progressive_alloy_production_2"
             }
 		    NOT = { is_variable_set = receive_alloy_production_2 }
         }
@@ -2029,7 +1962,6 @@ country_event = {
                     resource = urp_000
                     value = 211
                 }
-		        has_technology = "tech_progressive_consumer_goods_1"
             }
 		    NOT = { is_variable_set = receive_consumer_goods_1 }
         }
@@ -2060,7 +1992,6 @@ country_event = {
                     resource = urp_000
                     value >= 212
                 }
-		        has_technology = "tech_progressive_consumer_goods_2"
             }
 		    NOT = { is_variable_set = receive_consumer_goods_2 }
         }
@@ -2091,7 +2022,6 @@ country_event = {
                     resource = urp_000
                     value = 221
                 }
-		        has_technology = "tech_progressive_afterburners_1"
             }
 		    NOT = { is_variable_set = receive_afterburners_1 }
         }
@@ -2121,7 +2051,6 @@ country_event = {
                     resource = urp_000
                     value >= 222
                 }
-		        has_technology = "tech_progressive_afterburners_2"
             }
 		    NOT = { is_variable_set = receive_afterburners_2 }
         }
@@ -2151,7 +2080,6 @@ country_event = {
                     resource = urp_000
                     value = 231
                 }
-		        has_technology = "tech_progressive_planetary_build_speed_1"
             }
 		    NOT = { is_variable_set = receive_planetary_build_speed_1 }
         }
@@ -2181,7 +2109,6 @@ country_event = {
                     resource = urp_000
                     value >= 232
                 }
-		        has_technology = "tech_progressive_planetary_build_speed_2"
             }
 		    NOT = { is_variable_set = receive_planetary_build_speed_2 }
         }
@@ -2211,7 +2138,6 @@ country_event = {
                     resource = urp_000
                     value = 241
                 }
-		        has_technology = "tech_progressive_housing_1"
             }
 		    NOT = { is_variable_set = receive_housing_1 }
         }
@@ -2241,7 +2167,6 @@ country_event = {
                     resource = urp_000
                     value = 242
                 }
-		        has_technology = "tech_progressive_housing_2"
             }
 		    NOT = { is_variable_set = receive_housing_2 }
         }
@@ -2271,7 +2196,6 @@ country_event = {
                     resource = urp_000
                     value >= 243
                 }
-		        has_technology = "tech_progressive_housing_3"
             }
 		    NOT = { is_variable_set = receive_housing_3 }
         }
@@ -2301,7 +2225,6 @@ country_event = {
                     resource = urp_000
                     value = 251
                 }
-		        has_technology = "tech_progressive_mass_drivers_1"
             }
 		    NOT = { is_variable_set = receive_mass_drivers_1 }
         }
@@ -2331,7 +2254,6 @@ country_event = {
                     resource = urp_000
                     value = 252
                 }
-		        has_technology = "tech_progressive_mass_drivers_2"
             }
 		    NOT = { is_variable_set = receive_mass_drivers_2 }
         }
@@ -2361,7 +2283,6 @@ country_event = {
                     resource = urp_000
                     value = 253
                 }
-		        has_technology = "tech_progressive_mass_drivers_3"
             }
 		    NOT = { is_variable_set = receive_mass_drivers_3 }
         }
@@ -2391,7 +2312,6 @@ country_event = {
                     resource = urp_000
                     value >= 254
                 }
-		        has_technology = "tech_progressive_mass_drivers_4"
             }
 		    NOT = { is_variable_set = receive_mass_drivers_4 }
         }
@@ -2421,7 +2341,6 @@ country_event = {
                     resource = urp_000
                     value = 261
                 }
-		        has_technology = "tech_progressive_kinetic_artillery_1"
             }
 		    NOT = { is_variable_set = receive_kinetic_artillery_1 }
         }
@@ -2451,7 +2370,6 @@ country_event = {
                     resource = urp_000
                     value >= 262
                 }
-		        has_technology = "tech_progressive_kinetic_artillery_2"
             }
 		    NOT = { is_variable_set = receive_kinetic_artillery_2 }
         }
@@ -2481,7 +2399,6 @@ country_event = {
                     resource = urp_000
                     value = 271
                 }
-		        has_technology = "tech_progressive_mass_accelerators_1"
             }
 		    NOT = { is_variable_set = receive_mass_accelerators_1 }
         }
@@ -2511,7 +2428,6 @@ country_event = {
                     resource = urp_000
                     value >= 272
                 }
-		        has_technology = "tech_progressive_mass_accelerators_2"
             }
 		    NOT = { is_variable_set = receive_mass_accelerators_2 }
         }
@@ -2541,7 +2457,6 @@ country_event = {
                     resource = urp_000
                     value = 281
                 }
-		        has_technology = "tech_progressive_autocannon_1"
             }
 		    NOT = { is_variable_set = receive_autocannon_1 }
         }
@@ -2571,7 +2486,6 @@ country_event = {
                     resource = urp_000
                     value = 282
                 }
-		        has_technology = "tech_progressive_autocannon_2"
             }
 		    NOT = { is_variable_set = receive_autocannon_2 }
         }
@@ -2601,7 +2515,6 @@ country_event = {
                     resource = urp_000
                     value = 283
                 }
-		        has_technology = "tech_progressive_autocannon_3"
             }
 		    NOT = { is_variable_set = receive_autocannon_3 }
         }
@@ -2631,7 +2544,6 @@ country_event = {
                     resource = urp_000
                     value >= 284
                 }
-		        has_technology = "tech_progressive_autocannon_4"
             }
 		    NOT = { is_variable_set = receive_autocannon_4 }
         }
@@ -2661,7 +2573,6 @@ country_event = {
                     resource = urp_000
                     value = 291
                 }
-		        has_technology = "tech_progressive_flak_battery_1"
             }
 		    NOT = { is_variable_set = receive_flak_battery_1 }
         }
@@ -2691,7 +2602,6 @@ country_event = {
                     resource = urp_000
                     value = 292
                 }
-		        has_technology = "tech_progressive_flak_battery_2"
             }
 		    NOT = { is_variable_set = receive_flak_battery_2 }
         }
@@ -2721,7 +2631,6 @@ country_event = {
                     resource = urp_000
                     value >= 293
                 }
-		        has_technology = "tech_progressive_flak_battery_3"
             }
 		    NOT = { is_variable_set = receive_flak_battery_3 }
         }
@@ -2751,7 +2660,6 @@ country_event = {
                     resource = urp_000
                     value = 301
                 }
-		        has_technology = "tech_progressive_missiles_1"
             }
 		    NOT = { is_variable_set = receive_missiles_1 }
         }
@@ -2781,7 +2689,6 @@ country_event = {
                     resource = urp_000
                     value = 302
                 }
-		        has_technology = "tech_progressive_missiles_2"
             }
 		    NOT = { is_variable_set = receive_missiles_2 }
         }
@@ -2811,7 +2718,6 @@ country_event = {
                     resource = urp_000
                     value = 303
                 }
-		        has_technology = "tech_progressive_missiles_3"
             }
 		    NOT = { is_variable_set = receive_missiles_3 }
         }
@@ -2841,7 +2747,6 @@ country_event = {
                     resource = urp_000
                     value >= 304
                 }
-		        has_technology = "tech_progressive_missiles_4"
             }
 		    NOT = { is_variable_set = receive_missiles_4 }
         }
@@ -2871,7 +2776,6 @@ country_event = {
                     resource = urp_000
                     value = 311
                 }
-		        has_technology = "tech_progressive_swarm_missiles_1"
             }
 		    NOT = { is_variable_set = receive_swarm_missiles_1 }
         }
@@ -2901,7 +2805,6 @@ country_event = {
                     resource = urp_000
                     value >= 312
                 }
-		        has_technology = "tech_progressive_swarm_missiles_2"
             }
 		    NOT = { is_variable_set = receive_swarm_missiles_2 }
         }
@@ -2931,7 +2834,6 @@ country_event = {
                     resource = urp_000
                     value = 321
                 }
-		        has_technology = "tech_progressive_torpedoes_1"
             }
 		    NOT = { is_variable_set = receive_torpedoes_1 }
         }
@@ -2961,7 +2863,6 @@ country_event = {
                     resource = urp_000
                     value = 322
                 }
-		        has_technology = "tech_progressive_torpedoes_2"
             }
 		    NOT = { is_variable_set = receive_torpedoes_2 }
         }
@@ -2991,7 +2892,6 @@ country_event = {
                     resource = urp_000
                     value >= 323
                 }
-		        has_technology = "tech_progressive_torpedoes_3"
             }
 		    NOT = { is_variable_set = receive_torpedoes_3 }
         }
@@ -3021,7 +2921,6 @@ country_event = {
                     resource = urp_000
                     value = 331
                 }
-		        has_technology = "tech_progressive_shields_1"
             }
 		    NOT = { is_variable_set = receive_shields_1 }
         }
@@ -3051,7 +2950,6 @@ country_event = {
                     resource = urp_000
                     value = 332
                 }
-		        has_technology = "tech_progressive_shields_2"
             }
 		    NOT = { is_variable_set = receive_shields_2 }
         }
@@ -3081,7 +2979,6 @@ country_event = {
                     resource = urp_000
                     value = 333
                 }
-		        has_technology = "tech_progressive_shields_3"
             }
 		    NOT = { is_variable_set = receive_shields_3 }
         }
@@ -3111,7 +3008,6 @@ country_event = {
                     resource = urp_000
                     value = 334
                 }
-		        has_technology = "tech_progressive_shields_4"
             }
 		    NOT = { is_variable_set = receive_shields_4 }
         }
@@ -3141,7 +3037,6 @@ country_event = {
                     resource = urp_000
                     value >= 335
                 }
-		        has_technology = "tech_progressive_shields_5"
             }
 		    NOT = { is_variable_set = receive_shields_5 }
         }
@@ -3171,7 +3066,6 @@ country_event = {
                     resource = urp_000
                     value = 341
                 }
-		        has_technology = "tech_progressive_science_lab_1"
             }
 		    NOT = { is_variable_set = receive_science_lab_1 }
         }
@@ -3201,7 +3095,6 @@ country_event = {
                     resource = urp_000
                     value = 342
                 }
-		        has_technology = "tech_progressive_science_lab_2"
             }
 		    NOT = { is_variable_set = receive_science_lab_2 }
         }
@@ -3231,7 +3124,6 @@ country_event = {
                     resource = urp_000
                     value >= 343
                 }
-		        has_technology = "tech_progressive_science_lab_3"
             }
 		    NOT = { is_variable_set = receive_science_lab_3 }
         }
@@ -3261,7 +3153,6 @@ country_event = {
                     resource = urp_000
                     value = 351
                 }
-		        has_technology = "tech_progressive_station_science_1"
             }
 		    NOT = { is_variable_set = receive_station_science_1 }
         }
@@ -3291,7 +3182,6 @@ country_event = {
                     resource = urp_000
                     value = 352
                 }
-		        has_technology = "tech_progressive_station_science_2"
             }
 		    NOT = { is_variable_set = receive_station_science_2 }
         }
@@ -3321,7 +3211,6 @@ country_event = {
                     resource = urp_000
                     value = 353
                 }
-		        has_technology = "tech_progressive_station_science_3"
             }
 		    NOT = { is_variable_set = receive_station_science_3 }
         }
@@ -3351,7 +3240,6 @@ country_event = {
                     resource = urp_000
                     value = 354
                 }
-		        has_technology = "tech_progressive_station_science_4"
             }
 		    NOT = { is_variable_set = receive_station_science_4 }
         }
@@ -3381,7 +3269,6 @@ country_event = {
                     resource = urp_000
                     value >= 355
                 }
-		        has_technology = "tech_progressive_station_science_5"
             }
 		    NOT = { is_variable_set = receive_station_science_5 }
         }
@@ -3411,7 +3298,6 @@ country_event = {
                     resource = urp_000
                     value = 361
                 }
-		        has_technology = "tech_progressive_colony_ship_1"
             }
 		    NOT = { is_variable_set = receive_colony_ship_1 }
         }
@@ -3441,7 +3327,6 @@ country_event = {
                     resource = urp_000
                     value >= 362
                 }
-		        has_technology = "tech_progressive_colony_ship_2"
             }
 		    NOT = { is_variable_set = receive_colony_ship_2 }
         }
@@ -3471,7 +3356,6 @@ country_event = {
                     resource = urp_000
                     value = 371
                 }
-		        has_technology = "tech_progressive_research_ai_1"
             }
 		    NOT = { is_variable_set = receive_research_ai_1 }
         }
@@ -3501,7 +3385,6 @@ country_event = {
                     resource = urp_000
                     value = 372
                 }
-		        has_technology = "tech_progressive_research_ai_2"
             }
 		    NOT = { is_variable_set = receive_research_ai_2 }
         }
@@ -3531,7 +3414,6 @@ country_event = {
                     resource = urp_000
                     value >= 373
                 }
-		        has_technology = "tech_progressive_research_ai_3"
             }
 		    NOT = { is_variable_set = receive_research_ai_3 }
         }
@@ -3561,7 +3443,6 @@ country_event = {
                     resource = urp_000
                     value = 381
                 }
-		        has_technology = "tech_progressive_encryption_1"
             }
 		    NOT = { is_variable_set = receive_encryption_1 }
         }
@@ -3591,7 +3472,6 @@ country_event = {
                     resource = urp_000
                     value = 382
                 }
-		        has_technology = "tech_progressive_encryption_2"
             }
 		    NOT = { is_variable_set = receive_encryption_2 }
         }
@@ -3621,7 +3501,6 @@ country_event = {
                     resource = urp_000
                     value >= 383
                 }
-		        has_technology = "tech_progressive_encryption_3"
             }
 		    NOT = { is_variable_set = receive_encryption_3 }
         }
@@ -3651,7 +3530,6 @@ country_event = {
                     resource = urp_000
                     value = 391
                 }
-		        has_technology = "tech_progressive_decryption_1"
             }
 		    NOT = { is_variable_set = receive_decryption_1 }
         }
@@ -3681,7 +3559,6 @@ country_event = {
                     resource = urp_000
                     value = 392
                 }
-		        has_technology = "tech_progressive_decryption_2"
             }
 		    NOT = { is_variable_set = receive_decryption_2 }
         }
@@ -3711,7 +3588,6 @@ country_event = {
                     resource = urp_000
                     value >= 393
                 }
-		        has_technology = "tech_progressive_decryption_3"
             }
 		    NOT = { is_variable_set = receive_decryption_3 }
         }
@@ -3741,7 +3617,6 @@ country_event = {
                     resource = urp_000
                     value = 401
                 }
-		        has_technology = "tech_progressive_reactor_booster_1"
             }
 		    NOT = { is_variable_set = receive_reactor_booster_1 }
         }
@@ -3771,7 +3646,6 @@ country_event = {
                     resource = urp_000
                     value >= 402
                 }
-		        has_technology = "tech_progressive_reactor_booster_2"
             }
 		    NOT = { is_variable_set = receive_reactor_booster_2 }
         }
@@ -3801,7 +3675,6 @@ country_event = {
                     resource = urp_000
                     value = 411
                 }
-		        has_technology = "tech_progressive_shield_hardener_1"
             }
 		    NOT = { is_variable_set = receive_shield_hardener_1 }
         }
@@ -3831,7 +3704,6 @@ country_event = {
                     resource = urp_000
                     value >= 412
                 }
-		        has_technology = "tech_progressive_shield_hardener_2"
             }
 		    NOT = { is_variable_set = receive_shield_hardener_2 }
         }
@@ -3861,7 +3733,6 @@ country_event = {
                     resource = urp_000
                     value = 421
                 }
-		        has_technology = "tech_progressive_sensors_1"
             }
 		    NOT = { is_variable_set = receive_sensors_1 }
         }
@@ -3891,7 +3762,6 @@ country_event = {
                     resource = urp_000
                     value = 422
                 }
-		        has_technology = "tech_progressive_sensors_2"
             }
 		    NOT = { is_variable_set = receive_sensors_2 }
         }
@@ -3921,7 +3791,6 @@ country_event = {
                     resource = urp_000
                     value >= 423
                 }
-		        has_technology = "tech_progressive_sensors_3"
             }
 		    NOT = { is_variable_set = receive_sensors_3 }
         }
@@ -3951,7 +3820,6 @@ country_event = {
                     resource = urp_000
                     value = 431
                 }
-		        has_technology = "tech_progressive_power_plants_1"
             }
 		    NOT = { is_variable_set = receive_power_plants_1 }
         }
@@ -3982,7 +3850,6 @@ country_event = {
                     resource = urp_000
                     value = 432
                 }
-		        has_technology = "tech_progressive_power_plants_2"
             }
 		    NOT = { is_variable_set = receive_power_plants_2 }
         }
@@ -4013,7 +3880,6 @@ country_event = {
                     resource = urp_000
                     value >= 433
                 }
-		        has_technology = "tech_progressive_power_plants_3"
             }
 		    NOT = { is_variable_set = receive_power_plants_3 }
         }
@@ -4043,7 +3909,6 @@ country_event = {
                     resource = urp_000
                     value = 441
                 }
-		        has_technology = "tech_progressive_lasers_1"
             }
 		    NOT = { is_variable_set = receive_lasers_1 }
         }
@@ -4073,7 +3938,6 @@ country_event = {
                     resource = urp_000
                     value = 442
                 }
-		        has_technology = "tech_progressive_lasers_2"
             }
 		    NOT = { is_variable_set = receive_lasers_2 }
         }
@@ -4103,7 +3967,6 @@ country_event = {
                     resource = urp_000
                     value = 443
                 }
-		        has_technology = "tech_progressive_lasers_3"
             }
 		    NOT = { is_variable_set = receive_lasers_3 }
         }
@@ -4133,7 +3996,6 @@ country_event = {
                     resource = urp_000
                     value >= 444
                 }
-		        has_technology = "tech_progressive_lasers_4"
             }
 		    NOT = { is_variable_set = receive_lasers_4 }
         }
@@ -4163,7 +4025,6 @@ country_event = {
                     resource = urp_000
                     value = 451
                 }
-		        has_technology = "tech_progressive_lances_1"
             }
 		    NOT = { is_variable_set = receive_lances_1 }
         }
@@ -4193,7 +4054,6 @@ country_event = {
                     resource = urp_000
                     value >= 452
                 }
-		        has_technology = "tech_progressive_lances_2"
             }
 		    NOT = { is_variable_set = receive_lances_2 }
         }
@@ -4223,7 +4083,6 @@ country_event = {
                     resource = urp_000
                     value = 461
                 }
-		        has_technology = "tech_progressive_plasma_1"
             }
 		    NOT = { is_variable_set = receive_plasma_1 }
         }
@@ -4253,7 +4112,6 @@ country_event = {
                     resource = urp_000
                     value = 462
                 }
-		        has_technology = "tech_progressive_plasma_2"
             }
 		    NOT = { is_variable_set = receive_plasma_2 }
         }
@@ -4283,7 +4141,6 @@ country_event = {
                     resource = urp_000
                     value >= 463
                 }
-		        has_technology = "tech_progressive_plasma_3"
             }
 		    NOT = { is_variable_set = receive_plasma_3 }
         }
@@ -4313,7 +4170,6 @@ country_event = {
                     resource = urp_000
                     value = 471
                 }
-		        has_technology = "tech_progressive_arc_emitter_1"
             }
 		    NOT = { is_variable_set = receive_arc_emitter_1 }
         }
@@ -4343,7 +4199,6 @@ country_event = {
                     resource = urp_000
                     value >= 472
                 }
-		        has_technology = "tech_progressive_arc_emitter_2"
             }
 		    NOT = { is_variable_set = receive_arc_emitter_2 }
         }
@@ -4373,7 +4228,6 @@ country_event = {
                     resource = urp_000
                     value = 481
                 }
-		        has_technology = "tech_progressive_disruptors_1"
             }
 		    NOT = { is_variable_set = receive_disruptors_1 }
         }
@@ -4403,7 +4257,6 @@ country_event = {
                     resource = urp_000
                     value = 482
                 }
-		        has_technology = "tech_progressive_disruptors_2"
             }
 		    NOT = { is_variable_set = receive_disruptors_2 }
         }
@@ -4433,7 +4286,6 @@ country_event = {
                     resource = urp_000
                     value >= 483
                 }
-		        has_technology = "tech_progressive_disruptors_3"
             }
 		    NOT = { is_variable_set = receive_disruptors_3 }
         }
@@ -4463,7 +4315,6 @@ country_event = {
                     resource = urp_000
                     value = 491
                 }
-		        has_technology = "tech_progressive_energy_torpedoes_1"
             }
 		    NOT = { is_variable_set = receive_energy_torpedoes_1 }
         }
@@ -4493,7 +4344,6 @@ country_event = {
                     resource = urp_000
                     value >= 492
                 }
-		        has_technology = "tech_progressive_energy_torpedoes_2"
             }
 		    NOT = { is_variable_set = receive_energy_torpedoes_2 }
         }
@@ -4523,7 +4373,6 @@ country_event = {
                     resource = urp_000
                     value = 501
                 }
-		        has_technology = "tech_progressive_point_defense_1"
             }
 		    NOT = { is_variable_set = receive_point_defense_1 }
         }
@@ -4553,7 +4402,6 @@ country_event = {
                     resource = urp_000
                     value >= 502
                 }
-		        has_technology = "tech_progressive_point_defense_2"
             }
 		    NOT = { is_variable_set = receive_point_defense_2 }
         }
@@ -4583,7 +4431,6 @@ country_event = {
                     resource = urp_000
                     value = 511
                 }
-		        has_technology = "tech_progressive_trade_1"
             }
 		    NOT = { is_variable_set = receive_trade_1 }
         }
@@ -4613,7 +4460,6 @@ country_event = {
                     resource = urp_000
                     value = 512
                 }
-		        has_technology = "tech_progressive_trade_2"
             }
 		    NOT = { is_variable_set = receive_trade_2 }
         }
@@ -4643,7 +4489,6 @@ country_event = {
                     resource = urp_000
                     value >= 513
                 }
-		        has_technology = "tech_progressive_trade_3"
             }
 		    NOT = { is_variable_set = receive_trade_3 }
         }
@@ -4673,7 +4518,6 @@ country_event = {
                     resource = urp_000
                     value = 521
                 }
-		        has_technology = "tech_progressive_farming_1"
             }
 		    NOT = { is_variable_set = receive_farming_1 }
         }
@@ -4704,7 +4548,6 @@ country_event = {
                     resource = urp_000
                     value = 522
                 }
-		        has_technology = "tech_progressive_farming_2"
             }
 		    NOT = { is_variable_set = receive_farming_2 }
         }
@@ -4735,7 +4578,6 @@ country_event = {
                     resource = urp_000
                     value = 523
                 }
-		        has_technology = "tech_progressive_farming_3"
             }
 		    NOT = { is_variable_set = receive_farming_3 }
         }
@@ -4766,7 +4608,6 @@ country_event = {
                     resource = urp_000
                     value >= 524
                 }
-		        has_technology = "tech_progressive_farming_4"
             }
 		    NOT = { is_variable_set = receive_farming_4 }
         }
@@ -4796,7 +4637,6 @@ country_event = {
                     resource = urp_000
                     value = 531
                 }
-		        has_technology = "tech_progressive_habitability_1"
             }
 		    NOT = { is_variable_set = receive_habitability_1 }
         }
@@ -4826,7 +4666,6 @@ country_event = {
                     resource = urp_000
                     value = 532
                 }
-		        has_technology = "tech_progressive_habitability_2"
             }
 		    NOT = { is_variable_set = receive_habitability_2 }
         }
@@ -4856,7 +4695,6 @@ country_event = {
                     resource = urp_000
                     value = 533
                 }
-		        has_technology = "tech_progressive_habitability_3"
             }
 		    NOT = { is_variable_set = receive_habitability_3 }
         }
@@ -4886,7 +4724,6 @@ country_event = {
                     resource = urp_000
                     value >= 534
                 }
-		        has_technology = "tech_progressive_habitability_4"
             }
 		    NOT = { is_variable_set = receive_habitability_4 }
         }
@@ -4916,7 +4753,6 @@ country_event = {
                     resource = urp_000
                     value = 541
                 }
-		        has_technology = "tech_progressive_hospital_1"
             }
 		    NOT = { is_variable_set = receive_hospital_1 }
         }
@@ -4946,7 +4782,6 @@ country_event = {
                     resource = urp_000
                     value >= 542
                 }
-		        has_technology = "tech_progressive_hospital_2"
             }
 		    NOT = { is_variable_set = receive_hospital_2 }
         }
@@ -4976,7 +4811,6 @@ country_event = {
                     resource = urp_000
                     value = 551
                 }
-		        has_technology = "tech_progressive_terraforming_1"
             }
 		    NOT = { is_variable_set = receive_terraforming_1 }
         }
@@ -5006,7 +4840,6 @@ country_event = {
                     resource = urp_000
                     value = 552
                 }
-		        has_technology = "tech_progressive_terraforming_2"
             }
 		    NOT = { is_variable_set = receive_terraforming_2 }
         }
@@ -5036,7 +4869,6 @@ country_event = {
                     resource = urp_000
                     value >= 553
                 }
-		        has_technology = "tech_progressive_terraforming_3"
             }
 		    NOT = { is_variable_set = receive_terraforming_3 }
         }
@@ -5066,7 +4898,6 @@ country_event = {
                     resource = urp_000
                     value = 561
                 }
-		        has_technology = "tech_progressive_leader_genetics_1"
             }
 		    NOT = { is_variable_set = receive_leader_genetics_1 }
         }
@@ -5096,7 +4927,6 @@ country_event = {
                     resource = urp_000
                     value = 562
                 }
-		        has_technology = "tech_progressive_leader_genetics_2"
             }
 		    NOT = { is_variable_set = receive_leader_genetics_2 }
         }
@@ -5126,7 +4956,6 @@ country_event = {
                     resource = urp_000
                     value >= 563
                 }
-		        has_technology = "tech_progressive_leader_genetics_3"
             }
 		    NOT = { is_variable_set = receive_leader_genetics_3 }
         }
@@ -5156,7 +4985,6 @@ country_event = {
                     resource = urp_000
                     value = 571
                 }
-		        has_technology = "tech_progressive_gene_tailoring_1"
             }
 		    NOT = { is_variable_set = receive_gene_tailoring_1 }
         }
@@ -5186,7 +5014,6 @@ country_event = {
                     resource = urp_000
                     value = 572
                 }
-		        has_technology = "tech_progressive_gene_tailoring_2"
             }
 		    NOT = { is_variable_set = receive_gene_tailoring_2 }
         }
@@ -5216,7 +5043,6 @@ country_event = {
                     resource = urp_000
                     value = 573
                 }
-		        has_technology = "tech_progressive_gene_tailoring_3"
             }
 		    NOT = { is_variable_set = receive_gene_tailoring_3 }
         }
@@ -5246,7 +5072,6 @@ country_event = {
                     resource = urp_000
                     value = 574
                 }
-		        has_technology = "tech_progressive_gene_tailoring_4"
             }
 		    NOT = { is_variable_set = receive_gene_tailoring_4 }
         }
@@ -5276,7 +5101,6 @@ country_event = {
                     resource = urp_000
                     value = 575
                 }
-		        has_technology = "tech_progressive_gene_tailoring_5"
             }
 		    NOT = { is_variable_set = receive_gene_tailoring_5 }
         }
@@ -5306,7 +5130,6 @@ country_event = {
                     resource = urp_000
                     value >= 576
                 }
-		        has_technology = "tech_progressive_gene_tailoring_6"
             }
 		    NOT = { is_variable_set = receive_gene_tailoring_6 }
         }
@@ -5336,7 +5159,6 @@ country_event = {
                     resource = urp_000
                     value = 581
                 }
-		        has_technology = "tech_progressive_army_genetics_1"
             }
 		    NOT = { is_variable_set = receive_army_genetics_1 }
         }
@@ -5366,7 +5188,6 @@ country_event = {
                     resource = urp_000
                     value = 582
                 }
-		        has_technology = "tech_progressive_army_genetics_2"
             }
 		    NOT = { is_variable_set = receive_army_genetics_2 }
         }
@@ -5396,7 +5217,6 @@ country_event = {
                     resource = urp_000
                     value >= 583
                 }
-		        has_technology = "tech_progressive_army_genetics_3"
             }
 		    NOT = { is_variable_set = receive_army_genetics_3 }
         }
@@ -5426,7 +5246,6 @@ country_event = {
                     resource = urp_000
                     value = 591
                 }
-		        has_technology = "tech_progressive_fleet_size_1"
             }
 		    NOT = { is_variable_set = receive_fleet_size_1 }
         }
@@ -5456,7 +5275,6 @@ country_event = {
                     resource = urp_000
                     value = 592
                 }
-		        has_technology = "tech_progressive_fleet_size_2"
             }
 		    NOT = { is_variable_set = receive_fleet_size_2 }
         }
@@ -5486,7 +5304,6 @@ country_event = {
                     resource = urp_000
                     value = 593
                 }
-		        has_technology = "tech_progressive_fleet_size_3"
             }
 		    NOT = { is_variable_set = receive_fleet_size_3 }
         }
@@ -5516,7 +5333,6 @@ country_event = {
                     resource = urp_000
                     value = 594
                 }
-		        has_technology = "tech_progressive_fleet_size_4"
             }
 		    NOT = { is_variable_set = receive_fleet_size_4 }
         }
@@ -5546,7 +5362,6 @@ country_event = {
                     resource = urp_000
                     value >= 595
                 }
-		        has_technology = "tech_progressive_fleet_size_5"
             }
 		    NOT = { is_variable_set = receive_fleet_size_5 }
         }
@@ -5576,7 +5391,6 @@ country_event = {
                     resource = urp_000
                     value = 601
                 }
-		        has_technology = "tech_progressive_naval_capacity_1"
             }
 		    NOT = { is_variable_set = receive_naval_capacity_1 }
         }
@@ -5606,7 +5420,6 @@ country_event = {
                     resource = urp_000
                     value = 602
                 }
-		        has_technology = "tech_progressive_naval_capacity_2"
             }
 		    NOT = { is_variable_set = receive_naval_capacity_2 }
         }
@@ -5636,7 +5449,6 @@ country_event = {
                     resource = urp_000
                     value = 603
                 }
-		        has_technology = "tech_progressive_naval_capacity_3"
             }
 		    NOT = { is_variable_set = receive_naval_capacity_3 }
         }
@@ -5666,7 +5478,6 @@ country_event = {
                     resource = urp_000
                     value >= 604
                 }
-		        has_technology = "tech_progressive_naval_capacity_4"
             }
 		    NOT = { is_variable_set = receive_naval_capacity_4 }
         }
@@ -5696,7 +5507,6 @@ country_event = {
                     resource = urp_000
                     value = 611
                 }
-		        has_technology = "tech_progressive_army_defense_1"
             }
 		    NOT = { is_variable_set = receive_army_defense_1 }
         }
@@ -5726,7 +5536,6 @@ country_event = {
                     resource = urp_000
                     value >= 612
                 }
-		        has_technology = "tech_progressive_army_defense_2"
             }
 		    NOT = { is_variable_set = receive_army_defense_2 }
         }
@@ -5756,7 +5565,6 @@ country_event = {
                     resource = urp_000
                     value = 621
                 }
-		        has_technology = "tech_progressive_army_offense_1"
             }
 		    NOT = { is_variable_set = receive_army_offense_1 }
         }
@@ -5786,7 +5594,6 @@ country_event = {
                     resource = urp_000
                     value >= 622
                 }
-		        has_technology = "tech_progressive_army_offense_2"
             }
 		    NOT = { is_variable_set = receive_army_offense_2 }
         }
@@ -5816,7 +5623,6 @@ country_event = {
                     resource = urp_000
                     value = 631
                 }
-		        has_technology = "tech_progressive_psionics_1"
             }
 		    NOT = { is_variable_set = receive_psionics_1 }
         }
@@ -5846,7 +5652,6 @@ country_event = {
                     resource = urp_000
                     value = 632
                 }
-		        has_technology = "tech_progressive_psionics_2"
             }
 		    NOT = { is_variable_set = receive_psionics_2 }
         }
@@ -5876,7 +5681,6 @@ country_event = {
                     resource = urp_000
                     value >= 633
                 }
-		        has_technology = "tech_progressive_psionics_3"
             }
 		    NOT = { is_variable_set = receive_psionics_3 }
         }
@@ -5907,7 +5711,6 @@ country_event = {
                     resource = urp_000
                     value = 641
                 }
-		        has_technology = "tech_progressive_starbase_capacity_1"
             }
 		    NOT = { is_variable_set = receive_starbase_capacity_1 }
         }
@@ -5937,7 +5740,6 @@ country_event = {
                     resource = urp_000
                     value >= 642
                 }
-		        has_technology = "tech_progressive_starbase_capacity_2"
             }
 		    NOT = { is_variable_set = receive_starbase_capacity_2 }
         }
@@ -5967,7 +5769,6 @@ country_event = {
                     resource = urp_000
                     value = 651
                 }
-		        has_technology = "tech_progressive_campaigns_1"
             }
 		    NOT = { is_variable_set = receive_campaigns_1 }
         }
@@ -5997,7 +5798,6 @@ country_event = {
                     resource = urp_000
                     value >= 652
                 }
-		        has_technology = "tech_progressive_campaigns_2"
             }
 		    NOT = { is_variable_set = receive_campaigns_2 }
         }
@@ -6027,7 +5827,6 @@ country_event = {
                     resource = urp_000
                     value = 661
                 }
-		        has_technology = "tech_progressive_planet_government_1"
             }
 		    NOT = { is_variable_set = receive_planet_government_1 }
         }
@@ -6057,7 +5856,6 @@ country_event = {
                     resource = urp_000
                     value = 662
                 }
-		        has_technology = "tech_progressive_planet_government_2"
             }
 		    NOT = { is_variable_set = receive_planet_government_2 }
         }
@@ -6087,7 +5885,6 @@ country_event = {
                     resource = urp_000
                     value >= 663
                 }
-		        has_technology = "tech_progressive_planet_government_3"
             }
 		    NOT = { is_variable_set = receive_planet_government_3 }
         }
@@ -6117,7 +5914,6 @@ country_event = {
                     resource = urp_000
                     value = 671
                 }
-		        has_technology = "tech_progressive_planet_infrastructure_1"
             }
 		    NOT = { is_variable_set = receive_planet_infrastructure_1 }
         }
@@ -6147,7 +5943,6 @@ country_event = {
                     resource = urp_000
                     value >= 672
                 }
-		        has_technology = "tech_progressive_planet_infrastructure_2"
             }
 		    NOT = { is_variable_set = receive_planet_infrastructure_2 }
         }
@@ -6177,7 +5972,6 @@ country_event = {
                     resource = urp_000
                     value = 681
                 }
-		        has_technology = "tech_progressive_bureaucracy_1"
             }
 		    NOT = { is_variable_set = receive_bureaucracy_1 }
         }
@@ -6207,7 +6001,6 @@ country_event = {
                     resource = urp_000
                     value = 682
                 }
-		        has_technology = "tech_progressive_bureaucracy_2"
             }
 		    NOT = { is_variable_set = receive_bureaucracy_2 }
         }
@@ -6237,7 +6030,6 @@ country_event = {
                     resource = urp_000
                     value = 683
                 }
-		        has_technology = "tech_progressive_bureaucracy_3"
             }
 		    NOT = { is_variable_set = receive_bureaucracy_3 }
         }
@@ -6267,7 +6059,6 @@ country_event = {
                     resource = urp_000
                     value >= 684
                 }
-		        has_technology = "tech_progressive_bureaucracy_4"
             }
 		    NOT = { is_variable_set = receive_bureaucracy_4 }
         }
@@ -6297,7 +6088,6 @@ country_event = {
                     resource = urp_000
                     value = 691
                 }
-		        has_technology = "tech_progressive_thralls_1"
             }
 		    NOT = { is_variable_set = receive_thralls_1 }
         }
@@ -6327,7 +6117,6 @@ country_event = {
                     resource = urp_000
                     value >= 692
                 }
-		        has_technology = "tech_progressive_thralls_2"
             }
 		    NOT = { is_variable_set = receive_thralls_2 }
         }
@@ -6357,7 +6146,6 @@ country_event = {
                     resource = urp_000
                     value = 701
                 }
-		        has_technology = "tech_progressive_psionic_shield_1"
             }
 		    NOT = { is_variable_set = receive_psionic_shield_1 }
         }
@@ -6387,7 +6175,6 @@ country_event = {
                     resource = urp_000
                     value >= 702
                 }
-		        has_technology = "tech_progressive_psionic_shield_2"
             }
 		    NOT = { is_variable_set = receive_psionic_shield_2 }
         }
@@ -6417,7 +6204,6 @@ country_event = {
                     resource = urp_000
                     value = 711
                 }
-		        has_technology = "tech_progressive_embassy_1"
             }
 		    NOT = { is_variable_set = receive_embassy_1 }
         }
@@ -6447,7 +6233,6 @@ country_event = {
                     resource = urp_000
                     value >= 712
                 }
-		        has_technology = "tech_progressive_embassy_2"
             }
 		    NOT = { is_variable_set = receive_embassy_2 }
         }
@@ -6477,7 +6262,6 @@ country_event = {
                     resource = urp_000
                     value = 721
                 }
-		        has_technology = "tech_progressive_capital_production_1"
             }
 		    NOT = { is_variable_set = receive_capital_production_1 }
         }
@@ -6507,7 +6291,6 @@ country_event = {
                     resource = urp_000
                     value = 722
                 }
-		        has_technology = "tech_progressive_capital_production_2"
             }
 		    NOT = { is_variable_set = receive_capital_production_2 }
         }
@@ -6537,7 +6320,6 @@ country_event = {
                     resource = urp_000
                     value >= 723
                 }
-		        has_technology = "tech_progressive_capital_production_3"
             }
 		    NOT = { is_variable_set = receive_capital_production_3 }
         }
@@ -6567,7 +6349,6 @@ country_event = {
                     resource = urp_000
                     value = 731
                 }
-		        has_technology = "tech_progressive_bioreactor_1"
             }
 		    NOT = { is_variable_set = receive_bioreactor_1 }
         }
@@ -6597,7 +6378,6 @@ country_event = {
                     resource = urp_000
                     value >= 732
                 }
-		        has_technology = "tech_progressive_bioreactor_2"
             }
 		    NOT = { is_variable_set = receive_bioreactor_2 }
         }
@@ -6627,7 +6407,6 @@ country_event = {
                     resource = urp_000
                     value >= 741
                 }
-		        has_technology = "tech_progressive_hull_regen_1"
             }
 		    NOT = { is_variable_set = receive_hull_regen_1 }
         }
@@ -6657,7 +6436,6 @@ country_event = {
                     resource = urp_000
                     value = 751
                 }
-		        has_technology = "tech_progressive_megastructures_1"
             }
 		    NOT = { is_variable_set = receive_megastructures_1 }
         }
@@ -6687,7 +6465,6 @@ country_event = {
                     resource = urp_000
                     value >= 752
                 }
-		        has_technology = "tech_progressive_megastructures_2"
             }
 		    NOT = { is_variable_set = receive_megastructures_2 }
         }
@@ -6709,14 +6486,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20000
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20000 }
+	    AND = {
+		    has_technology = "tech_internal_thralls_2_20000"
+		    NOT = { is_variable_set = send_20000 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6728,14 +6503,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20001
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20001 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20001"
+		    NOT = { is_variable_set = send_20001 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6747,14 +6520,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20002
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20002 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20002"
+		    NOT = { is_variable_set = send_20002 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6766,14 +6537,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20003
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20003 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20003"
+		    NOT = { is_variable_set = send_20003 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6785,14 +6554,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20004
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20004 }
+	    AND = {
+		    has_technology = "tech_internal_power_plants_2_20004"
+		    NOT = { is_variable_set = send_20004 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6803,15 +6570,30 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20006
-	hide_window = yes
+	id = archipelago_dynamic.20005
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
+	    AND = {
+		    has_technology = "tech_internal_sensors_1_20005"
+		    NOT = { is_variable_set = send_20005 }
+        }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 5
 		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20006 }
+        set_variable = { which = send_20005 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20006
+	hide_window = no
+	trigger = {
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20006"
+		    NOT = { is_variable_set = send_20006 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6823,14 +6605,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20007
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20007 }
+	    AND = {
+		    has_technology = "tech_internal_flak_battery_1_20007"
+		    NOT = { is_variable_set = send_20007 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6842,14 +6622,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20008
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20008 }
+	    AND = {
+		    has_technology = "tech_internal_encryption_2_20008"
+		    NOT = { is_variable_set = send_20008 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6861,14 +6639,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20009
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20009 }
+	    AND = {
+		    has_technology = "tech_internal_planetary_mining_2_20009"
+		    NOT = { is_variable_set = send_20009 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6880,14 +6656,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20010
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20010 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20010"
+		    NOT = { is_variable_set = send_20010 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6899,14 +6673,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20011
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20011 }
+	    AND = {
+		    has_technology = "tech_internal_kinetic_artillery_2_20011"
+		    NOT = { is_variable_set = send_20011 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6917,15 +6689,30 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20013
-	hide_window = yes
+	id = archipelago_dynamic.20012
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
+	    AND = {
+		    has_technology = "tech_external_money_player1_20012"
+		    NOT = { is_variable_set = send_20012 }
+        }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 12
 		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20013 }
+        set_variable = { which = send_20012 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20013
+	hide_window = no
+	trigger = {
+	    AND = {
+		    has_technology = "tech_internal_reactor_5_20013"
+		    NOT = { is_variable_set = send_20013 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6937,14 +6724,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20014
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20014 }
+	    AND = {
+		    has_technology = "tech_external_legendary_item_player1_20014"
+		    NOT = { is_variable_set = send_20014 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6956,14 +6741,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20015
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20015 }
+	    AND = {
+		    has_technology = "tech_internal_station_science_4_20015"
+		    NOT = { is_variable_set = send_20015 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6975,14 +6758,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20016
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20016 }
+	    AND = {
+		    has_technology = "tech_internal_thruster_2_20016"
+		    NOT = { is_variable_set = send_20016 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -6994,14 +6775,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20017
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20017 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20017"
+		    NOT = { is_variable_set = send_20017 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7013,14 +6792,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20018
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20018 }
+	    AND = {
+		    has_technology = "tech_external_verdant_falls_player1_20018"
+		    NOT = { is_variable_set = send_20018 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7032,14 +6809,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20019
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20019 }
+	    AND = {
+		    has_technology = "tech_internal_starbase_capacity_1_20019"
+		    NOT = { is_variable_set = send_20019 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7051,14 +6826,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20020
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20020 }
+	    AND = {
+		    has_technology = "tech_internal_starbase_3_20020"
+		    NOT = { is_variable_set = send_20020 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7070,14 +6843,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20021
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20021 }
+	    AND = {
+		    has_technology = "tech_internal_science_lab_3_20021"
+		    NOT = { is_variable_set = send_20021 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7089,14 +6860,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20022
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20022 }
+	    AND = {
+		    has_technology = "tech_external_rallypoint_delta_player1_20022"
+		    NOT = { is_variable_set = send_20022 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7108,14 +6877,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20023
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20023 }
+	    AND = {
+		    has_technology = "tech_internal_consumer_goods_2_20023"
+		    NOT = { is_variable_set = send_20023 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7127,14 +6894,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20024
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20024 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20024"
+		    NOT = { is_variable_set = send_20024 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7146,14 +6911,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20025
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20025 }
+	    AND = {
+		    has_technology = "tech_internal_encryption_3_20025"
+		    NOT = { is_variable_set = send_20025 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7165,14 +6928,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20026
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20026 }
+	    AND = {
+		    has_technology = "tech_internal_bureaucracy_1_20026"
+		    NOT = { is_variable_set = send_20026 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7184,14 +6945,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20027
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20027 }
+	    AND = {
+		    has_technology = "tech_internal_space_mining_1_20027"
+		    NOT = { is_variable_set = send_20027 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7203,14 +6962,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20028
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20028 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20028"
+		    NOT = { is_variable_set = send_20028 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7222,14 +6979,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20029
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20029 }
+	    AND = {
+		    has_technology = "tech_internal_army_defense_2_20029"
+		    NOT = { is_variable_set = send_20029 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7241,14 +6996,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20030
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20030 }
+	    AND = {
+		    has_technology = "tech_external_beads_of_fealty_player1_20030"
+		    NOT = { is_variable_set = send_20030 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7260,14 +7013,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20031
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20031 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20031"
+		    NOT = { is_variable_set = send_20031 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7279,14 +7030,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20032
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20032 }
+	    AND = {
+		    has_technology = "tech_internal_planetary_mining_1_20032"
+		    NOT = { is_variable_set = send_20032 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7298,14 +7047,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20033
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20033 }
+	    AND = {
+		    has_technology = "tech_internal_space_mining_2_20033"
+		    NOT = { is_variable_set = send_20033 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7317,14 +7064,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20034
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20034 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20034"
+		    NOT = { is_variable_set = send_20034 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7336,14 +7081,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20035
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20035 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20035"
+		    NOT = { is_variable_set = send_20035 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7355,14 +7098,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20036
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20036 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20036"
+		    NOT = { is_variable_set = send_20036 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7374,14 +7115,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20037
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20037 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20037"
+		    NOT = { is_variable_set = send_20037 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7393,14 +7132,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20038
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20038 }
+	    AND = {
+		    has_technology = "tech_internal_housing_1_20038"
+		    NOT = { is_variable_set = send_20038 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7412,14 +7149,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20039
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20039 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20039"
+		    NOT = { is_variable_set = send_20039 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7431,14 +7166,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20040
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20040 }
+	    AND = {
+		    has_technology = "tech_internal_army_genetics_3_20040"
+		    NOT = { is_variable_set = send_20040 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7450,14 +7183,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20041
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20041 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20041"
+		    NOT = { is_variable_set = send_20041 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7469,14 +7200,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20042
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20042 }
+	    AND = {
+		    has_technology = "tech_internal_fleet_size_4_20042"
+		    NOT = { is_variable_set = send_20042 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7488,14 +7217,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20043
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20043 }
+	    AND = {
+		    has_technology = "tech_internal_titan_upgrades_2_20043"
+		    NOT = { is_variable_set = send_20043 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7507,14 +7234,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20044
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20044 }
+	    AND = {
+		    has_technology = "tech_internal_missiles_3_20044"
+		    NOT = { is_variable_set = send_20044 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7526,14 +7251,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20045
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20045 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20045"
+		    NOT = { is_variable_set = send_20045 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7545,14 +7268,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20046
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20046 }
+	    AND = {
+		    has_technology = "tech_internal_ship_1_20046"
+		    NOT = { is_variable_set = send_20046 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7564,14 +7285,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20047
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20047 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20047"
+		    NOT = { is_variable_set = send_20047 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7583,14 +7302,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20048
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20048 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20048"
+		    NOT = { is_variable_set = send_20048 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7602,14 +7319,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20049
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20049 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20049"
+		    NOT = { is_variable_set = send_20049 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7621,14 +7336,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20050
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20050 }
+	    AND = {
+		    has_technology = "tech_internal_reactor_4_20050"
+		    NOT = { is_variable_set = send_20050 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7640,14 +7353,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20051
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20051 }
+	    AND = {
+		    has_technology = "tech_external_wetland_aspect_player1_20051"
+		    NOT = { is_variable_set = send_20051 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7659,14 +7370,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20052
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20052 }
+	    AND = {
+		    has_technology = "tech_internal_cruiser_upgrades_1_20052"
+		    NOT = { is_variable_set = send_20052 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7678,14 +7387,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20053
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20053 }
+	    AND = {
+		    has_technology = "tech_internal_campaigns_2_20053"
+		    NOT = { is_variable_set = send_20053 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7697,14 +7404,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20054
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20054 }
+	    AND = {
+		    has_technology = "tech_internal_science_lab_2_20054"
+		    NOT = { is_variable_set = send_20054 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7716,14 +7421,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20055
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20055 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20055"
+		    NOT = { is_variable_set = send_20055 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7735,14 +7438,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20056
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20056 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20056"
+		    NOT = { is_variable_set = send_20056 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7754,14 +7455,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20057
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20057 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20057"
+		    NOT = { is_variable_set = send_20057 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7773,14 +7472,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20058
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20058 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20058"
+		    NOT = { is_variable_set = send_20058 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7792,14 +7489,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20059
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20059 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20059"
+		    NOT = { is_variable_set = send_20059 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7811,14 +7506,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20060
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20060 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20060"
+		    NOT = { is_variable_set = send_20060 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7830,14 +7523,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20061
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20061 }
+	    AND = {
+		    has_technology = "tech_internal_station_science_5_20061"
+		    NOT = { is_variable_set = send_20061 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7849,14 +7540,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20062
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20062 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20062"
+		    NOT = { is_variable_set = send_20062 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7868,14 +7557,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20063
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20063 }
+	    AND = {
+		    has_technology = "tech_internal_shields_1_20063"
+		    NOT = { is_variable_set = send_20063 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7887,14 +7574,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20064
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20064 }
+	    AND = {
+		    has_technology = "tech_external_hidden_realm_bulwarks_ambry_player1_20064"
+		    NOT = { is_variable_set = send_20064 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7906,14 +7591,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20065
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20065 }
+	    AND = {
+		    has_technology = "tech_internal_titan_upgrades_1_20065"
+		    NOT = { is_variable_set = send_20065 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7925,14 +7608,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20066
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20066 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_green_player1_20066"
+		    NOT = { is_variable_set = send_20066 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7944,14 +7625,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20067
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20067 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20067"
+		    NOT = { is_variable_set = send_20067 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7963,14 +7642,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20068
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20068 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20068"
+		    NOT = { is_variable_set = send_20068 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -7982,14 +7659,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20069
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20069 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20069"
+		    NOT = { is_variable_set = send_20069 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8001,14 +7676,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20070
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20070 }
+	    AND = {
+		    has_technology = "tech_internal_thralls_1_20070"
+		    NOT = { is_variable_set = send_20070 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8020,14 +7693,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20071
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20071 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_red_player1_20071"
+		    NOT = { is_variable_set = send_20071 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8039,14 +7710,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20072
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20072 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20072"
+		    NOT = { is_variable_set = send_20072 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8058,14 +7727,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20073
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20073 }
+	    AND = {
+		    has_technology = "tech_internal_hyperdrive_2_20073"
+		    NOT = { is_variable_set = send_20073 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8077,14 +7744,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20074
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20074 }
+	    AND = {
+		    has_technology = "tech_internal_shields_4_20074"
+		    NOT = { is_variable_set = send_20074 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8096,14 +7761,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20075
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20075 }
+	    AND = {
+		    has_technology = "tech_internal_mass_drivers_2_20075"
+		    NOT = { is_variable_set = send_20075 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8115,14 +7778,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20076
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20076 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20076"
+		    NOT = { is_variable_set = send_20076 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8134,14 +7795,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20077
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20077 }
+	    AND = {
+		    has_technology = "tech_internal_planet_infrastructure_2_20077"
+		    NOT = { is_variable_set = send_20077 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8153,14 +7812,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20078
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20078 }
+	    AND = {
+		    has_technology = "tech_internal_station_science_2_20078"
+		    NOT = { is_variable_set = send_20078 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8172,14 +7829,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20079
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20079 }
+	    AND = {
+		    has_technology = "tech_internal_power_plants_1_20079"
+		    NOT = { is_variable_set = send_20079 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8191,14 +7846,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20080
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20080 }
+	    AND = {
+		    has_technology = "tech_internal_naval_capacity_3_20080"
+		    NOT = { is_variable_set = send_20080 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8210,14 +7863,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20081
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20081 }
+	    AND = {
+		    has_technology = "tech_internal_swarm_missiles_1_20081"
+		    NOT = { is_variable_set = send_20081 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8229,14 +7880,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20082
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20082 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20082"
+		    NOT = { is_variable_set = send_20082 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8248,14 +7897,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20083
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20083 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20083"
+		    NOT = { is_variable_set = send_20083 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8267,14 +7914,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20084
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20084 }
+	    AND = {
+		    has_technology = "tech_internal_shield_hardener_2_20084"
+		    NOT = { is_variable_set = send_20084 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8286,14 +7931,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20085
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20085 }
+	    AND = {
+		    has_technology = "tech_internal_planet_government_1_20085"
+		    NOT = { is_variable_set = send_20085 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8305,14 +7948,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20086
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20086 }
+	    AND = {
+		    has_technology = "tech_internal_mass_accelerators_2_20086"
+		    NOT = { is_variable_set = send_20086 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8324,14 +7965,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20087
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20087 }
+	    AND = {
+		    has_technology = "tech_internal_psionic_shield_1_20087"
+		    NOT = { is_variable_set = send_20087 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8343,14 +7982,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20088
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20088 }
+	    AND = {
+		    has_technology = "tech_internal_thruster_1_20088"
+		    NOT = { is_variable_set = send_20088 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8362,14 +7999,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20089
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20089 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20089"
+		    NOT = { is_variable_set = send_20089 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8381,14 +8016,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20090
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20090 }
+	    AND = {
+		    has_technology = "tech_internal_reactor_booster_1_20090"
+		    NOT = { is_variable_set = send_20090 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8400,14 +8033,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20091
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20091 }
+	    AND = {
+		    has_technology = "tech_external_void_fields_player1_20091"
+		    NOT = { is_variable_set = send_20091 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8419,14 +8050,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20092
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20092 }
+	    AND = {
+		    has_technology = "tech_internal_mass_drivers_4_20092"
+		    NOT = { is_variable_set = send_20092 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8438,14 +8067,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20093
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20093 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_green_player1_20093"
+		    NOT = { is_variable_set = send_20093 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8457,14 +8084,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20094
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20094 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20094"
+		    NOT = { is_variable_set = send_20094 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8476,14 +8101,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20095
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20095 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20095"
+		    NOT = { is_variable_set = send_20095 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8495,14 +8118,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20096
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20096 }
+	    AND = {
+		    has_technology = "tech_internal_psionics_2_20096"
+		    NOT = { is_variable_set = send_20096 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8514,14 +8135,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20097
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20097 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20097"
+		    NOT = { is_variable_set = send_20097 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8533,14 +8152,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20098
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20098 }
+	    AND = {
+		    has_technology = "tech_internal_shields_3_20098"
+		    NOT = { is_variable_set = send_20098 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8552,14 +8169,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20099
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20099 }
+	    AND = {
+		    has_technology = "tech_internal_fleet_size_3_20099"
+		    NOT = { is_variable_set = send_20099 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8571,14 +8186,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20100
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20100 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20100"
+		    NOT = { is_variable_set = send_20100 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8590,14 +8203,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20101
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20101 }
+	    AND = {
+		    has_technology = "tech_external_sirens_call_player1_20101"
+		    NOT = { is_variable_set = send_20101 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8609,14 +8220,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20102
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20102 }
+	    AND = {
+		    has_technology = "tech_internal_point_defense_2_20102"
+		    NOT = { is_variable_set = send_20102 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8628,14 +8237,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20103
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20103 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20103"
+		    NOT = { is_variable_set = send_20103 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8647,14 +8254,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20104
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20104 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20104"
+		    NOT = { is_variable_set = send_20104 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8666,14 +8271,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20105
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20105 }
+	    AND = {
+		    has_technology = "tech_internal_terraforming_3_20105"
+		    NOT = { is_variable_set = send_20105 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8685,14 +8288,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20106
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20106 }
+	    AND = {
+		    has_technology = "tech_internal_ship_armor_2_20106"
+		    NOT = { is_variable_set = send_20106 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8704,14 +8305,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20107
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20107 }
+	    AND = {
+		    has_technology = "tech_internal_wormhole_2_20107"
+		    NOT = { is_variable_set = send_20107 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8723,14 +8322,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20108
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20108 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20108"
+		    NOT = { is_variable_set = send_20108 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8742,14 +8339,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20109
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20109 }
+	    AND = {
+		    has_technology = "tech_internal_research_ai_1_20109"
+		    NOT = { is_variable_set = send_20109 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8761,14 +8356,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20110
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20110 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20110"
+		    NOT = { is_variable_set = send_20110 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8780,14 +8373,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20111
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20111 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20111"
+		    NOT = { is_variable_set = send_20111 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8798,34 +8389,13 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20112
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20112 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 112
-		}
-        set_variable = { which = send_20112 value = 1 }
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.20113
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20113 }
+	    AND = {
+		    has_technology = "tech_internal_colony_ship_1_20113"
+		    NOT = { is_variable_set = send_20113 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8837,14 +8407,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20114
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20114 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20114"
+		    NOT = { is_variable_set = send_20114 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8856,14 +8424,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20115
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20115 }
+	    AND = {
+		    has_technology = "tech_internal_ship_3_20115"
+		    NOT = { is_variable_set = send_20115 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8875,14 +8441,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20116
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20116 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20116"
+		    NOT = { is_variable_set = send_20116 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8894,14 +8458,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20117
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20117 }
+	    AND = {
+		    has_technology = "tech_external_boss_item_player1_20117"
+		    NOT = { is_variable_set = send_20117 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8913,14 +8475,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20118
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20118 }
+	    AND = {
+		    has_technology = "tech_internal_energy_torpedoes_1_20118"
+		    NOT = { is_variable_set = send_20118 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8932,14 +8492,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20119
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20119 }
+	    AND = {
+		    has_technology = "tech_internal_hyperdrive_4_20119"
+		    NOT = { is_variable_set = send_20119 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8951,14 +8509,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20120
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20120 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_green_player1_20120"
+		    NOT = { is_variable_set = send_20120 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8970,14 +8526,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20121
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20121 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20121"
+		    NOT = { is_variable_set = send_20121 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -8989,14 +8543,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20122
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20122 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20122"
+		    NOT = { is_variable_set = send_20122 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9008,14 +8560,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20123
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20123 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20123"
+		    NOT = { is_variable_set = send_20123 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9027,14 +8577,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20124
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20124 }
+	    AND = {
+		    has_technology = "tech_external_dios_best_friend_player1_20124"
+		    NOT = { is_variable_set = send_20124 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9046,14 +8594,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20125
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20125 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20125"
+		    NOT = { is_variable_set = send_20125 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9065,14 +8611,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20126
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20126 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20126"
+		    NOT = { is_variable_set = send_20126 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9084,14 +8628,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20127
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20127 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_green_player1_20127"
+		    NOT = { is_variable_set = send_20127 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9103,14 +8645,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20128
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20128 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20128"
+		    NOT = { is_variable_set = send_20128 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9122,14 +8662,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20129
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20129 }
+	    AND = {
+		    has_technology = "tech_internal_housing_2_20129"
+		    NOT = { is_variable_set = send_20129 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9141,14 +8679,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20130
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20130 }
+	    AND = {
+		    has_technology = "tech_internal_leader_genetics_3_20130"
+		    NOT = { is_variable_set = send_20130 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9160,14 +8696,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20131
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20131 }
+	    AND = {
+		    has_technology = "tech_internal_robotics_2_20131"
+		    NOT = { is_variable_set = send_20131 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9179,14 +8713,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20132
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20132 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20132"
+		    NOT = { is_variable_set = send_20132 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9198,14 +8730,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20133
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20133 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20133"
+		    NOT = { is_variable_set = send_20133 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9217,14 +8747,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20134
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20134 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20134"
+		    NOT = { is_variable_set = send_20134 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9236,14 +8764,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20135
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20135 }
+	    AND = {
+		    has_technology = "tech_internal_thruster_3_20135"
+		    NOT = { is_variable_set = send_20135 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9255,14 +8781,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20136
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20136 }
+	    AND = {
+		    has_technology = "tech_internal_bureaucracy_4_20136"
+		    NOT = { is_variable_set = send_20136 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9274,14 +8798,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20137
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20137 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_green_player1_20137"
+		    NOT = { is_variable_set = send_20137 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9293,14 +8815,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20138
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20138 }
+	    AND = {
+		    has_technology = "tech_internal_torpedoes_2_20138"
+		    NOT = { is_variable_set = send_20138 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9312,14 +8832,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20139
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20139 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20139"
+		    NOT = { is_variable_set = send_20139 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9331,14 +8849,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20140
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20140 }
+	    AND = {
+		    has_technology = "tech_internal_station_science_3_20140"
+		    NOT = { is_variable_set = send_20140 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9350,14 +8866,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20141
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20141 }
+	    AND = {
+		    has_technology = "tech_internal_farming_2_20141"
+		    NOT = { is_variable_set = send_20141 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9369,14 +8883,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20142
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20142 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20142"
+		    NOT = { is_variable_set = send_20142 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9388,14 +8900,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20143
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20143 }
+	    AND = {
+		    has_technology = "tech_internal_gene_tailoring_2_20143"
+		    NOT = { is_variable_set = send_20143 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9407,14 +8917,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20144
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20144 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20144"
+		    NOT = { is_variable_set = send_20144 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9426,14 +8934,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20145
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20145 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20145"
+		    NOT = { is_variable_set = send_20145 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9445,14 +8951,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20146
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20146 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20146"
+		    NOT = { is_variable_set = send_20146 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9464,14 +8968,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20147
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20147 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20147"
+		    NOT = { is_variable_set = send_20147 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9483,14 +8985,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20148
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20148 }
+	    AND = {
+		    has_technology = "tech_external_abyssal_depths_player1_20148"
+		    NOT = { is_variable_set = send_20148 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9502,14 +9002,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20149
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20149 }
+	    AND = {
+		    has_technology = "tech_internal_swarm_missiles_2_20149"
+		    NOT = { is_variable_set = send_20149 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9521,14 +9019,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20150
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20150 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20150"
+		    NOT = { is_variable_set = send_20150 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9540,14 +9036,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20151
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20151 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20151"
+		    NOT = { is_variable_set = send_20151 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9558,15 +9052,30 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20153
-	hide_window = yes
+	id = archipelago_dynamic.20152
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20152"
+		    NOT = { is_variable_set = send_20152 }
+        }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 152
 		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20153 }
+        set_variable = { which = send_20152 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20153
+	hide_window = no
+	trigger = {
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20153"
+		    NOT = { is_variable_set = send_20153 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9578,14 +9087,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20154
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20154 }
+	    AND = {
+		    has_technology = "tech_internal_disruptors_2_20154"
+		    NOT = { is_variable_set = send_20154 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9597,14 +9104,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20155
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20155 }
+	    AND = {
+		    has_technology = "tech_internal_wormhole_1_20155"
+		    NOT = { is_variable_set = send_20155 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9615,34 +9120,13 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20156
-	hide_window = yes
-	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20156 }
-	}
-	immediate = {
-		add_resource = {
-			urp_001 = 156
-		}
-        set_variable = { which = send_20156 value = 1 }
-	}
-}
-
-country_event = {
 	id = archipelago_dynamic.20157
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20157 }
+	    AND = {
+		    has_technology = "tech_external_boss_item_player1_20157"
+		    NOT = { is_variable_set = send_20157 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9654,14 +9138,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20158
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20158 }
+	    AND = {
+		    has_technology = "tech_internal_ship_armor_4_20158"
+		    NOT = { is_variable_set = send_20158 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9673,14 +9155,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20159
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20159 }
+	    AND = {
+		    has_technology = "tech_internal_colony_ship_2_20159"
+		    NOT = { is_variable_set = send_20159 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9692,14 +9172,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20160
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20160 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20160"
+		    NOT = { is_variable_set = send_20160 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9711,14 +9189,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20161
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20161 }
+	    AND = {
+		    has_technology = "tech_internal_bioreactor_2_20161"
+		    NOT = { is_variable_set = send_20161 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9730,14 +9206,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20162
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20162 }
+	    AND = {
+		    has_technology = "tech_internal_sensors_3_20162"
+		    NOT = { is_variable_set = send_20162 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9749,14 +9223,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20163
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20163 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20163"
+		    NOT = { is_variable_set = send_20163 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9768,14 +9240,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20164
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20164 }
+	    AND = {
+		    has_technology = "tech_internal_shields_2_20164"
+		    NOT = { is_variable_set = send_20164 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9787,14 +9257,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20165
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20165 }
+	    AND = {
+		    has_technology = "tech_internal_planet_infrastructure_1_20165"
+		    NOT = { is_variable_set = send_20165 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9806,14 +9274,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20166
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20166 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20166"
+		    NOT = { is_variable_set = send_20166 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9825,14 +9291,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20167
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20167 }
+	    AND = {
+		    has_technology = "tech_internal_torpedoes_1_20167"
+		    NOT = { is_variable_set = send_20167 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9844,14 +9308,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20168
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20168 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20168"
+		    NOT = { is_variable_set = send_20168 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9863,14 +9325,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20169
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20169 }
+	    AND = {
+		    has_technology = "tech_internal_science_lab_1_20169"
+		    NOT = { is_variable_set = send_20169 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9882,14 +9342,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20170
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20170 }
+	    AND = {
+		    has_technology = "tech_external_item_scrap_white_player1_20170"
+		    NOT = { is_variable_set = send_20170 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9901,14 +9359,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20171
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20171 }
+	    AND = {
+		    has_technology = "tech_internal_reactor_2_20171"
+		    NOT = { is_variable_set = send_20171 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9920,14 +9376,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20172
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20172 }
+	    AND = {
+		    has_technology = "tech_internal_thruster_4_20172"
+		    NOT = { is_variable_set = send_20172 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9939,14 +9393,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20173
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20173 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20173"
+		    NOT = { is_variable_set = send_20173 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9958,14 +9410,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20174
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20174 }
+	    AND = {
+		    has_technology = "tech_internal_space_mining_3_20174"
+		    NOT = { is_variable_set = send_20174 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9977,14 +9427,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20175
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20175 }
+	    AND = {
+		    has_technology = "tech_internal_decryption_2_20175"
+		    NOT = { is_variable_set = send_20175 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -9996,14 +9444,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20176
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20176 }
+	    AND = {
+		    has_technology = "tech_internal_orbital_habitats_2_20176"
+		    NOT = { is_variable_set = send_20176 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10015,14 +9461,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20177
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20177 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20177"
+		    NOT = { is_variable_set = send_20177 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10034,14 +9478,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20178
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20178 }
+	    AND = {
+		    has_technology = "tech_internal_hyperdrive_3_20178"
+		    NOT = { is_variable_set = send_20178 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10053,14 +9495,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20179
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20179 }
+	    AND = {
+		    has_technology = "tech_internal_megastructures_1_20179"
+		    NOT = { is_variable_set = send_20179 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10072,14 +9512,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20180
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20180 }
+	    AND = {
+		    has_technology = "tech_internal_trade_3_20180"
+		    NOT = { is_variable_set = send_20180 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10091,14 +9529,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20181
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20181 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20181"
+		    NOT = { is_variable_set = send_20181 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10110,14 +9546,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20182
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20182 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20182"
+		    NOT = { is_variable_set = send_20182 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10129,14 +9563,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20183
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20183 }
+	    AND = {
+		    has_technology = "tech_internal_power_plants_3_20183"
+		    NOT = { is_variable_set = send_20183 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10148,14 +9580,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20184
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20184 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20184"
+		    NOT = { is_variable_set = send_20184 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10167,14 +9597,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20185
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20185 }
+	    AND = {
+		    has_technology = "tech_external_lunar_coin_player1_20185"
+		    NOT = { is_variable_set = send_20185 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10185,15 +9613,30 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20187
-	hide_window = yes
+	id = archipelago_dynamic.20186
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
+	    AND = {
+		    has_technology = "tech_external_money_player1_20186"
+		    NOT = { is_variable_set = send_20186 }
+        }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 186
 		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20187 }
+        set_variable = { which = send_20186 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20187
+	hide_window = no
+	trigger = {
+	    AND = {
+		    has_technology = "tech_internal_afterburners_1_20187"
+		    NOT = { is_variable_set = send_20187 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10205,14 +9648,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20188
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20188 }
+	    AND = {
+		    has_technology = "tech_internal_battleship_upgrades_3_20188"
+		    NOT = { is_variable_set = send_20188 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10224,14 +9665,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20189
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20189 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20189"
+		    NOT = { is_variable_set = send_20189 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10243,14 +9682,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20190
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20190 }
+	    AND = {
+		    has_technology = "tech_external_titanic_plains_player1_20190"
+		    NOT = { is_variable_set = send_20190 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10262,14 +9699,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20191
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20191 }
+	    AND = {
+		    has_technology = "tech_external_dios_best_friend_player1_20191"
+		    NOT = { is_variable_set = send_20191 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10281,14 +9716,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20192
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20192 }
+	    AND = {
+		    has_technology = "tech_internal_research_ai_3_20192"
+		    NOT = { is_variable_set = send_20192 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10300,14 +9733,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20193
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20193 }
+	    AND = {
+		    has_technology = "tech_internal_autocannon_1_20193"
+		    NOT = { is_variable_set = send_20193 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10319,14 +9750,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20194
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20194 }
+	    AND = {
+		    has_technology = "tech_internal_planet_government_2_20194"
+		    NOT = { is_variable_set = send_20194 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10338,14 +9767,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20195
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20195 }
+	    AND = {
+		    has_technology = "tech_external_dios_best_friend_player1_20195"
+		    NOT = { is_variable_set = send_20195 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10357,14 +9784,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20196
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20196 }
+	    AND = {
+		    has_technology = "tech_internal_psionics_1_20196"
+		    NOT = { is_variable_set = send_20196 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10376,14 +9801,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20197
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20197 }
+	    AND = {
+		    has_technology = "tech_internal_capital_production_2_20197"
+		    NOT = { is_variable_set = send_20197 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10395,14 +9818,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20198
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20198 }
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20198"
+		    NOT = { is_variable_set = send_20198 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10414,14 +9835,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20199
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20199 }
+	    AND = {
+		    has_technology = "tech_internal_bioreactor_1_20199"
+		    NOT = { is_variable_set = send_20199 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10433,14 +9852,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20200
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20200 }
+	    AND = {
+		    has_technology = "tech_internal_terraforming_1_20200"
+		    NOT = { is_variable_set = send_20200 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10452,14 +9869,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20201
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20201 }
+	    AND = {
+		    has_technology = "tech_internal_flak_battery_3_20201"
+		    NOT = { is_variable_set = send_20201 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10471,14 +9886,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20202
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20202 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20202"
+		    NOT = { is_variable_set = send_20202 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10490,14 +9903,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20203
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20203 }
+	    AND = {
+		    has_technology = "tech_internal_torpedoes_3_20203"
+		    NOT = { is_variable_set = send_20203 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10509,14 +9920,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20204
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20204 }
+	    AND = {
+		    has_technology = "tech_internal_fleet_size_1_20204"
+		    NOT = { is_variable_set = send_20204 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10527,15 +9936,30 @@ country_event = {
 }
 
 country_event = {
-	id = archipelago_dynamic.20206
-	hide_window = yes
+	id = archipelago_dynamic.20205
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
+	    AND = {
+		    has_technology = "tech_external_lunar_item_player1_20205"
+		    NOT = { is_variable_set = send_20205 }
+        }
+	}
+	immediate = {
+		add_resource = {
+			urp_001 = 205
 		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20206 }
+        set_variable = { which = send_20205 value = 1 }
+	}
+}
+
+country_event = {
+	id = archipelago_dynamic.20206
+	hide_window = no
+	trigger = {
+	    AND = {
+		    has_technology = "tech_external_legendary_item_player1_20206"
+		    NOT = { is_variable_set = send_20206 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10547,14 +9971,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20207
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20207 }
+	    AND = {
+		    has_technology = "tech_internal_lasers_3_20207"
+		    NOT = { is_variable_set = send_20207 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10566,14 +9988,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20208
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20208 }
+	    AND = {
+		    has_technology = "tech_external_radar_scanner_player1_20208"
+		    NOT = { is_variable_set = send_20208 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10585,14 +10005,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20209
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20209 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20209"
+		    NOT = { is_variable_set = send_20209 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10604,14 +10022,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20210
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20210 }
+	    AND = {
+		    has_technology = "tech_internal_strike_craft_4_20210"
+		    NOT = { is_variable_set = send_20210 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10623,14 +10039,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20211
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20211 }
+	    AND = {
+		    has_technology = "tech_internal_naval_capacity_2_20211"
+		    NOT = { is_variable_set = send_20211 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10642,14 +10056,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20212
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20212 }
+	    AND = {
+		    has_technology = "tech_internal_autocannon_2_20212"
+		    NOT = { is_variable_set = send_20212 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10661,14 +10073,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20213
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20213 }
+	    AND = {
+		    has_technology = "tech_external_common_item_player1_20213"
+		    NOT = { is_variable_set = send_20213 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10680,14 +10090,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20214
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20214 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20214"
+		    NOT = { is_variable_set = send_20214 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10699,14 +10107,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20215
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20215 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20215"
+		    NOT = { is_variable_set = send_20215 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10718,14 +10124,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20216
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20216 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20216"
+		    NOT = { is_variable_set = send_20216 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10737,14 +10141,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20217
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20217 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20217"
+		    NOT = { is_variable_set = send_20217 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10756,14 +10158,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20218
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20218 }
+	    AND = {
+		    has_technology = "tech_external_1000_exp_player1_20218"
+		    NOT = { is_variable_set = send_20218 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10775,14 +10175,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20219
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20219 }
+	    AND = {
+		    has_technology = "tech_external_progressive_stage_player1_20219"
+		    NOT = { is_variable_set = send_20219 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10794,14 +10192,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20220
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20220 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20220"
+		    NOT = { is_variable_set = send_20220 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10813,14 +10209,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20221
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20221 }
+	    AND = {
+		    has_technology = "tech_internal_leader_genetics_2_20221"
+		    NOT = { is_variable_set = send_20221 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10832,14 +10226,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20222
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20222 }
+	    AND = {
+		    has_technology = "tech_internal_bureaucracy_2_20222"
+		    NOT = { is_variable_set = send_20222 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10851,14 +10243,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20223
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20223 }
+	    AND = {
+		    has_technology = "tech_external_uncommon_item_player1_20223"
+		    NOT = { is_variable_set = send_20223 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10870,14 +10260,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20224
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20224 }
+	    AND = {
+		    has_technology = "tech_external_equipment_player1_20224"
+		    NOT = { is_variable_set = send_20224 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10889,14 +10277,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20225
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20225 }
+	    AND = {
+		    has_technology = "tech_internal_strike_craft_3_20225"
+		    NOT = { is_variable_set = send_20225 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10908,14 +10294,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20226
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20226 }
+	    AND = {
+		    has_technology = "tech_internal_habitability_3_20226"
+		    NOT = { is_variable_set = send_20226 }
+        }
 	}
 	immediate = {
 		add_resource = {
@@ -10927,14 +10311,12 @@ country_event = {
 
 country_event = {
 	id = archipelago_dynamic.20227
-	hide_window = yes
+	hide_window = no
 	trigger = {
-		resource_stockpile_compare = {
-			resource = urp_001
-			value = 0
-		}
-		has_technology = "tech_progressive_megastructures_2"
-		NOT = { is_variable_set = send_20227 }
+	    AND = {
+		    has_technology = "tech_external_money_player1_20227"
+		    NOT = { is_variable_set = send_20227 }
+        }
 	}
 	immediate = {
 		add_resource = {
