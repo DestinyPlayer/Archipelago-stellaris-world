@@ -3,13 +3,13 @@
 ### STELLARIS INSTRUCTIONS
 
 1. Generate a Stellaris world.
-2. That will also generate a mod in the world's folder. Grab that and put it in your Stellaris mod folder.
+2. That will also generate a mod in the world's folder (worlds/Stellaris/mod). Grab that and put it in your Stellaris mod folder (Documents/Paradox Interactive/mod).
 3. DO NOT activate client before you're in-game.
 4. Start the game with the mod
 5. Start a game with some empire
 6. Click the "Begin" button
 7. Click the "OK" button on the instructions
-8. Start client
+8. THEN you Start client
 9. Wait for it to connect to Stellaris
 10. Connect to server
 11. Profit
