@@ -114,6 +114,20 @@ def createOutsideTechLocalisations():
                 name = name,
                 desc = name
             )
+        for key,tech in enumerate(finalTechItemsInternal):
+            type = str(tech[0]).split()[0]
+            lev  = type[-1:]
+            type = type.replace("tech_progressive_","")[:-2]
+            name = "Progressive " + (type[0].upper() + type[1:]).replace("_"," ")
+            type = "internal_" + type + "_" + lev
+            code = tech[1] - 750000 + 20000
+
+            localisationText += localisationTechTemplate.format(
+                type = type,
+                num  = code,
+                name = name,
+                desc = name
+            )
 
         writeToFile("localisation/" + lang + "/archipelago_external_techs_l_" + lang + ".yml", localisationText,
                     "utf-8-sig")
@@ -174,7 +188,7 @@ def createTechLocalisations():
         for tech in DataTech.techs:
             type  = tech["name"]
             desc  = (type[0].upper() + type[1:]).replace("_"," ")
-            name  = "Progressive " + desc
+            name  = "Progressive " + desc + " Item"
             type  = "progressive_" + type
 
             for i in range(tech["levels"]):
@@ -219,9 +233,22 @@ def createTechIcons():
 
     for tech in finalTechItemsExternal:
         type = "tech_external_"+smoothTechData(tech[0])
+        num = tech[1] - 750000 + 20000
         iconFinal = iconFinName.format(
             type = type,
-            num  = tech[1] - 750000 + 20000
+            num  = num
+        )
+        iconFinal += format
+        iconFinal = path + iconFinal
+        pathFinal = path + iconTempName + format
+        shutil.copyfile(pathFinal, iconFinal)
+
+    for tech in finalTechItemsInternal:
+        type = str(tech[0]).split(" ")[0].replace("progressive","internal")
+        num = tech[1] - 750000 + 20000
+        iconFinal = iconFinName.format(
+            type = type,
+            num  = num
         )
         iconFinal += format
         iconFinal = path + iconFinal
