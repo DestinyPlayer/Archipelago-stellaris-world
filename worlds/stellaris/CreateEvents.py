@@ -6,7 +6,7 @@ from . import DataTechVanilla, DataTech, DataEvent, Options
 from .DataEvent import finalTechItemsExternal, finalTechItemsInternal, smoothTechData, unScrewTechData
 from .templates.TemplateEvent import (eventStart, eventTemplate, eventAction, eventIfTech,
                                       eventNotIfTech, eventGiveTech, eventIfOutTech, eventSetVar, eventUnsetVar,
-                                      eventTemplateReceive)
+                                      eventTemplateReceive, eventEventFlags)
 from .templates.TemplateLocalisation import localisationStart, localisationEventTemplate
 from .Utility import writeToFile, languages
 from typing import Callable, TYPE_CHECKING
@@ -87,9 +87,8 @@ def createEvents(world: "StellarisWorld"):
             value       = 0
             postValue   = item["location"]-750000
             num         = postValue + 20000
-            action      = eventSetVar.format(varname = "send_" + str(num),extratab = "")
+            action      = eventSetVar.format(varname = "send_" + str(num),extratab = "    ")
             resource    = "urp_001"
-            equalmore   = "="
 
 
             for i in finalTechItemsExternal:
@@ -106,6 +105,14 @@ def createEvents(world: "StellarisWorld"):
                     has = name
                     break
 
+            eventFlags = ""
+            for i in DataEvent.events:
+                if i["type"] == "techSend":
+                    eventFlags += eventEventFlags.format(eventflag = str(i["location"]),extratab = "                ")
+
+            thisflag = str(item["location"])
+            thisevent = "archipelago_dynamic."+str(item["location"] - 750000 + 20000)
+
             varCheck = eventUnsetVar.format(varname = "send_" + str(num),extratab = "    ")
             outResearch = eventIfOutTech.format(has = has, extratab = "    ")
             eventText += eventTemplate.format(
@@ -115,7 +122,10 @@ def createEvents(world: "StellarisWorld"):
                 action      = action,
                 outResearch = outResearch,
                 varCheck    = varCheck,
-                value       = 0
+                value       = 0,
+                eventflags  = eventFlags,
+                thisflag    = thisflag,
+                thisevent   = thisevent
             )
 
         else: # Shouldn't come up except for testing purposes
