@@ -31,6 +31,14 @@ country_event = {{
         }}
 	}}
 }}
+
+country_event = {{
+    id = {thisevent1}
+    is_triggered_only = yes
+    immediate = {{
+        remove_country_flag = {thisflag}_1
+    }}
+}}
 '''
 
 eventTemplateReceive = '''
@@ -67,3 +75,4 @@ eventIfOutTech  = '''\n		{extratab}has_technology = "{has}"'''
 eventUnsetVar   = '''\n		{extratab}NOT = {{ is_variable_set = {varname} }}'''
 eventSetVar     = '''\n        {extratab}set_variable = {{ which = {varname} value = 1 }}'''
 eventEventFlags = '''\n        {extratab}has_country_flag = {eventflag}_1'''
+eventUnsetFlag  = '''\n        {extratab}country_event = {{ id = {thisevent}1 days = 1}}'''

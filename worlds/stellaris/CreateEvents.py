@@ -6,7 +6,7 @@ from . import DataTechVanilla, DataTech, DataEvent, Options
 from .DataEvent import finalTechItemsExternal, finalTechItemsInternal, smoothTechData, unScrewTechData
 from .templates.TemplateEvent import (eventStart, eventTemplate, eventAction, eventIfTech,
                                       eventNotIfTech, eventGiveTech, eventIfOutTech, eventSetVar, eventUnsetVar,
-                                      eventTemplateReceive, eventEventFlags)
+                                      eventTemplateReceive, eventEventFlags, eventUnsetFlag)
 from .templates.TemplateLocalisation import localisationStart, localisationEventTemplate
 from .Utility import writeToFile, languages
 from typing import Callable, TYPE_CHECKING
@@ -86,7 +86,7 @@ def createEvents(world: "StellarisWorld"):
         elif item["type"] == "techSend": #Events that send technology location checks to the server
             value       = 0
             postValue   = item["location"]-750000
-            num         = postValue + 20000
+            num         = (postValue*10) + 200000
             action      = eventSetVar.format(varname = "send_" + str(num),extratab = "    ")
             resource    = "urp_001"
 
@@ -112,6 +112,7 @@ def createEvents(world: "StellarisWorld"):
 
             thisflag = str(item["location"])
             thisevent = "archipelago_dynamic."+str(item["location"] - 750000 + 20000)
+            action += eventUnsetFlag.format(thisevent = thisevent, extratab = "    ")
 
             varCheck = eventUnsetVar.format(varname = "send_" + str(num),extratab = "    ")
             outResearch = eventIfOutTech.format(has = has, extratab = "    ")
@@ -125,7 +126,8 @@ def createEvents(world: "StellarisWorld"):
                 value       = 0,
                 eventflags  = eventFlags,
                 thisflag    = thisflag,
-                thisevent   = thisevent
+                thisevent   = thisevent+"0",
+                thisevent1  = thisevent+"1"
             )
 
         else: # Shouldn't come up except for testing purposes
