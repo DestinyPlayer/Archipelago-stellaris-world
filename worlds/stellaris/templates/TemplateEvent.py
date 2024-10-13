@@ -5,7 +5,11 @@ country_event = {{
 	id = archipelago_dynamic.{num}
 	hide_window = no
 	trigger = {{
-	    AND = {{{outResearch}{varCheck}
+	    AND = {{
+	        resource_stockpile_compare = {{
+	            resource = {resource}
+	            value = {value}
+	        }}{outResearch}{varCheck}
         }}
 	}}
 	immediate = {{

@@ -114,7 +114,8 @@ def createEvents(world: "StellarisWorld"):
                 resource    = resource,
                 action      = action,
                 outResearch = outResearch,
-                varCheck    = varCheck
+                varCheck    = varCheck,
+                value       = 0
             )
 
         else: # Shouldn't come up except for testing purposes
