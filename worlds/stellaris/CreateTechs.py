@@ -51,7 +51,7 @@ def createOutsideTech():
 
         techText    = techText + techTemplate.format(
             type        = type,
-            num         = (tech[1] - 750000 + 20000)*10,
+            num         = (tech[1] - 750000 + 20000),
             area        = area,
             category    = category,
             cost        = cost,
@@ -82,7 +82,7 @@ def createOutsideTech():
 
         techText    = techText + techTemplate.format(
             type        = type,
-            num         = (tech[1] - 750000 + 20000)*10,
+            num         = (tech[1] - 750000 + 20000),
             area        = area,
             category    = category,
             cost        = cost,
