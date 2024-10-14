@@ -1,4 +1,9 @@
 ﻿l_english:
 
+ urp_000: "Communication Receive Channel"
+ urp_001: "Communication Send Physics Channel"
+ urp_002: "Communication Send Society Channel"
+ urp_003: "Communication Send Engineering Channel"
+
 archipelago.0001.name: "Archipelago Startup Sequence"
 archipelago.0001.desc: "Hello there §H[Root.Leader.GetName]§! of the §H[Root.Owner.GetName]§!! How are you doing?\n\nHere's how to properly connect your game to your §lArchipelago§! client.\n\n            §HStep 1:§! Start up Stellaris. Which you already did.\n            §HStep 2:§! Start a new game. Which you already did.\n            §HStep 3:§! Press "Begin" and read this event.\n            §HStep 4:§! Start up the client. \n            §HStep 5:§! Wait for the client to find Stellaris.\n            §HStep 6:§! Connect the client to the server.\n\nAnd now you are connected to the client!"

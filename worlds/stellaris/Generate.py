@@ -9,23 +9,25 @@ if TYPE_CHECKING:
 def generateMod(world: "StellarisWorld", outputDirectory):
     print("|Stellaris: Generating mod                                                                            |")
 
+    # Starting setup
     Utility.generateLangFolders()
     DataTech.addDlcTechs(world)
 
-    #DataEvent
+    # Generating Events List
     DataEvent.fillInTechData()
 
-    #Events
-    CreateEvents.createEvents(world)
-    CreateEvents.createEventLocalisations()
-
-    # Technology
+    # Generating Technology Definitions
     CreateTechs.createTech()
     CreateTechs.createOutsideTech()
     CreateTechs.createOutsideTechLocalisations()
     CreateTechs.createTechLocalisations()
     CreateTechs.createTechIcons()
 
+    # Generating Events Definitions
+    CreateEvents.createEvents(world)
+    CreateEvents.createEventLocalisations()
+
+    # Finalizing Mod Generation
     Utility.copyOtherLocalisationFiles("archipelago_events_l_english.yml")
     #shutil.copytree("worlds/stellaris/mod","output/mod")
     print("|Stellaris: Mod generation complete                                                                   |")

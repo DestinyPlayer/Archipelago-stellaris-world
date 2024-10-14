@@ -3,7 +3,7 @@ from operator import itemgetter
 
 from BaseClasses import CollectionState
 from . import DataTechVanilla, DataTech, DataEvent, Options
-from .DataEvent import finalTechItemsExternal, finalTechItemsInternal, smoothTechData, unScrewTechData
+from .DataEvent import finalTechItemsExternal, finalTechItemsInternal, smoothTechData, unScrewTechData, events
 from .templates.TemplateEvent import (eventStart, eventTemplate, eventAction, eventIfTech,
                                       eventNotIfTech, eventGiveTech, eventIfOutTech, eventSetVar, eventUnsetVar,
                                       eventTemplateReceive)
@@ -88,7 +88,6 @@ def createEvents(world: "StellarisWorld"):
             postValue   = item["location"]-750000
             num         = postValue + 20000
             action      = eventSetVar.format(varname = "send_" + str(num),extratab = "")
-            resource    = "urp_001"
             equalmore   = "="
 
 
@@ -105,6 +104,13 @@ def createEvents(world: "StellarisWorld"):
                     name = "tech_internal_"+compName
                     has = name
                     break
+
+            if item["area"] == "physics":
+                resource = "urp_001"
+            elif item["area"] == "society":
+                resource = "urp_002"
+            else:
+                resource = "urp_003"
 
             varCheck = eventUnsetVar.format(varname = "send_" + str(num),extratab = "    ")
             outResearch = eventIfOutTech.format(has = has, extratab = "    ")

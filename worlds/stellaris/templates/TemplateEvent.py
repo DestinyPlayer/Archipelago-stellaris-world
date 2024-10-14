@@ -3,7 +3,7 @@ eventStart = 'namespace = archipelago_dynamic\n'
 eventTemplate = '''
 country_event = {{
 	id = archipelago_dynamic.{num}
-	hide_window = no
+	hide_window = yes
 	trigger = {{
 	    AND = {{
 	        resource_stockpile_compare = {{

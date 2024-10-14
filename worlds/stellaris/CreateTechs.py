@@ -1,13 +1,13 @@
-from random import randrange
 import shutil
+from random import randrange
+
 from . import DataTech
 from .CreateEvents import findTech
-from .DataEvent import unScrewTechData, finalTechItemsInternal, finalTechItemsExternal, smoothTechData
-from .templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
-from .templates.TemplateLocalisation import localisationStart, localisationTechTemplate, localisationExternalTechTemplate
+from .DataEvent import finalTechItemsInternal, finalTechItemsExternal, smoothTechData, events
 from .Utility import writeToFile, languages
-import time
-
+from .templates.TemplateLocalisation import localisationStart, localisationTechTemplate, \
+    localisationExternalTechTemplate
+from .templates.TemplateTech import techStart, techTemplate, techProgCost, weightNull
 
 randomTechArea                = ["physics","society","engineering"]
 randomTechPhysicsCategory     = ["field_manipulation", "particles", "computing"]
@@ -32,6 +32,10 @@ def createOutsideTech():
     for key,tech in enumerate(finalTechItemsExternal):
         type = "external_" + smoothTechData(tech[0])
         area = randomTechArea[randrange(0,2)]
+
+        for key2,event in enumerate(events):
+            if event["name"] == smoothTechData(tech[0]):
+                event.update( {"area": area} )
 
         if area == "physics":
             category = randomTechPhysicsCategory[randrange(0,2)]
@@ -65,6 +69,10 @@ def createOutsideTech():
         type = "internal_" + name + "_" + lev
         area = find["area"]
         category = find["category"]
+
+        for key2,event in enumerate(events):
+            if event["name"] == smoothTechData(tech[0]):
+                event.update( {"area": area} )
 
         tier        = find["tier"] + int(lev)-1
         if tier > 5: tier = 5

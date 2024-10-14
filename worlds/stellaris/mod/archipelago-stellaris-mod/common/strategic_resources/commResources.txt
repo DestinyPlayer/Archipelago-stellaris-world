@@ -1,10 +1,22 @@
-urp_000 = {
+urp_000 = { #Receive
 	tradable = no
 	category = other
 	max = 99999999
 	visibility_prerequisite = { always = yes }
 }
-urp_001 = {
+urp_001 = { #Physics
+	tradable = no
+	category = other
+	max = 99999999
+	visibility_prerequisite = { always = yes }
+}
+urp_002 = { #Society
+	tradable = no
+	category = other
+	max = 99999999
+	visibility_prerequisite = { always = yes }
+}
+urp_003 = { #Engineering
 	tradable = no
 	category = other
 	max = 99999999

@@ -22,17 +22,21 @@ logger = logging.getLogger("Client")
 #########################################################################################
 
 #[VARIABLES]############################################################################################################
-codeInConst        = 7500000000
-codeOutConst       = 750000
-resConst           = 100000
-patternSearch1     = b"\xE0\xAE\x58\x2D\x53\x01"
-patternSearch2     = b"\xC0\x72\x00\x5D\x36\x02"
-referenceNumber1   = 1456754700000
-referenceNumber2   = 2432511800000
-baseRes            = 0
-emerRes            = 0
-commResIn          = []
-commResOut         = []
+codeInConst      = 7500000000
+codeOutConst     = 750000
+resConst         = 100000
+patternSearch1   = b"\xE0\xAE\x58\x2D\x53\x01"
+patternSearch2   = b"\xC0\x72\x00\x5D\x36\x02"
+referenceNumber1 = 1456754700000
+referenceNumber2 = 2432511800000
+baseRes          = 0
+emerRes          = 0
+
+commResIn              = []
+commResSendPhysics     = []
+commResSendSociety     = []
+commResSendEngineering = []
+
 pm                 = Pymem()
 itemsReceived      = []
 itemsReceivedFinal = []
@@ -61,9 +65,13 @@ def encodeItemCode(item):
 def grabResources():
     """This method reads the current Communication Resource Values"""
     global commResIn
-    global commResOut
+    global commResSendPhysics
+    global commResSendSociety
+    global commResSendEngineering
     commResIn[1]  = pm.read_longlong(commResIn[0])  / resConst
-    commResOut[1] = pm.read_longlong(commResOut[0]) / resConst
+    commResSendPhysics[1]     = pm.read_longlong(commResSendPhysics[0])     / resConst
+    commResSendSociety[1]     = pm.read_longlong(commResSendSociety[0])     / resConst
+    commResSendEngineering[1] = pm.read_longlong(commResSendEngineering[0]) / resConst
 
 
 def findBaseRes(patternMatch):
@@ -95,7 +103,9 @@ async def connectToStellaris():
     global baseRes
     global emerRes
     global commResIn
-    global commResOut
+    global commResSendPhysics
+    global commResSendSociety
+    global commResSendEngineering
 
     await asyncio.sleep(1)
     try:
@@ -118,8 +128,10 @@ async def connectToStellaris():
         if pm.read_longlong(baseRes + 0x8) != referenceNumber2 or pm.read_longlong(emerRes - 0x8) != referenceNumber1:
             logger.error("ERROR: Wrong reference addresses found.")
 
-        commResIn  = [baseRes - 0x10, 0]  # Items going into Stellaris
-        commResOut = [baseRes - 0x8,  0]  # Items going out of Stellaris
+        commResIn              = [baseRes - 0x20, 0] ### Items going into Stellaris
+        commResSendPhysics     = [baseRes - 0x18,  0] ## Physics Techs going out of Stellaris
+        commResSendSociety     = [baseRes - 0x10, 0] ### Society Techs going out of Stellaris
+        commResSendEngineering = [baseRes - 0x8, 0] #### Engineering Techs going out of Stellaris
         grabResources()
 
         return True
@@ -150,11 +162,21 @@ def receiveItem():
 
 def sendItem():
     global locationChecks
-    if commResOut[1] != 0:
-        curItem = encodeItemCode(commResOut[1])
-        pm.write_longlong(commResOut[0], 0)
+    if commResSendPhysics[1] != 0:
+        curItem = encodeItemCode(commResSendPhysics[1])
+        pm.write_longlong(commResSendPhysics[0], 0)
         locationChecks.append(curItem)
-        logger.info("   Receiving item " + str(curItem) + " from Stellaris")
+        logger.info("   Receiving physics research " + str(curItem) + " from Stellaris")
+    if commResSendSociety[1] != 0:
+        curItem = encodeItemCode(commResSendSociety[1])
+        pm.write_longlong(commResSendSociety[0], 0)
+        locationChecks.append(curItem)
+        logger.info("   Receiving society research " + str(curItem) + " from Stellaris")
+    if commResSendEngineering[1] != 0:
+        curItem = encodeItemCode(commResSendEngineering[1])
+        pm.write_longlong(commResSendEngineering[0], 0)
+        locationChecks.append(curItem)
+        logger.info("   Receiving engineering research " + str(curItem) + " from Stellaris")
 
 
 async def loopTransmit():
