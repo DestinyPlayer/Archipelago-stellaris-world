@@ -51,7 +51,7 @@ def createOutsideTech():
 
         techText    = techText + techTemplate.format(
             type        = type,
-            num         = tech[1] - 750000 + 20000,
+            num         = (tech[1] - 750000 + 20000)*10,
             area        = area,
             category    = category,
             cost        = cost,
@@ -82,7 +82,7 @@ def createOutsideTech():
 
         techText    = techText + techTemplate.format(
             type        = type,
-            num         = tech[1] - 750000 + 20000,
+            num         = (tech[1] - 750000 + 20000)*10,
             area        = area,
             category    = category,
             cost        = cost,
@@ -241,7 +241,7 @@ def createTechIcons():
 
     for tech in finalTechItemsExternal:
         type = "tech_external_"+smoothTechData(tech[0])
-        num = tech[1] - 750000 + 20000
+        num = (tech[1] - 750000 + 20000)*10
         iconFinal = iconFinName.format(
             type = type,
             num  = num
@@ -253,7 +253,7 @@ def createTechIcons():
 
     for tech in finalTechItemsInternal:
         type = str(tech[0]).split(" ")[0].replace("progressive","internal")
-        num = tech[1] - 750000 + 20000
+        num = (tech[1] - 750000 + 20000)*10
         iconFinal = iconFinName.format(
             type = type,
             num  = num
