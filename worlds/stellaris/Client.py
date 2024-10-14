@@ -148,14 +148,12 @@ def receiveItem():
     Waits until the resource is 0 before doing anything."""
     global itemsReceivedFinal
     if commResIn[1] == 0 and len(itemsReceivedFinal) != 0:
-        print("Items Received List ", itemsReceivedFinal)
-        print("CommRes ", commResIn[1])
+        logger.info("Items Received List " + str(itemsReceivedFinal))
         curItem = decodeItemCode(itemsReceivedFinal[0])
         logger.info("   Sending item " + str(curItem) + " to Stellaris")
         pm.write_longlong(commResIn[0], curItem * resConst)
         logger.info("   " + str(curItem) + " was sent to Stellaris")
         itemsReceivedFinal.pop(0)
-        print(itemsReceivedFinal)
         logger.info("Items left to send: " + str(len(itemsReceivedFinal)))
 
 
@@ -163,16 +161,19 @@ def receiveItem():
 def sendItem():
     global locationChecks
     if commResSendPhysics[1] != 0:
+        logger.info("Location checks: " + str(locationChecks))
         curItem = encodeItemCode(commResSendPhysics[1])
         pm.write_longlong(commResSendPhysics[0], 0)
         locationChecks.append(curItem)
         logger.info("   Receiving physics research " + str(curItem) + " from Stellaris")
     if commResSendSociety[1] != 0:
+        logger.info("Location checks: " + str(locationChecks))
         curItem = encodeItemCode(commResSendSociety[1])
         pm.write_longlong(commResSendSociety[0], 0)
         locationChecks.append(curItem)
         logger.info("   Receiving society research " + str(curItem) + " from Stellaris")
     if commResSendEngineering[1] != 0:
+        logger.info("Location checks: " + str(locationChecks))
         curItem = encodeItemCode(commResSendEngineering[1])
         pm.write_longlong(commResSendEngineering[0], 0)
         locationChecks.append(curItem)
@@ -246,14 +247,11 @@ def runStellarisClient(*args):
     async def finalSendItem(ctx: StellarisContext):
         while True:
             global locationChecks
-            print(locationChecks)
             if len(locationChecks) != 0:
-                print("Sending data to server")
-                print(locationChecks)
                 await ctx.send_msgs([{"cmd": 'LocationChecks', "locations": [int(locationChecks[0])]}])
+                logger.info("   Sent item " + str(locationChecks[0]) + " to the server.")
                 locationChecks.pop(0)
-                print(locationChecks)
-            await asyncio.sleep(1)
+            await asyncio.sleep(0.1)
 
     async def main(args):
         ctx = StellarisContext(args.connect, args.password)
