@@ -217,28 +217,6 @@ firstContactTechs = [
 
 ]
 
-DlcNames.leviathans,
-DlcNames.utopia,
-DlcNames.megacorp,
-DlcNames.apocalypse,
-DlcNames.federations,
-DlcNames.nemesis,
-DlcNames.overlord,
-DlcNames.galacticParagons,
-DlcNames.astralPlanes,
-DlcNames.cosmicStorms,
-DlcNames.machineAge,
-DlcNames.syntheticDawn,
-DlcNames.distantStars,
-DlcNames.ancientRelics,
-DlcNames.firstContact,
-DlcNames.humanoidsSpecies,
-DlcNames.plantoidsSpecies,
-DlcNames.lithoidsSpecies,
-DlcNames.necroidsSpecies,
-DlcNames.aquaticsSpecies,
-DlcNames.toxoidsSpecies
-
 def addDlcTechs(world: "StellarisWorld"):
     for dlc in world.options.dlcIncluded.value:
         print(dlc)
