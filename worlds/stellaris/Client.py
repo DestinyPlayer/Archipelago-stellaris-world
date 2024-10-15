@@ -184,7 +184,7 @@ async def loopTransmit():
         grabResources()
         receiveItem()
         sendItem()
-        await asyncio.sleep(0.0001)
+        await asyncio.sleep(0)
 
 
 def runStellarisClient(*args):
@@ -254,7 +254,7 @@ def runStellarisClient(*args):
                 await finalSendType("physics")
                 await finalSendType("society")
                 await finalSendType("engineering")
-            await asyncio.sleep(0.0001)
+            await asyncio.sleep(0)
 
     async def main(args):
         ctx = StellarisContext(args.connect, args.password)
