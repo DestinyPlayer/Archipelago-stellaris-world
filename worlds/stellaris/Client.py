@@ -156,28 +156,21 @@ def receiveItem():
         itemsReceivedFinal.pop(0)
         logger.info("Items left to send: " + str(len(itemsReceivedFinal)))
 
-
+def sendItemResource(resource):
+    """This method checks a specific resource for if there's a location check to receive from Stellaris"""
+    if resource[1] != 0:
+        logger.info("Location checks: " + str(locationChecks))
+        curItem = encodeItemCode(resource[1])
+        pm.write_longlong(resource[0], 0)
+        locationChecks.append(curItem)
+        logger.info("   Receiving location check " + str(curItem) + " from Stellaris")
 
 def sendItem():
+    """This method receives location checks from Stellaris"""
     global locationChecks
-    if commResSendPhysics[1] != 0:
-        logger.info("Location checks: " + str(locationChecks))
-        curItem = encodeItemCode(commResSendPhysics[1])
-        pm.write_longlong(commResSendPhysics[0], 0)
-        locationChecks.append(curItem)
-        logger.info("   Receiving physics research " + str(curItem) + " from Stellaris")
-    if commResSendSociety[1] != 0:
-        logger.info("Location checks: " + str(locationChecks))
-        curItem = encodeItemCode(commResSendSociety[1])
-        pm.write_longlong(commResSendSociety[0], 0)
-        locationChecks.append(curItem)
-        logger.info("   Receiving society research " + str(curItem) + " from Stellaris")
-    if commResSendEngineering[1] != 0:
-        logger.info("Location checks: " + str(locationChecks))
-        curItem = encodeItemCode(commResSendEngineering[1])
-        pm.write_longlong(commResSendEngineering[0], 0)
-        locationChecks.append(curItem)
-        logger.info("   Receiving engineering research " + str(curItem) + " from Stellaris")
+    sendItemResource(commResSendPhysics)
+    sendItemResource(commResSendSociety)
+    sendItemResource(commResSendEngineering)
 
 
 async def loopTransmit():
