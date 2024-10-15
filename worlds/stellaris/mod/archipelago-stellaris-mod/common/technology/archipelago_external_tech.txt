@@ -7,127 +7,31 @@
 
 @tier0weight1 = 0
 
-tech_external_equipment_player1_20000 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_1000_exp_player1_20001 = {
+tech_external_item_scrap_white_player1_20002 = {
     cost = @progressive_cost_1
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
+    tier = 1
     category = { field_manipulation }
-    weight = @tier2weight1
+    weight = @tier3weight1
 }
 
-tech_external_verdant_falls_player1_20004 = {
-    cost = @progressive_cost_2
+tech_external_1000_exp_player1_20003 = {
+    cost = @progressive_cost_4
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 1
-    category = { psionics }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_item_player1_20005 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
     category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_money_player1_20009 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_1000_exp_player1_20010 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
     weight = @tier3weight1
 }
 
-tech_external_money_player1_20013 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_boss_item_player1_20017 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { psionics }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_coin_player1_20021 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_item_scrap_white_player1_20022 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_external_lunar_coin_player1_20025 = {
+tech_external_money_player1_20006 = {
     cost = @progressive_cost_1
     area = physics
     is_rare = yes
@@ -135,35 +39,11 @@ tech_external_lunar_coin_player1_20025 = {
         is_ai = no
     }
     tier = 3
-    category = { particles }
+    category = { field_manipulation }
     weight = @tier4weight1
 }
 
-tech_external_1000_exp_player1_20027 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_common_item_player1_20030 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_sky_meadow_player1_20032 = {
+tech_external_void_fields_player1_20008 = {
     cost = @progressive_cost_1
     area = physics
     is_rare = yes
@@ -172,34 +52,10 @@ tech_external_sky_meadow_player1_20032 = {
     }
     tier = 4
     category = { particles }
-    weight = @tier2weight1
+    weight = @tier4weight1
 }
 
-tech_external_equipment_player1_20035 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_player1_20036 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_common_item_player1_20039 = {
+tech_external_equipment_player1_20011 = {
     cost = @progressive_cost_4
     area = society
     is_rare = yes
@@ -208,11 +64,35 @@ tech_external_common_item_player1_20039 = {
     }
     tier = 3
     category = { new_worlds }
-    weight = @tier4weight1
+    weight = @tier3weight1
 }
 
-tech_external_item_scrap_red_player1_20045 = {
-    cost = @progressive_cost_2
+tech_external_money_player1_20012 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_white_player1_20013 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_lunar_item_player1_20015 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
@@ -223,43 +103,7 @@ tech_external_item_scrap_red_player1_20045 = {
     weight = @tier4weight1
 }
 
-tech_external_lunar_item_player1_20047 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_dios_best_friend_player1_20048 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_external_common_item_player1_20051 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_player1_20053 = {
+tech_external_common_item_player1_20017 = {
     cost = @progressive_cost_3
     area = physics
     is_rare = yes
@@ -267,11 +111,23 @@ tech_external_common_item_player1_20053 = {
         is_ai = no
     }
     tier = 2
-    category = { particles }
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_money_player1_20021 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
     weight = @tier1weight1
 }
 
-tech_external_dios_best_friend_player1_20055 = {
+tech_external_item_scrap_white_player1_20023 = {
     cost = @progressive_cost_3
     area = physics
     is_rare = yes
@@ -279,23 +135,71 @@ tech_external_dios_best_friend_player1_20055 = {
         is_ai = no
     }
     tier = 4
-    category = { particles }
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_titanic_plains_player1_20028 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
     weight = @tier3weight1
 }
 
-tech_external_item_scrap_green_player1_20057 = {
+tech_external_money_player1_20029 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_common_item_player1_20030 = {
     cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_progressive_stage_player1_20032 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_uncommon_item_player1_20033 = {
+    cost = @progressive_cost_4
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 3
-    category = { psionics }
-    weight = @tier1weight1
+    tier = 1
+    category = { new_worlds }
+    weight = @tier4weight1
 }
 
-tech_external_money_player1_20064 = {
+tech_external_dios_best_friend_player1_20036 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
@@ -307,8 +211,44 @@ tech_external_money_player1_20064 = {
     weight = @tier1weight1
 }
 
-tech_external_progressive_stage_player1_20065 = {
+tech_external_wetland_aspect_player1_20045 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_red_player1_20046 = {
     cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_external_legendary_item_player1_20048 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_equipment_player1_20054 = {
+    cost = @progressive_cost_2
     area = physics
     is_rare = yes
     potential = {
@@ -319,7 +259,19 @@ tech_external_progressive_stage_player1_20065 = {
     weight = @tier3weight1
 }
 
-tech_external_equipment_player1_20068 = {
+tech_external_lunar_coin_player1_20061 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_1000_exp_player1_20062 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
@@ -327,8 +279,32 @@ tech_external_equipment_player1_20068 = {
         is_ai = no
     }
     tier = 4
-    category = { psionics }
+    category = { new_worlds }
     weight = @tier4weight1
+}
+
+tech_external_common_item_player1_20063 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { new_worlds }
+    weight = @tier2weight1
+}
+
+tech_external_uncommon_item_player1_20067 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier1weight1
 }
 
 tech_external_money_player1_20069 = {
@@ -338,24 +314,96 @@ tech_external_money_player1_20069 = {
     potential = {
         is_ai = no
     }
-    tier = 2
-    category = { particles }
-    weight = @tier1weight1
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier4weight1
 }
 
-tech_external_money_player1_20070 = {
+tech_external_uncommon_item_player1_20071 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { new_worlds }
+    weight = @tier2weight1
+}
+
+tech_external_sundered_grove_player1_20073 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { new_worlds }
+    weight = @tier2weight1
+}
+
+tech_external_lunar_item_player1_20075 = {
     cost = @progressive_cost_4
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
-    category = { statecraft }
-    weight = @tier4weight1
+    tier = 1
+    category = { new_worlds }
+    weight = @tier1weight1
 }
 
-tech_external_money_player1_20072 = {
+tech_external_1000_exp_player1_20077 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_money_player1_20078 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_dios_best_friend_player1_20080 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_external_1000_exp_player1_20081 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_abandoned_aqueduct_player1_20084 = {
     cost = @progressive_cost_2
     area = physics
     is_rare = yes
@@ -363,24 +411,120 @@ tech_external_money_player1_20072 = {
         is_ai = no
     }
     tier = 2
-    category = { field_manipulation }
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_progressive_stage_player1_20085 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
     weight = @tier3weight1
 }
 
-tech_external_money_player1_20077 = {
-    cost = @progressive_cost_3
+tech_external_equipment_player1_20088 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_sky_meadow_player1_20089 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_common_item_player1_20091 = {
+    cost = @progressive_cost_4
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 2
-    category = { statecraft }
-    weight = @tier3weight1
+    category = { new_worlds }
+    weight = @tier4weight1
 }
 
-tech_external_hidden_realm_a_moment_whole_player1_20078 = {
-    cost = @progressive_cost_1
+tech_external_distant_roost_2_player1_20092 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_external_money_player1_20095 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier2weight1
+}
+
+tech_external_equipment_player1_20096 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_1000_exp_player1_20097 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { new_worlds }
+    weight = @tier4weight1
+}
+
+tech_external_common_item_player1_20098 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_uncommon_item_player1_20099 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
@@ -391,163 +535,19 @@ tech_external_hidden_realm_a_moment_whole_player1_20078 = {
     weight = @tier2weight1
 }
 
-tech_external_1000_exp_player1_20083 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_equipment_player1_20086 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_1000_exp_player1_20089 = {
+tech_external_1000_exp_player1_20100 = {
     cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_1000_exp_player1_20092 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_common_item_player1_20094 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { statecraft }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_player1_20096 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_external_money_player1_20104 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
     tier = 1
     category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_uncommon_item_player1_20105 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { new_worlds }
     weight = @tier4weight1
 }
 
 tech_external_equipment_player1_20106 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_player1_20111 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_lunar_item_player1_20114 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_1000_exp_player1_20115 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_external_commencement_player1_20117 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_money_player1_20119 = {
     cost = @progressive_cost_3
     area = physics
     is_rare = yes
@@ -555,60 +555,36 @@ tech_external_money_player1_20119 = {
         is_ai = no
     }
     tier = 1
-    category = { particles }
+    category = { field_manipulation }
     weight = @tier1weight1
 }
 
-tech_external_lunar_coin_player1_20122 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { new_worlds }
-    weight = @tier1weight1
-}
-
-tech_external_money_player1_20123 = {
+tech_external_item_scrap_white_player1_20107 = {
     cost = @progressive_cost_4
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 1
+    tier = 4
     category = { field_manipulation }
-    weight = @tier4weight1
+    weight = @tier1weight1
 }
 
-tech_external_common_item_player1_20124 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_item_scrap_white_player1_20125 = {
-    cost = @progressive_cost_1
+tech_external_money_player1_20108 = {
+    cost = @progressive_cost_2
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
-    category = { new_worlds }
-    weight = @tier4weight1
+    tier = 3
+    category = { psionics }
+    weight = @tier3weight1
 }
 
-tech_external_scorched_acres_player1_20127 = {
-    cost = @progressive_cost_1
+tech_external_1000_exp_player1_20109 = {
+    cost = @progressive_cost_2
     area = physics
     is_rare = yes
     potential = {
@@ -619,8 +595,128 @@ tech_external_scorched_acres_player1_20127 = {
     weight = @tier3weight1
 }
 
-tech_external_dios_best_friend_player1_20128 = {
+tech_external_money_player1_20110 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_external_uncommon_item_player1_20112 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { statecraft }
+    weight = @tier2weight1
+}
+
+tech_external_uncommon_item_player1_20114 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_equipment_player1_20116 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_common_item_player1_20119 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_external_common_item_player1_20120 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_equipment_player1_20123 = {
     cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_external_money_player1_20127 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_uncommon_item_player1_20128 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { psionics }
+    weight = @tier1weight1
+}
+
+tech_external_item_scrap_green_player1_20132 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_item_scrap_white_player1_20135 = {
+    cost = @progressive_cost_4
     area = physics
     is_rare = yes
     potential = {
@@ -628,11 +724,71 @@ tech_external_dios_best_friend_player1_20128 = {
     }
     tier = 1
     category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_money_player1_20136 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_external_1000_exp_player1_20137 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
     weight = @tier1weight1
 }
 
-tech_external_lunar_coin_player1_20129 = {
-    cost = @progressive_cost_2
+tech_external_distant_roost_player1_20138 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier1weight1
+}
+
+tech_external_money_player1_20139 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_external_uncommon_item_player1_20140 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_money_player1_20144 = {
+    cost = @progressive_cost_1
     area = society
     is_rare = yes
     potential = {
@@ -643,116 +799,32 @@ tech_external_lunar_coin_player1_20129 = {
     weight = @tier4weight1
 }
 
-tech_external_money_player1_20130 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_player1_20132 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_external_abandoned_aqueduct_player1_20133 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_common_item_player1_20135 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_rallypoint_delta_player1_20139 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { new_worlds }
-    weight = @tier1weight1
-}
-
-tech_external_uncommon_item_player1_20141 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_item_scrap_green_player1_20142 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_player1_20145 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
-    weight = @tier1weight1
-}
-
-tech_external_1000_exp_player1_20147 = {
+tech_external_common_item_player1_20145 = {
     cost = @progressive_cost_3
-    area = society
+    area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
-    category = { new_worlds }
+    tier = 1
+    category = { field_manipulation }
+    weight = @tier1weight1
+}
+
+tech_external_lunar_coin_player1_20146 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
     weight = @tier2weight1
 }
 
-tech_external_boss_item_player1_20150 = {
-    cost = @progressive_cost_4
+tech_external_money_player1_20147 = {
+    cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
@@ -763,32 +835,56 @@ tech_external_boss_item_player1_20150 = {
     weight = @tier3weight1
 }
 
-tech_external_legendary_item_player1_20153 = {
-    cost = @progressive_cost_3
+tech_external_lunar_item_player1_20154 = {
+    cost = @progressive_cost_1
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 2
+    tier = 1
     category = { psionics }
     weight = @tier2weight1
 }
 
-tech_external_common_item_player1_20155 = {
-    cost = @progressive_cost_3
-    area = physics
+tech_external_progressive_stage_player1_20160 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { new_worlds }
+    weight = @tier3weight1
+}
+
+tech_external_item_scrap_green_player1_20162 = {
+    cost = @progressive_cost_2
+    area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 4
-    category = { particles }
+    category = { psionics }
     weight = @tier4weight1
 }
 
-tech_external_item_scrap_green_player1_20156 = {
-    cost = @progressive_cost_1
+tech_external_dios_best_friend_player1_20163 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { statecraft }
+    weight = @tier2weight1
+}
+
+tech_external_radar_scanner_player1_20164 = {
+    cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
@@ -796,11 +892,239 @@ tech_external_item_scrap_green_player1_20156 = {
     }
     tier = 1
     category = { field_manipulation }
+    weight = @tier4weight1
+}
+
+tech_external_item_scrap_white_player1_20166 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_external_equipment_player1_20168 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_external_common_item_player1_20169 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
     weight = @tier3weight1
 }
 
-tech_external_money_player1_20157 = {
+tech_external_item_scrap_white_player1_20175 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_item_scrap_white_player1_20178 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_external_boss_item_player1_20179 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier4weight1
+}
+
+tech_external_equipment_player1_20181 = {
     cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier1weight1
+}
+
+tech_external_common_item_player1_20185 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_external_dios_best_friend_player1_20186 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { new_worlds }
+    weight = @tier1weight1
+}
+
+tech_external_money_player1_20187 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_external_item_scrap_white_player1_20190 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier1weight1
+}
+
+tech_external_lunar_item_player1_20191 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_legendary_item_player1_20195 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_money_player1_20198 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_external_money_player1_20200 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_uncommon_item_player1_20201 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier1weight1
+}
+
+tech_external_boss_item_player1_20202 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { field_manipulation }
+    weight = @tier3weight1
+}
+
+tech_external_uncommon_item_player1_20204 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier2weight1
+}
+
+tech_external_progressive_stage_player1_20207 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { new_worlds }
+    weight = @tier4weight1
+}
+
+tech_external_legendary_item_player1_20208 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
@@ -811,19 +1135,19 @@ tech_external_money_player1_20157 = {
     weight = @tier2weight1
 }
 
-tech_external_boss_item_player1_20161 = {
-    cost = @progressive_cost_1
+tech_external_commencement_player1_20209 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 2
-    category = { new_worlds }
+    tier = 3
+    category = { statecraft }
     weight = @tier4weight1
 }
 
-tech_external_common_item_player1_20165 = {
+tech_external_money_player1_20211 = {
     cost = @progressive_cost_2
     area = society
     is_rare = yes
@@ -831,12 +1155,48 @@ tech_external_common_item_player1_20165 = {
         is_ai = no
     }
     tier = 1
-    category = { psionics }
-    weight = @tier1weight1
+    category = { biology }
+    weight = @tier3weight1
 }
 
-tech_external_uncommon_item_player1_20167 = {
-    cost = @progressive_cost_4
+tech_external_common_item_player1_20212 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_external_1000_exp_player1_20215 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { new_worlds }
+    weight = @tier4weight1
+}
+
+tech_external_dios_best_friend_player1_20216 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_external_equipment_player1_20217 = {
+    cost = @progressive_cost_3
     area = physics
     is_rare = yes
     potential = {
@@ -844,22 +1204,10 @@ tech_external_uncommon_item_player1_20167 = {
     }
     tier = 4
     category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_money_player1_20168 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
     weight = @tier1weight1
 }
 
-tech_external_item_scrap_white_player1_20170 = {
+tech_external_equipment_player1_20218 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
@@ -868,58 +1216,10 @@ tech_external_item_scrap_white_player1_20170 = {
     }
     tier = 1
     category = { statecraft }
-    weight = @tier1weight1
+    weight = @tier4weight1
 }
 
-tech_external_common_item_player1_20173 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_progressive_stage_player1_20177 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_external_item_scrap_white_player1_20188 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
-    weight = @tier1weight1
-}
-
-tech_external_equipment_player1_20189 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_1000_exp_player1_20190 = {
+tech_external_1000_exp_player1_20220 = {
     cost = @progressive_cost_1
     area = physics
     is_rare = yes
@@ -931,175 +1231,7 @@ tech_external_1000_exp_player1_20190 = {
     weight = @tier4weight1
 }
 
-tech_external_equipment_player1_20196 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_item_scrap_red_player1_20197 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_external_lunar_coin_player1_20198 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_external_item_scrap_green_player1_20201 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_player1_20202 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { new_worlds }
-    weight = @tier2weight1
-}
-
-tech_external_money_player1_20203 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { psionics }
-    weight = @tier1weight1
-}
-
-tech_external_common_item_player1_20204 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_uncommon_item_player1_20208 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_external_equipment_player1_20209 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { statecraft }
-    weight = @tier2weight1
-}
-
-tech_external_money_player1_20213 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier2weight1
-}
-
-tech_external_item_scrap_white_player1_20215 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_player1_20218 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_common_item_player1_20222 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_money_player1_20223 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_external_money_player1_20224 = {
+tech_external_hidden_realm_a_moment_fractured_player1_20221 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
@@ -1108,227 +1240,11 @@ tech_external_money_player1_20224 = {
     }
     tier = 1
     category = { new_worlds }
-    weight = @tier3weight1
-}
-
-tech_external_item_scrap_white_player1_20225 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { field_manipulation }
     weight = @tier4weight1
 }
 
-tech_external_common_item_player1_20227 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_internal_corvette_upgrades_3_20002 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { voidcraft }
-    weight = @tier4weight1
-}
-
-tech_internal_science_lab_1_20003 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { computing }
-    weight = @tier2weight1
-}
-
-tech_internal_mass_drivers_4_20006 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { propulsion }
-    weight = @tier4weight1
-}
-
-tech_internal_thruster_1_20007 = {
+tech_external_item_scrap_white_player1_20224 = {
     cost = @progressive_cost_1
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { propulsion }
-    weight = @tier1weight1
-}
-
-tech_internal_disruptors_1_20008 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_internal_missiles_2_20011 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { propulsion }
-    weight = @tier2weight1
-}
-
-tech_internal_research_ai_2_20012 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { computing }
-    weight = @tier3weight1
-}
-
-tech_internal_strike_craft_1_20014 = {
-    cost = @progressive_cost_1
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { voidcraft }
-    weight = @tier1weight1
-}
-
-tech_internal_planetary_build_speed_1_20015 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { industry }
-    weight = @tier3weight1
-}
-
-tech_internal_battleship_upgrades_1_20016 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { voidcraft }
-    weight = @tier2weight1
-}
-
-tech_internal_lasers_4_20018 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_internal_sensors_1_20019 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { computing }
-    weight = @tier2weight1
-}
-
-tech_internal_planetary_mining_3_20020 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { industry }
-    weight = @tier4weight1
-}
-
-tech_internal_sensors_2_20023 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { computing }
-    weight = @tier3weight1
-}
-
-tech_internal_power_plants_2_20024 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_internal_thruster_2_20026 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { propulsion }
-    weight = @tier2weight1
-}
-
-tech_internal_psionics_1_20028 = {
-    cost = @progressive_cost_2
     area = society
     is_rare = yes
     potential = {
@@ -1339,19 +1255,7 @@ tech_internal_psionics_1_20028 = {
     weight = @tier2weight1
 }
 
-tech_internal_gene_tailoring_2_20029 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_internal_kinetic_artillery_1_20031 = {
+tech_internal_ship_armor_3_20000 = {
     cost = @progressive_cost_3
     area = engineering
     is_rare = yes
@@ -1359,95 +1263,23 @@ tech_internal_kinetic_artillery_1_20031 = {
         is_ai = no
     }
     tier = 3
-    category = { propulsion }
-    weight = @tier3weight1
-}
-
-tech_internal_fleet_size_4_20033 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { military_theory }
-    weight = @tier4weight1
-}
-
-tech_internal_afterburners_1_20034 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { propulsion }
-    weight = @tier3weight1
-}
-
-tech_internal_encryption_1_20037 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { computing }
-    weight = @tier2weight1
-}
-
-tech_internal_hyperdrive_2_20038 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_internal_robotics_3_20040 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { industry }
-    weight = @tier3weight1
-}
-
-tech_internal_reactor_booster_2_20041 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_alloy_production_2_20042 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
     category = { materials }
-    weight = @tier4weight1
+    weight = @tier3weight1
 }
 
-tech_internal_leader_genetics_2_20043 = {
+tech_internal_disruptors_1_20001 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_internal_hospital_1_20004 = {
     cost = @progressive_cost_3
     area = society
     is_rare = yes
@@ -1459,19 +1291,79 @@ tech_internal_leader_genetics_2_20043 = {
     weight = @tier3weight1
 }
 
-tech_internal_flak_battery_3_20044 = {
-    cost = @progressive_cost_4
+tech_internal_strike_craft_2_20005 = {
+    cost = @progressive_cost_2
     area = engineering
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
+    tier = 2
+    category = { voidcraft }
+    weight = @tier2weight1
+}
+
+tech_internal_thruster_3_20007 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
     category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_energy_torpedoes_1_20009 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_internal_power_plants_3_20010 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { field_manipulation }
     weight = @tier4weight1
 }
 
-tech_internal_capital_production_2_20046 = {
+tech_internal_bureaucracy_4_20014 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_internal_lasers_2_20016 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_internal_planet_infrastructure_1_20018 = {
     cost = @progressive_cost_3
     area = society
     is_rare = yes
@@ -1479,11 +1371,59 @@ tech_internal_capital_production_2_20046 = {
         is_ai = no
     }
     tier = 3
-    category = { statecraft }
+    category = { new_worlds }
     weight = @tier3weight1
 }
 
-tech_internal_autocannon_4_20049 = {
+tech_internal_ship_4_20019 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { voidcraft }
+    weight = @tier4weight1
+}
+
+tech_internal_psionic_shield_1_20020 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_internal_power_plants_1_20022 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { field_manipulation }
+    weight = @tier2weight1
+}
+
+tech_internal_naval_capacity_3_20024 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { military_theory }
+    weight = @tier3weight1
+}
+
+tech_internal_torpedoes_3_20025 = {
     cost = @progressive_cost_4
     area = engineering
     is_rare = yes
@@ -1493,6 +1433,186 @@ tech_internal_autocannon_4_20049 = {
     tier = 4
     category = { propulsion }
     weight = @tier4weight1
+}
+
+tech_internal_planetary_mining_1_20026 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { industry }
+    weight = @tier2weight1
+}
+
+tech_internal_corvette_upgrades_1_20027 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { voidcraft }
+    weight = @tier2weight1
+}
+
+tech_internal_planetary_build_speed_2_20031 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { industry }
+    weight = @tier4weight1
+}
+
+tech_internal_psionics_2_20034 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { psionics }
+    weight = @tier3weight1
+}
+
+tech_internal_terraforming_3_20035 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { new_worlds }
+    weight = @tier4weight1
+}
+
+tech_internal_gene_tailoring_5_20037 = {
+    cost = @progressive_cost_5
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { biology }
+    weight = @tier5weight1
+}
+
+tech_internal_gene_tailoring_3_20038 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_internal_reactor_1_20039 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { particles }
+    weight = @tier1weight1
+}
+
+tech_internal_psionics_3_20040 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_internal_titan_upgrades_2_20041 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { voidcraft }
+    weight = @tier4weight1
+}
+
+tech_internal_fleet_size_3_20042 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { military_theory }
+    weight = @tier3weight1
+}
+
+tech_internal_psionic_shield_2_20043 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { psionics }
+    weight = @tier4weight1
+}
+
+tech_internal_station_science_3_20044 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { computing }
+    weight = @tier3weight1
+}
+
+tech_internal_naval_capacity_1_20047 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { military_theory }
+    weight = @tier1weight1
+}
+
+tech_internal_arc_emitter_1_20049 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
 }
 
 tech_internal_robotics_1_20050 = {
@@ -1507,7 +1627,151 @@ tech_internal_robotics_1_20050 = {
     weight = @tier1weight1
 }
 
-tech_internal_psionics_3_20052 = {
+tech_internal_titan_upgrades_1_20051 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { voidcraft }
+    weight = @tier3weight1
+}
+
+tech_internal_farming_3_20052 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_internal_swarm_missiles_1_20053 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_housing_3_20055 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { industry }
+    weight = @tier4weight1
+}
+
+tech_internal_trade_1_20056 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { statecraft }
+    weight = @tier2weight1
+}
+
+tech_internal_planet_government_1_20057 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { statecraft }
+    weight = @tier2weight1
+}
+
+tech_internal_hyperdrive_4_20058 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_internal_destroyer_upgrades_2_20059 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { voidcraft }
+    weight = @tier3weight1
+}
+
+tech_internal_starbase_3_20060 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { voidcraft }
+    weight = @tier3weight1
+}
+
+tech_internal_capital_production_2_20064 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_internal_encryption_1_20065 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { computing }
+    weight = @tier2weight1
+}
+
+tech_internal_plasma_2_20066 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_internal_starbase_capacity_2_20068 = {
     cost = @progressive_cost_4
     area = society
     is_rare = yes
@@ -1515,71 +1779,131 @@ tech_internal_psionics_3_20052 = {
         is_ai = no
     }
     tier = 4
+    category = { new_worlds }
+    weight = @tier4weight1
+}
+
+tech_internal_leader_genetics_3_20070 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { biology }
+    weight = @tier4weight1
+}
+
+tech_internal_strike_craft_1_20072 = {
+    cost = @progressive_cost_1
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { voidcraft }
+    weight = @tier1weight1
+}
+
+tech_internal_army_genetics_1_20074 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { biology }
+    weight = @tier2weight1
+}
+
+tech_internal_space_mining_2_20076 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { industry }
+    weight = @tier2weight1
+}
+
+tech_internal_torpedoes_2_20079 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_reactor_5_20082 = {
+    cost = @progressive_cost_5
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { particles }
+    weight = @tier5weight1
+}
+
+tech_internal_afterburners_2_20083 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { propulsion }
+    weight = @tier4weight1
+}
+
+tech_internal_mass_accelerators_1_20086 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_corvette_upgrades_3_20087 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { voidcraft }
+    weight = @tier4weight1
+}
+
+tech_internal_psionics_1_20090 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
     category = { psionics }
-    weight = @tier4weight1
+    weight = @tier2weight1
 }
 
-tech_internal_station_science_1_20054 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { computing }
-    weight = @tier1weight1
-}
-
-tech_internal_corvette_upgrades_2_20056 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { voidcraft }
-    weight = @tier3weight1
-}
-
-tech_internal_shields_4_20058 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_internal_bureaucracy_3_20059 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_internal_shields_3_20060 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { field_manipulation }
-    weight = @tier3weight1
-}
-
-tech_internal_mass_drivers_2_20061 = {
+tech_internal_mass_drivers_2_20093 = {
     cost = @progressive_cost_2
     area = engineering
     is_rare = yes
@@ -1591,271 +1915,7 @@ tech_internal_mass_drivers_2_20061 = {
     weight = @tier2weight1
 }
 
-tech_internal_hyperdrive_1_20062 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_internal_decryption_1_20063 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { computing }
-    weight = @tier2weight1
-}
-
-tech_internal_army_offense_1_20067 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { military_theory }
-    weight = @tier3weight1
-}
-
-tech_internal_mass_accelerators_1_20071 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { propulsion }
-    weight = @tier3weight1
-}
-
-tech_internal_farming_3_20073 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_internal_ship_armor_1_20074 = {
-    cost = @progressive_cost_1
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { materials }
-    weight = @tier1weight1
-}
-
-tech_internal_flak_battery_2_20075 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { propulsion }
-    weight = @tier3weight1
-}
-
-tech_internal_corvette_upgrades_1_20079 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { voidcraft }
-    weight = @tier2weight1
-}
-
-tech_internal_lasers_3_20080 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_planetary_mining_2_20081 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { industry }
-    weight = @tier3weight1
-}
-
-tech_internal_hospital_2_20082 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_internal_point_defense_2_20084 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { computing }
-    weight = @tier4weight1
-}
-
-tech_internal_wormhole_2_20087 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_reactor_4_20088 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_internal_army_genetics_1_20090 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { biology }
-    weight = @tier2weight1
-}
-
-tech_internal_orbital_habitats_1_20091 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { voidcraft }
-    weight = @tier2weight1
-}
-
-tech_internal_plasma_1_20093 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_internal_mass_drivers_1_20095 = {
-    cost = @progressive_cost_1
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { propulsion }
-    weight = @tier1weight1
-}
-
-tech_internal_gene_tailoring_4_20097 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_internal_reactor_2_20098 = {
-    cost = @progressive_cost_2
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { particles }
-    weight = @tier2weight1
-}
-
-tech_internal_starbase_upgrades_1_20099 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { voidcraft }
-    weight = @tier3weight1
-}
-
-tech_internal_fleet_size_3_20100 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { military_theory }
-    weight = @tier3weight1
-}
-
-tech_internal_starbase_capacity_1_20101 = {
+tech_internal_habitability_3_20094 = {
     cost = @progressive_cost_3
     area = society
     is_rare = yes
@@ -1867,103 +1927,55 @@ tech_internal_starbase_capacity_1_20101 = {
     weight = @tier3weight1
 }
 
-tech_internal_planet_government_1_20102 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { statecraft }
-    weight = @tier2weight1
-}
-
-tech_internal_starbase_capacity_2_20103 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { new_worlds }
-    weight = @tier4weight1
-}
-
-tech_internal_army_genetics_2_20107 = {
+tech_internal_battleship_upgrades_2_20101 = {
     cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_internal_army_defense_1_20108 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { military_theory }
-    weight = @tier3weight1
-}
-
-tech_internal_space_mining_2_20109 = {
-    cost = @progressive_cost_2
     area = engineering
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 2
-    category = { industry }
-    weight = @tier2weight1
+    tier = 3
+    category = { voidcraft }
+    weight = @tier3weight1
 }
 
-tech_internal_hyperdrive_3_20110 = {
-    cost = @progressive_cost_3
+tech_internal_hyperdrive_2_20102 = {
+    cost = @progressive_cost_2
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 3
+    tier = 2
     category = { particles }
-    weight = @tier3weight1
+    weight = @tier2weight1
 }
 
-tech_internal_power_plants_3_20112 = {
+tech_internal_autocannon_4_20103 = {
     cost = @progressive_cost_4
-    area = physics
+    area = engineering
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 4
+    category = { propulsion }
+    weight = @tier4weight1
+}
+
+tech_internal_shields_1_20104 = {
+    cost = @progressive_cost_1
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
     category = { field_manipulation }
-    weight = @tier4weight1
-}
-
-tech_internal_starbase_1_20113 = {
-    cost = @progressive_cost_1
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { voidcraft }
     weight = @tier1weight1
 }
 
-tech_internal_trade_1_20116 = {
+tech_internal_farming_2_20105 = {
     cost = @progressive_cost_2
     area = society
     is_rare = yes
@@ -1971,407 +1983,23 @@ tech_internal_trade_1_20116 = {
         is_ai = no
     }
     tier = 2
-    category = { statecraft }
-    weight = @tier2weight1
-}
-
-tech_internal_cruiser_upgrades_1_20118 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { voidcraft }
-    weight = @tier2weight1
-}
-
-tech_internal_housing_1_20120 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { industry }
-    weight = @tier2weight1
-}
-
-tech_internal_bioreactor_1_20121 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
     category = { biology }
-    weight = @tier3weight1
+    weight = @tier2weight1
 }
 
-tech_internal_science_lab_3_20126 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { computing }
-    weight = @tier4weight1
-}
-
-tech_internal_autocannon_1_20131 = {
+tech_internal_bureaucracy_1_20111 = {
     cost = @progressive_cost_1
-    area = engineering
+    area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
     tier = 1
-    category = { propulsion }
-    weight = @tier1weight1
-}
-
-tech_internal_titan_upgrades_2_20134 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { voidcraft }
-    weight = @tier4weight1
-}
-
-tech_internal_ship_4_20136 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { voidcraft }
-    weight = @tier4weight1
-}
-
-tech_internal_army_genetics_3_20137 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { biology }
-    weight = @tier4weight1
-}
-
-tech_internal_strike_craft_4_20138 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { voidcraft }
-    weight = @tier4weight1
-}
-
-tech_internal_reactor_1_20140 = {
-    cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_internal_energy_torpedoes_1_20143 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_army_defense_2_20144 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { military_theory }
-    weight = @tier4weight1
-}
-
-tech_internal_planet_government_2_20146 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
     category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_internal_destroyer_upgrades_2_20148 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { voidcraft }
-    weight = @tier3weight1
-}
-
-tech_internal_naval_capacity_2_20149 = {
-    cost = @progressive_cost_2
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { military_theory }
-    weight = @tier2weight1
-}
-
-tech_internal_psionics_2_20151 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { psionics }
-    weight = @tier3weight1
-}
-
-tech_internal_space_mining_4_20152 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { industry }
-    weight = @tier4weight1
-}
-
-tech_internal_strike_craft_3_20154 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { voidcraft }
-    weight = @tier3weight1
-}
-
-tech_internal_flak_battery_1_20158 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { propulsion }
-    weight = @tier2weight1
-}
-
-tech_internal_trade_3_20159 = {
-    cost = @progressive_cost_4
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { statecraft }
-    weight = @tier4weight1
-}
-
-tech_internal_science_lab_2_20160 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { computing }
-    weight = @tier3weight1
-}
-
-tech_internal_farming_1_20162 = {
-    cost = @progressive_cost_1
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { biology }
     weight = @tier1weight1
 }
 
-tech_internal_fleet_size_5_20163 = {
-    cost = @progressive_cost_5
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 5
-    category = { military_theory }
-    weight = @tier5weight1
-}
-
-tech_internal_consumer_goods_2_20164 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { materials }
-    weight = @tier4weight1
-}
-
-tech_internal_robotics_5_20166 = {
-    cost = @progressive_cost_5
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 5
-    category = { industry }
-    weight = @tier5weight1
-}
-
-tech_internal_lances_1_20169 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_torpedoes_3_20171 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { propulsion }
-    weight = @tier4weight1
-}
-
-tech_internal_cruiser_upgrades_3_20172 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { voidcraft }
-    weight = @tier4weight1
-}
-
-tech_internal_armor_hardener_1_20174 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { materials }
-    weight = @tier3weight1
-}
-
-tech_internal_ship_2_20175 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { voidcraft }
-    weight = @tier2weight1
-}
-
-tech_internal_starbase_2_20176 = {
-    cost = @progressive_cost_2
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 2
-    category = { voidcraft }
-    weight = @tier2weight1
-}
-
-tech_internal_autocannon_3_20178 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { propulsion }
-    weight = @tier3weight1
-}
-
-tech_internal_station_science_3_20179 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { computing }
-    weight = @tier3weight1
-}
-
-tech_internal_habitability_2_20180 = {
+tech_internal_terraforming_1_20113 = {
     cost = @progressive_cost_2
     area = society
     is_rare = yes
@@ -2383,67 +2011,19 @@ tech_internal_habitability_2_20180 = {
     weight = @tier2weight1
 }
 
-tech_internal_arc_emitter_1_20181 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_hospital_1_20182 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { biology }
-    weight = @tier3weight1
-}
-
-tech_internal_lasers_1_20183 = {
+tech_internal_starbase_1_20115 = {
     cost = @progressive_cost_1
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 1
-    category = { particles }
-    weight = @tier1weight1
-}
-
-tech_internal_colony_ship_1_20184 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { computing }
-    weight = @tier3weight1
-}
-
-tech_internal_destroyer_upgrades_3_20185 = {
-    cost = @progressive_cost_4
     area = engineering
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
+    tier = 1
     category = { voidcraft }
-    weight = @tier4weight1
+    weight = @tier1weight1
 }
 
-tech_internal_research_ai_1_20186 = {
+tech_internal_research_ai_1_20117 = {
     cost = @progressive_cost_2
     area = physics
     is_rare = yes
@@ -2455,7 +2035,79 @@ tech_internal_research_ai_1_20186 = {
     weight = @tier2weight1
 }
 
-tech_internal_bureaucracy_1_20187 = {
+tech_internal_robotics_2_20118 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { industry }
+    weight = @tier2weight1
+}
+
+tech_internal_trade_3_20121 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_internal_planet_government_3_20122 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { statecraft }
+    weight = @tier4weight1
+}
+
+tech_internal_ship_armor_2_20124 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { materials }
+    weight = @tier2weight1
+}
+
+tech_internal_robotics_4_20125 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { industry }
+    weight = @tier4weight1
+}
+
+tech_internal_leader_genetics_1_20126 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { biology }
+    weight = @tier2weight1
+}
+
+tech_internal_gene_tailoring_1_20129 = {
     cost = @progressive_cost_1
     area = society
     is_rare = yes
@@ -2463,47 +2115,11 @@ tech_internal_bureaucracy_1_20187 = {
         is_ai = no
     }
     tier = 1
-    category = { statecraft }
+    category = { biology }
     weight = @tier1weight1
 }
 
-tech_internal_point_defense_1_20191 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { computing }
-    weight = @tier3weight1
-}
-
-tech_internal_shields_5_20192 = {
-    cost = @progressive_cost_5
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 5
-    category = { field_manipulation }
-    weight = @tier5weight1
-}
-
-tech_internal_consumer_goods_1_20193 = {
-    cost = @progressive_cost_3
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { materials }
-    weight = @tier3weight1
-}
-
-tech_internal_space_mining_1_20194 = {
+tech_internal_space_mining_1_20130 = {
     cost = @progressive_cost_1
     area = engineering
     is_rare = yes
@@ -2515,7 +2131,31 @@ tech_internal_space_mining_1_20194 = {
     weight = @tier1weight1
 }
 
-tech_internal_missiles_3_20195 = {
+tech_internal_ship_1_20131 = {
+    cost = @progressive_cost_1
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { voidcraft }
+    weight = @tier1weight1
+}
+
+tech_internal_flak_battery_1_20133 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { propulsion }
+    weight = @tier2weight1
+}
+
+tech_internal_mass_drivers_3_20134 = {
     cost = @progressive_cost_3
     area = engineering
     is_rare = yes
@@ -2527,7 +2167,43 @@ tech_internal_missiles_3_20195 = {
     weight = @tier3weight1
 }
 
-tech_internal_gene_tailoring_6_20199 = {
+tech_internal_lasers_4_20141 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_internal_flak_battery_3_20142 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { propulsion }
+    weight = @tier4weight1
+}
+
+tech_internal_sensors_3_20143 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { computing }
+    weight = @tier4weight1
+}
+
+tech_internal_gene_tailoring_6_20148 = {
     cost = @progressive_cost_5
     area = society
     is_rare = yes
@@ -2539,31 +2215,163 @@ tech_internal_gene_tailoring_6_20199 = {
     weight = @tier5weight1
 }
 
-tech_internal_fleet_size_2_20200 = {
-    cost = @progressive_cost_2
+tech_internal_campaigns_1_20149 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 2
+    tier = 3
     category = { military_theory }
+    weight = @tier3weight1
+}
+
+tech_internal_battleship_upgrades_1_20150 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { voidcraft }
     weight = @tier2weight1
 }
 
-tech_internal_shields_1_20205 = {
-    cost = @progressive_cost_1
+tech_internal_flak_battery_2_20151 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_disruptors_3_20152 = {
+    cost = @progressive_cost_4
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 1
-    category = { field_manipulation }
-    weight = @tier1weight1
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
 }
 
-tech_internal_habitability_3_20206 = {
+tech_internal_energy_torpedoes_2_20153 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_internal_trade_2_20155 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_internal_army_offense_2_20156 = {
+    cost = @progressive_cost_4
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { military_theory }
+    weight = @tier4weight1
+}
+
+tech_internal_leader_genetics_2_20157 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_internal_encryption_3_20158 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { computing }
+    weight = @tier4weight1
+}
+
+tech_internal_orbital_habitats_3_20159 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { voidcraft }
+    weight = @tier4weight1
+}
+
+tech_internal_plasma_1_20161 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { particles }
+    weight = @tier2weight1
+}
+
+tech_internal_starbase_upgrades_2_20165 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { voidcraft }
+    weight = @tier4weight1
+}
+
+tech_internal_lasers_3_20167 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_internal_starbase_capacity_1_20170 = {
     cost = @progressive_cost_3
     area = society
     is_rare = yes
@@ -2575,19 +2383,115 @@ tech_internal_habitability_3_20206 = {
     weight = @tier3weight1
 }
 
-tech_internal_bioreactor_2_20207 = {
-    cost = @progressive_cost_4
+tech_internal_consumer_goods_1_20171 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { materials }
+    weight = @tier3weight1
+}
+
+tech_internal_planet_government_2_20172 = {
+    cost = @progressive_cost_3
     area = society
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 4
-    category = { biology }
-    weight = @tier4weight1
+    tier = 3
+    category = { statecraft }
+    weight = @tier3weight1
 }
 
-tech_internal_thralls_2_20210 = {
+tech_internal_bureaucracy_3_20173 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { statecraft }
+    weight = @tier3weight1
+}
+
+tech_internal_capital_production_1_20174 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { statecraft }
+    weight = @tier2weight1
+}
+
+tech_internal_kinetic_artillery_1_20176 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_cruiser_upgrades_1_20177 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { voidcraft }
+    weight = @tier2weight1
+}
+
+tech_internal_destroyer_upgrades_1_20182 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { voidcraft }
+    weight = @tier2weight1
+}
+
+tech_internal_planetary_mining_2_20183 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { industry }
+    weight = @tier3weight1
+}
+
+tech_internal_naval_capacity_2_20184 = {
+    cost = @progressive_cost_2
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { military_theory }
+    weight = @tier2weight1
+}
+
+tech_internal_capital_production_3_20188 = {
     cost = @progressive_cost_4
     area = society
     is_rare = yes
@@ -2599,19 +2503,67 @@ tech_internal_thralls_2_20210 = {
     weight = @tier4weight1
 }
 
-tech_internal_decryption_2_20211 = {
-    cost = @progressive_cost_3
+tech_internal_point_defense_2_20189 = {
+    cost = @progressive_cost_4
     area = physics
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 3
+    tier = 4
     category = { computing }
-    weight = @tier3weight1
+    weight = @tier4weight1
 }
 
-tech_internal_titan_upgrades_1_20212 = {
+tech_internal_robotics_5_20192 = {
+    cost = @progressive_cost_5
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { industry }
+    weight = @tier5weight1
+}
+
+tech_internal_sensors_1_20193 = {
+    cost = @progressive_cost_2
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { computing }
+    weight = @tier2weight1
+}
+
+tech_internal_ship_armor_1_20194 = {
+    cost = @progressive_cost_1
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { materials }
+    weight = @tier1weight1
+}
+
+tech_internal_orbital_habitats_1_20196 = {
+    cost = @progressive_cost_2
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 2
+    category = { voidcraft }
+    weight = @tier2weight1
+}
+
+tech_internal_ship_3_20197 = {
     cost = @progressive_cost_3
     area = engineering
     is_rare = yes
@@ -2623,7 +2575,103 @@ tech_internal_titan_upgrades_1_20212 = {
     weight = @tier3weight1
 }
 
-tech_internal_shield_hardener_1_20214 = {
+tech_internal_arc_emitter_2_20199 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
+}
+
+tech_internal_lances_1_20203 = {
+    cost = @progressive_cost_3
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { particles }
+    weight = @tier3weight1
+}
+
+tech_internal_bioreactor_1_20205 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_internal_space_mining_5_20206 = {
+    cost = @progressive_cost_5
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { industry }
+    weight = @tier5weight1
+}
+
+tech_internal_afterburners_1_20210 = {
+    cost = @progressive_cost_3
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { propulsion }
+    weight = @tier3weight1
+}
+
+tech_internal_army_genetics_2_20213 = {
+    cost = @progressive_cost_3
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 3
+    category = { biology }
+    weight = @tier3weight1
+}
+
+tech_internal_consumer_goods_2_20214 = {
+    cost = @progressive_cost_4
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { materials }
+    weight = @tier4weight1
+}
+
+tech_internal_farming_1_20219 = {
+    cost = @progressive_cost_1
+    area = society
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 1
+    category = { biology }
+    weight = @tier1weight1
+}
+
+tech_internal_shield_hardener_1_20222 = {
     cost = @progressive_cost_3
     area = physics
     is_rare = yes
@@ -2635,43 +2683,7 @@ tech_internal_shield_hardener_1_20214 = {
     weight = @tier3weight1
 }
 
-tech_internal_energy_torpedoes_2_20216 = {
-    cost = @progressive_cost_4
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { particles }
-    weight = @tier4weight1
-}
-
-tech_internal_reactor_3_20217 = {
-    cost = @progressive_cost_3
-    area = physics
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { particles }
-    weight = @tier3weight1
-}
-
-tech_internal_missiles_4_20219 = {
-    cost = @progressive_cost_4
-    area = engineering
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 4
-    category = { propulsion }
-    weight = @tier4weight1
-}
-
-tech_internal_robotics_2_20220 = {
+tech_internal_autocannon_2_20223 = {
     cost = @progressive_cost_2
     area = engineering
     is_rare = yes
@@ -2679,32 +2691,44 @@ tech_internal_robotics_2_20220 = {
         is_ai = no
     }
     tier = 2
-    category = { industry }
+    category = { propulsion }
     weight = @tier2weight1
 }
 
-tech_internal_embassy_1_20221 = {
-    cost = @progressive_cost_3
-    area = society
-    is_rare = yes
-    potential = {
-        is_ai = no
-    }
-    tier = 3
-    category = { statecraft }
-    weight = @tier3weight1
-}
-
-tech_internal_alloy_production_1_20226 = {
-    cost = @progressive_cost_3
+tech_internal_thruster_1_20225 = {
+    cost = @progressive_cost_1
     area = engineering
     is_rare = yes
     potential = {
         is_ai = no
     }
-    tier = 3
-    category = { materials }
-    weight = @tier3weight1
+    tier = 1
+    category = { propulsion }
+    weight = @tier1weight1
+}
+
+tech_internal_ship_5_20226 = {
+    cost = @progressive_cost_5
+    area = engineering
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 5
+    category = { voidcraft }
+    weight = @tier5weight1
+}
+
+tech_internal_plasma_3_20227 = {
+    cost = @progressive_cost_4
+    area = physics
+    is_rare = yes
+    potential = {
+        is_ai = no
+    }
+    tier = 4
+    category = { particles }
+    weight = @tier4weight1
 }
 
 tech_fillTech_14151 = {
