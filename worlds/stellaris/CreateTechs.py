@@ -92,13 +92,13 @@ def createOutsideTech():
         )
 
     techText += techTemplate.format(
-        type = "fillTech",
-        num  = "14151",
-        area = "physics",
-        category = "particles",
-        cost = 10,
-        weight = 0,
-        tier = 1,
+        type        = "fillTech",
+        num         = "14151",
+        area        = "physics",
+        category    = "particles",
+        cost        = 10,
+        weight      = 0,
+        tier        = 1,
         weight_null = weightNull
         )
 

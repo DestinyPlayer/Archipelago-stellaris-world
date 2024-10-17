@@ -133,7 +133,7 @@ async def connectToStellaris():
             logger.error("ERROR: Wrong reference addresses found.")
 
         commResIn              = [baseRes - 0x20, 0] ### Items going into Stellaris
-        commResSendPhysics     = [baseRes - 0x18,  0] ## Physics Techs going out of Stellaris
+        commResSendPhysics     = [baseRes - 0x18, 0] ### Physics Techs going out of Stellaris
         commResSendSociety     = [baseRes - 0x10, 0] ### Society Techs going out of Stellaris
         commResSendEngineering = [baseRes - 0x8, 0] #### Engineering Techs going out of Stellaris
         grabResources()
@@ -154,10 +154,13 @@ def receiveItem():
     if commResIn[1] == 0 and len(itemsReceivedFinal) != 0:
         logger.info("Items Received List " + str(itemsReceivedFinal))
         curItem = decodeItemCode(itemsReceivedFinal[0])
+
         logger.info("   Sending item " + str(curItem) + " to Stellaris")
         pm.write_longlong(commResIn[0], curItem * resConst)
+
         logger.info("   " + str(curItem) + " was sent to Stellaris")
         itemsReceivedFinal.pop(0)
+
         logger.info("Items left to send: " + str(len(itemsReceivedFinal)))
 
 def sendItemResource(resource,type):

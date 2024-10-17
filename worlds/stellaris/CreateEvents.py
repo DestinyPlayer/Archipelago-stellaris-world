@@ -39,7 +39,7 @@ def constructTechAction(tech, i, world: "StellarisWorld"):
         vanilla = DataTechVanilla.vanillaTechs[tech["name"]]
         for split in vanilla[i].split(" "):
             result = result + eventGiveTech.format(name = split)
-    result     += eventSetVar.format(varname = "receive_"+tech["name"]+"_"+str(i+1),extratab = "    ")
+    result     += eventSetVar.format(varname = "receive_" + tech["name"] + "_" + str(i + 1), extratab = "    ")
 
     action     += eventAction.format(
         elseif         = elseif,
@@ -64,7 +64,7 @@ def createEvents(world: "StellarisWorld"):
             for i in range(tech["levels"]):
                 action = constructTechAction(tech, i, world)
 
-                varCheck = eventUnsetVar.format(varname = "receive_"+tech["name"]+"_"+str(i+1),extratab = "    ")
+                varCheck = eventUnsetVar.format(varname = "receive_" + tech["name"] + "_" + str(i + 1), extratab = "    ")
                 has = "tech_progressive_"+tech["name"]+"_"+str(i+1)
                 techCheck = eventIfTech.format(has = has)
 
@@ -100,7 +100,7 @@ def createEvents(world: "StellarisWorld"):
                 if item["name"] == smoothTechData(i[0]):
                     compName = str(i[0]).replace("tech_progressive_","")
                     compName = compName.split(" ")[0]
-                    compName += "_"+str(num)
+                    compName += "_" + str(num)
                     name = "tech_internal_"+compName
                     has = name
                     break
@@ -112,7 +112,7 @@ def createEvents(world: "StellarisWorld"):
             else:
                 resource = "urp_003"
 
-            varCheck = eventUnsetVar.format(varname = "send_" + str(num),extratab = "    ")
+            varCheck = eventUnsetVar.format(varname = "send_" + str(num), extratab = "    ")
             outResearch = eventIfOutTech.format(has = has, extratab = "    ")
             eventText += eventTemplate.format(
                 num         = num,
