@@ -32,7 +32,7 @@ def getLocationTable(count):
     location_table = {}
     for i in range(count+Options.ResearchExtraSlots.range_end):
         name = "Research " + str(i)
-        code = 75000 + i
+        code = 750000 + i
         location_table[name] = code
     return location_table
 

@@ -11,7 +11,7 @@ def generateMod(world: "StellarisWorld", outputDirectory):
 
     # Starting setup
     Utility.generateLangFolders()
-    DataTech.addDlcTechs(world)
+    #DataTech.addDlcTechs(world)
 
     # Generating Events List
     DataEvent.fillInTechData()

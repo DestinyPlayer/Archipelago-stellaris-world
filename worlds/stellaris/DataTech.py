@@ -217,7 +217,7 @@ firstContactTechs = [
 
 ]
 
-def addDlcTechs(world: "StellarisWorld"):
+"""def addDlcTechs(world: "StellarisWorld"):
     for dlc in world.options.dlcIncluded.value:
         print(dlc)
         if dlc == DlcNames.leviathans:
@@ -249,7 +249,7 @@ def addDlcTechs(world: "StellarisWorld"):
         elif dlc == DlcNames.ancientRelics:
             print("Detected ", dlc, " DLC")
         elif dlc == DlcNames.firstContact:
-            print("Detected ", dlc, " DLC")
+            print("Detected ", dlc, " DLC")"""
 #Areas:
 #   physics, society, engineering
 
