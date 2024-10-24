@@ -20,6 +20,10 @@ tech_robomodding_m = {
 			is_machine_empire = yes
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robotics_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -51,6 +55,10 @@ tech_robomodding = {
 		NOR = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robotics_1
+    		is_ai = yes
 		}
 	}
 
@@ -100,6 +108,10 @@ tech_robomodding_points_1 = {
 		NOT = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robotics_2
+    		is_ai = yes
 		}
 	}
 
@@ -154,6 +166,10 @@ tech_robomodding_points_2 = {
 		NOT = {
 			has_ethic = "ethic_gestalt_consciousness"
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robotics_3
+    		is_ai = yes
 		}
 	}
 
@@ -233,6 +249,10 @@ tech_binary_motivators = {
 			is_machine_empire = yes
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robotics_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -263,6 +283,10 @@ tech_nanite_assemblers = {
 		OR = {
 			is_machine_empire = yes
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robotics_3
+    		is_ai = yes
 		}
 	}
 
@@ -307,6 +331,10 @@ tech_mega_assembly = {
 			is_machine_empire = yes
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robotics_4
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -348,6 +376,10 @@ tech_adaptive_combat_algorithms = {
 			is_machine_empire = yes
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robot_army_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -374,6 +406,10 @@ tech_biomechanics = {
 		OR = {
 			is_machine_empire = yes
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robot_army_2
+    		is_ai = yes
 		}
 	}
 
@@ -410,6 +446,10 @@ tech_micro_replicators = {
 			is_machine_empire = yes
 			is_individual_machine = yes
 		}
+		OR = {
+    		has_technology = tech_progressive_robot_assembly_speed_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -440,6 +480,10 @@ tech_self_assembling_components = {
 		OR = {
 			is_machine_empire = yes
 			is_individual_machine = yes
+		}
+		OR = {
+    		has_technology = tech_progressive_robot_assembly_speed_2
+    		is_ai = yes
 		}
 	}
 

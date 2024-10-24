@@ -19,6 +19,10 @@ tech_cloaking_1 = {
 
 	potential = {
 		has_first_contact_dlc = yes
+        OR = {
+    		has_technology = tech_progressive_cloaking_1
+    		is_ai = yes
+		}
 	}
 
 	# Unlocks Active Reconnaissance
@@ -73,6 +77,10 @@ tech_cloaking_2 = {
 
 	potential = {
 		has_first_contact_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_cloaking_2
+    		is_ai = yes
+		}
 	}
 
 	prereqfor_desc = {
@@ -120,6 +128,10 @@ tech_cloaking_3 = {
 
 	potential = {
 		has_first_contact_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_cloaking_3
+    		is_ai = yes
+		}
 	}
 
 	prereqfor_desc = {
@@ -165,7 +177,12 @@ tech_cloaking_dark_matter = {
 	is_rare = yes
 
 	prerequisites = { "tech_dark_matter_deflector" "tech_cloaking_3" }
-
+    potential = {
+        OR = {
+    		has_technology = tech_progressive_cloaking_4
+    		is_ai = yes
+		}
+    }
 	prereqfor_desc = {
 		hide_prereq_for_desc = component
 		custom = {
@@ -214,6 +231,10 @@ tech_cloaking_psi = {
 	potential = {
 		NOT = { has_ethic = ethic_gestalt_consciousness }
 		has_first_contact_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_cloaking_5
+    		is_ai = yes
+		}
 	}
 
 	prereqfor_desc = {
@@ -265,6 +286,10 @@ tech_detection_array = {
 
 	potential = {
 		has_first_contact_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_cloak_detection_1
+    		is_ai = yes
+		}
 	}
 
 	# unlocks starbase module - detection array
@@ -304,6 +329,10 @@ tech_dark_matter_detection = {
 
 	potential = {
 		has_first_contact_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_cloak_detection_2
+    		is_ai = yes
+		}
 	}
 
 	# unlocks starbase building - dark matter resonance chamber
@@ -341,6 +370,10 @@ tech_assisted_detection = {
 
 	potential = {
 		has_first_contact_dlc = yes
+		OR = {
+    		has_technology = tech_progressive_cloak_detection_2
+    		is_ai = yes
+		}
 	}
 
 	# Unlocks Assist Cloaking Detection

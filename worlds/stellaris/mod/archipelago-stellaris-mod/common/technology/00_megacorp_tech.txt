@@ -22,6 +22,10 @@ tech_xeno_tourism_agency = {
 
 	potential = {
 		is_megacorp = yes
+		OR = {
+    		has_technology = tech_progressive_corporate_holdings_1
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -43,6 +47,10 @@ tech_executive_retreat = {
 
 	potential = {
 		is_megacorp = yes
+		OR = {
+    		has_technology = tech_progressive_corporate_holdings_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {

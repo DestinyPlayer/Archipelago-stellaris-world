@@ -8,6 +8,10 @@ tech_identity_copy = {
 
     potential = {
         has_machine_age_dlc = yes
+        OR = {
+    		has_technology = tech_progressive_robot_identity_1
+    		is_ai = yes
+		}
     }
 
     # Grants the Synthetic Identities: Identity Copy policy
@@ -30,6 +34,10 @@ tech_identity_fusion = {
     potential = {
         has_machine_age_dlc = yes
         has_country_flag = advanced_identity_creation
+        OR = {
+    		has_technology = tech_progressive_robot_identity_2
+    		is_ai = yes
+		}
     }
 
     # Grants the Synthetic Identities: Identity Fusion policy
@@ -52,6 +60,10 @@ tech_identity_initialization = {
     potential = {
         has_machine_age_dlc = yes
         has_country_flag = advanced_identity_creation
+        OR = {
+    		has_technology = tech_progressive_robot_identity_3
+    		is_ai = yes
+		}
     }
 
     # Grants the Synthetic Identities: Identity Initialization policy
@@ -75,6 +87,10 @@ tech_synth_queen_knowledge = {
     potential = {
         has_machine_age_dlc = yes
         has_country_flag = synth_queen_knowledge
+        OR = {
+    		has_technology = tech_progressive_research_ai_4
+    		is_ai = yes
+		}
     }
 
     modifier = {
@@ -94,6 +110,10 @@ tech_cosmogenesis_crisis_1 = {
     potential = {
         has_machine_age_dlc = yes
         has_ascension_perk = ap_cosmogenesis
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_1
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -116,6 +136,10 @@ tech_cosmogenesis_crisis_2 = {
     potential = {
         has_machine_age_dlc = yes
         has_ascension_perk = ap_cosmogenesis
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_2
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -138,6 +162,10 @@ tech_cosmogenesis_crisis_3 = {
     potential = {
         has_machine_age_dlc = yes
         has_ascension_perk = ap_cosmogenesis
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_3
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -160,6 +188,10 @@ tech_cosmogenesis_crisis_4 = {
     potential = {
         has_machine_age_dlc = yes
         has_ascension_perk = ap_cosmogenesis
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_4
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -182,6 +214,10 @@ tech_cosmogenesis_crisis_5 = {
     potential = {
         has_machine_age_dlc = yes
         has_ascension_perk = ap_cosmogenesis
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_5
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -203,6 +239,10 @@ tech_cosmogenesis_escort = {
 
     potential = {
         has_machine_age_dlc = yes
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_ship_1
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -224,6 +264,10 @@ tech_cosmogenesis_battlecruiser = {
 
     potential = {
         has_machine_age_dlc = yes
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_ship_2
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -245,6 +289,10 @@ tech_cosmogenesis_FE_titan = {
 
     potential = {
         has_machine_age_dlc = yes
+        OR = {
+    		has_technology = tech_progressive_cosmogenesis_ship_3
+    		is_ai = yes
+		}
     }
 
     prereqfor_desc = {
@@ -728,5 +776,9 @@ tech_nanite_repair_system_synth_queen = {
 
     potential = {
         has_machine_age_dlc = yes
+        OR = {
+    		has_technology = tech_progressive_hull_regen_3
+    		is_ai = yes
+		}
     }
 }

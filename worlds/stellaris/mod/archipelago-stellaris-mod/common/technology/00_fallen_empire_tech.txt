@@ -112,7 +112,12 @@ tech_fe_affluence_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_affluence_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -142,7 +147,12 @@ tech_fe_affluence_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_affluence_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_affluence_1" }
 }
 
@@ -154,7 +164,12 @@ tech_fe_nourishment_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_nourishment_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -184,7 +199,12 @@ tech_fe_nourishment_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_nourishment_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_nourishment_1" }
 }
 
@@ -196,7 +216,12 @@ tech_fe_fabricator_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_fabricator_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -226,7 +251,12 @@ tech_fe_fabricator_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_fabricator_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_fabricator_1" }
 }
 
@@ -238,7 +268,12 @@ tech_fe_singularity_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_singularity_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -268,7 +303,12 @@ tech_fe_singularity_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_singularity_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_singularity_1" }
 }
 
@@ -280,7 +320,12 @@ tech_fe_forge_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_forge_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -310,7 +355,12 @@ tech_fe_forge_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_forge_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_forge_1" }
 }
 
@@ -322,7 +372,12 @@ tech_fe_dome_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_dome_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -352,7 +407,12 @@ tech_fe_dome_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_dome_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_dome_1" }
 }
 
@@ -364,7 +424,12 @@ tech_fe_fortress_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_fortress_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -394,7 +459,12 @@ tech_fe_fortress_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_fortress_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_fortress_1" }
 }
 
@@ -406,7 +476,12 @@ tech_fe_administration_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_administration_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -436,7 +511,12 @@ tech_fe_administration_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_administration_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_administration_1" }
 }
 
@@ -448,7 +528,12 @@ tech_fe_assembly_1 = { #Not for Hives
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_assembly_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -482,7 +567,12 @@ tech_fe_assembly_2 = { #Not for Hives
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_assembly_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_assembly_1" }
 }
 
@@ -494,7 +584,12 @@ tech_fe_clinic_1 = { #Not for Machines
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_clinic_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -528,7 +623,12 @@ tech_fe_clinic_2 = { #Not for Machines
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_clinic_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_clinic_1" }
 }
 
@@ -540,7 +640,12 @@ tech_fe_security_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_security_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -570,7 +675,12 @@ tech_fe_security_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_security_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_security_1" }
 }
 
@@ -582,7 +692,12 @@ tech_fe_market_1 = { # Not for gestalt
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_market_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -616,7 +731,12 @@ tech_fe_market_2 = { # Not for gestalt
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_market_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_market_1" }
 }
 
@@ -628,7 +748,12 @@ tech_fe_silo_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_silo_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -658,7 +783,12 @@ tech_fe_silo_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_silo_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_silo_1" }
 }
 
@@ -670,7 +800,12 @@ tech_fe_entertainment_1 = { # Not for gestalt
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_entertainment_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -704,7 +839,12 @@ tech_fe_entertainment_2 = { # Not for gestalt
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_entertainment_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_entertainment_1" }
 }
 
@@ -716,7 +856,12 @@ tech_fe_lab_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_lab_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -746,7 +891,12 @@ tech_fe_lab_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_lab_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_lab_1" }
 }
 
@@ -758,7 +908,12 @@ tech_fe_mine_1 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_mine_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -788,7 +943,12 @@ tech_fe_mine_2 = {
 	ai_update_type = all
 	weight = @tier5weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_fallen_empire_mine_2
+    		is_ai = yes
+		}
+	}
 	prerequisites = { "tech_fe_mine_1" }
 }
 
