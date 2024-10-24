@@ -478,7 +478,6 @@ vanillaTechs = {
         "tech_automated_exploration",
         "tech_auxiliary_fire_control",
         "tech_synchronized_defences",
-        "tech_neuro_quantum_links",
         "tech_shield_rechargers_1",
         "tech_planetary_shield_generator",
         "tech_ftl_inhibitor",
@@ -511,7 +510,8 @@ vanillaTechs = {
         "tech_collective_production_methods" # replaces synthetic thought patterns
     ],
     "miscellaneous machine-intelligence": [
-        "tech_resource_processing_algorithms" # replaces synthetic thought patterns
+        "tech_resource_processing_algorithms", # replaces synthetic thought patterns
+        "tech_neuro_quantum_links"
     ],
     "event": [ # non-progressive
         "tech_crystal_armor_1",
