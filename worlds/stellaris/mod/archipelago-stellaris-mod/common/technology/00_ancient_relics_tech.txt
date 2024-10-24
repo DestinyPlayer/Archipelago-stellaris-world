@@ -6,7 +6,12 @@ tech_arcane_deciphering = {
 	category = { archaeostudies }
 	weight = @tier2weight3
 	is_rare = yes
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_archaeostudies_1
+    		is_ai = yes
+		}
+	}
 	feature_flags = {
 		unlock_arcane_deciphering
 	}
@@ -100,6 +105,10 @@ tech_archaeostudies = {
 
 	potential = {
 		has_ancrel = yes
+		OR = {
+    		has_technology = tech_progressive_archaeostudies_2
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {

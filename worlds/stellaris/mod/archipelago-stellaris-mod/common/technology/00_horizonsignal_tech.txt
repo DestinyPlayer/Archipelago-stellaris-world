@@ -11,7 +11,12 @@ tech_akx_worm_1 = {
 	ai_weight = {
 		factor = 0
 	}
-
+    potential = {
+        OR = {
+    		has_technology = tech_progressive_horizon_1
+    		is_ai = yes
+		}
+    }
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -40,7 +45,12 @@ tech_akx_worm_2 = {
 	ai_weight = {
 		factor = 0
 	}
-
+    potential = {
+        OR = {
+    		has_technology = tech_progressive_horizon_2
+    		is_ai = yes
+		}
+    }
 	weight_modifier = {
 		modifier = {
 			factor = 0
@@ -66,7 +76,12 @@ tech_akx_worm_3 = {
 	category = { particles }
 	prerequisites = { "tech_akx_worm_1" "tech_akx_worm_2" }
 	weight = 60
-
+    potential = {
+        OR = {
+    		has_technology = tech_progressive_horizon_3
+    		is_ai = yes
+		}
+    }
 	weight_modifier = {
 		inline_script = {
 			script = technologies/rare_technologies_weight_modifiers

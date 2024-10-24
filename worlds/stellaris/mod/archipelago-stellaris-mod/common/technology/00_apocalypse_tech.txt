@@ -17,6 +17,10 @@ tech_colossus = {
 
 	potential = {
 		host_has_dlc = "Apocalypse"
+		OR = {
+    		has_technology = tech_progressive_ship_6
+    		is_ai = yes
+		}
 	}
 
 	prereqfor_desc = {

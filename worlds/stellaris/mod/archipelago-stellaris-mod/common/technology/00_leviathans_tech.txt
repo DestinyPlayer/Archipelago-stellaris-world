@@ -7,7 +7,12 @@ tech_dragon_armor = {
 	category = { materials }
 	ai_update_type = all
 	weight = 0
-
+    potential = {
+        OR = {
+    		has_technology = tech_progressive_ship_armor_6
+    		is_ai = yes
+		}
+    }
 	weight_modifier = {
 		factor = 0
 	}

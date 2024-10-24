@@ -390,6 +390,13 @@ tech_corvette_build_speed = {
 	prerequisites = { "tech_corvettes" }
 	weight = @tier1weight2
 
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_corvette_upgrades_1
+    		is_ai = yes
+		}
+	}
+
 	modifier = {
 		custom_tooltip = tech_corvette_build_speed_effect
 		ship_corvette_cost_mult = -0.05
@@ -413,7 +420,12 @@ tech_corvette_hull_1 = {
 	category = { voidcraft }
 	prerequisites = { "tech_corvettes" }
 	weight = @tier1weight3
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_corvette_upgrades_2
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_corvette_hull_effect
 		shipsize_corvette_hull_mult = 0.1
@@ -437,7 +449,12 @@ tech_corvette_hull_2 = {
 	category = { voidcraft }
 	prerequisites = { "tech_corvette_hull_1" }
 	weight = @tier2weight3
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_corvette_upgrades_3
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_corvette_hull_effect
 		shipsize_corvette_hull_mult = 0.1
@@ -477,7 +494,12 @@ tech_destroyer_build_speed = {
 	category = { voidcraft }
 	prerequisites = { "tech_destroyers" }
 	weight = @tier2weight2
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_destroyer_upgrades_1
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_destroyer_build_speed_effect
 		ship_destroyer_cost_mult = -0.05
@@ -500,7 +522,12 @@ tech_destroyer_hull_1 = {
 	category = { voidcraft }
 	prerequisites = { "tech_destroyers" }
 	weight = @tier2weight3
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_destroyer_upgrades_2
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_destroyer_hull_effect
 		shipsize_destroyer_hull_mult = 0.1
@@ -527,7 +554,12 @@ tech_destroyer_hull_2 = {
 	category = { voidcraft }
 	prerequisites = { "tech_destroyer_hull_1" }
 	weight = @tier3weight1
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_destroyer_upgrades_3
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_destroyer_hull_effect
 		shipsize_destroyer_hull_mult = 0.1
@@ -570,7 +602,12 @@ tech_cruiser_build_speed = {
 	category = { voidcraft }
 	prerequisites = { "tech_cruisers" }
 	weight = @tier3weight2
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_cruiser_upgrades_1
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_cruiser_build_speed_effect
 		ship_cruiser_cost_mult = -0.05
@@ -593,7 +630,12 @@ tech_cruiser_hull_1 = {
 	category = { voidcraft }
 	prerequisites = { "tech_cruisers" }
 	weight = @tier3weight3
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_cruiser_upgrades_2
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_cruiser_hull_effect
 		shipsize_cruiser_hull_mult = 0.1
@@ -620,7 +662,12 @@ tech_cruiser_hull_2 = {
 	category = { voidcraft }
 	prerequisites = { "tech_cruiser_hull_1" }
 	weight = @tier4weight1
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_cruiser_upgrades_3
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_cruiser_hull_effect
 		shipsize_cruiser_hull_mult = 0.1
@@ -663,7 +710,12 @@ tech_battleship_build_speed = {
 	category = { voidcraft }
 	prerequisites = { "tech_battleships" }
 	weight = @tier4weight2
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_battleship_upgrades_1
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_battleship_build_speed_effect
 		ship_battleship_cost_mult = -0.05
@@ -686,7 +738,12 @@ tech_battleship_hull_1 = {
 	category = { voidcraft }
 	prerequisites = { "tech_battleships" }
 	weight = @tier4weight3
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_battleship_upgrades_2
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_battleship_hull_effect
 		shipsize_battleship_hull_mult = 0.1
@@ -713,7 +770,12 @@ tech_battleship_hull_2 = {
 	category = { voidcraft }
 	prerequisites = { "tech_battleship_hull_1" }
 	weight = @tier5weight1
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_battleship_upgrades_3
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		custom_tooltip = tech_battleship_hull_effect
 		shipsize_battleship_hull_mult = 0.1
@@ -757,7 +819,12 @@ tech_titan_hull_1 = {
 	category = { voidcraft }
 	prerequisites = { "tech_titans" }
 	weight = @tier5weight2
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_titan_upgrades_1
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		shipsize_titan_hull_mult = 0.1
 	}
@@ -795,7 +862,12 @@ tech_titan_hull_2 = {
 	category = { voidcraft }
 	prerequisites = { "tech_titan_hull_1" }
 	weight = @tier5weight3
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_titan_upgrades_2
+    		is_ai = yes
+		}
+	}
 	modifier = {
 		shipsize_titan_hull_mult = 0.1
 	}

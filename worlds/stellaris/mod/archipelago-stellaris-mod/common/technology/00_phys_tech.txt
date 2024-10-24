@@ -770,13 +770,6 @@ tech_sapient_ai = {
 	prerequisites = { "tech_self_aware_logic" }
 	weight = @tier4weight1
 
-	potential = {
-		OR = {
-    		has_technology = tech_progressive_research_ai_3
-    		is_ai = yes
-		}
-	}
-
 	modifier = {
 		all_technology_research_speed = 0.05
 		planet_researchers_upkeep_mult = 0.05
@@ -784,6 +777,10 @@ tech_sapient_ai = {
 
 	potential = {
 		NOT = { has_ethic = ethic_gestalt_consciousness }
+		OR = {
+    		has_technology = tech_progressive_research_ai_3
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -814,6 +811,10 @@ tech_positronic_implants = {
 
 	potential = {
 		has_ethic = ethic_gestalt_consciousness
+		OR = {
+    		has_technology = tech_progressive_research_ai_3
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -839,7 +840,12 @@ tech_combat_computers_1 = {
 	weight = @tier1weight3
 
 	# unlocks aggressive / defensive combat computers
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_ship_combat_ai_1
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 		modifier = {
 			factor = 2
@@ -879,7 +885,12 @@ tech_combat_computers_2 = {
 	weight = @tier3weight1
 
 	# unlocks additional combat computers
-
+    potential = {
+		OR = {
+    		has_technology = tech_progressive_ship_combat_ai_2
+    		is_ai = yes
+		}
+	}
 	weight_modifier = {
 
 	}
@@ -912,6 +923,10 @@ tech_combat_computers_3 = {
 
 	potential = {
 		NOT = { has_ethic = ethic_gestalt_consciousness }
+		OR = {
+    		has_technology = tech_progressive_ship_combat_ai_3
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
@@ -965,6 +980,10 @@ tech_combat_computers_autonomous = {
 
 	potential = {
 		has_ethic = ethic_gestalt_consciousness
+		OR = {
+    		has_technology = tech_progressive_ship_combat_ai_3
+    		is_ai = yes
+		}
 	}
 
 	weight_modifier = {
