@@ -463,7 +463,7 @@ vanillaTechs = {
     "hull_regen": [
         "tech_regenerative_hull_tissue", #progressive hull regen 1 if DLC included
     ],
-    "megastructures": [
+    "megastructures": [ #non-progressive
         "tech_mega_engineering",
         "tech_mega_shipyard" # requires federations dlc
     ],
