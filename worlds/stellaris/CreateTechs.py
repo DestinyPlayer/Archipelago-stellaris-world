@@ -16,6 +16,7 @@ randomTechEngineeringCategory = ["materials", "rocketry", "voidcraft", "industry
 
 
 def countFinalTechs(tech):
+    """This function counts the number of technologies in the finalTechItemsInterval list"""
     count = 0
 
     for item in finalTechItemsInternal:
@@ -27,8 +28,11 @@ def countFinalTechs(tech):
 
 
 def createOutsideTech(directory):
+    """This function assembles all the internal and external technology definitions
+    i.e. everything that is supposed to be used as items by Archipelago, both in Stellaris and outside"""
     techText = techStart
 
+    # This is the part that defines technologies that are to be gotten from outside Stellaris
     for key,tech in enumerate(finalTechItemsExternal):
         type = "external_" + smoothTechData(tech[0])
         area = randomTechArea[randrange(0,2)]
@@ -60,6 +64,7 @@ def createOutsideTech(directory):
             weight_null = weight_null
         )
 
+    # This is the part that defines technologies that are to be researched inside Stellaris
     for key,tech in enumerate(finalTechItemsInternal):
         name = str(tech[0]).split(" ")[0]
         lev = name[-1:]
@@ -110,6 +115,7 @@ def createOutsideTechLocalisations(directory):
     for lang in languages:
         localisationText = localisationStart.format(lang=lang)
 
+        # This generates localisation entries for technologies gotten outside Stellaris
         for key,tech in enumerate(finalTechItemsExternal):
             type = smoothTechData(tech[0])
             name = tech[0]
@@ -122,6 +128,8 @@ def createOutsideTechLocalisations(directory):
                 name = name,
                 desc = name
             )
+
+        # This generates localisation entries for technologies gotten inside Stellaris
         for key,tech in enumerate(finalTechItemsInternal):
             type = str(tech[0]).split()[0]
             lev  = type[-1:]
@@ -145,6 +153,8 @@ def createTech(directory):
     """This function assembles the technology definition files in the mod"""
     techText = techStart
 
+    # This part generates definitions for progressive technologies
+    # They are the ones that are triggered by item technologies and give the player the relevant techs
     for tech in DataTech.techs:
         type     = "progressive_" + tech["name"]
         area     = tech["area"]
@@ -156,7 +166,8 @@ def createTech(directory):
             for i in range(count):
                 tech["non_research"] += str(i + 1)
 
-        for i in range(tech["levels"]): #Generate
+        # This part generates a technology for every level of the progressive tech
+        for i in range(tech["levels"]):
             tierAdd = i + tier
 
             if tierAdd > 5:
@@ -193,6 +204,7 @@ def createTechLocalisations(directory):
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
 
+        # This generates localisation entries for progressive technologies
         for tech in DataTech.techs:
             type  = tech["name"]
             desc  = (type[0].upper() + type[1:]).replace("_"," ")
@@ -207,6 +219,7 @@ def createTechLocalisations(directory):
                     desc  = desc
                 )
 
+        # This generates localisation entries for technologies gotten outside Stellaris
         for key, tech in enumerate(finalTechItemsExternal):
             type = "external_"+smoothTechData(tech[0])
             name = str(tech[0])
@@ -227,6 +240,7 @@ def createTechIcons(directory):
     iconFinName  = "{type}_{num}"
     format       = ".dds"
 
+    #This generates icons for progressive technologies
     for tech in DataTech.techs:
         type = tech["name"]
         for i in range(tech["levels"]):
@@ -239,6 +253,7 @@ def createTechIcons(directory):
             pathFinal  = path + iconTempName + format
             shutil.copyfile(pathFinal, iconFinal)
 
+    # This generates icons for technologies gotten from outside Stellaris
     for tech in finalTechItemsExternal:
         type = "tech_external_"+smoothTechData(tech[0])
         num = (tech[1] - 750000 + 20000)
@@ -251,6 +266,7 @@ def createTechIcons(directory):
         pathFinal = path + iconTempName + format
         shutil.copyfile(pathFinal, iconFinal)
 
+    # This generates icons for technologies gotten from inside Stellaris
     for tech in finalTechItemsInternal:
         type = str(tech[0]).split(" ")[0].replace("progressive","internal")
         num = (tech[1] - 750000 + 20000)
