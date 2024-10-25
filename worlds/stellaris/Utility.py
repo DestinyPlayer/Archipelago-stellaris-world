@@ -15,15 +15,15 @@ languages = [
     "spanish"
 ]
 
-def generateLangFolders():
+def generateLangFolders(directory):
     for lang in languages:
-        path = "worlds/stellaris/mod/archipelago-stellaris-mod/"+"localisation/"+lang
+        path = directory+"/stellaris-mod/archipelago-stellaris-mod/"+"localisation/"+lang
         if not os.path.isdir(path):
             os.mkdir(path)
 
 #This function writes files to the mod folder
-def writeToFile(path,text,encoding=None):
-    path = "worlds/stellaris/mod/archipelago-stellaris-mod/"+path
+def writeToFile(path,text,directory,encoding=None):
+    path = directory+"/stellaris-mod/archipelago-stellaris-mod/"+path
     if encoding is not None:
         f = open(path, "w", encoding=encoding)
     else:
@@ -39,11 +39,11 @@ def getTotalResearchCount():
     return count
 
 #This function copies over non-procedurally generated localisation files between languages
-def copyOtherLocalisationFiles(file):
+def copyOtherLocalisationFiles(file,directory):
     for lang in languages:
         if lang == "english":
             continue
-        path    = "worlds/stellaris/mod/archipelago-stellaris-mod/localisation/"
+        path    = directory+"/stellaris-mod/archipelago-stellaris-mod/localisation/"
         finPath = path + lang + "/" + file.replace("english", lang)
         path   += "english/" + file
         shutil.copyfile(path, finPath)

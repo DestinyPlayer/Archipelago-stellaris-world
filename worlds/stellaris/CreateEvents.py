@@ -48,7 +48,7 @@ def constructTechAction(tech, i, world: "StellarisWorld"):
     )
     return action
 
-def createEvents(world: "StellarisWorld"):
+def createEvents(world: "StellarisWorld",directory):
     """This function assembles the Events"""
     eventText = eventStart
 
@@ -127,10 +127,10 @@ def createEvents(world: "StellarisWorld"):
         else: # Shouldn't come up except for testing purposes
             print("|Stellaris: An event didn't generate right! Please check your stuff                               |")
             continue
-    writeToFile("events/archipelago_dynamic_events.txt",eventText)
+    writeToFile("events/archipelago_dynamic_events.txt",eventText,directory)
     print("|Stellaris:     Finished generation of event definition files                                         |")
 
-def createEventLocalisations():
+def createEventLocalisations(directory):
     """This function assembles the Event Localizations (names and descriptions)"""
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
@@ -172,5 +172,5 @@ def createEventLocalisations():
                 continue
 
         writeToFile("localisation/" + lang + "/archipelago_dynamic_events_l_" + lang + ".yml",
-                    localisationText,"utf-8-sig")
+                    localisationText,directory,"utf-8-sig")
     print("|Stellaris:     Finished generation of event localisation files                                       |")

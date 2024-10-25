@@ -26,7 +26,7 @@ def countFinalTechs(tech):
     return tech["levels"] - count
 
 
-def createOutsideTech():
+def createOutsideTech(directory):
     techText = techStart
 
     for key,tech in enumerate(finalTechItemsExternal):
@@ -102,10 +102,10 @@ def createOutsideTech():
         weight_null = weightNull
         )
 
-    writeToFile("common/technology/archipelago_external_tech.txt", techText)
+    writeToFile("common/technology/archipelago_external_tech.txt", techText,directory)
     print("|Stellaris:     Finished generation of external research definition files                             |")
 
-def createOutsideTechLocalisations():
+def createOutsideTechLocalisations(directory):
     """This function assembles the technology localisation files in the mod (names and descriptions)"""
     for lang in languages:
         localisationText = localisationStart.format(lang=lang)
@@ -137,11 +137,11 @@ def createOutsideTechLocalisations():
                 desc = name
             )
 
-        writeToFile("localisation/" + lang + "/archipelago_external_techs_l_" + lang + ".yml", localisationText,
+        writeToFile("localisation/" + lang + "/archipelago_external_techs_l_" + lang + ".yml", localisationText,directory,
                     "utf-8-sig")
     print("|Stellaris:     Finished generation of external technology localisation files                         |")
 
-def createTech():
+def createTech(directory):
     """This function assembles the technology definition files in the mod"""
     techText = techStart
 
@@ -184,11 +184,11 @@ def createTech():
                 weight_null = weight_null
             )
 
-    writeToFile("common/technology/archipelago_progressive_tech.txt",techText)
+    writeToFile("common/technology/archipelago_progressive_tech.txt",techText,directory)
     print("|Stellaris:     Finished generation of technology definition files                                    |")
 
 
-def createTechLocalisations():
+def createTechLocalisations(directory):
     """This function assembles the technology localisation files in the mod (names and descriptions)"""
     for lang in languages:
         localisationText = localisationStart.format(lang = lang)
@@ -216,13 +216,13 @@ def createTechLocalisations():
                 name = name
             )
 
-        writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,
+        writeToFile("localisation/" + lang + "/archipelago_progressive_techs_l_" + lang + ".yml", localisationText,directory,
                     "utf-8-sig")
     print("|Stellaris:     Finished generation of technology localisation files                                  |")
 
-def createTechIcons():
+def createTechIcons(directory):
     """This function assigns icons to technologies"""
-    path         = "worlds/stellaris/mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
+    path         = directory+"/stellaris-mod/archipelago-stellaris-mod/gfx/interface/icons/technologies/"
     iconTempName = "tech_progressive"
     iconFinName  = "{type}_{num}"
     format       = ".dds"

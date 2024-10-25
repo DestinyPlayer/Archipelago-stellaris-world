@@ -1,4 +1,8 @@
+import json
+import os
 import time
+import zipfile
+import worlds.Files
 from typing import List, Dict, Mapping, Any
 from BaseClasses import Tutorial, Item, ItemClassification, Region
 from Utils import local_path
@@ -122,7 +126,7 @@ class StellarisWorld(World):
         DataEvent.finalTechItemsExternal.clear()
         DataEvent.finalTechItemsInternal.clear()
         DataEvent.finalLocations.clear()
-        print("|Stellaris: Cleaned up Multiworld object allocations                                                  |")
+        #print("|Stellaris: Cleaned up Multiworld object allocations                                                  |")
 
     '''def checkTechPresence(self,item: str):
         """This function checks for if the item in a location slot is a Stellaris item"""
@@ -134,4 +138,5 @@ class StellarisWorld(World):
 
     def create_mod(self, outputDirectory) -> None:
         """This method generates the Stellaris mod"""
+        Generate.prepareModFolder(self, outputDirectory)
         Generate.generateMod(self,outputDirectory)
